@@ -116,7 +116,7 @@ function renderCountPicker() {
 
 /* ---------- sesi ---------- */
 function pickSession(subtest, count) {
-  if (subtest === 'TRYOUT') return shuffle(allQuestions).slice(0, allQuestions.length);
+  if (subtest === 'TRYOUT') return shuffle(allQuestions).slice(0, 150); // sampel acak 150 dari bank (bank kini 3.000 soal — semua soal sekaligus tidak realistis dikerjakan)
   if (subtest === 'TRYOUT_SKD') {
     // Komposisi resmi CAT BKN: TWK 30, TIU 35, TKP 45 — acak di dalam subtes, urutan subtes tetap.
     return Object.entries(SKD_COMPOSITION).flatMap(([sub, n]) =>
@@ -425,12 +425,13 @@ document.querySelectorAll('[data-home]').forEach((b) => b.addEventListener('clic
 
 /* ---------- muat soal ----------
    Semua file bank soal digabung. Tambahkan file batch baru ke daftar ini setiap rilis.
-   Total saat ini: 600 soal (15 contoh + 150 batch 2 + 435 batch 3). */
+   Total saat ini: 3.000 soal (600 batch 1–3 + 2.400 batch 4). */
 const QUESTION_FILES = ['./questions.json',
   './questions_batch2_twk.json', './questions_batch2_tiu.json', './questions_batch2_tkp.json',
   './questions_batch3_twk_a.json', './questions_batch3_twk_b.json', './questions_batch3_twk_c.json',
   './questions_batch3_tiu_d.json', './questions_batch3_tiu_e.json', './questions_batch3_tiu_f.json',
-  './questions_batch3_tkp_g.json', './questions_batch3_tkp_h.json', './questions_batch3_tkp_i.json'];
+  './questions_batch3_tkp_g.json', './questions_batch3_tkp_h.json', './questions_batch3_tkp_i.json',
+  './questions_batch4_twk.json', './questions_batch4_tiu.json', './questions_batch4_tkp.json'];
 Promise.all(QUESTION_FILES.map((f) => fetch(f).then((r) => r.json())))
   .then((parts) => { allQuestions = parts.flatMap((d) => d.questions || []); renderCountPicker(); renderHome(); })
   .catch(() => {

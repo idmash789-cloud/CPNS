@@ -1,6 +1,6 @@
 /* SiapSKD service worker — offline-first untuk aset aplikasi,
    network-first untuk bank soal agar soal baru cepat sampai. */
-const CACHE = 'siapskd-v7';
+const CACHE = 'siapskd-v8';
 const PRECACHE = [
   './',
   './index.html',
@@ -20,7 +20,10 @@ const PRECACHE = [
   './questions_batch3_tiu_f.json',
   './questions_batch3_tkp_g.json',
   './questions_batch3_tkp_h.json',
-  './questions_batch3_tkp_i.json'
+  './questions_batch3_tkp_i.json',
+  './questions_batch4_twk.json',
+  './questions_batch4_tiu.json',
+  './questions_batch4_tkp.json'
 ];
 
 self.addEventListener('install', (event) => {

@@ -46,5 +46,5 @@ Lihat `docs/BUILD_ANDROID_STUDIO.md`.
 
 ## Status
 Struktur proyek, layar Home (grid tombol + pilihan jumlah soal 5–30 per bagian 5 soal)/Sesi/Hasil/Pembahasan/Tryout, manajer iklan (kerangka, test ads).
-Bank soal: **600 soal original tervalidasi** (TWK 180, TIU 200, TKP 220 — target produksi TERCAPAI) — 15 contoh + 150 batch 2 + 435 batch 3 dalam 13 file `questions/*.json` (daftar di `QuestionBank.BANK_FILES` & `QUESTION_FILES` web).
+Bank soal: **3.000 soal original tervalidasi** (TWK 900, TIU 1.000, TKP 1.100) — 600 soal batch 1–3 (13 file) + 2.400 soal batch 4 yang digabung per subtes menjadi `batch4_twk.json`/`batch4_tiu.json`/`batch4_tkp.json` (daftar lengkap di `QuestionBank.BANK_FILES` & `QUESTION_FILES` web).
 Belum build-terverifikasi — kompilasi pertama dilakukan di Android Studio (mesin ini tidak punya JDK/Android SDK).
