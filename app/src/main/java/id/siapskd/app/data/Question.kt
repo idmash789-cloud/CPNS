@@ -24,9 +24,28 @@ data class Question(
 }
 
 object QuestionBank {
-    /** Muat bank soal dari assets/questions/sample_questions.json (tahap 2: gabung semua file di folder itu). */
-    fun loadSample(context: Context): List<Question> {
-        val raw = context.assets.open("questions/sample_questions.json").bufferedReader().use { it.readText() }
+    /**
+     * File bank soal di assets/questions/. Tambahkan nama file batch baru ke daftar ini
+     * setiap rilis bank soal. Total saat ini: 165 soal (15 contoh + 150 batch 2).
+     */
+    private val BANK_FILES = listOf(
+        "questions/sample_questions.json",
+        "questions/batch2_twk.json",
+        "questions/batch2_tiu.json",
+        "questions/batch2_tkp.json"
+    )
+
+    /** Muat & gabungkan SEMUA file bank soal. ID soal unik lintas file. */
+    fun loadAll(context: Context): List<Question> {
+        val result = mutableListOf<Question>()
+        for (file in BANK_FILES) {
+            val raw = context.assets.open(file).bufferedReader().use { it.readText() }
+            result += parseFile(raw)
+        }
+        return result
+    }
+
+    private fun parseFile(raw: String): List<Question> {
         val arr = JSONObject(raw).getJSONArray("questions")
         val result = mutableListOf<Question>()
         for (i in 0 until arr.length()) {

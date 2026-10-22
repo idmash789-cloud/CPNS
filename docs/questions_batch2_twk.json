@@ -1,0 +1,1401 @@
+{
+  "version": 2,
+  "batch": "batch2-twk",
+  "questions": [
+    {
+      "id": "TWK-006",
+      "subtest": "TWK",
+      "topic": "Pancasila",
+      "difficulty": 1,
+      "question": "Rumusan Pancasila yang sah dan mengikat tercantum dalam Pembukaan UUD 1945 alinea keempat. Bunyi sila kedua Pancasila adalah...",
+      "options": [
+        {
+          "text": "Ketuhanan Yang Maha Esa",
+          "score": 0
+        },
+        {
+          "text": "Persatuan Indonesia",
+          "score": 0
+        },
+        {
+          "text": "Kemanusiaan yang adil dan beradab",
+          "score": 5
+        },
+        {
+          "text": "Keadilan sosial bagi seluruh rakyat Indonesia",
+          "score": 0
+        },
+        {
+          "text": "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan",
+          "score": 0
+        }
+      ],
+      "explanation": "Sila kedua Pancasila berbunyi Kemanusiaan yang adil dan beradab, sebagaimana tercantum dalam Pembukaan UUD 1945 alinea keempat. Sila ini menegaskan penghargaan terhadap harkat dan martabat manusia secara adil.",
+      "trick": "Hafalkan urutan bunyi kelima sila secara persis; soal seperti ini biasanya mengecoh dengan sila lain yang bunyinya mirip."
+    },
+    {
+      "id": "TWK-007",
+      "subtest": "TWK",
+      "topic": "Pancasila",
+      "difficulty": 1,
+      "question": "Makna sila ketiga Pancasila, Persatuan Indonesia, dalam kehidupan berbangsa adalah...",
+      "options": [
+        {
+          "text": "Mengutamakan kepentingan bangsa dan negara di atas kepentingan pribadi atau golongan",
+          "score": 5
+        },
+        {
+          "text": "Mengutamakan kepentingan daerah asal di atas kepentingan nasional",
+          "score": 0
+        },
+        {
+          "text": "Menyeragamkan seluruh budaya daerah menjadi satu budaya tunggal",
+          "score": 0
+        },
+        {
+          "text": "Membatasi pergaulan hanya dengan kelompok masyarakat yang sama",
+          "score": 0
+        },
+        {
+          "text": "Mengutamakan kepentingan golongan yang menang dalam pemilihan umum",
+          "score": 0
+        }
+      ],
+      "explanation": "Sila ketiga menekankan persatuan dan kesatuan bangsa, sehingga kepentingan nasional harus didahulukan daripada kepentingan pribadi, kelompok, atau daerah. Persatuan tidak berarti menghapus keberagaman budaya daerah yang justru menjadi kekayaan bangsa.",
+      "trick": "Jika ada pilihan yang mementingkan golongan atau daerah di atas bangsa, pilihan itu bertentangan dengan sila ketiga."
+    },
+    {
+      "id": "TWK-008",
+      "subtest": "TWK",
+      "topic": "Pancasila",
+      "difficulty": 2,
+      "question": "Di lingkungan tempat tinggal Anda, dana bantuan warga kurang mampu selalu dibagikan secara merata dan transparan kepada warga yang berhak tanpa membedakan suku dan agama. Sikap tersebut merupakan pengamalan Pancasila, khususnya sila...",
+      "options": [
+        {
+          "text": "Ketuhanan Yang Maha Esa",
+          "score": 0
+        },
+        {
+          "text": "Kemanusiaan yang adil dan beradab",
+          "score": 0
+        },
+        {
+          "text": "Persatuan Indonesia",
+          "score": 0
+        },
+        {
+          "text": "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan",
+          "score": 0
+        },
+        {
+          "text": "Keadilan sosial bagi seluruh rakyat Indonesia",
+          "score": 5
+        }
+      ],
+      "explanation": "Pembagian bantuan yang merata, adil, dan transparan kepada yang berhak mencerminkan sila kelima, Keadilan sosial bagi seluruh rakyat Indonesia. Sila kelima menekankan keseimbangan hak dan kewajiban serta pemerataan kesejahteraan bagi seluruh rakyat.",
+      "trick": "Kata kunci keadilan, pemerataan, dan kesejahteraan bersama hampir selalu mengarah pada sila kelima."
+    },
+    {
+      "id": "TWK-009",
+      "subtest": "TWK",
+      "topic": "Pancasila",
+      "difficulty": 2,
+      "question": "Istilah Pancasila sebagai dasar negara pertama kali dikemukakan dalam sidang BPUPKI oleh...",
+      "options": [
+        {
+          "text": "Mohammad Yamin pada 29 Mei 1945",
+          "score": 0
+        },
+        {
+          "text": "Ir. Soekarno pada 1 Juni 1945",
+          "score": 5
+        },
+        {
+          "text": "Mr. Soepomo pada 31 Mei 1945",
+          "score": 0
+        },
+        {
+          "text": "Drs. Mohammad Hatta pada 18 Agustus 1945",
+          "score": 0
+        },
+        {
+          "text": "Mr. Ahmad Subardjo pada 22 Juni 1945",
+          "score": 0
+        }
+      ],
+      "explanation": "Dalam pidatonya pada 1 Juni 1945 di sidang BPUPKI, Ir. Soekarno pertama kali mengemukakan istilah Pancasila sebagai dasar negara. Tanggal 1 Juni kemudian diperingati sebagai Hari Lahir Pancasila.",
+      "trick": "Ingat urutan tokoh dan tanggalnya: Yamin 29 Mei, Soepomo 31 Mei, Soekarno 1 Juni."
+    },
+    {
+      "id": "TWK-010",
+      "subtest": "TWK",
+      "topic": "Pancasila",
+      "difficulty": 3,
+      "question": "Rumusan sila pertama dalam Piagam Jakarta tanggal 22 Juni 1945 semula berbunyi Ketuhanan dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya. Pada 18 Agustus 1945 rumusan itu diubah menjadi...",
+      "options": [
+        {
+          "text": "Ketuhanan yang berkeadaban",
+          "score": 0
+        },
+        {
+          "text": "Ketuhanan dan kemanusiaan",
+          "score": 0
+        },
+        {
+          "text": "Ketuhanan menurut dasar kemanusiaan",
+          "score": 0
+        },
+        {
+          "text": "Ketuhanan Yang Maha Esa",
+          "score": 5
+        },
+        {
+          "text": "Ketuhanan yang berkebudayaan",
+          "score": 0
+        }
+      ],
+      "explanation": "Pada sidang PPKI 18 Agustus 1945, tujuh kata dalam Piagam Jakarta diganti sehingga sila pertama berbunyi Ketuhanan Yang Maha Esa. Perubahan itu dilakukan demi menjaga persatuan bangsa yang masyarakatnya majemuk.",
+      "trick": "Soal sejarah perumusan biasanya menanyakan tujuh kata Piagam Jakarta dan hasil perubahannya pada 18 Agustus 1945."
+    },
+    {
+      "id": "TWK-011",
+      "subtest": "TWK",
+      "topic": "Pancasila",
+      "difficulty": 1,
+      "question": "Pada lambang negara Garuda Pancasila, sila keempat dilambangkan dengan...",
+      "options": [
+        {
+          "text": "Bintang",
+          "score": 0
+        },
+        {
+          "text": "Rantai",
+          "score": 0
+        },
+        {
+          "text": "Kepala banteng",
+          "score": 5
+        },
+        {
+          "text": "Pohon beringin",
+          "score": 0
+        },
+        {
+          "text": "Padi dan kapas",
+          "score": 0
+        }
+      ],
+      "explanation": "Sila keempat, Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan, dilambangkan dengan kepala banteng. Banteng merupakan hewan sosial yang suka berkumpul, sesuai dengan semangat musyawarah.",
+      "trick": "Pasangkan lambang dan sila secara berurutan: bintang-1, rantai-2, beringin-3, kepala banteng-4, padi kapas-5."
+    },
+    {
+      "id": "TWK-012",
+      "subtest": "TWK",
+      "topic": "Pancasila",
+      "difficulty": 2,
+      "question": "Nilai instrumental Pancasila adalah nilai yang dijabarkan lebih lanjut agar dapat diterapkan dalam kehidupan nyata. Contoh nilai instrumental Pancasila adalah...",
+      "options": [
+        {
+          "text": "Penjabaran nilai dasar Pancasila dalam pasal-pasal UUD 1945 dan peraturan perundang-undangan",
+          "score": 5
+        },
+        {
+          "text": "Keyakinan bahwa Pancasila adalah pandangan hidup bangsa Indonesia",
+          "score": 0
+        },
+        {
+          "text": "Sikap saling menghormati antarumat beragama di lingkungan masyarakat",
+          "score": 0
+        },
+        {
+          "text": "Kebiasaan bermusyawarah dalam keluarga untuk menentukan liburan",
+          "score": 0
+        },
+        {
+          "text": "Perasaan bangga menjadi warga negara Indonesia",
+          "score": 0
+        }
+      ],
+      "explanation": "Nilai instrumental adalah penjabaran nilai dasar Pancasila ke dalam norma dan ketentuan yang lebih konkret, misalnya dalam pasal-pasal UUD 1945 dan undang-undang. Nilai dasar sendiri bersifat abstrak dan tetap, sedangkan nilai instrumental dapat disesuaikan dengan perkembangan zaman.",
+      "trick": "Bedakan tiga lapis nilai: dasar bersifat abstrak, instrumental berupa aturan tertulis, praksis berupa tindakan nyata."
+    },
+    {
+      "id": "TWK-013",
+      "subtest": "TWK",
+      "topic": "Pancasila",
+      "difficulty": 3,
+      "question": "Seorang warga menolak kehadiran tempat ibadah agama lain di lingkungannya dan mengajak warga lain melakukan hal yang sama. Tindakan tersebut bertentangan dengan sila pertama Pancasila karena sila pertama mengandung makna...",
+      "options": [
+        {
+          "text": "Negara mengatur tata cara beribadah setiap agama secara rinci",
+          "score": 0
+        },
+        {
+          "text": "Setiap warga wajib memeluk salah satu agama yang diakui pemerintah daerah",
+          "score": 0
+        },
+        {
+          "text": "Semua warga negara harus memiliki keyakinan yang sama",
+          "score": 0
+        },
+        {
+          "text": "Agama mayoritas berhak menentukan kegiatan keagamaan agama lain",
+          "score": 0
+        },
+        {
+          "text": "Menghormati kebebasan setiap orang untuk memeluk agama dan beribadah menurut agama serta kepercayaannya",
+          "score": 5
+        }
+      ],
+      "explanation": "Sila pertama, Ketuhanan Yang Maha Esa, menjamin dan menghormati kebebasan beragama setiap penduduk. Sikap intoleran dan menolak keberadaan tempat ibadah agama lain bertentangan dengan nilai sila pertama sekaligus Pasal 29 UUD 1945.",
+      "trick": "Soal intoleransi beragama hampir selalu berkaitan dengan sila pertama dan jaminan kebebasan beragama."
+    },
+    {
+      "id": "TWK-014",
+      "subtest": "TWK",
+      "topic": "UUD 1945",
+      "difficulty": 1,
+      "question": "Pasal 27 ayat (1) UUD 1945 menyatakan bahwa segala warga negara bersamaan kedudukannya di dalam...",
+      "options": [
+        {
+          "text": "Kekayaan dan penghasilan",
+          "score": 0
+        },
+        {
+          "text": "Hukum dan pemerintahan",
+          "score": 5
+        },
+        {
+          "text": "Jabatan dan pekerjaan",
+          "score": 0
+        },
+        {
+          "text": "Organisasi kemasyarakatan",
+          "score": 0
+        },
+        {
+          "text": "Kegiatan perekonomian",
+          "score": 0
+        }
+      ],
+      "explanation": "Pasal 27 ayat (1) UUD 1945 berbunyi segala warga negara bersamaan kedudukannya di dalam hukum dan pemerintahan dan wajib menjunjung hukum dan pemerintahan itu dengan tidak ada kecualinya. Ketentuan ini menegaskan asas persamaan kedudukan di hadapan hukum.",
+      "trick": "Pasangkan nomor pasal dengan kata kuncinya: Pasal 27 identik dengan persamaan kedudukan dalam hukum dan pemerintahan."
+    },
+    {
+      "id": "TWK-015",
+      "subtest": "TWK",
+      "topic": "UUD 1945",
+      "difficulty": 2,
+      "question": "Hak setiap warga negara untuk mendapatkan pendidikan ditegaskan dalam UUD 1945, yaitu pada...",
+      "options": [
+        {
+          "text": "Pasal 28C ayat (1)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 29 ayat (1)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 30 ayat (1)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 31 ayat (1)",
+          "score": 5
+        },
+        {
+          "text": "Pasal 34 ayat (1)",
+          "score": 0
+        }
+      ],
+      "explanation": "Pasal 31 ayat (1) UUD 1945 menyatakan setiap warga negara berhak mendapat pendidikan. Ayat berikutnya menegaskan kewajiban mengikuti pendidikan dasar dan kewajiban pemerintah membiayainya.",
+      "trick": "Hak pendidikan selalu Pasal 31; jangan tertukar dengan Pasal 34 yang mengatur fakir miskin dan jaminan sosial."
+    },
+    {
+      "id": "TWK-016",
+      "subtest": "TWK",
+      "topic": "UUD 1945",
+      "difficulty": 1,
+      "question": "Negara menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan untuk beribadat menurut agamanya dan kepercayaannya itu. Jaminan tersebut diatur dalam UUD 1945 pada...",
+      "options": [
+        {
+          "text": "Pasal 28A",
+          "score": 0
+        },
+        {
+          "text": "Pasal 27 ayat (2)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 29 ayat (2)",
+          "score": 5
+        },
+        {
+          "text": "Pasal 30 ayat (2)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 31 ayat (2)",
+          "score": 0
+        }
+      ],
+      "explanation": "Jaminan kemerdekaan memeluk agama dan beribadat diatur dalam Pasal 29 ayat (2) UUD 1945. Pasal 29 ayat (1) sebelumnya menegaskan bahwa negara berdasar atas Ketuhanan Yang Maha Esa.",
+      "trick": "Urusan agama dalam UUD 1945 terpusat pada Pasal 29; ayat (2) khusus menjamin kebebasan beragama."
+    },
+    {
+      "id": "TWK-017",
+      "subtest": "TWK",
+      "topic": "UUD 1945",
+      "difficulty": 2,
+      "question": "Pasal 33 ayat (1) UUD 1945 menyatakan bahwa perekonomian disusun sebagai usaha bersama berdasar atas asas...",
+      "options": [
+        {
+          "text": "Kekeluargaan",
+          "score": 5
+        },
+        {
+          "text": "Kebebasan berusaha",
+          "score": 0
+        },
+        {
+          "text": "Persaingan bebas",
+          "score": 0
+        },
+        {
+          "text": "Keuntungan sebesar-besarnya",
+          "score": 0
+        },
+        {
+          "text": "Kepemilikan individu",
+          "score": 0
+        }
+      ],
+      "explanation": "Pasal 33 ayat (1) UUD 1945 menegaskan perekonomian disusun sebagai usaha bersama berdasar atas asas kekeluargaan. Asas ini menunjukkan bahwa sistem ekonomi Indonesia mengedepankan kebersamaan dan kemakmuran bersama, bukan individualisme.",
+      "trick": "Pasal 33 selalu berkaitan dengan perekonomian; kata kuncinya adalah usaha bersama dan asas kekeluargaan."
+    },
+    {
+      "id": "TWK-018",
+      "subtest": "TWK",
+      "topic": "UUD 1945",
+      "difficulty": 3,
+      "question": "Menurut Pasal 37 ayat (1) UUD 1945, usul perubahan pasal-pasal Undang-Undang Dasar dapat diagendakan dalam sidang MPR apabila diajukan oleh sekurang-kurangnya...",
+      "options": [
+        {
+          "text": "Satu perlima dari jumlah anggota MPR",
+          "score": 0
+        },
+        {
+          "text": "Satu perempat dari jumlah anggota MPR",
+          "score": 0
+        },
+        {
+          "text": "Setengah dari jumlah anggota MPR",
+          "score": 0
+        },
+        {
+          "text": "Dua pertiga dari jumlah anggota MPR",
+          "score": 0
+        },
+        {
+          "text": "Sepertiga dari jumlah anggota MPR",
+          "score": 5
+        }
+      ],
+      "explanation": "Pasal 37 ayat (1) UUD 1945 menentukan usul perubahan pasal-pasal Undang-Undang Dasar dapat diagendakan dalam sidang MPR apabila diajukan oleh sekurang-kurangnya 1/3 dari jumlah anggota MPR. Persyaratan berbeda berlaku untuk kehadiran sidang dan pengambilan putusan perubahan.",
+      "trick": "Hafalkan angka Pasal 37 secara bertahap: pengajuan 1/3, sidang dihadiri 2/3, putusan disetujui 50 persen plus satu anggota MPR."
+    },
+    {
+      "id": "TWK-019",
+      "subtest": "TWK",
+      "topic": "UUD 1945",
+      "difficulty": 1,
+      "question": "Kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar. Ketentuan tersebut tercantum dalam UUD 1945 pada...",
+      "options": [
+        {
+          "text": "Pasal 1 ayat (1)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 1 ayat (2)",
+          "score": 5
+        },
+        {
+          "text": "Pasal 2 ayat (1)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 3 ayat (1)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 6 ayat (1)",
+          "score": 0
+        }
+      ],
+      "explanation": "Pasal 1 ayat (2) UUD 1945 setelah perubahan berbunyi kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar. Rumusan ini menegaskan sistem ketatanegaraan demokratis yang berdasarkan konstitusi.",
+      "trick": "Ingat rangkaian Pasal 1: ayat (1) bentuk negara, ayat (2) kedaulatan rakyat, ayat (3) negara hukum."
+    },
+    {
+      "id": "TWK-020",
+      "subtest": "TWK",
+      "topic": "UUD 1945",
+      "difficulty": 2,
+      "question": "Tiap-tiap warga negara berhak dan wajib ikut serta dalam usaha pertahanan dan keamanan negara. Ketentuan ini diatur dalam UUD 1945 pada...",
+      "options": [
+        {
+          "text": "Pasal 27 ayat (1)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 28 ayat (1)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 29 ayat (1)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 30 ayat (1)",
+          "score": 5
+        },
+        {
+          "text": "Pasal 31 ayat (3)",
+          "score": 0
+        }
+      ],
+      "explanation": "Pasal 30 ayat (1) UUD 1945 menyatakan tiap-tiap warga negara berhak dan wajib ikut serta dalam usaha pertahanan dan keamanan negara. Usaha pertahanan dan keamanan dilaksanakan melalui sistem pertahanan dan keamanan rakyat semesta.",
+      "trick": "Pertahanan dan keamanan negara selalu dikaitkan dengan Pasal 30; bela negara juga berkaitan dengan Pasal 27 ayat (3)."
+    },
+    {
+      "id": "TWK-021",
+      "subtest": "TWK",
+      "topic": "UUD 1945",
+      "difficulty": 3,
+      "question": "Hak setiap orang atas pengakuan, jaminan, perlindungan, dan kepastian hukum yang adil serta perlakuan yang sama di hadapan hukum diatur dalam UUD 1945 pada...",
+      "options": [
+        {
+          "text": "Pasal 28A ayat (1)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 28B ayat (1)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 28D ayat (1)",
+          "score": 5
+        },
+        {
+          "text": "Pasal 28E ayat (1)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 28I ayat (1)",
+          "score": 0
+        }
+      ],
+      "explanation": "Pasal 28D ayat (1) UUD 1945 menjamin hak setiap orang atas pengakuan, jaminan, perlindungan, dan kepastian hukum yang adil serta perlakuan yang sama di hadapan hukum. Pasal-pasal 28A sampai 28J merupakan bab khusus tentang Hak Asasi Manusia hasil perubahan kedua UUD 1945.",
+      "trick": "Untuk soal HAM, baca kata kuncinya lalu cocokkan: kepastian hukum yang adil adalah ciri khas Pasal 28D ayat (1)."
+    },
+    {
+      "id": "TWK-022",
+      "subtest": "TWK",
+      "topic": "NKRI",
+      "difficulty": 1,
+      "question": "Menurut Pasal 20 ayat (1) UUD 1945, lembaga negara yang memegang kekuasaan membentuk undang-undang adalah...",
+      "options": [
+        {
+          "text": "Dewan Perwakilan Rakyat",
+          "score": 5
+        },
+        {
+          "text": "Presiden",
+          "score": 0
+        },
+        {
+          "text": "Mahkamah Agung",
+          "score": 0
+        },
+        {
+          "text": "Dewan Perwakilan Daerah",
+          "score": 0
+        },
+        {
+          "text": "Majelis Permusyawaratan Rakyat",
+          "score": 0
+        }
+      ],
+      "explanation": "Pasal 20 ayat (1) UUD 1945 menyatakan Dewan Perwakilan Rakyat memegang kekuasaan membentuk undang-undang. Setiap rancangan undang-undang dibahas oleh DPR dan Presiden untuk mendapat persetujuan bersama.",
+      "trick": "Pembentuk undang-undang adalah DPR bersama Presiden; penguji undang-undang adalah Mahkamah Konstitusi."
+    },
+    {
+      "id": "TWK-023",
+      "subtest": "TWK",
+      "topic": "NKRI",
+      "difficulty": 2,
+      "question": "Lembaga negara yang berwenang menguji undang-undang terhadap Undang-Undang Dasar adalah...",
+      "options": [
+        {
+          "text": "Mahkamah Agung",
+          "score": 0
+        },
+        {
+          "text": "Komisi Yudisial",
+          "score": 0
+        },
+        {
+          "text": "Dewan Perwakilan Rakyat",
+          "score": 0
+        },
+        {
+          "text": "Badan Pemeriksa Keuangan",
+          "score": 0
+        },
+        {
+          "text": "Mahkamah Konstitusi",
+          "score": 5
+        }
+      ],
+      "explanation": "Mahkamah Konstitusi berwenang mengadili pada tingkat pertama dan terakhir yang putusannya bersifat final, antara lain untuk menguji undang-undang terhadap Undang-Undang Dasar. Kewenangan ini diatur dalam Pasal 24C UUD 1945.",
+      "trick": "Uji materi undang-undang terhadap UUD adalah tugas MK; uji peraturan di bawah undang-undang terhadap undang-undang adalah tugas MA."
+    },
+    {
+      "id": "TWK-024",
+      "subtest": "TWK",
+      "topic": "NKRI",
+      "difficulty": 1,
+      "question": "Dalam menjalankan pemerintahan, Presiden dibantu oleh menteri-menteri negara. Berdasarkan Pasal 17 UUD 1945, menteri-menteri itu...",
+      "options": [
+        {
+          "text": "Dipilih melalui pemilihan umum bersama Presiden",
+          "score": 0
+        },
+        {
+          "text": "Diangkat dan diberhentikan oleh Presiden",
+          "score": 5
+        },
+        {
+          "text": "Diangkat oleh DPR setelah uji kelayakan",
+          "score": 0
+        },
+        {
+          "text": "Diberhentikan hanya oleh MPR melalui sidang istimewa",
+          "score": 0
+        },
+        {
+          "text": "Dipilih oleh partai politik pemenang pemilu",
+          "score": 0
+        }
+      ],
+      "explanation": "Pasal 17 ayat (2) UUD 1945 menyatakan menteri-menteri diangkat dan diberhentikan oleh Presiden. Pengangkatan menteri merupakan hak prerogatif Presiden sebagai kepala pemerintahan.",
+      "trick": "Menteri adalah pembantu Presiden, sehingga pengangkatan dan pemberhentiannya merupakan kewenangan Presiden."
+    },
+    {
+      "id": "TWK-025",
+      "subtest": "TWK",
+      "topic": "NKRI",
+      "difficulty": 2,
+      "question": "Lembaga negara yang bertugas memeriksa pengelolaan dan tanggung jawab keuangan negara adalah...",
+      "options": [
+        {
+          "text": "Kementerian Keuangan",
+          "score": 0
+        },
+        {
+          "text": "Badan Pengawasan Keuangan dan Pembangunan",
+          "score": 0
+        },
+        {
+          "text": "Dewan Perwakilan Rakyat",
+          "score": 0
+        },
+        {
+          "text": "Badan Pemeriksa Keuangan",
+          "score": 5
+        },
+        {
+          "text": "Mahkamah Agung",
+          "score": 0
+        }
+      ],
+      "explanation": "Pasal 23E UUD 1945 menegaskan untuk memeriksa pengelolaan dan tanggung jawab tentang keuangan negara diadakan satu Badan Pemeriksa Keuangan yang bebas dan mandiri. Hasil pemeriksaan BPK diserahkan kepada DPR, DPD, dan DPRD sesuai kewenangannya.",
+      "trick": "Pemeriksa keuangan negara adalah BPK; pengelola keuangan negara adalah pemerintah melalui Kementerian Keuangan."
+    },
+    {
+      "id": "TWK-026",
+      "subtest": "TWK",
+      "topic": "NKRI",
+      "difficulty": 3,
+      "question": "Salah satu kewenangan Dewan Perwakilan Daerah menurut Pasal 22D UUD 1945 adalah...",
+      "options": [
+        {
+          "text": "Menetapkan Anggaran Pendapatan dan Belanja Negara bersama Presiden",
+          "score": 0
+        },
+        {
+          "text": "Memberhentikan Presiden dalam masa jabatannya",
+          "score": 0
+        },
+        {
+          "text": "Mengajukan rancangan undang-undang yang berkaitan dengan otonomi daerah",
+          "score": 5
+        },
+        {
+          "text": "Menguji undang-undang terhadap Undang-Undang Dasar",
+          "score": 0
+        },
+        {
+          "text": "Mengangkat hakim Mahkamah Konstitusi",
+          "score": 0
+        }
+      ],
+      "explanation": "Pasal 22D ayat (1) UUD 1945 memberi kewenangan kepada DPD untuk mengajukan rancangan undang-undang yang berkaitan dengan otonomi daerah, hubungan pusat dan daerah, serta pengelolaan sumber daya alam dan sumber daya ekonomi lainnya. DPD bersifat representasi daerah sehingga kewenangannya terfokus pada kepentingan daerah.",
+      "trick": "Kewenangan DPD selalu berkaitan dengan daerah: otonomi, hubungan pusat-daerah, dan sumber daya daerah."
+    },
+    {
+      "id": "TWK-027",
+      "subtest": "TWK",
+      "topic": "Bhinneka Tunggal Ika",
+      "difficulty": 1,
+      "question": "Semboyan Bhinneka Tunggal Ika memiliki arti...",
+      "options": [
+        {
+          "text": "Berbeda-beda, tetapi tetap satu jua",
+          "score": 5
+        },
+        {
+          "text": "Bersatu kita teguh, bercerai kita runtuh",
+          "score": 0
+        },
+        {
+          "text": "Satu nusa, satu bangsa, satu bahasa",
+          "score": 0
+        },
+        {
+          "text": "Berat sama dipikul, ringan sama dijinjing",
+          "score": 0
+        },
+        {
+          "text": "Di mana bumi dipijak, di situ langit dijunjung",
+          "score": 0
+        }
+      ],
+      "explanation": "Bhinneka Tunggal Ika berarti berbeda-beda, tetapi tetap satu jua. Semboyan ini menggambarkan persatuan bangsa Indonesia di tengah keberagaman suku, agama, ras, budaya, dan bahasa daerah.",
+      "trick": "Arti harfiah semboyan negara hanya satu: berbeda-beda tetapi tetap satu jua."
+    },
+    {
+      "id": "TWK-028",
+      "subtest": "TWK",
+      "topic": "Bhinneka Tunggal Ika",
+      "difficulty": 2,
+      "question": "Sebuah sekolah mengadakan pentas budaya di mana setiap kelas menampilkan tarian, pakaian adat, dan makanan khas dari berbagai daerah di Indonesia. Kegiatan tersebut mencerminkan penerapan Bhinneka Tunggal Ika karena...",
+      "options": [
+        {
+          "text": "Mengharuskan semua siswa menggunakan satu budaya daerah yang sama",
+          "score": 0
+        },
+        {
+          "text": "Menentukan budaya daerah yang paling unggul di antara budaya lain",
+          "score": 0
+        },
+        {
+          "text": "Membatasi penampilan budaya hanya dari daerah mayoritas",
+          "score": 0
+        },
+        {
+          "text": "Mengganti seluruh budaya daerah dengan budaya nasional yang baru",
+          "score": 0
+        },
+        {
+          "text": "Menghargai dan merayakan keberagaman budaya sebagai kekayaan bangsa",
+          "score": 5
+        }
+      ],
+      "explanation": "Pentas budaya dari berbagai daerah menunjukkan penghargaan terhadap keberagaman sebagai kekayaan bangsa, sesuai makna Bhinneka Tunggal Ika. Keberagaman tidak dihapus atau diperingkat, melainkan dirayakan dalam bingkai persatuan.",
+      "trick": "Pilihan yang menghargai semua budaya tanpa mengunggulkan salah satunya adalah ciri penerapan Bhinneka Tunggal Ika."
+    },
+    {
+      "id": "TWK-029",
+      "subtest": "TWK",
+      "topic": "Bhinneka Tunggal Ika",
+      "difficulty": 1,
+      "question": "Menurut Pasal 36A UUD 1945, semboyan Bhinneka Tunggal Ika tercantum pada lambang negara, yaitu pada bagian...",
+      "options": [
+        {
+          "text": "Perisai di dada Garuda",
+          "score": 0
+        },
+        {
+          "text": "Pita yang dicengkeram Garuda",
+          "score": 5
+        },
+        {
+          "text": "Sayap Garuda yang terkembang",
+          "score": 0
+        },
+        {
+          "text": "Kepala Garuda yang menoleh ke kanan",
+          "score": 0
+        },
+        {
+          "text": "Rantai emas pada leher Garuda",
+          "score": 0
+        }
+      ],
+      "explanation": "Pasal 36A UUD 1945 menyatakan lambang negara ialah Garuda Pancasila dengan semboyan Bhinneka Tunggal Ika. Semboyan tersebut tertulis pada pita yang dicengkeram oleh Garuda.",
+      "trick": "Bedakan dua bagian lambang: perisai memuat lambang kelima sila, pita memuat semboyan Bhinneka Tunggal Ika."
+    },
+    {
+      "id": "TWK-030",
+      "subtest": "TWK",
+      "topic": "Bhinneka Tunggal Ika",
+      "difficulty": 2,
+      "question": "Sikap berikut yang bertentangan dengan semangat Bhinneka Tunggal Ika adalah...",
+      "options": [
+        {
+          "text": "Ikut menjaga ketertiban saat umat agama lain merayakan hari besarnya",
+          "score": 0
+        },
+        {
+          "text": "Mempelajari bahasa daerah lain untuk memperluas wawasan",
+          "score": 0
+        },
+        {
+          "text": "Berteman dengan siswa dari berbagai suku dan daerah",
+          "score": 0
+        },
+        {
+          "text": "Menganggap budaya kelompoknya paling unggul dan merendahkan budaya kelompok lain",
+          "score": 5
+        },
+        {
+          "text": "Menggunakan bahasa Indonesia saat berkomunikasi antardaerah",
+          "score": 0
+        }
+      ],
+      "explanation": "Menganggap budaya sendiri paling unggul dan merendahkan budaya lain merupakan sikap etnosentrisme yang bertentangan dengan Bhinneka Tunggal Ika. Semboyan tersebut menuntut sikap saling menghargai antarkelompok dalam keberagaman.",
+      "trick": "Pada soal sikap, cari pilihan yang merendahkan atau mengunggulkan satu kelompok; itulah yang bertentangan dengan semboyan negara."
+    },
+    {
+      "id": "TWK-031",
+      "subtest": "TWK",
+      "topic": "Nasionalisme",
+      "difficulty": 1,
+      "question": "Seorang aparatur sipil negara dalam pengadaan barang kantor selalu memprioritaskan produk dalam negeri yang memenuhi syarat sesuai ketentuan yang berlaku. Sikap aparatur tersebut mencerminkan...",
+      "options": [
+        {
+          "text": "Fanatisme kesukuan",
+          "score": 0
+        },
+        {
+          "text": "Konsumerisme",
+          "score": 0
+        },
+        {
+          "text": "Nasionalisme dan cinta tanah air",
+          "score": 5
+        },
+        {
+          "text": "Chauvinisme",
+          "score": 0
+        },
+        {
+          "text": "Individualisme",
+          "score": 0
+        }
+      ],
+      "explanation": "Memprioritaskan produk dalam negeri sesuai ketentuan merupakan wujud nasionalisme dalam bidang ekonomi. Sikap ini mendukung kemandirian bangsa dan penghargaan terhadap hasil karya anak bangsa.",
+      "trick": "Mendukung produk dan kepentingan bangsa sendiri secara wajar adalah ciri nasionalisme."
+    },
+    {
+      "id": "TWK-032",
+      "subtest": "TWK",
+      "topic": "Nasionalisme",
+      "difficulty": 2,
+      "question": "Nasionalisme dalam arti yang sehat dapat diartikan sebagai...",
+      "options": [
+        {
+          "text": "Kesetiaan dan kecintaan tertinggi warga negara kepada bangsa dan negaranya",
+          "score": 5
+        },
+        {
+          "text": "Keinginan untuk menolak seluruh pengaruh dari bangsa lain",
+          "score": 0
+        },
+        {
+          "text": "Sikap mengunggulkan bangsa sendiri sambil merendahkan bangsa lain",
+          "score": 0
+        },
+        {
+          "text": "Kesetiaan utama kepada daerah asal melebihi negara",
+          "score": 0
+        },
+        {
+          "text": "Penolakan terhadap kerja sama dengan bangsa mana pun",
+          "score": 0
+        }
+      ],
+      "explanation": "Nasionalisme adalah paham kebangsaan yang menumbuhkan kesetiaan dan kecintaan warga negara kepada bangsa dan negaranya. Nasionalisme yang sehat tidak menolak kerja sama dengan bangsa lain dan tidak merendahkan bangsa lain.",
+      "trick": "Nasionalisme sehat selalu positif terhadap bangsa sendiri tanpa merendahkan bangsa lain."
+    },
+    {
+      "id": "TWK-033",
+      "subtest": "TWK",
+      "topic": "Nasionalisme",
+      "difficulty": 3,
+      "question": "Bentuk paham kebangsaan yang berlebihan dan harus dihindari karena menganggap bangsa sendiri paling unggul serta merendahkan bangsa lain disebut...",
+      "options": [
+        {
+          "text": "Patriotisme",
+          "score": 0
+        },
+        {
+          "text": "Nasionalisme",
+          "score": 0
+        },
+        {
+          "text": "Pluralisme",
+          "score": 0
+        },
+        {
+          "text": "Regionalisme",
+          "score": 0
+        },
+        {
+          "text": "Chauvinisme",
+          "score": 5
+        }
+      ],
+      "explanation": "Chauvinisme adalah paham kebangsaan yang berlebihan, ditandai sikap menganggap bangsa sendiri paling unggul dan merendahkan bangsa lain. Paham ini berbeda dari nasionalisme dan patriotisme yang bersifat positif dan proporsional.",
+      "trick": "Kata kunci mengunggulkan bangsa sendiri secara berlebihan dan merendahkan bangsa lain selalu mengarah pada chauvinisme."
+    },
+    {
+      "id": "TWK-034",
+      "subtest": "TWK",
+      "topic": "Nasionalisme",
+      "difficulty": 1,
+      "question": "Menggunakan bahasa Indonesia yang baik dan benar saat menyampaikan sambutan dalam acara resmi kenegaraan merupakan salah satu wujud...",
+      "options": [
+        {
+          "text": "Sikap apatis terhadap bangsa",
+          "score": 0
+        },
+        {
+          "text": "Nasionalisme dan penghargaan terhadap identitas bangsa",
+          "score": 5
+        },
+        {
+          "text": "Penolakan terhadap bahasa daerah",
+          "score": 0
+        },
+        {
+          "text": "Kepatuhan semata pada atasan",
+          "score": 0
+        },
+        {
+          "text": "Pelestarian budaya asing",
+          "score": 0
+        }
+      ],
+      "explanation": "Bahasa Indonesia adalah bahasa resmi negara dan bahasa persatuan, sehingga penggunaannya yang baik dalam acara resmi mencerminkan nasionalisme. Sikap ini sekaligus merupakan perwujudan ikrar ketiga Sumpah Pemuda tahun 1928.",
+      "trick": "Bahasa Indonesia sebagai bahasa persatuan selalu dikaitkan dengan Sumpah Pemuda dan identitas nasional."
+    },
+    {
+      "id": "TWK-035",
+      "subtest": "TWK",
+      "topic": "Nasionalisme",
+      "difficulty": 2,
+      "question": "Seorang petugas pelayanan publik yang bertugas di daerah perbatasan melayani seluruh warga secara adil tanpa membedakan asal daerah, suku, maupun bahasa mereka. Sikap petugas tersebut mencerminkan nasionalisme karena...",
+      "options": [
+        {
+          "text": "Semua warga perbatasan diharuskan berpindah ke ibu kota",
+          "score": 0
+        },
+        {
+          "text": "Perbatasan merupakan daerah tanpa keberagaman",
+          "score": 0
+        },
+        {
+          "text": "Petugas bekerja hanya untuk warga sedaerah dengannya",
+          "score": 0
+        },
+        {
+          "text": "Mengamalkan persatuan dan kesetiaan kepada seluruh bangsa Indonesia",
+          "score": 5
+        },
+        {
+          "text": "Petugas menolak melayani warga dari negara tetangga dalam keadaan apa pun",
+          "score": 0
+        }
+      ],
+      "explanation": "Pelayanan yang adil kepada seluruh warga tanpa diskriminasi menunjukkan kesetiaan pada seluruh bangsa Indonesia, bukan hanya kelompok atau daerah sendiri. Itulah inti nasionalisme dalam praktik pelayanan publik.",
+      "trick": "Pada skenario pelayanan publik, jawaban berjiwa nasionalis selalu melayani semua warga bangsa secara setara."
+    },
+    {
+      "id": "TWK-036",
+      "subtest": "TWK",
+      "topic": "Integritas",
+      "difficulty": 1,
+      "question": "Saat memeriksa kembali data yang telah Anda input sebagai petugas administrasi, Anda menemukan kekeliruan angka yang dapat merugikan seorang warga. Tindakan yang paling menunjukkan integritas adalah...",
+      "options": [
+        {
+          "text": "Membiarkan data tersebut karena sudah terlanjur tersimpan",
+          "score": 0
+        },
+        {
+          "text": "Menunggu warga tersebut komplain agar ada alasan memperbaiki",
+          "score": 0
+        },
+        {
+          "text": "Segera melaporkan kekeliruan kepada atasan dan memperbaikinya sesuai prosedur",
+          "score": 5
+        },
+        {
+          "text": "Mengubah data secara diam-diam tanpa memberitahu siapa pun",
+          "score": 0
+        },
+        {
+          "text": "Menyalahkan rekan kerja yang bertugas sebelumnya",
+          "score": 0
+        }
+      ],
+      "explanation": "Integritas menuntut kejujuran dan tanggung jawab, sehingga kekeliruan harus dilaporkan kepada atasan dan diperbaiki melalui prosedur resmi. Memperbaiki secara diam-diam tetap melanggar tertib administrasi karena tidak ada jejak pertanggungjawaban.",
+      "trick": "Pada soal integritas, pilih tindakan yang jujur, terbuka, dan mengikuti prosedur, bukan yang menutupi kesalahan."
+    },
+    {
+      "id": "TWK-037",
+      "subtest": "TWK",
+      "topic": "Integritas",
+      "difficulty": 2,
+      "question": "Atasan meminta Anda meloloskan berkas permohonan yang belum memenuhi syarat dengan alasan pemohon adalah kenalan baiknya. Sikap yang paling tepat adalah...",
+      "options": [
+        {
+          "text": "Menyampaikan secara sopan bahwa berkas belum memenuhi syarat dan menjelaskan prosedur resmi yang harus dilengkapi",
+          "score": 5
+        },
+        {
+          "text": "Meloloskan berkas tersebut demi menjaga hubungan baik dengan atasan",
+          "score": 0
+        },
+        {
+          "text": "Meminta atasan membuat perintah tertulis agar Anda bebas dari tanggung jawab",
+          "score": 0
+        },
+        {
+          "text": "Meloloskan sebagian berkas sebagai jalan tengah",
+          "score": 0
+        },
+        {
+          "text": "Menyerahkan berkas kepada rekan lain agar bukan Anda yang meloloskan",
+          "score": 0
+        }
+      ],
+      "explanation": "ASN yang berintegritas tetap berpegang pada aturan meskipun ada tekanan dari atasan, dengan menyampaikan penolakan secara sopan disertai penjelasan dan solusi melalui jalur resmi. Kepatuhan pada perintah yang melanggar ketentuan tidak dibenarkan dalam pelaksanaan tugas kedinasan.",
+      "trick": "Tekanan dari atasan tidak menghapus kewajiban menaati aturan; tolak dengan sopan dan tawarkan prosedur yang benar."
+    },
+    {
+      "id": "TWK-038",
+      "subtest": "TWK",
+      "topic": "Integritas",
+      "difficulty": 3,
+      "question": "Anda ditunjuk menjadi anggota panitia pengadaan. Setelah daftar peserta diumumkan, Anda mengetahui salah satu perusahaan peserta dimiliki oleh kakak kandung Anda. Tindakan yang paling berintegritas adalah...",
+      "options": [
+        {
+          "text": "Tetap menjadi panitia tetapi berjanji bersikap adil",
+          "score": 0
+        },
+        {
+          "text": "Meminta panitia lain tidak mengetahui hubungan keluarga tersebut",
+          "score": 0
+        },
+        {
+          "text": "Mengundurkan diri tanpa memberikan alasan apa pun kepada pimpinan",
+          "score": 0
+        },
+        {
+          "text": "Memberi tahu kakak Anda mengenai kriteria penilaian secara khusus",
+          "score": 0
+        },
+        {
+          "text": "Menyatakan adanya konflik kepentingan kepada pimpinan dan mengundurkan diri dari kepanitiaan",
+          "score": 5
+        }
+      ],
+      "explanation": "Keikutsertaan keluarga dalam pengadaan menimbulkan konflik kepentingan yang wajib dinyatakan secara terbuka kepada pimpinan. Langkah yang benar adalah melaporkan konflik tersebut dan mengundurkan diri dari kepanitiaan agar proses pengadaan bebas dari intervensi dan kecurigaan.",
+      "trick": "Kata kunci konflik kepentingan: nyatakan secara terbuka lalu tarik diri dari proses yang terkait."
+    },
+    {
+      "id": "TWK-039",
+      "subtest": "TWK",
+      "topic": "Integritas",
+      "difficulty": 1,
+      "question": "Anda mengetahui seorang rekan kerja menerima sejumlah uang dari pemohon layanan agar proses permohonannya dipercepat. Tindakan yang paling tepat adalah...",
+      "options": [
+        {
+          "text": "Ikut meminta bagian agar tidak merugikan diri sendiri",
+          "score": 0
+        },
+        {
+          "text": "Melaporkan dugaan pelanggaran tersebut melalui saluran pengaduan resmi yang tersedia",
+          "score": 5
+        },
+        {
+          "text": "Membiarkan karena bukan urusan Anda",
+          "score": 0
+        },
+        {
+          "text": "Menegur pemohon agar tidak memberitahu siapa pun",
+          "score": 0
+        },
+        {
+          "text": "Menyebarkan cerita tersebut kepada seluruh pegawai tanpa bukti",
+          "score": 0
+        }
+      ],
+      "explanation": "Dugaan pelanggaran oleh rekan kerja harus dilaporkan melalui mekanisme resmi, seperti unit pengawasan internal atau sistem pelaporan pelanggaran, agar ditindaklanjuti sesuai ketentuan. Membiarkan atau menyebarkan tanpa bukti sama-sama merugikan integritas instansi.",
+      "trick": "Saluran resmi adalah kunci: laporkan dugaan pelanggaran melalui mekanisme pengaduan, bukan gosip atau pembiaran."
+    },
+    {
+      "id": "TWK-040",
+      "subtest": "TWK",
+      "topic": "Integritas",
+      "difficulty": 2,
+      "question": "Kendaraan dinas dan komputer kantor tersedia di unit kerja Anda. Penggunaan fasilitas tersebut yang sesuai dengan prinsip integritas adalah...",
+      "options": [
+        {
+          "text": "Menggunakan kendaraan dinas untuk mengantar keluarga berlibur di akhir pekan",
+          "score": 0
+        },
+        {
+          "text": "Menggunakan komputer kantor untuk mengelola toko daring pribadi setiap hari",
+          "score": 0
+        },
+        {
+          "text": "Meminjamkan fasilitas kantor kepada teman dengan imbalan tertentu",
+          "score": 0
+        },
+        {
+          "text": "Menggunakan fasilitas kantor hanya untuk kepentingan pelaksanaan tugas kedinasan",
+          "score": 5
+        },
+        {
+          "text": "Menggunakan kendaraan dinas untuk keperluan pribadi selama tidak ada yang memakai",
+          "score": 0
+        }
+      ],
+      "explanation": "Fasilitas negara disediakan untuk menunjang pelaksanaan tugas kedinasan, sehingga penggunaannya untuk kepentingan pribadi merupakan penyalahgunaan wewenang. ASN yang berintegritas menjaga amanah penggunaan barang milik negara sesuai peruntukannya.",
+      "trick": "Fasilitas negara hanya untuk kedinasan; alasan apa pun untuk kepentingan pribadi tetap penyalahgunaan."
+    },
+    {
+      "id": "TWK-041",
+      "subtest": "TWK",
+      "topic": "Integritas",
+      "difficulty": 3,
+      "question": "Seorang kenalan meminta Anda membantunya melihat data pribadi seorang warga yang tersimpan dalam sistem informasi instansi tempat Anda bekerja, padahal kenalan tersebut tidak memiliki kewenangan apa pun. Tindakan yang paling tepat adalah...",
+      "options": [
+        {
+          "text": "Memberikan data tersebut karena kenalan Anda berjanji menjaga kerahasiaannya",
+          "score": 0
+        },
+        {
+          "text": "Menunjukkan data sekilas tanpa mengizinkannya mencatat",
+          "score": 0
+        },
+        {
+          "text": "Menolak permintaan tersebut karena data pribadi warga hanya dapat diakses oleh pihak yang berwenang sesuai ketentuan",
+          "score": 5
+        },
+        {
+          "text": "Meminta imbalan terlebih dahulu sebelum memberikan data",
+          "score": 0
+        },
+        {
+          "text": "Menyalin data dan memberikannya melalui pesan pribadi agar tidak terlihat",
+          "score": 0
+        }
+      ],
+      "explanation": "Data pribadi warga yang dikelola instansi wajib dilindungi dan hanya dapat diakses berdasarkan kewenangan serta keperluan yang sah menurut peraturan perundang-undangan. Memberikan data kepada pihak yang tidak berwenang, dengan cara apa pun, merupakan pelanggaran integritas dan kerahasiaan jabatan.",
+      "trick": "Permintaan data oleh pihak tanpa kewenangan harus ditolak, siapa pun yang meminta dan apa pun alasannya."
+    },
+    {
+      "id": "TWK-042",
+      "subtest": "TWK",
+      "topic": "Bela Negara",
+      "difficulty": 1,
+      "question": "Dasar hukum hak dan kewajiban warga negara untuk ikut serta dalam upaya pembelaan negara ditegaskan dalam UUD 1945 pada...",
+      "options": [
+        {
+          "text": "Pasal 27 ayat (3)",
+          "score": 5
+        },
+        {
+          "text": "Pasal 28 ayat (2)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 29 ayat (2)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 33 ayat (3)",
+          "score": 0
+        },
+        {
+          "text": "Pasal 34 ayat (2)",
+          "score": 0
+        }
+      ],
+      "explanation": "Pasal 27 ayat (3) UUD 1945 menyatakan setiap warga negara berhak dan wajib ikut serta dalam upaya pembelaan negara. Ketentuan ini menjadi landasan konstitusional kesadaran bela negara bagi seluruh warga negara.",
+      "trick": "Bela negara melekat pada Pasal 27 ayat (3); pertahanan dan keamanan negara pada Pasal 30 ayat (1)."
+    },
+    {
+      "id": "TWK-043",
+      "subtest": "TWK",
+      "topic": "Bela Negara",
+      "difficulty": 2,
+      "question": "Bela negara tidak selalu berwujud mengangkat senjata. Wujud bela negara dalam kehidupan sehari-hari bagi seorang aparatur sipil negara adalah...",
+      "options": [
+        {
+          "text": "Mengikuti pelatihan militer setiap bulan",
+          "score": 0
+        },
+        {
+          "text": "Menjaga perbatasan negara secara bergilir",
+          "score": 0
+        },
+        {
+          "text": "Membeli peralatan pertahanan secara mandiri",
+          "score": 0
+        },
+        {
+          "text": "Menolak bekerja sama dengan warga dari daerah lain",
+          "score": 0
+        },
+        {
+          "text": "Melaksanakan tugas dengan disiplin, jujur, dan menaati peraturan perundang-undangan",
+          "score": 5
+        }
+      ],
+      "explanation": "Bela negara dapat diwujudkan sesuai profesi masing-masing warga negara, misalnya ASN yang bekerja disiplin, jujur, dan taat hukum. Cara ini termasuk bela negara nonfisik yang sama pentingnya dengan pertahanan militer.",
+      "trick": "Bela negara disesuaikan dengan profesi: pelajar belajar tekun, ASN melayani dengan disiplin dan jujur."
+    },
+    {
+      "id": "TWK-044",
+      "subtest": "TWK",
+      "topic": "Bela Negara",
+      "difficulty": 2,
+      "question": "Berita bohong yang mengadu domba antarkelompok masyarakat marak beredar di media sosial. Tindakan Anda yang merupakan wujud bela negara dalam menghadapi ancaman tersebut adalah...",
+      "options": [
+        {
+          "text": "Ikut menyebarkan berita agar cepat diketahui banyak orang",
+          "score": 0
+        },
+        {
+          "text": "Memeriksa kebenaran informasi terlebih dahulu dan tidak menyebarkan berita yang belum terverifikasi",
+          "score": 5
+        },
+        {
+          "text": "Membalas berita bohong dengan membuat berita tandingan",
+          "score": 0
+        },
+        {
+          "text": "Menutup seluruh akun media sosial warga di lingkungan Anda",
+          "score": 0
+        },
+        {
+          "text": "Melaporkan semua pengguna media sosial kepada aparat",
+          "score": 0
+        }
+      ],
+      "explanation": "Penyebaran berita bohong merupakan ancaman nonmiliter yang dapat memecah persatuan bangsa. Memverifikasi informasi dan tidak ikut menyebarkannya adalah wujud bela negara di ruang digital.",
+      "trick": "Di era digital, saring sebelum sharing adalah bentuk bela negara yang paling nyata bagi warga biasa."
+    },
+    {
+      "id": "TWK-045",
+      "subtest": "TWK",
+      "topic": "Bela Negara",
+      "difficulty": 1,
+      "question": "Pernyataan yang tepat mengenai upaya pembelaan negara adalah...",
+      "options": [
+        {
+          "text": "Hanya menjadi tugas Tentara Nasional Indonesia",
+          "score": 0
+        },
+        {
+          "text": "Hanya dilakukan ketika negara dalam keadaan perang",
+          "score": 0
+        },
+        {
+          "text": "Merupakan tugas kepolisian semata",
+          "score": 0
+        },
+        {
+          "text": "Merupakan hak dan kewajiban seluruh warga negara sesuai kemampuan dan profesinya",
+          "score": 5
+        },
+        {
+          "text": "Hanya berlaku bagi warga negara yang tinggal di perbatasan",
+          "score": 0
+        }
+      ],
+      "explanation": "Upaya pembelaan negara merupakan hak dan kewajiban seluruh warga negara, sebagaimana ditegaskan Pasal 27 ayat (3) UUD 1945. Setiap warga dapat mewujudkannya sesuai kemampuan dan profesi masing-masing, tidak hanya melalui jalur militer.",
+      "trick": "Bela negara adalah urusan semua warga negara, bukan hanya TNI dan Polri."
+    },
+    {
+      "id": "TWK-046",
+      "subtest": "TWK",
+      "topic": "Bela Negara",
+      "difficulty": 1,
+      "question": "Kegiatan ronda malam dan siskamling yang diikuti warga secara bergiliran di lingkungan tempat tinggal merupakan wujud bela negara karena...",
+      "options": [
+        {
+          "text": "Warga dibayar oleh negara untuk menjaga lingkungannya",
+          "score": 0
+        },
+        {
+          "text": "Kegiatan tersebut menggantikan tugas aparat keamanan sepenuhnya",
+          "score": 0
+        },
+        {
+          "text": "Warga ikut serta menjaga keamanan dan ketertiban lingkungannya sebagai bagian dari pertahanan negara",
+          "score": 5
+        },
+        {
+          "text": "Kegiatan tersebut hanya berlaku bagi warga yang pernah mengikuti wajib militer",
+          "score": 0
+        },
+        {
+          "text": "Warga dapat mengambil tindakan hukum sendiri terhadap pelaku kejahatan",
+          "score": 0
+        }
+      ],
+      "explanation": "Ronda malam dan siskamling menunjukkan partisipasi warga dalam menjaga keamanan lingkungannya, yang selaras dengan sistem pertahanan dan keamanan rakyat semesta. Keterlibatan rakyat merupakan komponen pendukung kekuatan pertahanan negara.",
+      "trick": "Partisipasi rakyat menjaga lingkungannya sendiri adalah contoh paling sederhana dari sishankamrata."
+    },
+    {
+      "id": "TWK-047",
+      "subtest": "TWK",
+      "topic": "Bahasa Indonesia",
+      "difficulty": 1,
+      "question": "Penulisan kata baku yang tepat terdapat pada kata...",
+      "options": [
+        {
+          "text": "Apotek",
+          "score": 5
+        },
+        {
+          "text": "Apotik",
+          "score": 0
+        },
+        {
+          "text": "Atheis",
+          "score": 0
+        },
+        {
+          "text": "Nasehat",
+          "score": 0
+        },
+        {
+          "text": "Praktek",
+          "score": 0
+        }
+      ],
+      "explanation": "Bentuk baku menurut Kamus Besar Bahasa Indonesia adalah apotek, bukan apotik. Bentuk baku kata lainnya adalah ateis, nasihat, dan praktik.",
+      "trick": "Hafalkan pasangan kata yang sering salah: apotek, ateis, nasihat, praktik, ijazah."
+    },
+    {
+      "id": "TWK-048",
+      "subtest": "TWK",
+      "topic": "Bahasa Indonesia",
+      "difficulty": 2,
+      "question": "Penulisan kalimat dengan huruf kapital yang benar menurut kaidah bahasa Indonesia adalah...",
+      "options": [
+        {
+          "text": "Rapat koordinasi itu dihadiri oleh gubernur jawa barat.",
+          "score": 0
+        },
+        {
+          "text": "Kepala Dinas berasal dari suku sunda dan beragama islam.",
+          "score": 0
+        },
+        {
+          "text": "Upacara Bendera dilaksanakan setiap hari senin di halaman kantor.",
+          "score": 0
+        },
+        {
+          "text": "Presiden Republik Indonesia meresmikan jembatan itu pada bulan januari.",
+          "score": 0
+        },
+        {
+          "text": "Gubernur Jawa Barat menghadiri Rapat Koordinasi di Gedung Sate.",
+          "score": 5
+        }
+      ],
+      "explanation": "Huruf kapital dipakai pada huruf pertama jabatan yang diikuti nama wilayah atau instansi, nama tempat, dan nama kegiatan resmi, seperti pada Gubernur Jawa Barat, Rapat Koordinasi, dan Gedung Sate. Pilihan lain salah karena nama wilayah, hari, bulan, suku bangsa, dan agama yang seharusnya diawali huruf kapital justru ditulis dengan huruf kecil.",
+      "trick": "Periksa satu per satu: nama jabatan beserta wilayahnya, nama tempat, hari, bulan, suku, dan agama semuanya diawali huruf kapital."
+    },
+    {
+      "id": "TWK-049",
+      "subtest": "TWK",
+      "topic": "Bahasa Indonesia",
+      "difficulty": 2,
+      "question": "Kalimat berikut yang paling efektif adalah...",
+      "options": [
+        {
+          "text": "Para peserta-peserta ujian wajib membawa kartu peserta dan alat tulis.",
+          "score": 0
+        },
+        {
+          "text": "Peserta ujian wajib membawa kartu peserta dan alat tulis.",
+          "score": 5
+        },
+        {
+          "text": "Demi untuk kelancaran ujian, para peserta diharapkan membawa alat tulis.",
+          "score": 0
+        },
+        {
+          "text": "Kepada para peserta ujian, supaya membawa kartu peserta masing-masing.",
+          "score": 0
+        },
+        {
+          "text": "Bagi peserta ujian yang mengikuti ujian wajib membawa kartu peserta ujian.",
+          "score": 0
+        }
+      ],
+      "explanation": "Kalimat yang efektif singkat, jelas, dan tidak mengandung pengulangan kata yang tidak perlu, seperti pada kalimat peserta ujian wajib membawa kartu peserta dan alat tulis. Kata para dan pengulangan kata peserta-peserta membuat kalimat menjadi boros dan tidak efektif.",
+      "trick": "Kalimat efektif menghindari kata mubazir seperti para yang digabung bentuk jamak dan frasa demi untuk."
+    },
+    {
+      "id": "TWK-050",
+      "subtest": "TWK",
+      "topic": "Bahasa Indonesia",
+      "difficulty": 3,
+      "question": "Dalam tata naskah dinas, istilah disposisi memiliki makna...",
+      "options": [
+        {
+          "text": "Lembar pengantar pengiriman surat kepada alamat tujuan",
+          "score": 0
+        },
+        {
+          "text": "Nomor urut pencatatan surat masuk dalam buku agenda",
+          "score": 0
+        },
+        {
+          "text": "Lembar penyimpanan arsip berdasarkan sistem tanggal",
+          "score": 0
+        },
+        {
+          "text": "Petunjuk atau perintah tertulis pimpinan pada surat untuk ditindaklanjuti bawahan",
+          "score": 5
+        },
+        {
+          "text": "Daftar susunan acara resmi suatu instansi",
+          "score": 0
+        }
+      ],
+      "explanation": "Disposisi adalah petunjuk atau perintah tertulis dari pimpinan yang dituliskan pada surat atau lembar khusus agar bawahan menindaklanjutinya. Istilah ini berbeda dengan ekspedisi yang berkaitan dengan pengiriman surat dan agenda yang berkaitan dengan pencatatan surat.",
+      "trick": "Ingat fungsi istilahnya: disposisi adalah perintah pimpinan, ekspedisi pengiriman, agenda pencatatan."
+    }
+  ]
+}

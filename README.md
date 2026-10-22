@@ -24,8 +24,8 @@ Semua penempatan dikontrol `AdConfig` (Remote Config-ready) supaya frekuensi bis
 ## Versi Web (PWA) — folder `docs/`
 Versi web penuh dari aplikasi yang sama (PWA: bisa di-install ke homescreen, jalan offline):
 `docs/index.html` + `style.css` + `app.js` + `manifest.webmanifest` + `sw.js`, membaca bank soal
-`docs/questions.json` (salinan dari `app/src/main/assets/questions/sample_questions.json` —
-sumber kebenaran tetap file Android; salinan web diperbarui tiap rilis).
+`docs/questions.json` + `docs/questions_batch2_*.json` (salinan file-file di
+`app/src/main/assets/questions/` — sumber kebenaran tetap file Android; salinan web diperbarui tiap rilis).
 
 **Aktivasi GitHub Pages (langkah pemilik repo, sekali saja):**
 Settings → Pages → Build and deployment → Source: *Deploy from a branch* → Branch: `main`, folder: `/docs` → Save.
@@ -45,6 +45,6 @@ Fungsi web: menangkap pencarian Google ("latihan soal CPNS" dll) + corong instal
 Lihat `docs/BUILD_ANDROID_STUDIO.md`.
 
 ## Status
-Scaffold tahap 1: struktur proyek, layar Home/Sesi/Hasil (kerangka), manajer iklan (kerangka, test ads),
-dan 15 soal contoh original (5 TWK, 5 TIU, 5 TKP) di `sample_questions.json`.
+Struktur proyek, layar Home (grid tombol + pilihan jumlah soal 5–30 per bagian 5 soal)/Sesi/Hasil/Pembahasan/Tryout, manajer iklan (kerangka, test ads).
+Bank soal: **165 soal original tervalidasi** (TWK 50, TIU 55, TKP 60) — 15 contoh di `sample_questions.json` + 150 batch 2 di `batch2_twk.json`/`batch2_tiu.json`/`batch2_tkp.json`; target produksi 600.
 Belum build-terverifikasi — kompilasi pertama dilakukan di Android Studio (mesin ini tidak punya JDK/Android SDK).

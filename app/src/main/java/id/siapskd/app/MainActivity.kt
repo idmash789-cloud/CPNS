@@ -143,7 +143,7 @@ fun SiapSkdApp() {
                         selectedCount = selectedCount,
                         onCountChange = { selectedCount = it },
                         onStart = { subtest ->
-                            val all = QuestionBank.loadSample(context)
+                            val all = QuestionBank.loadAll(context)
                             sessionSubtest = subtest
                             sessionQuestions = QuestionBank.pickSession(all, subtest, selectedCount)
                             batchIndex = 0

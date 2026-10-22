@@ -1,7 +1,7 @@
 /* SiapSKD Web (PWA) — mesin latihan yang sama dengan versi Android:
    sesi 5 soal (scroll), native slot setelah soal ke-2, hasil + kunci gratis,
    pembahasan lengkap sebagai konten premium (di Android: rewarded; di web: slot AdSense nanti).
-   Sumber soal: questions.json — SALINAN dari app/src/main/assets/questions/sample_questions.json
+   Sumber soal: questions.json + questions_batch2_*.json — SALINAN file-file di app/src/main/assets/questions/
    (sumber kebenaran tetap file Android; salinan web diperbarui tiap rilis). */
 'use strict';
 
@@ -356,10 +356,12 @@ $('btn-reset').addEventListener('click', () => {
 });
 document.querySelectorAll('[data-home]').forEach((b) => b.addEventListener('click', goHome));
 
-/* ---------- muat soal ---------- */
-fetch('./questions.json')
-  .then((r) => r.json())
-  .then((data) => { allQuestions = data.questions || []; renderCountPicker(); renderHome(); })
+/* ---------- muat soal ----------
+   Semua file bank soal digabung. Tambahkan file batch baru ke daftar ini setiap rilis.
+   Total saat ini: 165 soal (15 contoh + 150 batch 2). */
+const QUESTION_FILES = ['./questions.json', './questions_batch2_twk.json', './questions_batch2_tiu.json', './questions_batch2_tkp.json'];
+Promise.all(QUESTION_FILES.map((f) => fetch(f).then((r) => r.json())))
+  .then((parts) => { allQuestions = parts.flatMap((d) => d.questions || []); renderCountPicker(); renderHome(); })
   .catch(() => {
     $('pg-meter').innerHTML = '<p class="muted">Gagal memuat bank soal. Periksa koneksi lalu muat ulang halaman.</p>';
   });
