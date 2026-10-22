@@ -111,6 +111,8 @@ fun SiapSkdApp() {
     var selectedCount by remember { mutableStateOf(AdConfig.DEFAULT_QUESTION_COUNT) }
     var sessionQuestions by remember { mutableStateOf<List<Question>>(emptyList()) }
     var sessionSubtest by remember { mutableStateOf("CAMPURAN") }
+    var sessionMode by remember { mutableStateOf("latihan") } // "latihan" | "tryout"
+    var timeLeftSec by remember { mutableStateOf(0) }
     var batchIndex by remember { mutableStateOf(0) }
     var explanationUnlocked by remember { mutableStateOf(false) }
     val answers = remember { mutableStateMapOf<String, Int>() }
@@ -124,6 +126,14 @@ fun SiapSkdApp() {
         if (screen == Screen.SCORING) {
             delay(1200) // layar transisi "Menghitung skor…" — mencegah klik sisa mengenai interstitial
             InterstitialManager.showAfterSession(activity) { screen = Screen.RESULT }
+        }
+    }
+
+    // Timer tryout: hitung mundur; waktu habis = serahkan sesi otomatis.
+    LaunchedEffect(screen == Screen.SESSION && sessionMode == "tryout") {
+        if (screen == Screen.SESSION && sessionMode == "tryout") {
+            while (timeLeftSec > 0) { delay(1000); timeLeftSec-- }
+            if (timeLeftSec <= 0) screen = Screen.SCORING
         }
     }
 
@@ -145,7 +155,14 @@ fun SiapSkdApp() {
                         onStart = { subtest ->
                             val all = QuestionBank.loadAll(context)
                             sessionSubtest = subtest
-                            sessionQuestions = QuestionBank.pickSession(all, subtest, selectedCount)
+                            if (subtest == "TRYOUT_SKD") {
+                                sessionMode = "tryout"
+                                sessionQuestions = QuestionBank.pickTryoutSKD(all)
+                                timeLeftSec = 100 * 60
+                            } else {
+                                sessionMode = "latihan"
+                                sessionQuestions = QuestionBank.pickSession(all, subtest, selectedCount)
+                            }
                             batchIndex = 0
                             answers.clear()
                             explanationUnlocked = false
@@ -158,13 +175,17 @@ fun SiapSkdApp() {
                         batchIndex = batchIndex,
                         batchCount = batchCount,
                         totalQuestions = sessionQuestions.size,
-                        requestedCount = selectedCount,
+                        requestedCount = if (sessionMode == "tryout") sessionQuestions.size else selectedCount,
                         answers = answers,
                         onAnswer = { qid, idx -> answers[qid] = idx },
                         isLastBatch = isLastBatch,
+                        isTryout = sessionMode == "tryout",
+                        timeLeftSec = timeLeftSec,
                         onPrimaryAction = {
                             if (isLastBatch) {
                                 screen = Screen.SCORING
+                            } else if (sessionMode == "tryout") {
+                                batchIndex++ // tryout: tanpa interstitial di tengah ujian
                             } else {
                                 // Jeda antar-bagian: titik interstitial (pagar 180 dtk di InterstitialManager)
                                 InterstitialManager.showAfterSession(activity) { batchIndex++ }
@@ -175,6 +196,7 @@ fun SiapSkdApp() {
                     Screen.RESULT -> ResultScreen(
                         questions = sessionQuestions,
                         answers = answers,
+                        isTryoutSKD = sessionSubtest == "TRYOUT_SKD",
                         onOpenExplanation = {
                             if (explanationUnlocked) {
                                 screen = Screen.EXPLANATION
@@ -262,6 +284,14 @@ private fun HomeScreen(
             MenuTile(icon = "🤝", title = "TKP", subtitle = "Karakteristik Pribadi", onClick = { onStart("TKP") })
         }
         item(span = { GridItemSpan(2) }) {
+            MenuTile(
+                icon = "🏆",
+                title = "Tryout SKD Resmi",
+                subtitle = "110 soal • 100 menit • format CAT: TWK 30, TIU 35, TKP 45",
+                onClick = { onStart("TRYOUT_SKD") }
+            )
+        }
+        item(span = { GridItemSpan(2) }) {
             Card(modifier = Modifier.fillMaxWidth()) {
                 Text(
                     "Passing Grade — TWK 65 • TIU 80 • TKP 166",
@@ -310,11 +340,19 @@ private fun SessionScreen(
     answers: Map<String, Int>,
     onAnswer: (String, Int) -> Unit,
     isLastBatch: Boolean,
+    isTryout: Boolean = false,
+    timeLeftSec: Int = 0,
     onPrimaryAction: () -> Unit
 ) {
     // Satu layar = satu bagian (AdConfig.BATCH_SIZE soal) dalam daftar scroll.
-    // Native disisipkan setelah soal ke-2 SETIAP bagian.
+    // Native disisipkan setelah soal ke-2 SETIAP bagian (hanya mode latihan; tryout tanpa iklan di tengah).
     Column(modifier = Modifier.fillMaxSize()) {
+        if (isTryout) {
+            Text(
+                "⏱ Sisa waktu: ${timeLeftSec / 60}:${(timeLeftSec % 60).toString().padStart(2, '0')}",
+                style = MaterialTheme.typography.titleMedium
+            )
+        }
         if (batchCount > 1) {
             Text(
                 "Bagian ${batchIndex + 1} dari $batchCount • Soal ${globalOffset + 1}–${globalOffset + batchQuestions.size} dari $totalQuestions",
@@ -346,7 +384,7 @@ private fun SessionScreen(
                         }
                     }
                 }
-                if (index + 1 == AdConfig.NATIVE_AFTER_QUESTION) {
+                if (!isTryout && index + 1 == AdConfig.NATIVE_AFTER_QUESTION) {
                     NativeAdCard()
                 }
             }
@@ -378,13 +416,27 @@ private fun RowAnswer(text: String, selected: Boolean, onClick: () -> Unit) {
 private fun ResultScreen(
     questions: List<Question>,
     answers: Map<String, Int>,
+    isTryoutSKD: Boolean = false,
     onOpenExplanation: () -> Unit,
     onHome: () -> Unit
 ) {
+    val context = LocalContext.current
     val earned = questions.sumOf { q -> answers[q.id]?.let { q.options[it].score } ?: 0 }
     val max = questions.sumOf { it.maxScore }
     Text("Hasil Sesi", style = MaterialTheme.typography.headlineMedium)
     Text("Skor sesi ini: $earned / $max (${questions.size} soal)")
+    if (isTryoutSKD) {
+        // Komposisi resmi: poin per subtes sudah skala SKD asli — bandingkan langsung ke passing grade.
+        var allPass = true
+        listOf("TWK", "TIU", "TKP").forEach { sub ->
+            val got = questions.filter { it.subtest == sub }
+                .sumOf { q -> answers[q.id]?.let { q.options[it].score } ?: 0 }
+            val pg = QuestionBank.PASSING_GRADE[sub] ?: 0
+            if (got < pg) allPass = false
+            Text("$sub: $got (PG $pg) — ${if (got >= pg) "✅ LOLOS PG" else "❌ di bawah PG"}")
+        }
+        Text(if (allPass) "🏆 Ketiga subtes lolos passing grade!" else "Belum lolos PG di semua subtes — kejar subtes bertanda ❌.")
+    }
     questions.forEach { q ->
         val idx = answers[q.id]
         val got = idx?.let { q.options[it].score } ?: 0
@@ -394,6 +446,17 @@ private fun ResultScreen(
     Button(onClick = onOpenExplanation, modifier = Modifier.fillMaxWidth()) {
         Text("Tonton Iklan — Buka Pembahasan Lengkap + Trik")
     }
+    OutlinedButton(
+        onClick = {
+            val text = "Latihan SKD di SiapSKD: skorku $earned/$max (${questions.size} soal). Latihan soal CPNS gratis tiap hari di https://cpns.techo.web.id/"
+            val intent = android.content.Intent(android.content.Intent.ACTION_SEND).apply {
+                type = "text/plain"
+                putExtra(android.content.Intent.EXTRA_TEXT, text)
+            }
+            context.startActivity(android.content.Intent.createChooser(intent, "Bagikan hasil"))
+        },
+        modifier = Modifier.fillMaxWidth()
+    ) { Text("📤 Bagikan Hasil") }
     OutlinedButton(onClick = onHome, modifier = Modifier.fillMaxWidth()) { Text("Kembali ke Beranda") }
 }
 

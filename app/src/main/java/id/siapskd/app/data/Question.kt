@@ -75,6 +75,12 @@ object QuestionBank {
         return pool.shuffled().take(count)
     }
 
+    /** Tryout SKD format resmi CAT BKN: TWK 30, TIU 35, TKP 45 = 110 soal (timer 100 menit di UI). */
+    fun pickTryoutSKD(all: List<Question>): List<Question> =
+        listOf("TWK" to 30, "TIU" to 35, "TKP" to 45).flatMap { (sub, n) ->
+            all.filter { it.subtest == sub }.shuffled().take(n)
+        }
+
     /** Passing grade SKD (KepmenPANRB 321/2024). */
     val PASSING_GRADE = mapOf("TWK" to 65, "TIU" to 80, "TKP" to 166)
     val MAX_SCORE = mapOf("TWK" to 150, "TIU" to 175, "TKP" to 225)

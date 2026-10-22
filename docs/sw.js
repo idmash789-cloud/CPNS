@@ -1,6 +1,6 @@
 /* SiapSKD service worker — offline-first untuk aset aplikasi,
    network-first untuk bank soal agar soal baru cepat sampai. */
-const CACHE = 'siapskd-v5';
+const CACHE = 'siapskd-v6';
 const PRECACHE = [
   './',
   './index.html',

@@ -11,7 +11,9 @@ const NATIVE_AFTER_QUESTION = 2; // tampilkan slot native setelah soal ke-N dala
 const SECONDS_PER_QUESTION = 55; // ritme ujian asli: 110 soal / 100 menit
 const PASSING_GRADE = { TWK: 65, TIU: 80, TKP: 166 };
 const MAX_SCORE = { TWK: 150, TIU: 175, TKP: 225 };
-const LS = { streak: 'siapskd_streak', history: 'siapskd_history', count: 'siapskd_count' };
+const LS = { streak: 'siapskd_streak', history: 'siapskd_history', count: 'siapskd_count', wrong: 'siapskd_wrong', theme: 'siapskd_theme' };
+const SKD_COMPOSITION = { TWK: 30, TIU: 35, TKP: 45 }; // format CAT resmi: 110 soal
+const SKD_MINUTES = 100;
 
 let allQuestions = [];
 let sessionQuestions = [];
@@ -75,6 +77,8 @@ function renderHome() {
   $('stat-streak').textContent = s.last ? s.count : 0;
   $('stat-sessions').textContent = hist.length;
   $('stat-questions').textContent = hist.reduce((a, h) => a + h.count, 0);
+  const wrongCount = loadJSON(LS.wrong, []).length;
+  $('wrong-sub').textContent = wrongCount ? `${wrongCount} soal perlu diulang` : 'Belum ada — bagus!';
 
   const est = perSubtestEstimates();
   const meter = $('pg-meter');
@@ -113,6 +117,15 @@ function renderCountPicker() {
 /* ---------- sesi ---------- */
 function pickSession(subtest, count) {
   if (subtest === 'TRYOUT') return shuffle(allQuestions).slice(0, allQuestions.length);
+  if (subtest === 'TRYOUT_SKD') {
+    // Komposisi resmi CAT BKN: TWK 30, TIU 35, TKP 45 — acak di dalam subtes, urutan subtes tetap.
+    return Object.entries(SKD_COMPOSITION).flatMap(([sub, n]) =>
+      shuffle(allQuestions.filter((q) => q.subtest === sub)).slice(0, n));
+  }
+  if (subtest === 'SALAH') {
+    const wrong = new Set(loadJSON(LS.wrong, []));
+    return shuffle(allQuestions.filter((q) => wrong.has(q.id))).slice(0, 30);
+  }
   if (subtest === 'CAMPURAN') {
     // campuran seimbang antar subtes yang tersedia
     const groups = ['TWK', 'TIU', 'TKP'].map((s) => shuffle(allQuestions.filter((q) => q.subtest === s)));
@@ -136,19 +149,28 @@ function currentBatchQuestions() {
 }
 function isLastBatch() { return sessionMode === 'tryout' || batchIndex >= batchCount() - 1; }
 
+let lastStart = 'CAMPURAN';
 function startSession(subtest) {
-  sessionMode = subtest === 'TRYOUT' ? 'tryout' : 'latihan';
+  sessionMode = (subtest === 'TRYOUT' || subtest === 'TRYOUT_SKD') ? 'tryout' : 'latihan';
   sessionSubtest = subtest;
+  lastStart = subtest;
   sessionQuestions = pickSession(subtest, chosenCount);
   batchIndex = 0;
   answersMap = {};
-  if (!sessionQuestions.length) { alert('Bank soal belum termuat. Coba muat ulang halaman.'); return; }
-  $('session-title').textContent = sessionMode === 'tryout'
-    ? `Tryout Mini — ${sessionQuestions.length} Soal`
+  if (!sessionQuestions.length) {
+    alert(subtest === 'SALAH'
+      ? 'Belum ada soal yang perlu diulang. Soal yang kamu jawab belum sempurna akan terkumpul di sini setelah sesi latihan.'
+      : 'Bank soal belum termuat. Coba muat ulang halaman.');
+    return;
+  }
+  $('session-title').textContent =
+    subtest === 'TRYOUT_SKD' ? `Tryout SKD Resmi — ${sessionQuestions.length} Soal • ${SKD_MINUTES} Menit`
+    : sessionMode === 'tryout' ? `Tryout Mini — ${sessionQuestions.length} Soal`
+    : subtest === 'SALAH' ? `Ulangi yang Salah (${sessionQuestions.length} soal)`
     : (subtest === 'CAMPURAN' ? `Latihan Hari Ini — Campuran (${sessionQuestions.length} soal)` : `Latihan ${subtest} (${sessionQuestions.length} soal)`);
   renderBatch();
   show('session');
-  if (sessionMode === 'tryout') startTimer(sessionQuestions.length * SECONDS_PER_QUESTION);
+  if (sessionMode === 'tryout') startTimer(subtest === 'TRYOUT_SKD' ? SKD_MINUTES * 60 : sessionQuestions.length * SECONDS_PER_QUESTION);
   else { $('session-timer').hidden = true; stopTimer(); }
 }
 
@@ -262,16 +284,38 @@ function finishSession(auto = false) {
   });
   lastResult = { answers, per, earned, max };
 
+  // Kumpulkan soal yang belum dijawab sempurna untuk mode "Ulangi yang Salah";
+  // soal yang kali ini dijawab sempurna otomatis keluar dari daftar.
+  const wrong = new Set(loadJSON(LS.wrong, []));
+  sessionQuestions.forEach((q) => {
+    const got = answers[q.id] !== null && answers[q.id] !== undefined ? q.options[answers[q.id]].score : 0;
+    const qmax = Math.max(...q.options.map((o) => o.score));
+    if (got >= qmax) wrong.delete(q.id); else wrong.add(q.id);
+  });
+  saveJSON(LS.wrong, [...wrong]);
+
   const hist = getHistory();
   hist.push({ date: new Date().toISOString(), mode: sessionMode, subtest: sessionSubtest, count: sessionQuestions.length, earned, max, per });
   saveJSON(LS.history, hist);
   markTodayDone();
 
   $('result-score').textContent = `${earned} / ${max}`;
-  $('result-detail').innerHTML =
+  let detail =
     (auto ? '<p class="muted">⏱ Waktu habis — sesi diserahkan otomatis.</p>' : '') +
-    Object.entries(per).map(([sub, v]) => `<p><strong>${sub}:</strong> ${v.got} / ${v.max} poin sesi ini</p>`).join('') +
-    '<p class="muted">Kunci jawaban per soal ada di Pembahasan. Skor sesi adalah poin mentah; estimasi SKD skala penuh tampil di Meter Passing Grade beranda.</p>';
+    Object.entries(per).map(([sub, v]) => `<p><strong>${sub}:</strong> ${v.got} / ${v.max} poin sesi ini</p>`).join('');
+  if (sessionSubtest === 'TRYOUT_SKD') {
+    // Pada komposisi resmi, poin per subtes SUDAH skala SKD asli (maks 150/175/225).
+    const verdicts = ['TWK', 'TIU', 'TKP'].map((sub) => {
+      const got = per[sub] ? per[sub].got : 0;
+      return `<p><strong>${sub}:</strong> ${got} / ${MAX_SCORE[sub]} (PG ${PASSING_GRADE[sub]}) — ${got >= PASSING_GRADE[sub] ? '✅ LOLOS PG' : '❌ di bawah PG'}</p>`;
+    }).join('');
+    const lolos = ['TWK', 'TIU', 'TKP'].every((sub) => (per[sub] ? per[sub].got : 0) >= PASSING_GRADE[sub]);
+    detail += '<hr>' + verdicts +
+      `<p><strong>${lolos ? '🏆 Selamat! Ketiga subtes lolos passing grade pada tryout ini.' : 'Belum lolos passing grade di semua subtes — cek subtes bertanda ❌, lalu kejar lewat latihan per subtes + Ulangi yang Salah.'}</strong></p>`;
+  } else {
+    detail += '<p class="muted">Kunci jawaban per soal ada di Pembahasan. Skor sesi adalah poin mentah; estimasi SKD skala penuh tampil di Meter Passing Grade beranda.</p>';
+  }
+  $('result-detail').innerHTML = detail;
   show('result');
 }
 
@@ -336,6 +380,16 @@ document.querySelectorAll('.count-chip').forEach((chip) => chip.addEventListener
   renderCountPicker();
 }));
 $('btn-tryout').addEventListener('click', () => startSession('TRYOUT'));
+$('btn-tryout-skd').addEventListener('click', () => startSession('TRYOUT_SKD'));
+$('btn-wrong').addEventListener('click', () => startSession('SALAH'));
+$('btn-share').addEventListener('click', async () => {
+  if (!lastResult) return;
+  const perTxt = Object.entries(lastResult.per).map(([sub, v]) => `${sub} ${v.got}/${v.max}`).join(' • ');
+  const text = `Latihan SKD di SiapSKD: skorku ${lastResult.earned}/${lastResult.max} (${perTxt}). Latihan soal CPNS gratis tiap hari di https://cpns.techo.web.id/`;
+  if (navigator.share) { try { await navigator.share({ title: 'SiapSKD', text }); } catch { /* dibatalkan pengguna */ } }
+  else if (navigator.clipboard) { try { await navigator.clipboard.writeText(text); alert('Hasil tersalin — tempel di mana saja untuk membagikan.'); } catch { alert(text); } }
+  else alert(text);
+});
 $('btn-about').addEventListener('click', () => {
   const about = $('about-section');
   about.open = true;
@@ -347,13 +401,26 @@ function goHome() { stopTimer(); renderHome(); show('home'); }
 $('btn-quit').addEventListener('click', goHome);
 $('brand-home').addEventListener('click', goHome); // logo = tombol Home dari layar mana pun
 $('btn-explanation').addEventListener('click', () => { renderExplanation(); show('explanation'); });
-$('btn-again').addEventListener('click', () => startSession(sessionSubtest === 'TRYOUT' ? 'TRYOUT' : sessionSubtest));
+$('btn-again').addEventListener('click', () => startSession(lastStart));
 $('btn-reset').addEventListener('click', () => {
   if (confirm('Hapus semua data latihan (streak, riwayat, statistik) di perangkat ini?')) {
-    localStorage.removeItem(LS.streak); localStorage.removeItem(LS.history);
+    localStorage.removeItem(LS.streak); localStorage.removeItem(LS.history); localStorage.removeItem(LS.wrong);
     renderHome(); show('home');
   }
 });
+
+/* ---------- mode gelap ---------- */
+function applyTheme() {
+  const dark = localStorage.getItem(LS.theme) === 'dark';
+  document.body.classList.toggle('dark', dark);
+  $('btn-theme').textContent = dark ? '☀️' : '🌙';
+}
+$('btn-theme').addEventListener('click', () => {
+  const dark = !document.body.classList.contains('dark');
+  localStorage.setItem(LS.theme, dark ? 'dark' : 'light');
+  applyTheme();
+});
+applyTheme();
 document.querySelectorAll('[data-home]').forEach((b) => b.addEventListener('click', goHome));
 
 /* ---------- muat soal ----------

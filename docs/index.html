@@ -24,7 +24,10 @@
       <span>Latihan Soal CPNS Harian</span>
     </span>
   </button>
-  <button id="btn-install" class="btn btn-small btn-outline" hidden>📲 Install App</button>
+  <div class="topbar-actions">
+    <button id="btn-theme" class="btn btn-small btn-outline" aria-label="Aktifkan mode gelap" title="Mode gelap/terang">🌙</button>
+    <button id="btn-install" class="btn btn-small btn-outline" hidden>📲 Install App</button>
+  </div>
 </header>
 
 <main id="app">
@@ -81,6 +84,16 @@
         <span class="tile-title">Tryout Mini</span>
         <span class="tile-sub">Semua soal + timer</span>
       </button>
+      <button class="tile tile-dark tile-wide" id="btn-tryout-skd">
+        <span class="tile-icon">🏆</span>
+        <span class="tile-title">Tryout SKD Resmi</span>
+        <span class="tile-sub">110 soal • 100 menit • format CAT BKN: TWK 30, TIU 35, TKP 45</span>
+      </button>
+      <button class="tile" id="btn-wrong">
+        <span class="tile-icon">🔁</span>
+        <span class="tile-title">Ulangi yang Salah</span>
+        <span class="tile-sub" id="wrong-sub">0 soal perlu diulang</span>
+      </button>
       <button class="tile" id="btn-stats">
         <span class="tile-icon">📊</span>
         <span class="tile-title">Statistik</span>
@@ -122,6 +135,7 @@
       <div id="result-detail"></div>
     </div>
     <button class="btn btn-primary btn-block" id="btn-explanation">🔓 Buka Pembahasan Lengkap + Trik Cepat</button>
+    <button class="btn btn-dark btn-block" id="btn-share">📤 Bagikan Hasil</button>
     <p class="muted small" id="explanation-note">Di aplikasi Android, pembahasan dibuka dengan iklan rewarded. Di web, pembahasan dibuka gratis selama masa awal (slot iklan web menunggu persetujuan AdSense).</p>
     <button class="btn btn-outline btn-block" id="btn-again">Latihan Lagi</button>
     <button class="btn btn-ghost btn-block" data-home>Kembali ke Beranda</button>

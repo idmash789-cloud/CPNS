@@ -86,6 +86,26 @@ th{background:#f0f4ff}
 .tile-primary .tile-title{font-size:19px}
 .tile-dark{background:var(--ink);border-color:var(--ink);color:#fff}
 .tile-dark .tile-sub{color:#aeb9cc}
+.topbar-actions{display:flex;gap:8px;align-items:center}
+.tile-wide{grid-column:span 2}
+
+/* ===== Mode gelap ===== */
+body.dark{--bg:#0d1420;--card:#162136;--ink:#e9effc;--muted:#97a6c4;--line:#2b3a58}
+body.dark .topbar{background:#121c30}
+body.dark .q-card,body.dark .exp-card,body.dark .tile,body.dark .status-item,body.dark .opt{background:#162136;color:var(--ink)}
+body.dark .opt.selected{background:#1d3157}
+body.dark .opt.correct{background:#123528}
+body.dark .opt.wrongpick{background:#3d1d22}
+body.dark .count-chip{background:#162136;color:var(--ink)}
+body.dark .count-chip.active{background:var(--blue);color:#fff}
+body.dark .native-slot{background:#131e33}
+body.dark .trick{background:#2c2712;border-color:#5a4d1f;color:#f2e3ac}
+body.dark .ad-slot{background:#131e33;color:#71809c}
+body.dark th{background:#1b2a47}
+body.dark .stat{background:#1b2a47}
+body.dark .pg-bar{background:#22314f}
+body.dark .btn-outline{background:transparent}
+
 details.seo summary{cursor:pointer;list-style:none}
 details.seo summary::-webkit-details-marker{display:none}
 details.seo .summary-title{display:inline;font-size:15.5px}
