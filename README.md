@@ -21,6 +21,20 @@ Model monetisasi: AdMob (banner, native, interstitial, rewarded).
 
 Semua penempatan dikontrol `AdConfig` (Remote Config-ready) supaya frekuensi bisa diubah tanpa update aplikasi.
 
+## Versi Web (PWA) — folder `docs/`
+Versi web penuh dari aplikasi yang sama (PWA: bisa di-install ke homescreen, jalan offline):
+`docs/index.html` + `style.css` + `app.js` + `manifest.webmanifest` + `sw.js`, membaca bank soal
+`docs/questions.json` (salinan dari `app/src/main/assets/questions/sample_questions.json` —
+sumber kebenaran tetap file Android; salinan web diperbarui tiap rilis).
+
+**Aktivasi GitHub Pages (langkah pemilik repo, sekali saja):**
+Settings → Pages → Build and deployment → Source: *Deploy from a branch* → Branch: `main`, folder: `/docs` → Save.
+Situs live di `https://idmash789-cloud.github.io/CPNS/` (domain khusus bisa dipasang belakangan).
+
+Perbedaan monetisasi web: **bukan AdMob** (khusus aplikasi) melainkan **AdSense** — slot iklan di web
+saat ini berupa placeholder berlabel "Ruang Iklan" yang diganti kode AdSense setelah disetujui.
+Fungsi web: menangkap pencarian Google ("latihan soal CPNS" dll) + corong install aplikasi Android.
+
 ## Teknologi
 - Kotlin + Jetpack Compose (native Android, dibuka langsung di Android Studio)
 - Google Mobile Ads SDK (AdMob) — selama development SELALU pakai ad unit TEST Google

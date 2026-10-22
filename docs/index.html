@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SiapSKD — Latihan Soal CPNS Gratis: TWK TIU TKP &amp; Tryout SKD</title>
+<meta name="description" content="Latihan soal CPNS gratis setiap hari: sesi 5 soal TWK, TIU, TKP dengan pembahasan dan trik cepat, meter passing grade SKD, streak harian, dan tryout. Fokus lolos passing grade!">
+<meta name="theme-color" content="#0B5FFF">
+<meta property="og:title" content="SiapSKD — Latihan Soal CPNS Gratis">
+<meta property="og:description" content="5 soal per sesi, pembahasan + trik cepat, meter passing grade SKD. Latihan TWK TIU TKP setiap hari.">
+<meta property="og:type" content="website">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="./icons/icon.svg">
+<link rel="apple-touch-icon" href="./icons/icon.svg">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <img src="./icons/icon.svg" alt="Logo SiapSKD" class="logo">
+    <div>
+      <strong>SiapSKD</strong>
+      <span>Latihan Soal CPNS Harian</span>
+    </div>
+  </div>
+  <button id="btn-install" class="btn btn-small btn-outline" hidden>📲 Install App</button>
+</header>
+
+<!-- Slot iklan web (AdSense display) — placeholder sampai AdSense disetujui -->
+<div class="ad-slot ad-slot-top" data-ad-format="display" aria-hidden="true">
+  <span>Ruang Iklan</span>
+</div>
+
+<main id="app">
+
+  <!-- ============ HOME ============ -->
+  <section id="screen-home" class="screen">
+    <div class="hero card">
+      <h1>Latihan Soal CPNS Gratis — Fokus Lolos Passing Grade SKD</h1>
+      <p>Sesi pendek <strong>5 soal</strong> per latihan, lengkap dengan pembahasan dan trik cepat. Kerjakan setiap hari, jaga streak-mu, dan pantau estimasi skor SKD-mu.</p>
+      <div class="streak-row">
+        <div class="stat"><span id="stat-streak">0</span><label>🔥 Hari streak</label></div>
+        <div class="stat"><span id="stat-sessions">0</span><label>Sesi selesai</label></div>
+        <div class="stat"><span id="stat-questions">0</span><label>Soal dikerjakan</label></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Meter Passing Grade Terakhir</h2>
+      <p class="muted">Passing grade SKD (KepmenPANRB 321/2024): TWK ≥ 65 • TIU ≥ 80 • TKP ≥ 166 — harus lolos ketiganya sekaligus.</p>
+      <div id="pg-meter"><p class="muted">Belum ada data. Selesaikan 1 sesi untuk melihat estimasi skormu.</p></div>
+    </div>
+
+    <div class="card">
+      <h2>Mulai Latihan</h2>
+      <button class="btn btn-primary btn-block" data-start="CAMPURAN">▶ Latihan Hari Ini — 5 Soal Campuran</button>
+      <div class="btn-row">
+        <button class="btn btn-outline" data-start="TWK">TWK</button>
+        <button class="btn btn-outline" data-start="TIU">TIU</button>
+        <button class="btn btn-outline" data-start="TKP">TKP</button>
+      </div>
+      <button class="btn btn-dark btn-block" id="btn-tryout">⏱ Tryout Mini — Semua Soal + Timer</button>
+      <button class="btn btn-ghost btn-block" id="btn-stats">📊 Lihat Statistik Saya</button>
+    </div>
+  </section>
+
+  <!-- ============ SESI ============ -->
+  <section id="screen-session" class="screen" hidden>
+    <div class="session-head">
+      <h2 id="session-title">Sesi Latihan</h2>
+      <span id="session-timer" class="timer" hidden>00:00</span>
+    </div>
+    <p class="muted" id="session-progress">Jawab semua soal, lalu ketuk Selesai.</p>
+    <div id="question-list"></div>
+    <button class="btn btn-primary btn-block" id="btn-finish" disabled>Selesai &amp; Lihat Skor</button>
+    <button class="btn btn-ghost btn-block" id="btn-quit">Batalkan Sesi</button>
+  </section>
+
+  <!-- ============ HASIL ============ -->
+  <section id="screen-result" class="screen" hidden>
+    <div class="card">
+      <h2>Hasil Sesi</h2>
+      <p class="big-score" id="result-score">0 / 0</p>
+      <div id="result-detail"></div>
+    </div>
+    <button class="btn btn-primary btn-block" id="btn-explanation">🔓 Buka Pembahasan Lengkap + Trik Cepat</button>
+    <p class="muted small" id="explanation-note">Di aplikasi Android, pembahasan dibuka dengan iklan rewarded. Di web, pembahasan dibuka gratis selama masa awal (slot iklan web menunggu persetujuan AdSense).</p>
+    <button class="btn btn-outline btn-block" id="btn-again">Latihan Lagi</button>
+    <button class="btn btn-ghost btn-block" data-home>Kembali ke Beranda</button>
+  </section>
+
+  <!-- ============ PEMBAHASAN ============ -->
+  <section id="screen-explanation" class="screen" hidden>
+    <h2>Pembahasan Lengkap</h2>
+    <div id="explanation-list"></div>
+    <button class="btn btn-primary btn-block" data-home>Selesai — Kembali ke Beranda</button>
+  </section>
+
+  <!-- ============ STATISTIK ============ -->
+  <section id="screen-stats" class="screen" hidden>
+    <h2>Statistik Saya</h2>
+    <div class="card" id="stats-body"><p class="muted">Belum ada data.</p></div>
+    <button class="btn btn-outline btn-block" id="btn-reset">Hapus Semua Data Latihan</button>
+    <button class="btn btn-ghost btn-block" data-home>Kembali ke Beranda</button>
+  </section>
+
+  <!-- ============ KONTEN SEO ============ -->
+  <section class="card seo">
+    <h2>Tentang SKD CPNS</h2>
+    <p>Seleksi Kompetensi Dasar (SKD) CPNS dikerjakan dengan sistem CAT BKN: <strong>110 soal dalam 100 menit</strong>, terdiri dari Tes Wawasan Kebangsaan (TWK) 30 soal, Tes Intelegensi Umum (TIU) 35 soal, dan Tes Karakteristik Pribadi (TKP) 45 soal. Nilai maksimal total 550.</p>
+    <table>
+      <tr><th>Subtes</th><th>Jumlah Soal</th><th>Nilai Maks</th><th>Passing Grade</th></tr>
+      <tr><td>TWK</td><td>30</td><td>150</td><td>65</td></tr>
+      <tr><td>TIU</td><td>35</td><td>175</td><td>80</td></tr>
+      <tr><td>TKP</td><td>45</td><td>225</td><td>166</td></tr>
+    </table>
+    <p>Pada TWK dan TIU, jawaban benar bernilai 5 dan salah/kosong bernilai 0. Pada TKP tidak ada jawaban salah mutlak — setiap pilihan bernilai gradasi 1 sampai 5. Karena kelulusan ditentukan oleh terpenuhinya passing grade <em>ketiga</em> subtes sekaligus, latihan harus seimbang: jangan hanya kuat di satu subtes.</p>
+    <h3>Cara latihan yang efektif di SiapSKD</h3>
+    <p>Kerjakan 1 sesi campuran setiap hari untuk menjaga ritme, lalu gunakan sesi per subtes untuk mengejar subtes terlemahmu yang ditandai "BAHAYA" pada meter passing grade. Baca pembahasan dan trik cepat setelah setiap sesi — di situlah pola soal terbentuk. Akhiri pekan dengan Tryout Mini bertimer untuk melatih kecepatan (±55 detik per soal, sama seperti ujian asli).</p>
+    <h3>Apakah SiapSKD gratis?</h3>
+    <p>Ya. SiapSKD didukung iklan agar tetap gratis untuk semua pejuang CPNS, termasuk versi aplikasi Android yang sedang disiapkan dengan latihan harian, pengingat streak, dan tryout full CAT 110 soal.</p>
+  </section>
+
+</main>
+
+<!-- Slot iklan web bawah (sticky display) — placeholder sampai AdSense disetujui -->
+<div class="ad-slot ad-slot-bottom" data-ad-format="display" aria-hidden="true">
+  <span>Ruang Iklan</span>
+</div>
+
+<footer class="footer">
+  <p>SiapSKD — Latihan Soal CPNS Harian • Soal-soal di situs ini adalah soal latihan original untuk persiapan SKD, bukan soal resmi BKN.</p>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
