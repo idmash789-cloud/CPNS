@@ -63,3 +63,28 @@ th{background:#f0f4ff}
 .trick{background:#fff8e1;border:1px solid #f1df9e;border-radius:10px;padding:9px 11px;margin-top:8px;font-size:14px}
 .footer{max-width:720px;margin:0 auto;padding:6px 14px 20px;color:var(--muted);font-size:12.5px;text-align:center}
 .screen[hidden]{display:none}
+
+/* ===== Home profesional: ringkas, kotak tombol ===== */
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.status-strip{display:flex;gap:10px;margin-bottom:14px}
+.status-item{flex:1;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:10px 6px;text-align:center;box-shadow:0 1px 3px rgba(23,35,59,.05)}
+.status-item span{display:block;font-size:20px;font-weight:800}
+.status-item label{font-size:11.5px;color:var(--muted)}
+.card-compact{padding:14px 16px}
+.card-compact h2{margin:0;font-size:15.5px}
+.row-between{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+.menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+.tile{appearance:none;display:flex;flex-direction:column;align-items:flex-start;gap:3px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;cursor:pointer;text-align:left;box-shadow:0 2px 6px rgba(23,35,59,.06);transition:transform .08s ease, box-shadow .08s ease;color:var(--ink)}
+.tile:active{transform:scale(.975);box-shadow:0 1px 3px rgba(23,35,59,.08)}
+.tile-icon{font-size:26px;line-height:1;margin-bottom:5px}
+.tile-title{font-size:16.5px;font-weight:800}
+.tile-sub{font-size:12.5px;color:var(--muted)}
+.tile-primary{grid-column:span 2;background:linear-gradient(135deg,var(--blue),#3d8bff);border-color:var(--blue);color:#fff}
+.tile-primary .tile-sub{color:#dbe8ff}
+.tile-primary .tile-title{font-size:19px}
+.tile-dark{background:var(--ink);border-color:var(--ink);color:#fff}
+.tile-dark .tile-sub{color:#aeb9cc}
+details.seo summary{cursor:pointer;list-style:none}
+details.seo summary::-webkit-details-marker{display:none}
+details.seo .summary-title{display:inline;font-size:15.5px}
+details.seo summary::after{content:"▾";float:right;color:var(--muted);font-weight:700}

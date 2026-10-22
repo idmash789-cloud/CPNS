@@ -27,51 +27,78 @@
   <button id="btn-install" class="btn btn-small btn-outline" hidden>📲 Install App</button>
 </header>
 
-<!-- Slot iklan web (AdSense display) — placeholder sampai AdSense disetujui -->
-<div class="ad-slot ad-slot-top" data-ad-format="display" aria-hidden="true">
-  <span>Ruang Iklan</span>
-</div>
-
 <main id="app">
 
   <!-- ============ HOME ============ -->
   <section id="screen-home" class="screen">
-    <div class="hero card">
-      <h1>Latihan Soal CPNS Gratis — Fokus Lolos Passing Grade SKD</h1>
-      <p>Pilih sendiri targetmu — <strong>5 sampai 30 soal</strong> per hari, ditampilkan per 5 soal dalam satu layar. Lengkap dengan pembahasan dan trik cepat. Kerjakan setiap hari, jaga streak-mu, dan pantau estimasi skor SKD-mu.</p>
-      <div class="streak-row">
-        <div class="stat"><span id="stat-streak">0</span><label>🔥 Hari streak</label></div>
-        <div class="stat"><span id="stat-sessions">0</span><label>Sesi selesai</label></div>
-        <div class="stat"><span id="stat-questions">0</span><label>Soal dikerjakan</label></div>
+    <h1 class="sr-only">SiapSKD — Latihan Soal CPNS Gratis: TWK TIU TKP &amp; Tryout SKD</h1>
+
+    <div class="status-strip">
+      <div class="status-item"><span id="stat-streak">0</span><label>🔥 Streak</label></div>
+      <div class="status-item"><span id="stat-sessions">0</span><label>Sesi</label></div>
+      <div class="status-item"><span id="stat-questions">0</span><label>Soal</label></div>
+    </div>
+
+    <div class="card card-compact">
+      <div class="row-between">
+        <h2>Target Hari Ini</h2>
+        <span class="muted small">per 5 soal / layar</span>
       </div>
-    </div>
-
-    <div class="card">
-      <h2>Meter Passing Grade Terakhir</h2>
-      <p class="muted">Passing grade SKD (KepmenPANRB 321/2024): TWK ≥ 65 • TIU ≥ 80 • TKP ≥ 166 — harus lolos ketiganya sekaligus.</p>
-      <div id="pg-meter"><p class="muted">Belum ada data. Selesaikan 1 sesi untuk melihat estimasi skormu.</p></div>
-    </div>
-
-    <div class="card">
-      <h2>Mulai Latihan</h2>
-      <p class="muted">Mau belajar berapa soal hari ini? Soal ditampilkan <strong>per 5 soal dalam satu layar</strong> — selesai satu bagian, ketuk <strong>Lanjut</strong> untuk 5 soal berikutnya.</p>
       <div class="count-picker" id="count-picker" role="group" aria-label="Pilih jumlah soal">
-        <button class="count-chip" data-count="5">5 soal</button>
-        <button class="count-chip" data-count="10">10 soal</button>
-        <button class="count-chip" data-count="15">15 soal</button>
-        <button class="count-chip" data-count="20">20 soal</button>
-        <button class="count-chip" data-count="25">25 soal</button>
-        <button class="count-chip" data-count="30">30 soal</button>
+        <button class="count-chip" data-count="5">5</button>
+        <button class="count-chip" data-count="10">10</button>
+        <button class="count-chip" data-count="15">15</button>
+        <button class="count-chip" data-count="20">20</button>
+        <button class="count-chip" data-count="25">25</button>
+        <button class="count-chip" data-count="30">30</button>
       </div>
       <p class="muted small" id="count-note"></p>
-      <button class="btn btn-primary btn-block" data-start="CAMPURAN">▶ Latihan Hari Ini — Soal Campuran</button>
-      <div class="btn-row">
-        <button class="btn btn-outline" data-start="TWK">TWK</button>
-        <button class="btn btn-outline" data-start="TIU">TIU</button>
-        <button class="btn btn-outline" data-start="TKP">TKP</button>
+    </div>
+
+    <nav class="menu-grid" aria-label="Menu latihan">
+      <button class="tile tile-primary" data-start="CAMPURAN">
+        <span class="tile-icon">▶️</span>
+        <span class="tile-title">Latihan Campuran</span>
+        <span class="tile-sub">TWK • TIU • TKP</span>
+      </button>
+      <button class="tile" data-start="TWK">
+        <span class="tile-icon">🏛️</span>
+        <span class="tile-title">TWK</span>
+        <span class="tile-sub">Wawasan Kebangsaan</span>
+      </button>
+      <button class="tile" data-start="TIU">
+        <span class="tile-icon">🧮</span>
+        <span class="tile-title">TIU</span>
+        <span class="tile-sub">Intelegensi Umum</span>
+      </button>
+      <button class="tile" data-start="TKP">
+        <span class="tile-icon">🤝</span>
+        <span class="tile-title">TKP</span>
+        <span class="tile-sub">Karakteristik Pribadi</span>
+      </button>
+      <button class="tile tile-dark" id="btn-tryout">
+        <span class="tile-icon">⏱️</span>
+        <span class="tile-title">Tryout Mini</span>
+        <span class="tile-sub">Semua soal + timer</span>
+      </button>
+      <button class="tile" id="btn-stats">
+        <span class="tile-icon">📊</span>
+        <span class="tile-title">Statistik</span>
+        <span class="tile-sub">Riwayat &amp; progres</span>
+      </button>
+      <button class="tile" id="btn-about">
+        <span class="tile-icon">ℹ️</span>
+        <span class="tile-title">Panduan SKD</span>
+        <span class="tile-sub">Passing grade &amp; tips</span>
+      </button>
+    </nav>
+
+    <div class="card card-compact">
+      <div class="row-between">
+        <h2>Passing Grade</h2>
+        <span class="muted small">TWK 65 • TIU 80 • TKP 166</span>
       </div>
-      <button class="btn btn-dark btn-block" id="btn-tryout">⏱ Tryout Mini — Semua Soal + Timer</button>
-      <button class="btn btn-ghost btn-block" id="btn-stats">📊 Lihat Statistik Saya</button>
+      <div id="pg-meter"><p class="muted">Belum ada data — selesaikan 1 sesi.</p></div>
     </div>
   </section>
 
@@ -115,8 +142,9 @@
     <button class="btn btn-ghost btn-block" data-home>Kembali ke Beranda</button>
   </section>
 
-  <!-- ============ KONTEN SEO ============ -->
-  <section class="card seo">
+  <!-- ============ KONTEN SEO (tersimpan rapi dalam Panduan SKD) ============ -->
+  <details class="card seo" id="about-section">
+    <summary><h2 class="summary-title">Panduan SKD CPNS — Passing Grade &amp; Cara Latihan</h2></summary>
     <h2>Tentang SKD CPNS</h2>
     <p>Seleksi Kompetensi Dasar (SKD) CPNS dikerjakan dengan sistem CAT BKN: <strong>110 soal dalam 100 menit</strong>, terdiri dari Tes Wawasan Kebangsaan (TWK) 30 soal, Tes Intelegensi Umum (TIU) 35 soal, dan Tes Karakteristik Pribadi (TKP) 45 soal. Nilai maksimal total 550.</p>
     <table>
@@ -130,7 +158,7 @@
     <p>Kerjakan 1 sesi campuran setiap hari untuk menjaga ritme, lalu gunakan sesi per subtes untuk mengejar subtes terlemahmu yang ditandai "BAHAYA" pada meter passing grade. Baca pembahasan dan trik cepat setelah setiap sesi — di situlah pola soal terbentuk. Akhiri pekan dengan Tryout Mini bertimer untuk melatih kecepatan (±55 detik per soal, sama seperti ujian asli).</p>
     <h3>Apakah SiapSKD gratis?</h3>
     <p>Ya. SiapSKD didukung iklan agar tetap gratis untuk semua pejuang CPNS, termasuk versi aplikasi Android yang sedang disiapkan dengan latihan harian, pengingat streak, dan tryout full CAT 110 soal.</p>
-  </section>
+  </details>
 
 </main>
 

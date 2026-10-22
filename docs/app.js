@@ -107,7 +107,7 @@ function renderCountPicker() {
   const total = poolSizeFor('CAMPURAN');
   $('count-note').textContent = chosenCount > total && total > 0
     ? `Bank soal saat ini berisi ${total} soal contoh — sesi akan memakai ${total} soal unik yang tersedia. Pilihan ${chosenCount} soal berlaku penuh setelah bank soal lengkap (600 soal) masuk.`
-    : `Pilihanmu tersimpan otomatis untuk sesi berikutnya.`;
+    : '';
 }
 
 /* ---------- sesi ---------- */
@@ -336,6 +336,11 @@ document.querySelectorAll('.count-chip').forEach((chip) => chip.addEventListener
   renderCountPicker();
 }));
 $('btn-tryout').addEventListener('click', () => startSession('TRYOUT'));
+$('btn-about').addEventListener('click', () => {
+  const about = $('about-section');
+  about.open = true;
+  about.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
 $('btn-stats').addEventListener('click', () => { renderStats(); show('stats'); });
 $('btn-finish').addEventListener('click', onFinishButton);
 $('btn-quit').addEventListener('click', () => { stopTimer(); renderHome(); show('home'); });

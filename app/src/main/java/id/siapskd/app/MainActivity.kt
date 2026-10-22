@@ -14,9 +14,13 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.GridItemSpan
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -164,43 +168,97 @@ private fun HomeScreen(
     onCountChange: (Int) -> Unit,
     onStart: (String) -> Unit
 ) {
+    // Home profesional & ringkas: pemilih target + kotak tombol (grid menu), minim teks.
+    Column(modifier = Modifier.fillMaxSize()) {
     Text("SiapSKD", style = MaterialTheme.typography.headlineMedium)
-    Text("Latihan soal CPNS harian — fokus lolos passing grade SKD.")
-    Spacer(Modifier.height(16.dp))
+    Spacer(Modifier.height(12.dp))
 
-    Text("Mau belajar berapa soal hari ini?", style = MaterialTheme.typography.titleMedium)
-    Text(
-        "Soal ditampilkan per ${AdConfig.BATCH_SIZE} soal dalam satu layar — selesai satu bagian, ketuk Lanjut.",
-        style = MaterialTheme.typography.bodySmall
-    )
-    FlowRow(
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp),
-        modifier = Modifier.padding(vertical = 8.dp)
+    Card(modifier = Modifier.fillMaxWidth()) {
+        Column(modifier = Modifier.padding(14.dp)) {
+            Row(
+                horizontalArrangement = Arrangement.SpaceBetween,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text("Target Hari Ini", style = MaterialTheme.typography.titleMedium)
+                Text("per ${AdConfig.BATCH_SIZE} soal / layar", style = MaterialTheme.typography.bodySmall)
+            }
+            FlowRow(
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+                modifier = Modifier.padding(top = 8.dp)
+            ) {
+                AdConfig.COUNT_OPTIONS.forEach { count ->
+                    FilterChip(
+                        selected = selectedCount == count,
+                        onClick = { onCountChange(count) },
+                        label = { Text("$count") }
+                    )
+                }
+            }
+        }
+    }
+    Spacer(Modifier.height(14.dp))
+
+    LazyVerticalGrid(
+        columns = GridCells.Fixed(2),
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+        modifier = Modifier.weight(1f)
     ) {
-        AdConfig.COUNT_OPTIONS.forEach { count ->
-            FilterChip(
-                selected = selectedCount == count,
-                onClick = { onCountChange(count) },
-                label = { Text("$count soal") }
+        item(span = { GridItemSpan(2) }) {
+            MenuTile(
+                icon = "▶️",
+                title = "Latihan Campuran",
+                subtitle = "TWK • TIU • TKP — $selectedCount soal",
+                primary = true,
+                onClick = { onStart("CAMPURAN") }
             )
         }
-    }
-
-    Button(onClick = { onStart("CAMPURAN") }, modifier = Modifier.fillMaxWidth()) {
-        Text("Mulai Latihan Hari Ini ($selectedCount soal campuran)")
-    }
-    Spacer(Modifier.height(8.dp))
-    listOf("TWK", "TIU", "TKP").forEach { sub ->
-        OutlinedButton(onClick = { onStart(sub) }, modifier = Modifier.fillMaxWidth()) {
-            Text("Latihan $sub saja ($selectedCount soal)")
+        item {
+            MenuTile(icon = "🏛️", title = "TWK", subtitle = "Wawasan Kebangsaan", onClick = { onStart("TWK") })
         }
-        Spacer(Modifier.height(8.dp))
+        item {
+            MenuTile(icon = "🧮", title = "TIU", subtitle = "Intelegensi Umum", onClick = { onStart("TIU") })
+        }
+        item {
+            MenuTile(icon = "🤝", title = "TKP", subtitle = "Karakteristik Pribadi", onClick = { onStart("TKP") })
+        }
+        item(span = { GridItemSpan(2) }) {
+            Card(modifier = Modifier.fillMaxWidth()) {
+                Text(
+                    "Passing Grade — TWK 65 • TIU 80 • TKP 166",
+                    style = MaterialTheme.typography.bodyMedium,
+                    modifier = Modifier.padding(14.dp)
+                )
+            }
+        }
     }
-    Text(
-        "Passing grade: TWK ≥ 65 • TIU ≥ 80 • TKP ≥ 166 (maks 550)",
-        style = MaterialTheme.typography.bodySmall
-    )
+    }
+}
+
+@Composable
+private fun MenuTile(
+    icon: String,
+    title: String,
+    subtitle: String,
+    primary: Boolean = false,
+    onClick: () -> Unit
+) {
+    Card(
+        onClick = onClick,
+        modifier = Modifier.fillMaxWidth(),
+        colors = if (primary) CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.primary,
+            contentColor = MaterialTheme.colorScheme.onPrimary
+        ) else CardDefaults.cardColors()
+    ) {
+        Column(modifier = Modifier.padding(16.dp)) {
+            Text(icon, style = MaterialTheme.typography.headlineSmall)
+            Spacer(Modifier.height(6.dp))
+            Text(title, style = MaterialTheme.typography.titleMedium)
+            Text(subtitle, style = MaterialTheme.typography.bodySmall)
+        }
+    }
 }
 
 @Composable
