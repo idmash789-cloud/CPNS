@@ -38,7 +38,7 @@
   <section id="screen-home" class="screen">
     <div class="hero card">
       <h1>Latihan Soal CPNS Gratis — Fokus Lolos Passing Grade SKD</h1>
-      <p>Sesi pendek <strong>5 soal</strong> per latihan, lengkap dengan pembahasan dan trik cepat. Kerjakan setiap hari, jaga streak-mu, dan pantau estimasi skor SKD-mu.</p>
+      <p>Pilih sendiri targetmu — <strong>5 sampai 30 soal</strong> per hari, ditampilkan per 5 soal dalam satu layar. Lengkap dengan pembahasan dan trik cepat. Kerjakan setiap hari, jaga streak-mu, dan pantau estimasi skor SKD-mu.</p>
       <div class="streak-row">
         <div class="stat"><span id="stat-streak">0</span><label>🔥 Hari streak</label></div>
         <div class="stat"><span id="stat-sessions">0</span><label>Sesi selesai</label></div>
@@ -54,7 +54,17 @@
 
     <div class="card">
       <h2>Mulai Latihan</h2>
-      <button class="btn btn-primary btn-block" data-start="CAMPURAN">▶ Latihan Hari Ini — 5 Soal Campuran</button>
+      <p class="muted">Mau belajar berapa soal hari ini? Soal ditampilkan <strong>per 5 soal dalam satu layar</strong> — selesai satu bagian, ketuk <strong>Lanjut</strong> untuk 5 soal berikutnya.</p>
+      <div class="count-picker" id="count-picker" role="group" aria-label="Pilih jumlah soal">
+        <button class="count-chip" data-count="5">5 soal</button>
+        <button class="count-chip" data-count="10">10 soal</button>
+        <button class="count-chip" data-count="15">15 soal</button>
+        <button class="count-chip" data-count="20">20 soal</button>
+        <button class="count-chip" data-count="25">25 soal</button>
+        <button class="count-chip" data-count="30">30 soal</button>
+      </div>
+      <p class="muted small" id="count-note"></p>
+      <button class="btn btn-primary btn-block" data-start="CAMPURAN">▶ Latihan Hari Ini — Soal Campuran</button>
       <div class="btn-row">
         <button class="btn btn-outline" data-start="TWK">TWK</button>
         <button class="btn btn-outline" data-start="TIU">TIU</button>

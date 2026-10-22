@@ -16,7 +16,7 @@ Pagar keamanan (dari kebijakan resmi AdMob — wajib, bukan opsional):
 
 ## Interstitial
 - Google melarang interstitial setelah SETIAP aksi pengguna, di tombol Back, saat aplikasi dibuka/ditutup, dan berurutan tanpa jeda. Aturan praktis Google: maks 1 interstitial setelah setiap 2 aksi pengguna.
-- Desain kita: 1x setelah pengguna MENYELESAIKAN sesi 5 soal (itu rangkaian banyak aksi, bukan 1 klik) dan SEBELUM halaman hasil tampil, didahului layar transisi singkat ("Menghitung skor…") agar tidak ada klik sisa yang mengenai iklan.
+- Struktur sesi (diperbarui 22 Okt): pengguna memilih total soal 5/10/15/20/25/30, ditampilkan per bagian 5 soal. Titik interstitial = jeda antar-bagian (setelah pengguna menyelesaikan 5 soal dan mengetuk "Lanjut" — itu rangkaian banyak aksi, bukan 1 klik) dan setelah bagian terakhir SEBELUM halaman hasil, didahului layar transisi singkat ("Menghitung skor…") agar tidak ada klik sisa yang mengenai iklan.
 - Pagar tambahan: jeda minimum antar-interstitial 180 detik (Remote Config). Pengguna yang menyelesaikan sesi ke-2 dalam <180 detik tidak melihat interstitial lagi.
 - Tidak ada interstitial di dalam Tryout Full CAT (simulasi harus bersih seperti ujian asli; banner tetap tampil sesuai keputusan, native & interstitial nonaktif selama tryout).
 

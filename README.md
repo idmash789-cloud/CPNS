@@ -6,7 +6,7 @@ Model monetisasi: AdMob (banner, native, interstitial, rewarded).
 > Nama "SiapSKD" adalah nama kerja (working title). Nama rilis di Play Store bisa diganti sebelum publish.
 
 ## Konsep inti
-- **Sesi latihan = 5 soal** (scroll vertikal), selesai ±5 menit.
+- **Pilihan soal harian 5/10/15/20/25/30**, ditampilkan **per bagian 5 soal dalam satu layar** (scroll vertikal) + tombol "Lanjut" antar-bagian; jeda antar-bagian = titik interstitial (pagar 180 detik).
 - Skor per subtes + meter passing grade (TWK ≥65, TIU ≥80, TKP ≥166 — KepmenPANRB 321/2024).
 - Pembahasan lengkap + trik cepat dibuka dengan rewarded ads (1 iklan membuka 1 paket sesi = 5 pembahasan).
 - Tryout mingguan 55 soal & Tryout Full CAT 110 soal / 100 menit.

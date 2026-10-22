@@ -2,7 +2,7 @@
 
 ## Layar
 1. **Home** — streak harian, meter passing grade terakhir, tombol "Latihan Hari Ini", menu per subtes (TWK/TIU/TKP), Tryout.
-2. **Sesi Latihan** — 5 soal dalam 1 daftar scroll vertikal; kartu native setelah soal ke-2; tombol "Selesai & Lihat Skor" di akhir daftar; banner tetap di bawah.
+2. **Sesi Latihan** — pengguna memilih jumlah soal harian: **5 / 10 / 15 / 20 / 25 / 30** (keputusan Dwi, 22 Okt 2026). Soal ditampilkan **per bagian: 5 soal dalam 1 layar** scroll vertikal; kartu native setelah soal ke-2 setiap bagian; di akhir bagian ada tombol **"Lanjut — 5 Soal Berikutnya"**, di bagian terakhir tombol "Selesai & Lihat Skor"; banner tetap di bawah. Jeda antar-bagian adalah titik interstitial (pagar jeda 180 detik tetap berlaku). Jika bank soal yang tersedia lebih sedikit dari pilihan, sesi memakai soal unik yang ada dan menampilkannya secara jujur kepada pengguna.
 3. **Transisi skor** — layar "Menghitung skor…" ±1,2 detik → interstitial (jika lolos pagar frekuensi) → Hasil.
 4. **Hasil Sesi** — skor per subtes, kunci jawaban gratis, tombol rewarded "Buka Pembahasan Lengkap".
 5. **Pembahasan** — per soal: pembahasan 3–5 kalimat + kotak "Trik Cepat".

@@ -27,6 +27,9 @@ p{line-height:1.55;margin:0 0 10px}
 .btn-small{padding:8px 10px;font-size:13px}
 .btn-block{display:block;width:100%;margin:8px 0}
 .btn-row{display:flex;gap:8px}.btn-row .btn{flex:1}
+.count-picker{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px}
+.count-chip{appearance:none;border:1.5px solid var(--line);background:#fff;border-radius:99px;padding:9px 16px;font-size:14.5px;font-weight:700;cursor:pointer;color:var(--ink)}
+.count-chip.active{border-color:var(--blue);background:var(--blue);color:#fff}
 .streak-row{display:flex;gap:10px;margin-top:12px}
 .stat{flex:1;background:#f0f4ff;border-radius:11px;padding:10px;text-align:center}
 .stat span{display:block;font-size:20px;font-weight:800}

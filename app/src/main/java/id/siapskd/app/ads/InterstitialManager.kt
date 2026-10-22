@@ -11,8 +11,10 @@ import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 
 /**
  * Interstitial SiapSKD — hanya tampil:
- *  1. Setelah pengguna MENYELESAIKAN satu sesi (5 soal), sebelum halaman hasil.
- *  2. Jika jeda sejak interstitial terakhir >= AdConfig.INTERSTITIAL_MIN_INTERVAL_MS.
+ *  1. Di jeda antar-bagian (pengguna mengetuk "Lanjut" setelah menyelesaikan 5 soal)
+ *     dan setelah bagian terakhir, sebelum halaman hasil.
+ *  2. Jika jeda sejak interstitial terakhir >= AdConfig.INTERSTITIAL_MIN_INTERVAL_MS
+ *     (pagar ini yang membatasi frekuensi nyata meski sesi panjang punya banyak jeda).
  * Tidak pernah: saat app dibuka/ditutup, di tombol Back, atau berurutan.
  */
 object InterstitialManager {

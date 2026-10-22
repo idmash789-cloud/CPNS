@@ -5,17 +5,22 @@
    (sumber kebenaran tetap file Android; salinan web diperbarui tiap rilis). */
 'use strict';
 
-const QUESTIONS_PER_SESSION = 5;
-const NATIVE_AFTER_QUESTION = 2; // tampilkan slot native setelah soal ke-N
+const BATCH_SIZE = 5; // soal per layar — sesi panjang berjalan per bagian 5 soal + tombol Lanjut
+const COUNT_OPTIONS = [5, 10, 15, 20, 25, 30]; // pilihan jumlah soal harian (keputusan Dwi, 22 Okt 2026)
+const NATIVE_AFTER_QUESTION = 2; // tampilkan slot native setelah soal ke-N dalam satu bagian
 const SECONDS_PER_QUESTION = 55; // ritme ujian asli: 110 soal / 100 menit
 const PASSING_GRADE = { TWK: 65, TIU: 80, TKP: 166 };
 const MAX_SCORE = { TWK: 150, TIU: 175, TKP: 225 };
-const LS = { streak: 'siapskd_streak', history: 'siapskd_history' };
+const LS = { streak: 'siapskd_streak', history: 'siapskd_history', count: 'siapskd_count' };
 
 let allQuestions = [];
 let sessionQuestions = [];
 let sessionMode = 'latihan'; // 'latihan' | 'tryout'
 let sessionSubtest = 'CAMPURAN';
+let chosenCount = parseInt(localStorage.getItem(LS.count) || '5', 10);
+if (!COUNT_OPTIONS.includes(chosenCount)) chosenCount = 5;
+let batchIndex = 0; // bagian (halaman 5 soal) yang sedang ditampilkan
+let answersMap = {}; // jawaban seluruh sesi, bertahan antar-bagian
 let timerId = null;
 let timeLeft = 0;
 
@@ -90,6 +95,21 @@ function renderHome() {
   }).join('');
 }
 
+/* ---------- pemilih jumlah soal ---------- */
+function poolSizeFor(subtest) {
+  if (subtest === 'CAMPURAN') return allQuestions.length;
+  return allQuestions.filter((q) => q.subtest === subtest).length;
+}
+function renderCountPicker() {
+  document.querySelectorAll('.count-chip').forEach((chip) => {
+    chip.classList.toggle('active', parseInt(chip.dataset.count, 10) === chosenCount);
+  });
+  const total = poolSizeFor('CAMPURAN');
+  $('count-note').textContent = chosenCount > total && total > 0
+    ? `Bank soal saat ini berisi ${total} soal contoh — sesi akan memakai ${total} soal unik yang tersedia. Pilihan ${chosenCount} soal berlaku penuh setelah bank soal lengkap (600 soal) masuk.`
+    : `Pilihanmu tersimpan otomatis untuk sesi berikutnya.`;
+}
+
 /* ---------- sesi ---------- */
 function pickSession(subtest, count) {
   if (subtest === 'TRYOUT') return shuffle(allQuestions).slice(0, allQuestions.length);
@@ -108,39 +128,63 @@ function pickSession(subtest, count) {
   return shuffle(allQuestions.filter((q) => q.subtest === subtest)).slice(0, count);
 }
 
+function batchCount() { return Math.ceil(sessionQuestions.length / BATCH_SIZE); }
+function currentBatchQuestions() {
+  if (sessionMode === 'tryout') return sessionQuestions; // tryout: semua soal satu layar + timer
+  const start = batchIndex * BATCH_SIZE;
+  return sessionQuestions.slice(start, start + BATCH_SIZE);
+}
+function isLastBatch() { return sessionMode === 'tryout' || batchIndex >= batchCount() - 1; }
+
 function startSession(subtest) {
   sessionMode = subtest === 'TRYOUT' ? 'tryout' : 'latihan';
   sessionSubtest = subtest;
-  sessionQuestions = pickSession(subtest, QUESTIONS_PER_SESSION);
+  sessionQuestions = pickSession(subtest, chosenCount);
+  batchIndex = 0;
+  answersMap = {};
   if (!sessionQuestions.length) { alert('Bank soal belum termuat. Coba muat ulang halaman.'); return; }
   $('session-title').textContent = sessionMode === 'tryout'
     ? `Tryout Mini — ${sessionQuestions.length} Soal`
-    : (subtest === 'CAMPURAN' ? 'Latihan Hari Ini — Campuran' : `Latihan ${subtest}`);
-  renderQuestions();
+    : (subtest === 'CAMPURAN' ? `Latihan Hari Ini — Campuran (${sessionQuestions.length} soal)` : `Latihan ${subtest} (${sessionQuestions.length} soal)`);
+  renderBatch();
   show('session');
   if (sessionMode === 'tryout') startTimer(sessionQuestions.length * SECONDS_PER_QUESTION);
   else { $('session-timer').hidden = true; stopTimer(); }
-  updateFinishState();
 }
 
-function renderQuestions() {
+function renderBatch() {
   const list = $('question-list');
   list.innerHTML = '';
-  sessionQuestions.forEach((q, idx) => {
+  const batchQs = currentBatchQuestions();
+  const offset = sessionMode === 'tryout' ? 0 : batchIndex * BATCH_SIZE;
+
+  if (sessionMode === 'tryout') {
+    $('session-progress').textContent = `Jawab semua ${sessionQuestions.length} soal sebelum waktu habis.`;
+  } else if (batchCount() > 1) {
+    const capped = sessionQuestions.length < chosenCount
+      ? ` (pilihan ${chosenCount} soal — bank soal contoh baru menyediakan ${sessionQuestions.length} soal unik)` : '';
+    $('session-progress').textContent =
+      `Bagian ${batchIndex + 1} dari ${batchCount()} • Soal ${offset + 1}–${offset + batchQs.length} dari ${sessionQuestions.length}${capped}. Selesaikan bagian ini, lalu ketuk Lanjut.`;
+  } else {
+    $('session-progress').textContent = 'Jawab semua soal, lalu ketuk Selesai.';
+  }
+
+  batchQs.forEach((q, idx) => {
+    const picked = answersMap[q.id];
     const card = document.createElement('div');
     card.className = 'q-card';
     card.innerHTML = `
       <div class="q-meta">${esc(q.subtest)} • ${esc(q.topic)}</div>
-      <div class="q-text">${idx + 1}. ${esc(q.question)}</div>
+      <div class="q-text">${offset + idx + 1}. ${esc(q.question)}</div>
       <div class="opts">
         ${q.options.map((o, oi) => `
-          <label class="opt" data-q="${q.id}" data-oi="${oi}">
-            <input type="radio" name="${q.id}" value="${oi}">
+          <label class="opt ${picked === oi ? 'selected' : ''}" data-q="${q.id}" data-oi="${oi}">
+            <input type="radio" name="${q.id}" value="${oi}" ${picked === oi ? 'checked' : ''}>
             <span><strong>${'ABCDE'[oi]}.</strong> ${esc(o.text)}</span>
           </label>`).join('')}
       </div>`;
     list.appendChild(card);
-    // Slot native di tengah daftar soal — di web ini slot AdSense in-article.
+    // Slot native di tengah daftar soal bagian ini — di web ini slot AdSense in-article.
     // WAJIB berlabel jelas "IKLAN" (kebijakan iklan native: dilarang menyamar sebagai konten).
     if (sessionMode === 'latihan' && idx + 1 === NATIVE_AFTER_QUESTION) {
       const ad = document.createElement('div');
@@ -152,24 +196,37 @@ function renderQuestions() {
   });
   list.querySelectorAll('input[type=radio]').forEach((input) => {
     input.addEventListener('change', () => {
+      answersMap[input.name] = parseInt(input.value, 10);
       document.querySelectorAll(`.opt[data-q="${input.name}"]`).forEach((el) => el.classList.remove('selected'));
       input.closest('.opt').classList.add('selected');
       updateFinishState();
     });
   });
+
+  // Tombol bawah: "Lanjut" antar-bagian, "Selesai" di bagian terakhir.
+  $('btn-finish').textContent = isLastBatch()
+    ? 'Selesai & Lihat Skor'
+    : `Lanjut — ${BATCH_SIZE} Soal Berikutnya »`;
+  updateFinishState();
+  window.scrollTo({ top: 0 });
 }
 
 function getAnswers() {
   const answers = {};
-  sessionQuestions.forEach((q) => {
-    const el = document.querySelector(`input[name="${q.id}"]:checked`);
-    answers[q.id] = el ? parseInt(el.value, 10) : null;
-  });
+  sessionQuestions.forEach((q) => { answers[q.id] = (answersMap[q.id] ?? null); });
   return answers;
 }
 function updateFinishState() {
-  const answers = getAnswers();
-  $('btn-finish').disabled = !sessionQuestions.every((q) => answers[q.id] !== null);
+  const batchQs = currentBatchQuestions();
+  $('btn-finish').disabled = !batchQs.every((q) => answersMap[q.id] !== null && answersMap[q.id] !== undefined);
+}
+function onFinishButton() {
+  if (!isLastBatch()) {
+    batchIndex++;
+    renderBatch();
+    return;
+  }
+  finishSession(false);
 }
 
 function startTimer(seconds) {
@@ -273,9 +330,14 @@ $('btn-install').addEventListener('click', async () => {
 
 /* ---------- wiring ---------- */
 document.querySelectorAll('[data-start]').forEach((b) => b.addEventListener('click', () => startSession(b.dataset.start)));
+document.querySelectorAll('.count-chip').forEach((chip) => chip.addEventListener('click', () => {
+  chosenCount = parseInt(chip.dataset.count, 10);
+  localStorage.setItem(LS.count, String(chosenCount));
+  renderCountPicker();
+}));
 $('btn-tryout').addEventListener('click', () => startSession('TRYOUT'));
 $('btn-stats').addEventListener('click', () => { renderStats(); show('stats'); });
-$('btn-finish').addEventListener('click', () => finishSession(false));
+$('btn-finish').addEventListener('click', onFinishButton);
 $('btn-quit').addEventListener('click', () => { stopTimer(); renderHome(); show('home'); });
 $('btn-explanation').addEventListener('click', () => { renderExplanation(); show('explanation'); });
 $('btn-again').addEventListener('click', () => startSession(sessionSubtest === 'TRYOUT' ? 'TRYOUT' : sessionSubtest));
@@ -290,7 +352,7 @@ document.querySelectorAll('[data-home]').forEach((b) => b.addEventListener('clic
 /* ---------- muat soal ---------- */
 fetch('./questions.json')
   .then((r) => r.json())
-  .then((data) => { allQuestions = data.questions || []; renderHome(); })
+  .then((data) => { allQuestions = data.questions || []; renderCountPicker(); renderHome(); })
   .catch(() => {
     $('pg-meter').innerHTML = '<p class="muted">Gagal memuat bank soal. Periksa koneksi lalu muat ulang halaman.</p>';
   });

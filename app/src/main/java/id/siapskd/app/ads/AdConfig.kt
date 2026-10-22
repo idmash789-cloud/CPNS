@@ -25,9 +25,15 @@ object AdConfig {
     /** Jeda minimum antar-interstitial: 180 detik (keputusan desain, lihat docs/ADS_DESIGN.md). */
     const val INTERSTITIAL_MIN_INTERVAL_MS: Long = 180_000L
 
-    /** Native disisipkan setelah soal ke-N dalam daftar sesi (1-based). */
+    /** Native disisipkan setelah soal ke-N dalam satu bagian (1-based). */
     const val NATIVE_AFTER_QUESTION: Int = 2
 
-    /** Jumlah soal per sesi latihan. */
-    const val QUESTIONS_PER_SESSION: Int = 5
+    /** Soal per bagian (satu layar). Sesi berjalan per bagian + tombol Lanjut. */
+    const val BATCH_SIZE: Int = 5
+
+    /** Pilihan jumlah soal harian untuk pengguna (keputusan Dwi, 22 Okt 2026). */
+    val COUNT_OPTIONS: List<Int> = listOf(5, 10, 15, 20, 25, 30)
+
+    /** Jumlah soal bawaan saat aplikasi pertama dibuka. */
+    const val DEFAULT_QUESTION_COUNT: Int = 5
 }
