@@ -1,0 +1,471 @@
+{
+  "note": "15 soal contoh ORIGINAL untuk scaffold (5 TWK, 5 TIU, 5 TKP). TWK/TIU: opsi benar score=5, salah=0. TKP: gradasi score 1-5 per opsi.",
+  "questions": [
+    {
+      "difficulty": 1,
+      "explanation": "Sila keempat berbunyi 'Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan'. Nilai utamanya adalah musyawarah mufakat dalam mengambil keputusan bersama.",
+      "id": "TWK-001",
+      "options": [
+        {
+          "score": 0,
+          "text": "Pertama"
+        },
+        {
+          "score": 0,
+          "text": "Kedua"
+        },
+        {
+          "score": 0,
+          "text": "Ketiga"
+        },
+        {
+          "score": 5,
+          "text": "Keempat"
+        },
+        {
+          "score": 0,
+          "text": "Kelima"
+        }
+      ],
+      "question": "Pengambilan keputusan melalui musyawarah untuk mencapai mufakat merupakan pengamalan Pancasila, sila ke-...",
+      "subtest": "TWK",
+      "topic": "Pancasila",
+      "trick": "Kata kunci 'musyawarah' selalu mengarah ke sila ke-4."
+    },
+    {
+      "difficulty": 1,
+      "explanation": "Pasal 1 ayat (3) UUD 1945 menegaskan 'Negara Indonesia adalah negara hukum'. Konsekuensinya, seluruh penyelenggaraan negara harus berdasarkan hukum, bukan kekuasaan semata.",
+      "id": "TWK-002",
+      "options": [
+        {
+          "score": 0,
+          "text": "Demokrasi"
+        },
+        {
+          "score": 5,
+          "text": "Hukum"
+        },
+        {
+          "score": 0,
+          "text": "Kesatuan"
+        },
+        {
+          "score": 0,
+          "text": "Federal"
+        },
+        {
+          "score": 0,
+          "text": "Kepulauan"
+        }
+      ],
+      "question": "Menurut Pasal 1 ayat (3) UUD Negara Republik Indonesia Tahun 1945, Negara Indonesia adalah negara...",
+      "subtest": "TWK",
+      "topic": "UUD 1945",
+      "trick": "Pasal 1: ayat (1) bentuk negara kesatuan, ayat (2) kedaulatan rakyat, ayat (3) negara hukum. Hafalkan urutan 1-2-3 ini."
+    },
+    {
+      "difficulty": 2,
+      "explanation": "Bhinneka Tunggal Ika berasal dari Kitab Sutasoma karya Mpu Tantular pada masa Majapahit. Mpu Prapanca adalah pengarang Negarakertagama — pasangan yang sering dipertukarkan dalam soal.",
+      "id": "TWK-003",
+      "options": [
+        {
+          "score": 0,
+          "text": "Mpu Kanwa"
+        },
+        {
+          "score": 0,
+          "text": "Mpu Prapanca"
+        },
+        {
+          "score": 5,
+          "text": "Mpu Tantular"
+        },
+        {
+          "score": 0,
+          "text": "Mpu Sendok"
+        },
+        {
+          "score": 0,
+          "text": "Mpu Bharada"
+        }
+      ],
+      "question": "Semboyan Bhinneka Tunggal Ika dikutip dari Kitab Sutasoma karangan...",
+      "subtest": "TWK",
+      "topic": "Bhinneka Tunggal Ika",
+      "trick": "Sutasoma = Tantular. Negarakertagama = Prapanca. Jangan tertukar."
+    },
+    {
+      "difficulty": 2,
+      "explanation": "Pemberian yang berhubungan dengan jabatan tergolong gratifikasi dan wajib ditolak serta dilaporkan (misalnya melalui Unit Pengendalian Gratifikasi/KPK). Menyalurkannya ke pihak lain tidak menghapus sifat gratifikasinya.",
+      "id": "TWK-004",
+      "options": [
+        {
+          "score": 0,
+          "text": "Menerima karena proyek sudah selesai dan tidak memengaruhi keputusan"
+        },
+        {
+          "score": 5,
+          "text": "Menolak dengan sopan dan melaporkan pemberian tersebut melalui saluran gratifikasi"
+        },
+        {
+          "score": 0,
+          "text": "Menerima lalu menyumbangkannya ke panti asuhan"
+        },
+        {
+          "score": 0,
+          "text": "Meminta hadiah diganti dalam bentuk lain yang tidak terlihat"
+        },
+        {
+          "score": 0,
+          "text": "Menerima jika nilainya kecil"
+        }
+      ],
+      "question": "Seorang ASN ditawari hadiah oleh rekanan setelah proyek selesai sebagai 'tanda terima kasih'. Sikap yang paling tepat sesuai nilai integritas adalah...",
+      "subtest": "TWK",
+      "topic": "Integritas",
+      "trick": "Soal gratifikasi: jawaban benar hampir selalu 'tolak + laporkan', bukan 'terima lalu sumbangkan'."
+    },
+    {
+      "difficulty": 2,
+      "explanation": "Pasal 1 ayat (1) UUD 1945: 'Negara Indonesia ialah negara kesatuan, yang berbentuk Republik.' Ayat (2) mengatur kedaulatan, ayat (3) negara hukum.",
+      "id": "TWK-005",
+      "options": [
+        {
+          "score": 5,
+          "text": "1 ayat (1)"
+        },
+        {
+          "score": 0,
+          "text": "1 ayat (2)"
+        },
+        {
+          "score": 0,
+          "text": "2 ayat (1)"
+        },
+        {
+          "score": 0,
+          "text": "3 ayat (1)"
+        },
+        {
+          "score": 0,
+          "text": "4 ayat (1)"
+        }
+      ],
+      "question": "Indonesia adalah negara kesatuan yang berbentuk republik. Ketentuan ini tercantum dalam UUD 1945 Pasal...",
+      "subtest": "TWK",
+      "topic": "NKRI",
+      "trick": "Satu pasal, tiga ayat, tiga konsep: (1) kesatuan-republik, (2) kedaulatan rakyat, (3) negara hukum."
+    },
+    {
+      "difficulty": 1,
+      "explanation": "Selisih antar bilangan: +3, +5, +7, +9 — naik 2 setiap langkah. Selisih berikutnya +11, sehingga 27 + 11 = 38.",
+      "id": "TIU-001",
+      "options": [
+        {
+          "score": 0,
+          "text": "36"
+        },
+        {
+          "score": 5,
+          "text": "38"
+        },
+        {
+          "score": 0,
+          "text": "40"
+        },
+        {
+          "score": 0,
+          "text": "45"
+        },
+        {
+          "score": 0,
+          "text": "47"
+        }
+      ],
+      "question": "3, 6, 11, 18, 27, ... Bilangan berikutnya adalah...",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "trick": "Jika deret tidak berpola kali/tambah tetap, cek selisihnya dulu — selisih pun sering berpola."
+    },
+    {
+      "difficulty": 2,
+      "explanation": "Lompatan huruf: A ke C (+2), C ke F (+3), F ke J (+4), J ke O (+5). Lompatan berikutnya +6: O + 6 = U.",
+      "id": "TIU-002",
+      "options": [
+        {
+          "score": 0,
+          "text": "S"
+        },
+        {
+          "score": 0,
+          "text": "T"
+        },
+        {
+          "score": 5,
+          "text": "U"
+        },
+        {
+          "score": 0,
+          "text": "V"
+        },
+        {
+          "score": 0,
+          "text": "W"
+        }
+      ],
+      "question": "A, C, F, J, O, ... Huruf berikutnya adalah...",
+      "subtest": "TIU",
+      "topic": "Deret Huruf",
+      "trick": "Ubah huruf jadi posisi alfabet (A=1, dst.) lalu perlakukan seperti deret angka."
+    },
+    {
+      "difficulty": 1,
+      "explanation": "10% dari 240 = 24; 5% dari 240 = 12. Jadi 15% = 24 + 12 = 36.",
+      "id": "TIU-003",
+      "options": [
+        {
+          "score": 0,
+          "text": "24"
+        },
+        {
+          "score": 0,
+          "text": "30"
+        },
+        {
+          "score": 5,
+          "text": "36"
+        },
+        {
+          "score": 0,
+          "text": "40"
+        },
+        {
+          "score": 0,
+          "text": "48"
+        }
+      ],
+      "question": "15% dari 240 adalah...",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "trick": "Pecah persen jadi 10% + 5% agar bisa dihitung tanpa kalkulator."
+    },
+    {
+      "difficulty": 2,
+      "explanation": "Kelompok 'sebagian peserta yang membawa alat tulis' adalah bagian dari peserta SKD, dan semua peserta membawa kartu ujian. Jadi sebagian peserta itu membawa keduanya. Pilihan lain memakai kata 'semua' yang tidak didukung premis 'sebagian'.",
+      "id": "TIU-004",
+      "options": [
+        {
+          "score": 0,
+          "text": "Semua yang membawa alat tulis adalah peserta SKD"
+        },
+        {
+          "score": 5,
+          "text": "Sebagian peserta SKD membawa kartu ujian dan alat tulis sendiri"
+        },
+        {
+          "score": 0,
+          "text": "Semua peserta SKD membawa alat tulis sendiri"
+        },
+        {
+          "score": 0,
+          "text": "Sebagian yang membawa kartu ujian bukan peserta SKD"
+        },
+        {
+          "score": 0,
+          "text": "Tidak ada peserta SKD yang membawa alat tulis"
+        }
+      ],
+      "question": "Semua peserta SKD membawa kartu ujian. Sebagian peserta SKD membawa alat tulis sendiri. Kesimpulan yang pasti benar adalah...",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "trick": "Di silogisme, kesimpulan tidak boleh lebih kuat dari premis terlemahnya ('sebagian' di premis → 'sebagian' di kesimpulan)."
+    },
+    {
+      "difficulty": 2,
+      "explanation": "Kecepatan = 180 : 3 = 60 km/jam. Dalam 5 jam: 60 x 5 = 300 km.",
+      "id": "TIU-005",
+      "options": [
+        {
+          "score": 0,
+          "text": "250 km"
+        },
+        {
+          "score": 0,
+          "text": "270 km"
+        },
+        {
+          "score": 5,
+          "text": "300 km"
+        },
+        {
+          "score": 0,
+          "text": "320 km"
+        },
+        {
+          "score": 0,
+          "text": "360 km"
+        }
+      ],
+      "question": "Sebuah bus menempuh jarak 180 km dalam waktu 3 jam. Jika kecepatan rata-rata tetap, jarak yang ditempuh dalam 5 jam adalah...",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "trick": "Cari nilai 'per 1 satuan' dulu (per jam), baru kalikan ke target."
+    },
+    {
+      "difficulty": 1,
+      "explanation": "Pelayanan prima dimulai dari empati: dengarkan keluhan, akui ketidaknyamanan, lalu beri kepastian informasi. Menjelaskan 'semua juga antre' bernilai tengah karena benar tapi tanpa empati dan solusi.",
+      "id": "TKP-001",
+      "options": [
+        {
+          "score": 5,
+          "text": "Mendengarkan sampai selesai, meminta maaf atas ketidaknyamanannya, menjelaskan status berkas dan perkiraan waktu selesai secara jelas"
+        },
+        {
+          "score": 3,
+          "text": "Menjelaskan bahwa antrean memang panjang dan semua warga juga menunggu"
+        },
+        {
+          "score": 2,
+          "text": "Meminta warga kembali besok agar suasana lebih tenang"
+        },
+        {
+          "score": 1,
+          "text": "Memanggil satpam untuk menenangkan warga tersebut"
+        },
+        {
+          "score": 1,
+          "text": "Mengabaikannya dan melayani antrean berikutnya"
+        }
+      ],
+      "question": "Seorang warga mengantre lama lalu marah-marah di loket Anda karena berkasnya belum selesai. Sikap Anda...",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "trick": "TKP pelayanan: pola skor 5 = dengarkan + empati + solusi/kepastian. Bukan sekadar 'sesuai aturan'."
+    },
+    {
+      "difficulty": 2,
+      "explanation": "Profesionalisme bukan sekadar patuh atau menolak, tetapi mengelola prioritas dengan komunikasi: konfirmasi urgensi, beri komitmen waktu yang jelas. Itu menjaga hasil kerja sekaligus batas kerja yang sehat.",
+      "id": "TKP-002",
+      "options": [
+        {
+          "score": 2,
+          "text": "Menolak karena di luar jam kerja dan bukan hal mendesak yang sesungguhnya"
+        },
+        {
+          "score": 3,
+          "text": "Menyelesaikannya malam ini juga demi menunjukkan loyalitas total"
+        },
+        {
+          "score": 5,
+          "text": "Mengonfirmasi urgensinya, dan jika memang dibutuhkan lebih cepat, menyelesaikannya; jika tidak, menyampaikan kesiapan menyerahkan besok pagi sebelum jam kerja dimulai"
+        },
+        {
+          "score": 1,
+          "text": "Meminta rekan lain yang mengerjakannya"
+        },
+        {
+          "score": 1,
+          "text": "Mengabaikan pesan atasan dan membalas besok"
+        }
+      ],
+      "question": "Di luar jam kerja, atasan meminta Anda menyelesaikan laporan mendesak yang sebenarnya bisa dikerjakan besok pagi tanpa konsekuensi apa pun. Sikap Anda...",
+      "subtest": "TKP",
+      "topic": "Profesionalisme",
+      "trick": "TKP: jawaban skor tertinggi biasanya mengandung komunikasi + komitmen + solusi, bukan kepatuhan buta atau penolakan kaku."
+    },
+    {
+      "difficulty": 2,
+      "explanation": "Tahapan yang tepat: tegur langsung terlebih dahulu, dan bila pelanggaran berlanjut, laporkan lewat kanal resmi (whistleblowing). Melapor langsung ke atasan tetap benar tetapi melewatkan teguran pribadi; diam atau ikut serta sama-sama melanggar integritas.",
+      "id": "TKP-003",
+      "options": [
+        {
+          "text": "Diam saja karena bukan urusan Anda dan menjaga hubungan baik dengan rekan",
+          "score": 2
+        },
+        {
+          "text": "Mengingatkan rekan secara pribadi dan jika masih berlanjut, melaporkan melalui saluran pengaduan resmi",
+          "score": 5
+        },
+        {
+          "text": "Ikut meminta juga agar adil",
+          "score": 1
+        },
+        {
+          "text": "Melaporkan langsung ke atasan tanpa menegur rekan terlebih dahulu",
+          "score": 4
+        },
+        {
+          "text": "Menunggu sampai ada warga yang melapor secara resmi",
+          "score": 3
+        }
+      ],
+      "question": "Anda mengetahui rekan satu tim meminta 'uang terima kasih' kepada warga agar berkasnya diproses lebih cepat. Tindakan Anda...",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "trick": "Soal pelanggaran rekan: pola skor 5 = tegur pribadi dulu → laporkan resmi bila berlanjut."
+    },
+    {
+      "difficulty": 1,
+      "explanation": "Sikap adaptif terhadap teknologi adalah bagian dari kompetensi ASN: mau belajar, membantu tim beradaptasi, dan memberi umpan balik agar sistem membaik — bukan menolak perubahan atau melempar pekerjaan.",
+      "id": "TKP-004",
+      "options": [
+        {
+          "score": 1,
+          "text": "Tetap memakai cara lama karena lebih cepat bagi Anda"
+        },
+        {
+          "score": 5,
+          "text": "Belajar memakai aplikasi baru dan membantu rekan yang kesulitan sambil memberi masukan perbaikan kepada pengelola sistem"
+        },
+        {
+          "score": 2,
+          "text": "Memakai aplikasi baru hanya jika diperintah atasan"
+        },
+        {
+          "score": 2,
+          "text": "Meminta agar sistem lama dipertahankan"
+        },
+        {
+          "score": 1,
+          "text": "Menyerahkan semua pengarsipan kepada rekan yang sudah bisa"
+        }
+      ],
+      "question": "Kantor Anda mulai memakai aplikasi baru untuk pengarsipan dan sebagian rekan kesulitan menggunakannya. Sikap Anda...",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "trick": "TKP TIK: skor 5 = adaptif + kolaboratif + memberi masukan, bukan sekadar 'saya bisa sendiri'."
+    },
+    {
+      "difficulty": 2,
+      "explanation": "Jejaring kerja berarti memanfaatkan koordinasi antarunit melalui jalur yang benar (usulan ke atasan), disertai pengelolaan beban tim yang realistis. Lembur sendirian tampak berdedikasi tetapi tidak menyelesaikan masalah sistemik.",
+      "id": "TKP-005",
+      "options": [
+        {
+          "score": 2,
+          "text": "Bekerja lembur sendiri sampai selesai tanpa memberi tahu siapa pun"
+        },
+        {
+          "score": 2,
+          "text": "Meminta perpanjangan tenggat kepada atasan tanpa upaya lain"
+        },
+        {
+          "score": 5,
+          "text": "Mengusulkan kepada atasan koordinasi bantuan lintas unit, sambil membagi ulang beban kerja tim secara realistis"
+        },
+        {
+          "score": 1,
+          "text": "Menurunkan kualitas hasil agar selesai tepat waktu"
+        },
+        {
+          "score": 1,
+          "text": "Menunggu atasan menyadari kekurangan ini sendiri"
+        }
+      ],
+      "question": "Tim Anda kekurangan orang untuk menyelesaikan program yang tenggatnya minggu depan, sementara unit lain sedang longgar. Sikap Anda...",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "trick": "Soal beban kerja tim: skor 5 biasanya koordinasi/jejaring + usulan terukur, bukan heroik sendirian."
+    }
+  ],
+  "version": 1
+}
