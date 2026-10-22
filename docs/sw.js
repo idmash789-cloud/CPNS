@@ -1,6 +1,6 @@
 /* SiapSKD service worker — offline-first untuk aset aplikasi,
    network-first untuk bank soal agar soal baru cepat sampai. */
-const CACHE = 'siapskd-v6';
+const CACHE = 'siapskd-v7';
 const PRECACHE = [
   './',
   './index.html',
@@ -11,7 +11,16 @@ const PRECACHE = [
   './questions.json',
   './questions_batch2_twk.json',
   './questions_batch2_tiu.json',
-  './questions_batch2_tkp.json'
+  './questions_batch2_tkp.json',
+  './questions_batch3_twk_a.json',
+  './questions_batch3_twk_b.json',
+  './questions_batch3_twk_c.json',
+  './questions_batch3_tiu_d.json',
+  './questions_batch3_tiu_e.json',
+  './questions_batch3_tiu_f.json',
+  './questions_batch3_tkp_g.json',
+  './questions_batch3_tkp_h.json',
+  './questions_batch3_tkp_i.json'
 ];
 
 self.addEventListener('install', (event) => {
@@ -33,7 +42,7 @@ self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
 
   // Bank soal: utamakan jaringan (soal baru), jatuh ke cache saat offline.
-  if (/questions(_batch\d+_\w+)?\.json$/.test(url.pathname)) {
+  if (/questions(_batch\d+(_\w+)?)?\.json$/.test(url.pathname)) {
     event.respondWith(
       fetch(event.request)
         .then((res) => {

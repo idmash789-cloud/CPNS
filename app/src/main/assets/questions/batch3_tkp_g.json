@@ -1,0 +1,1680 @@
+{
+  "version": 2,
+  "batch": "batch3-tkp-g",
+  "questions": [
+    {
+      "id": "TKP-061",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Di loket pelayanan kecamatan, seorang warga lanjut usia datang sendirian untuk mengurus surat keterangan. Ia mengaku sulit membaca tulisan kecil pada formulir yang harus diisi. Sikap Anda...",
+      "options": [
+        {
+          "text": "Membacakan isi formulir dan mencatat jawaban warga apa adanya, lalu membacakan kembali hasilnya untuk memastikan kebenaran sebelum diproses",
+          "score": 5
+        },
+        {
+          "text": "Menjelaskan sekilas isi formulir, lalu membiarkan warga mengisinya sendiri sementara Anda melayani antrean berikutnya",
+          "score": 3
+        },
+        {
+          "text": "Membantu membacakan formulir dan mencatat jawaban warga, tetapi langsung memprosesnya tanpa konfirmasi ulang",
+          "score": 4
+        },
+        {
+          "text": "Mengisi formulir berdasarkan perkiraan Anda tentang kebutuhan warga agar antrean tidak menumpuk",
+          "score": 1
+        },
+        {
+          "text": "Meminta warga pulang dan kembali lagi bersama keluarga yang dapat membantunya membaca",
+          "score": 2
+        }
+      ],
+      "explanation": "Membantu warga lansia secara penuh dengan tetap menjaga keakuratan data adalah wujud pelayanan prima yang inklusif. Membacakan kembali hasil isian penting agar tidak ada kesalahan yang merugikan warga. Mengisi berdasarkan perkiraan atau menyuruh warga pulang bertentangan dengan prinsip pelayanan yang memudahkan masyarakat.",
+      "trick": "Pada soal pelayanan kelompok rentan, jawaban skor tertinggi selalu yang aktif membantu sampai tuntas sambil tetap memverifikasi data."
+    },
+    {
+      "id": "TKP-062",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Kantor Anda menerapkan antrean online melalui aplikasi. Seorang warga datang tanpa membawa ponsel pintar dan kebingungan karena tidak bisa mengambil nomor antrean digital. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menyuruh warga pulang dan mendaftar dari rumah melalui aplikasi",
+          "score": 1
+        },
+        {
+          "text": "Meminta warga meminjam ponsel pengunjung lain untuk mendaftar",
+          "score": 2
+        },
+        {
+          "text": "Membantu mendaftarkan warga melalui perangkat layanan yang tersedia di kantor dan memberinya nomor antrean",
+          "score": 5
+        },
+        {
+          "text": "Memberi warga nomor antrean manual, tetapi hanya dilayani setelah seluruh pendaftar online selesai",
+          "score": 3
+        },
+        {
+          "text": "Mendaftarkan warga lewat perangkat kantor, namun membiarkannya menunggu tanpa penjelasan mengenai alur berikutnya",
+          "score": 4
+        }
+      ],
+      "explanation": "Transformasi digital tidak boleh menutup akses layanan bagi warga yang tidak memiliki perangkat. Membantu pendaftaran di tempat melalui fasilitas kantor menjaga kesetaraan akses dan membuat warga memahami alur selanjutnya. Menyuruh warga pulang atau meminjam ponsel orang lain mengabaikan kebutuhannya dan berisiko pada keamanan data pribadi.",
+      "trick": "Bila warga terkendala teknologi, pilihan terbaik adalah petugas yang menjembatani dengan fasilitas kantor, bukan warga yang disuruh beradaptasi sendiri."
+    },
+    {
+      "id": "TKP-063",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Seorang warga dari desa yang jauh telah menempuh perjalanan dua jam untuk mengurus perizinan. Setelah diperiksa, ternyata berkasnya kurang satu dokumen pendukung yang tidak dapat dipenuhi hari itu juga. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menolak berkas dan meminta warga kembali lagi setelah lengkap tanpa penjelasan tambahan",
+          "score": 2
+        },
+        {
+          "text": "Menerima dan memproses berkas apa adanya karena kasihan warga sudah datang jauh",
+          "score": 1
+        },
+        {
+          "text": "Mencatat kekurangannya dan berjanji memproses sisanya bila warga mengirimkan foto dokumen melalui pesan pribadi Anda",
+          "score": 3
+        },
+        {
+          "text": "Memberikan daftar tertulis dokumen yang kurang dan memeriksa kelengkapan dokumen lain yang sudah dibawa",
+          "score": 4
+        },
+        {
+          "text": "Memberikan daftar tertulis kekurangan berkas, memverifikasi seluruh dokumen lain agar kunjungan berikutnya cukup sekali datang, serta menjelaskan jalur resmi untuk melengkapi dan mengecek status pengajuannya",
+          "score": 5
+        }
+      ],
+      "explanation": "Warga yang datang dari jauh berhak memperoleh kepastian agar tidak bolak-balik dengan sia-sia, sehingga daftar tertulis dan pemeriksaan menyeluruh sangat membantu. Memproses berkas yang tidak lengkap melanggar ketentuan, sedangkan menolak tanpa penjelasan menunjukkan ketiadaan empati. Melengkapi dokumen juga harus melalui jalur resmi, bukan pesan pribadi petugas.",
+      "trick": "Untuk berkas kurang, opsi terbaik selalu: jelaskan tertulis, periksa sisanya sekalian, dan mudahkan tindak lanjutnya lewat jalur resmi."
+    },
+    {
+      "id": "TKP-064",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Sistem informasi di puskesmas tempat Anda bertugas tiba-tiba tidak dapat diakses, sementara ruang tunggu sudah dipenuhi pasien yang menunggu pendaftaran. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menutup pendaftaran sementara dan meminta pasien menunggu tanpa kepastian sampai sistem pulih",
+          "score": 2
+        },
+        {
+          "text": "Mengumumkan kendala secara terbuka, beralih ke pencatatan manual agar layanan tetap berjalan, dan menginformasikan perkembangan penanganan kepada pasien",
+          "score": 5
+        },
+        {
+          "text": "Tetap menunggu sistem pulih sambil sesekali memberi tahu pasien bahwa gangguan sedang ditangani",
+          "score": 3
+        },
+        {
+          "text": "Mendahulukan pasien yang Anda kenal agar ruang tunggu lebih cepat berkurang",
+          "score": 1
+        },
+        {
+          "text": "Beralih ke pencatatan manual untuk semua pasien tanpa memberi tahu adanya gangguan kepada mereka",
+          "score": 4
+        }
+      ],
+      "explanation": "Saat sistem terganggu, pelayanan harus tetap berjalan melalui cara manual disertai keterbukaan informasi kepada pasien. Sikap pasif menunggu hanya menambah ketidakpastian dan penumpukan antrean. Mendahulukan kenalan melanggar asas keadilan dalam pelayanan publik.",
+      "trick": "Saat sistem error, pola jawaban terbaik adalah: umumkan secara terbuka, layanan manual tetap jalan, dan informasikan perkembangannya."
+    },
+    {
+      "id": "TKP-065",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Di kantor pelayanan pajak, antrean mengular panjang. Anda melihat seorang ibu hamil tampak kelelahan berdiri mengantre untuk layanan yang sebenarnya tersedia di loket prioritas. Sikap Anda...",
+      "options": [
+        {
+          "text": "Membiarkannya karena semua warga harus mengikuti antrean yang sama",
+          "score": 2
+        },
+        {
+          "text": "Memintanya bersabar karena loket prioritas sedang melayani warga lain",
+          "score": 3
+        },
+        {
+          "text": "Menyuruhnya pulang dan kembali pada hari yang lebih sepi",
+          "score": 1
+        },
+        {
+          "text": "Menghampiri dan mengarahkannya ke loket prioritas serta memastikan keperluannya ditangani petugas loket tersebut",
+          "score": 5
+        },
+        {
+          "text": "Mengarahkannya ke loket prioritas, tetapi membiarkannya menjelaskan keperluannya dari awal tanpa pendampingan informasi",
+          "score": 4
+        }
+      ],
+      "explanation": "Loket prioritas memang disediakan bagi kelompok rentan, termasuk ibu hamil, sehingga mengarahkan secara aktif adalah pelayanan yang manusiawi dan sesuai ketentuan. Kesetaraan dalam pelayanan bukan berarti memperlakukan semua orang persis sama tanpa memperhatikan kondisi fisiknya. Pendampingan informasi membuat warga benar-benar terlayani, bukan sekadar dipindah tempat.",
+      "trick": "Untuk kelompok rentan seperti lansia, penyandang disabilitas, dan ibu hamil, arahkan secara aktif ke jalur prioritas sampai keperluannya tertangani."
+    },
+    {
+      "id": "TKP-066",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 3,
+      "question": "Seorang warga memohon didahulukan karena harus mengejar jadwal keberangkatan kereta, sementara antrean di depan Anda cukup panjang dan beberapa warga lain mulai menunjukkan keberatan. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menyampaikan permohonan warga secara terbuka kepada antrean di depan, meminta persetujuan mereka, dan bila disetujui melayaninya lebih dulu sambil tetap mencatat urutan layanan",
+          "score": 5
+        },
+        {
+          "text": "Mendahulukannya diam-diam agar tidak menimbulkan keributan di ruang tunggu",
+          "score": 2
+        },
+        {
+          "text": "Menolak secara tegas karena aturan antrean tidak boleh dilanggar dalam keadaan apa pun",
+          "score": 3
+        },
+        {
+          "text": "Mendahulukannya karena alasannya mendesak, tanpa berkoordinasi dengan warga yang sudah mengantre",
+          "score": 4
+        },
+        {
+          "text": "Mengabaikan permohonan tersebut dan tetap melayani sesuai urutan tanpa memberi penjelasan apa pun",
+          "score": 1
+        }
+      ],
+      "explanation": "Mendahulukan seseorang berdampak langsung pada hak warga lain yang sudah menunggu, sehingga persetujuan terbuka dari pihak terdampak menjaga keadilan sekaligus empati. Mendahulukan diam-diam atau sepihak berpotensi menimbulkan konflik dan kesan pilih kasih. Sikap kaku tanpa penjelasan maupun mengabaikan permohonan sama-sama menunjukkan rendahnya kualitas pelayanan.",
+      "trick": "Bila ada permintaan didahulukan, kunci skor tertinggi adalah persetujuan terbuka dari antrean yang terdampak, bukan keputusan sepihak petugas."
+    },
+    {
+      "id": "TKP-067",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Setelah warga pulang, Anda menyadari telah salah mengetik satu huruf pada nama di dokumen yang baru saja Anda terbitkan. Warga tersebut masih dapat dihubungi melalui nomor telepon yang tertera pada berkas pengajuannya. Sikap Anda...",
+      "options": [
+        {
+          "text": "Membiarkannya karena kesalahan satu huruf tidak berpengaruh besar",
+          "score": 1
+        },
+        {
+          "text": "Menunggu warga menyadari sendiri dan datang kembali untuk memperbaikinya",
+          "score": 2
+        },
+        {
+          "text": "Segera menghubungi warga, mengakui kesalahan, meminta maaf, dan menerbitkan perbaikan dokumen tanpa membebani biaya atau proses tambahan kepada warga",
+          "score": 5
+        },
+        {
+          "text": "Memperbaiki data di sistem secara diam-diam dan menyimpan cetakan baru bila suatu saat warga kembali",
+          "score": 3
+        },
+        {
+          "text": "Menghubungi warga untuk memberi tahu kesalahan dan memintanya datang kembali mengurus perbaikan dari awal sesuai prosedur",
+          "score": 4
+        }
+      ],
+      "explanation": "Kesalahan yang berasal dari petugas harus diakui dan diperbaiki secara proaktif tanpa membebani warga yang dirugikan. Nama pada dokumen resmi berpengaruh besar pada keabsahan administrasi warga di kemudian hari. Membiarkan, menunggu, atau menyuruh warga mengulang proses dari awal menunjukkan tidak adanya tanggung jawab atas kesalahan sendiri.",
+      "trick": "Bila kesalahan berasal dari petugas, polanya adalah: akui, hubungi warga secara proaktif, dan perbaiki tanpa membebaninya."
+    },
+    {
+      "id": "TKP-068",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Seorang warga pendatang baru tampak kebingungan di pintu masuk kantor kelurahan karena tidak mengetahui alur pengurusan surat domisili. Sikap Anda...",
+      "options": [
+        {
+          "text": "Membiarkannya membaca papan pengumuman sendiri karena semua informasi sudah tersedia di sana",
+          "score": 2
+        },
+        {
+          "text": "Menyapa dan menanyakan keperluannya, lalu menjelaskan alur dan persyaratan secara runtut serta mengarahkannya ke loket yang tepat",
+          "score": 5
+        },
+        {
+          "text": "Memberinya brosur persyaratan dan menyuruhnya membaca sendiri sebelum bertanya lagi",
+          "score": 3
+        },
+        {
+          "text": "Menyuruhnya bertanya kepada warga lain yang sudah pernah mengurus surat yang sama",
+          "score": 1
+        },
+        {
+          "text": "Mengarahkannya ke loket yang tepat dan memberi tahu persyaratan pokok yang harus disiapkan",
+          "score": 4
+        }
+      ],
+      "explanation": "Menyambut warga yang kebingungan dan menjelaskan alur secara runtut adalah bentuk pelayanan yang proaktif dan memudahkan. Papan pengumuman dan brosur hanya pelengkap, bukan pengganti peran petugas dalam melayani. Mengarahkan tanpa penjelasan berisiko membuat warga kembali lagi karena persyaratan tidak lengkap.",
+      "trick": "Menghadapi warga yang bingung prosedur, urutan terbaik adalah sambut, tanyakan kebutuhan, jelaskan secara runtut, lalu arahkan ke loket yang tepat."
+    },
+    {
+      "id": "TKP-069",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Waktu menunjukkan jam istirahat, tetapi masih ada beberapa warga yang telah mengantre sejak pagi dan loket Anda adalah satu-satunya yang melayani jenis keperluan mereka. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menutup loket tepat waktu dan meminta warga menunggu hingga loket dibuka kembali",
+          "score": 3
+        },
+        {
+          "text": "Meminta seluruh warga pulang dan datang lagi besok pagi",
+          "score": 1
+        },
+        {
+          "text": "Terus melayani hingga semua warga selesai meskipun Anda sama sekali tidak beristirahat",
+          "score": 2
+        },
+        {
+          "text": "Menyelesaikan layanan bagi warga yang terlanjur mengantre lebih dulu, kemudian beristirahat",
+          "score": 4
+        },
+        {
+          "text": "Berkoordinasi dengan rekan dan pimpinan untuk giliran istirahat bergantian atau penyelesaian warga yang sudah mengantre, sambil memberi tahu warga perkiraan waktu layanan berikutnya",
+          "score": 5
+        }
+      ],
+      "explanation": "Warga yang sudah mengantre lama tidak boleh dikorbankan hanya karena pergantian jam layanan, tetapi petugas juga tetap membutuhkan istirahat. Pengaturan bergilir melalui koordinasi adalah solusi yang adil bagi warga maupun petugas. Informasi mengenai perkiraan waktu layanan membuat warga dapat memutuskan dengan jelas.",
+      "trick": "Menghadapi benturan jam istirahat dan antrean, solusinya adalah pengaturan bergilir hasil koordinasi plus informasi yang jelas, bukan tutup total atau mengorbankan diri terus-menerus."
+    },
+    {
+      "id": "TKP-070",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 3,
+      "question": "Seorang warga datang dengan nada kecewa karena informasi persyaratan yang ia peroleh dari media sosial berbeda dengan penjelasan petugas kemarin, dan kini berkasnya dinyatakan kurang. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menyalahkan warga karena mempercayai informasi yang beredar di media sosial",
+          "score": 1
+        },
+        {
+          "text": "Menjelaskan bahwa ketentuan yang berlaku adalah yang disampaikan petugas dan memintanya melengkapi kekurangan berkas",
+          "score": 3
+        },
+        {
+          "text": "Memproses berkas warga apa adanya sebagai bentuk permintaan maaf atas kebingungan informasi",
+          "score": 2
+        },
+        {
+          "text": "Mendengarkan keluhannya, menjelaskan ketentuan resmi beserta dasarnya, membantunya memeriksa kekurangan berkas, dan mencatat masukan ini untuk disampaikan agar informasi publik diperbaiki",
+          "score": 5
+        },
+        {
+          "text": "Menjelaskan ketentuan resmi dan kekurangan berkasnya secara rinci tanpa menindaklanjuti persoalan informasi yang simpang siur",
+          "score": 4
+        }
+      ],
+      "explanation": "Informasi publik yang tidak seragam adalah kelemahan instansi yang harus diperbaiki, bukan kesalahan warga yang mempercayainya. Warga tetap dibantu memeriksa berkasnya, sementara ketentuan resmi tidak boleh dilanggar sebagai kompensasi. Menindaklanjuti perbaikan informasi mencegah warga lain mengalami hal yang sama.",
+      "trick": "Bila informasi simpang siur merugikan warga, jawab dengan penjelasan ketentuan resmi, bantuan nyata, dan tindak lanjut perbaikan informasi publik."
+    },
+    {
+      "id": "TKP-071",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Di kantor imigrasi, seorang warga pengguna kursi roda kesulitan mencapai ruang foto dan wawancara paspor di lantai atas karena lift sedang diperbaiki. Sikap Anda...",
+      "options": [
+        {
+          "text": "Berkoordinasi dengan petugas terkait agar proses foto dan wawancara dapat dilakukan di area layanan lantai dasar yang mudah diakses warga",
+          "score": 5
+        },
+        {
+          "text": "Meminta warga menunggu sampai lift selesai diperbaiki pada hari yang sama",
+          "score": 2
+        },
+        {
+          "text": "Meminta keluarga warga membantu mengangkat kursi rodanya ke lantai atas",
+          "score": 1
+        },
+        {
+          "text": "Menjadwalkan ulang kedatangan warga ke hari lain tanpa kepastian lift sudah berfungsi",
+          "score": 3
+        },
+        {
+          "text": "Memberi tahu warga bahwa layanan dapat dipindah ke lantai dasar, tetapi memintanya mengurus sendiri permohonan perpindahan ke bagian lain",
+          "score": 4
+        }
+      ],
+      "explanation": "Penyesuaian layanan bagi penyandang disabilitas adalah kewajiban penyelenggara pelayanan, dan koordinasi internal menjadi tanggung jawab petugas. Meminta keluarga mengangkat kursi roda membahayakan keselamatan warga. Penjadwalan ulang tanpa kepastian hanya memindahkan beban kendala fasilitas kepada warga.",
+      "trick": "Untuk kendala akses disabilitas, petugaslah yang mengoordinasikan penyesuaian layanan, bukan warga yang disuruh menunggu atau mengurus sendiri."
+    },
+    {
+      "id": "TKP-072",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Di bagian administrasi rumah sakit, keluarga pasien mengeluh karena proses administrasi kepulangan pasien dianggap lambat, padahal obat untuk pasien sudah harus segera ditebus. Sikap Anda...",
+      "options": [
+        {
+          "text": "Meminta keluarga bersabar karena semua pasien diperlakukan sama tanpa pengecualian",
+          "score": 3
+        },
+        {
+          "text": "Mendengarkan keluhan dengan empati, mengecek titik hambatan prosesnya, mengoordinasikan percepatan dengan bagian terkait sesuai ketentuan, dan menjelaskan tahapan serta perkiraan waktunya kepada keluarga",
+          "score": 5
+        },
+        {
+          "text": "Menyuruh keluarga mengurus sendiri ke setiap bagian terkait agar lebih cepat",
+          "score": 2
+        },
+        {
+          "text": "Meminta maaf dan menjelaskan bahwa proses memang membutuhkan waktu, tanpa mengecek hambatannya",
+          "score": 4
+        },
+        {
+          "text": "Mendahulukan proses keluarga tersebut dengan memotong antrean administrasi pasien lain tanpa penjelasan",
+          "score": 2
+        }
+      ],
+      "explanation": "Keluhan soal kelambatan harus dijawab dengan pengecekan hambatan yang nyata dan koordinasi antar bagian, bukan sekadar permintaan untuk bersabar. Penjelasan tahapan dan perkiraan waktu memberi kepastian kepada keluarga pasien. Memotong antrean pasien lain secara diam-diam melanggar keadilan, sedangkan menyuruh keluarga berkeliling sendiri mengabaikan tanggung jawab pelayanan.",
+      "trick": "Untuk komplain lambat, polanya adalah dengarkan, cek hambatan nyata, koordinasikan percepatan yang sah, lalu beri kepastian tahapan."
+    },
+    {
+      "id": "TKP-073",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Seorang warga membentak Anda di loket karena surat yang ia butuhkan belum selesai pada hari yang dijanjikan akibat kurangnya tanda tangan pejabat terkait. Sikap Anda...",
+      "options": [
+        {
+          "text": "Membalas dengan nada tegas agar warga tidak bersikap kurang sopan kepada petugas",
+          "score": 1
+        },
+        {
+          "text": "Diam saja dan membiarkan warga meluapkan emosi sampai selesai tanpa tanggapan",
+          "score": 2
+        },
+        {
+          "text": "Tetap tenang, mendengarkan keluhannya, meminta maaf atas keterlambatan, menjelaskan penyebab dan langkah penyelesaiannya beserta kepastian waktu, serta menindaklanjuti ke pejabat terkait saat itu juga",
+          "score": 5
+        },
+        {
+          "text": "Meminta maaf dan berjanji suratnya selesai hari ini juga meskipun Anda belum memastikan pejabat terkait berada di tempat",
+          "score": 3
+        },
+        {
+          "text": "Menjelaskan penyebab keterlambatan secara rinci dan meminta warga menunggu kabar tanpa tindak lanjut langsung dari Anda",
+          "score": 4
+        }
+      ],
+      "explanation": "Menghadapi warga emosional, petugas harus tetap tenang dan mengubah keluhan menjadi tindak lanjut yang nyata dengan kepastian waktu. Membalas emosi atau diam tanpa tanggapan memperburuk kepercayaan warga. Janji yang belum pasti justru berisiko menimbulkan kekecewaan kedua yang lebih besar.",
+      "trick": "Menghadapi warga emosional: tetap tenang, dengarkan, minta maaf, jelaskan penyebabnya, lalu tindak lanjuti nyata dengan kepastian — jangan membalas emosi atau memberi janji kosong."
+    },
+    {
+      "id": "TKP-074",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Seorang warga yang mendaftar antrean online tiba di kantor dan mendapati nomor antreannya sudah terlewat karena ia terjebak kemacetan. Warga lain yang hadir tepat waktu masih menunggu giliran. Sikap Anda...",
+      "options": [
+        {
+          "text": "Memintanya mengambil nomor antrean baru dari urutan paling belakang",
+          "score": 3
+        },
+        {
+          "text": "Melayaninya segera begitu ada loket kosong karena ia sudah terdaftar secara online",
+          "score": 4
+        },
+        {
+          "text": "Menyuruhnya pulang dan mendaftar ulang untuk hari berikutnya",
+          "score": 1
+        },
+        {
+          "text": "Menyelipkannya mendahului seluruh antrean tanpa memberi tahu warga lain",
+          "score": 2
+        },
+        {
+          "text": "Menempatkannya pada giliran sisipan sesuai ketentuan layanan dan menjelaskan pengaturan tersebut kepadanya agar adil bagi warga yang menunggu tepat waktu",
+          "score": 5
+        }
+      ],
+      "explanation": "Nomor yang terlewat bukan sepenuhnya kesalahan sistem, tetapi menghukum warga ke urutan paling belakang atau menyuruhnya pulang tidak proporsional. Mekanisme giliran sisipan yang diatur ketentuan menyeimbangkan hak pendaftar online dan warga yang datang tepat waktu. Menyelipkan secara diam-diam merusak kepercayaan terhadap keadilan antrean.",
+      "trick": "Bila nomor antrean terlewat, gunakan mekanisme sisipan yang diatur ketentuan agar tetap adil bagi pendaftar dan bagi yang menunggu."
+    },
+    {
+      "id": "TKP-075",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Seorang warga mengadu bahwa nama pada dokumen yang diterbitkan kantor Anda berbeda ejaannya dengan akta kelahiran miliknya, padahal ia merasa sudah menyerahkan data yang benar saat pengurusan. Sikap Anda...",
+      "options": [
+        {
+          "text": "Memeriksa ulang data dan berkas pengajuan bersama warga, dan bila kesalahan berasal dari pihak kantor, segera memproses perbaikan tanpa biaya serta menjelaskan waktu penyelesaiannya",
+          "score": 5
+        },
+        {
+          "text": "Langsung menyalahkan warga karena tidak memeriksa dokumen saat menerimanya",
+          "score": 1
+        },
+        {
+          "text": "Meminta warga membawa surat keterangan tambahan dari instansi lain sebelum perbaikan dapat diproses",
+          "score": 2
+        },
+        {
+          "text": "Memproses perbaikan setelah warga mengisi formulir pengaduan tertulis dan menunggu antrean seperti pengajuan baru",
+          "score": 3
+        },
+        {
+          "text": "Memeriksa berkas bersama warga dan memproses perbaikannya sesuai prosedur, tetapi tidak menjelaskan perkiraan waktu selesainya",
+          "score": 4
+        }
+      ],
+      "explanation": "Keluhan atas dokumen yang keliru harus diverifikasi bersama berdasarkan berkas pengajuan, bukan langsung dibebankan kepada warga. Bila kesalahan berasal dari kantor, perbaikan adalah tanggung jawab instansi tanpa biaya tambahan. Kepastian waktu penyelesaian membuat warga tidak perlu berulang kali datang menanyakan status.",
+      "trick": "Untuk dokumen yang salah terbit: verifikasi bersama dulu; bila kantor yang salah, perbaiki tanpa biaya dan beri kepastian waktu."
+    },
+    {
+      "id": "TKP-076",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 3,
+      "question": "Seorang warga memberi tahu Anda bahwa di area parkir kantor ada orang yang menawarkan jasa pengurusan cepat dengan imbalan sejumlah uang dan mengaku bisa mengatur dari dalam. Sikap Anda...",
+      "options": [
+        {
+          "text": "Mengabaikan laporan tersebut karena kejadian di luar loket bukan tanggung jawab Anda",
+          "score": 1
+        },
+        {
+          "text": "Berterima kasih atas informasinya, mencatat ciri-ciri dan modus yang disampaikan, meneruskannya kepada pimpinan atau pengawas internal melalui jalur resmi, dan mengingatkan warga agar mengurus langsung tanpa perantara",
+          "score": 5
+        },
+        {
+          "text": "Menegur langsung orang tersebut di area parkir dan mengusirnya dari lingkungan kantor",
+          "score": 3
+        },
+        {
+          "text": "Meminta warga tidak menanggapi tawaran itu dan cukup mengurus sendiri ke loket",
+          "score": 4
+        },
+        {
+          "text": "Memberi tahu rekan-rekan sekantor agar berhati-hati tanpa meneruskan laporan secara resmi",
+          "score": 2
+        }
+      ],
+      "explanation": "Praktik percaloan di sekitar kantor merugikan warga dan mencoreng instansi, sehingga laporan warga harus diteruskan melalui jalur resmi agar dapat ditindaklanjuti. Menegur dan mengusir sendiri berisiko karena berada di luar kewenangan dan tanpa bukti yang tertangani. Mengedukasi warga untuk mengurus langsung tanpa perantara melengkapi upaya pemberantasan calo.",
+      "trick": "Menghadapi laporan calo di sekitar kantor: catat modusnya, teruskan ke pengawas lewat jalur resmi, dan edukasi warga untuk mengurus sendiri."
+    },
+    {
+      "id": "TKP-077",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Di puskesmas, seorang ibu yang menggendong anaknya yang demam tampak mondar-mandir kebingungan memilih loket pendaftaran karena tidak mengetahui perbedaan antrean peserta jaminan kesehatan dan pasien umum. Sikap Anda...",
+      "options": [
+        {
+          "text": "Membiarkannya bertanya kepada pasien lain yang lebih tahu",
+          "score": 2
+        },
+        {
+          "text": "Menunjuk arah loket yang benar tanpa menanyakan status kepesertaannya",
+          "score": 3
+        },
+        {
+          "text": "Menyapa, menanyakan kepesertaan jaminan kesehatannya, mengarahkannya ke loket yang sesuai, dan membantu memastikan anaknya segera terdaftar",
+          "score": 5
+        },
+        {
+          "text": "Memberitahunya bahwa semua loket sama saja dan memintanya memilih antrean yang terpendek",
+          "score": 1
+        },
+        {
+          "text": "Mengarahkannya ke loket yang sesuai setelah menanyakan kartu kepesertaannya, tanpa memeriksa kelengkapan lain yang dibutuhkan",
+          "score": 4
+        }
+      ],
+      "explanation": "Mengarahkan warga ke jalur layanan yang tepat harus diawali dengan menanyakan status kepesertaannya, karena salah loket berarti mengulang antrean dari awal. Anak yang sedang sakit membutuhkan kepastian pendaftaran yang cepat. Memberi informasi yang keliru bahwa semua loket sama dapat merugikan warga pada tahap pembayaran dan klaim.",
+      "trick": "Untuk warga yang bingung memilih jalur layanan, tanyakan dulu status atau kriterianya, baru arahkan ke jalur yang tepat sampai ia terdaftar."
+    },
+    {
+      "id": "TKP-078",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Seorang warga mengaku sudah tiga kali gagal mengunggah dokumen pada portal layanan online kantor Anda karena ukuran berkasnya selalu ditolak sistem, dan kini ia datang langsung dengan nada frustrasi. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menyuruhnya mencoba lagi dari rumah karena jalur resmi pengajuan hanya melalui portal",
+          "score": 2
+        },
+        {
+          "text": "Memintanya mengecilkan ukuran berkas sendiri tanpa arahan lebih lanjut",
+          "score": 3
+        },
+        {
+          "text": "Menerima berkas fisiknya dan memproses di luar ketentuan sebagai pengecualian pribadi dari Anda",
+          "score": 1
+        },
+        {
+          "text": "Mendengarkan keluh kesahnya, membantunya memeriksa penyebab kegagalan, memandu pengunggahan melalui perangkat layanan di kantor hingga pengajuan terkirim, dan mencatat kendala teknis ini untuk dilaporkan kepada pengelola sistem",
+          "score": 5
+        },
+        {
+          "text": "Membantunya mengunggah melalui perangkat kantor sampai terkirim, tanpa melaporkan kendala teknis yang dialami warga",
+          "score": 4
+        }
+      ],
+      "explanation": "Kegagalan berulang pada layanan online adalah sinyal adanya kendala yang harus dibantu sekaligus dilaporkan agar sistem diperbaiki. Membantu warga sampai pengajuannya terkirim menunjukkan pelayanan tidak berhenti pada jawaban normatif. Memproses di luar ketentuan sebagai pengecualian pribadi justru membuka celah pelanggaran prosedur.",
+      "trick": "Bila warga berulang kali gagal di layanan online, bantu sampai terkirim di tempat dan laporkan kendala teknisnya — jangan suruh ia pulang mencoba sendiri."
+    },
+    {
+      "id": "TKP-079",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Seorang warga lanjut usia dari daerah lain berbicara dengan dialek yang sulit Anda pahami dan tampak tidak mengerti penjelasan prosedur yang Anda sampaikan. Sikap Anda...",
+      "options": [
+        {
+          "text": "Mengulang penjelasan yang sama dengan suara lebih keras agar ia mendengar lebih jelas",
+          "score": 2
+        },
+        {
+          "text": "Meminta warga lain dari daerah yang sama untuk menerjemahkan tanpa memastikan kebenaran hasilnya",
+          "score": 3
+        },
+        {
+          "text": "Menyudahi percakapan dan memintanya membawa pendamping yang dapat berbahasa Indonesia",
+          "score": 1
+        },
+        {
+          "text": "Menuliskan poin-poin persyaratan pada kertas dan memberikannya sebagai pegangan warga",
+          "score": 4
+        },
+        {
+          "text": "Berbicara perlahan dengan bahasa sederhana, memastikan pemahaman warga poin demi poin, dan menuliskan ringkasan persyaratan serta langkah berikutnya sebagai pegangannya",
+          "score": 5
+        }
+      ],
+      "explanation": "Hambatan bahasa dan dialek harus diatasi dengan komunikasi yang disederhanakan dan pengecekan pemahaman, bukan dengan suara yang lebih keras. Catatan tertulis membantu warga mengingat persyaratan setelah meninggalkan loket. Mengandalkan penerjemah sembarangan berisiko menimbulkan kesalahan informasi yang merugikan warga.",
+      "trick": "Menghadapi hambatan bahasa: perlambat bicara, sederhanakan kata, cek pemahaman per poin, dan beri catatan tertulis sebagai pegangan."
+    },
+    {
+      "id": "TKP-080",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Seorang warga tunanetra datang ke kantor pelayanan untuk memperpanjang dokumen dan tampak kesulitan mengetahui nomor antrean yang tercetak pada kertas kecil yang diterimanya. Sikap Anda...",
+      "options": [
+        {
+          "text": "Mendampinginya dengan membacakan nomor antrean, mengarahkannya ke tempat duduk prioritas, dan memastikan ia terpanggil serta terbantu saat gilirannya tiba",
+          "score": 5
+        },
+        {
+          "text": "Memberikan nomor antrean dan memintanya bertanya kepada warga di sebelahnya bila nomornya dipanggil",
+          "score": 2
+        },
+        {
+          "text": "Mendahulukan layanannya melewati seluruh antrean tanpa memberi tahu warga lain",
+          "score": 3
+        },
+        {
+          "text": "Menyuruhnya menunggu pendamping karena ia tidak dapat membaca nomor antrean",
+          "score": 1
+        },
+        {
+          "text": "Membacakan nomor antreannya dan menunjukkan tempat duduk prioritas, lalu membiarkannya menunggu panggilan seperti biasa",
+          "score": 4
+        }
+      ],
+      "explanation": "Warga tunanetra membutuhkan pendampingan informasi sampai ia benar-benar terlayani, bukan sekadar dibacakan nomornya lalu ditinggalkan. Memastikan ia terpanggil pada gilirannya menjaga haknya tanpa harus menyerobot antrean warga lain secara diam-diam. Menolak melayani karena keterbatasan fisik adalah diskriminasi dalam pelayanan publik.",
+      "trick": "Untuk warga disabilitas, dampingi informasinya sampai benar-benar terlayani, bukan hanya ditunjukkan tempat duduknya."
+    },
+    {
+      "id": "TKP-081",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 3,
+      "question": "Tetangga yang Anda kenal baik datang ke loket dan berbisik meminta dilayani lebih dulu karena mengaku sedang terburu-buru, sementara banyak warga lain sudah mengantre lebih lama. Sikap Anda...",
+      "options": [
+        {
+          "text": "Melayaninya lebih dulu karena hubungan baik dengan tetangga perlu dijaga",
+          "score": 1
+        },
+        {
+          "text": "Melayaninya lebih dulu dengan berpura-pura memeriksa berkasnya lebih lama agar tidak kentara",
+          "score": 2
+        },
+        {
+          "text": "Menjelaskan dengan sopan bahwa layanan mengikuti urutan antrean demi keadilan, dan membantunya memastikan berkas lengkap agar saat gilirannya tiba prosesnya berjalan cepat",
+          "score": 5
+        },
+        {
+          "text": "Menolak mentah-mentah dan memintanya tidak membawa hubungan pribadi ke kantor",
+          "score": 3
+        },
+        {
+          "text": "Memintanya menunggu seperti warga lain tanpa membantu memeriksa kelengkapan berkasnya",
+          "score": 4
+        }
+      ],
+      "explanation": "Hubungan pribadi tidak boleh melahirkan keistimewaan dalam pelayanan publik karena merugikan warga lain yang mengantre lebih dulu. Penolakan yang sopan disertai bantuan yang sah, seperti memeriksa kelengkapan berkas, menjaga keadilan sekaligus hubungan baik. Mendahulukan secara diam-diam atau pura-pura memeriksa lebih lama adalah bentuk kecurangan yang sama buruknya.",
+      "trick": "Bila kenalan meminta didahulukan: tolak dengan sopan demi keadilan antrean, dan bantu lewat jalur sah seperti memeriksa kelengkapan berkasnya."
+    },
+    {
+      "id": "TKP-082",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Seorang warga yang kecewa dengan lambatnya proses suratnya mengatakan akan memviralkan kantor Anda di media sosial bila suratnya tidak selesai hari ini juga. Sikap Anda...",
+      "options": [
+        {
+          "text": "Mengabulkan permintaannya dengan memotong antrean warga lain agar kantor tidak diviralkan",
+          "score": 2
+        },
+        {
+          "text": "Tetap tenang, mendengarkan keberatannya, menjelaskan posisi proses suratnya beserta kendala dan kepastian waktu penyelesaian yang realistis, serta menawarkan jalur pengaduan resmi bila ia belum puas",
+          "score": 5
+        },
+        {
+          "text": "Mengabaikan ancamannya dan melanjutkan layanan seperti biasa tanpa penjelasan",
+          "score": 1
+        },
+        {
+          "text": "Menjelaskan bahwa mengancam petugas tidak akan mempercepat proses apa pun",
+          "score": 3
+        },
+        {
+          "text": "Menjelaskan tahapan proses dan perkiraan selesai suratnya, tanpa memberi tahu jalur pengaduan resmi",
+          "score": 4
+        }
+      ],
+      "explanation": "Ancaman memviralkan tidak boleh dijawab dengan memotong antrean atau sikap defensif, melainkan dengan transparansi status proses dan kepastian yang realistis. Menawarkan jalur pengaduan resmi menunjukkan instansi terbuka terhadap kritik. Mengabaikan keberatan warga justru memperkuat kesan buruk yang ingin ia sampaikan ke publik.",
+      "trick": "Menghadapi ancaman viral: jangan panik dan jangan memotong antrean; jelaskan status nyata, beri kepastian realistis, dan tawarkan jalur aduan resmi."
+    },
+    {
+      "id": "TKP-083",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Seorang warga datang ke kantor Anda untuk mengurus suatu dokumen, padahal dokumen tersebut merupakan kewenangan instansi lain yang lokasinya cukup jauh dari kantor Anda. Sikap Anda...",
+      "options": [
+        {
+          "text": "Memberitahu bahwa itu bukan urusan kantor Anda dan memintanya pergi ke instansi yang benar",
+          "score": 3
+        },
+        {
+          "text": "Menerima pengurusannya dan berjanji meneruskan ke instansi terkait tanpa dasar kewenangan",
+          "score": 1
+        },
+        {
+          "text": "Menyuruhnya mencari sendiri alamat instansi yang benar melalui internet",
+          "score": 2
+        },
+        {
+          "text": "Menjelaskan instansi yang berwenang beserta alamat dan jam layanannya, persyaratan yang perlu disiapkan, serta arahan cara termudah mencapainya agar warga tidak salah langkah lagi",
+          "score": 5
+        },
+        {
+          "text": "Menjelaskan instansi yang benar beserta alamatnya, tanpa memberi tahu persyaratan yang harus disiapkan",
+          "score": 4
+        }
+      ],
+      "explanation": "Warga yang salah instansi tetap berhak dibantu dengan informasi yang lengkap agar perjalanannya ke instansi yang benar tidak sia-sia. Menolak tanpa arahan lanjutan membebani warga yang mungkin sudah menempuh jarak jauh. Menerima pengurusan di luar kewenangan justru melanggar ketentuan dan berisiko dokumennya tidak sah.",
+      "trick": "Bila warga salah instansi, jangan hanya menolak: lengkapi dengan alamat, jam layanan, persyaratan, dan arahan jalannya."
+    },
+    {
+      "id": "TKP-084",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Seorang warga datang mengurus dokumen milik ayahnya yang sedang sakit dan tidak dapat hadir, tetapi ia tidak membawa surat kuasa maupun dokumen pendukung hubungan keluarga. Sikap Anda...",
+      "options": [
+        {
+          "text": "Langsung menolak dan memintanya pulang tanpa penjelasan dokumen apa saja yang kurang",
+          "score": 2
+        },
+        {
+          "text": "Memproses pengurusan tersebut karena niatnya membantu orang tua yang sedang sakit",
+          "score": 1
+        },
+        {
+          "text": "Menyarankannya mencari sendiri contoh surat kuasa di internet dan kembali lagi setelah lengkap",
+          "score": 3
+        },
+        {
+          "text": "Menjelaskan bahwa pengurusan oleh orang lain membutuhkan surat kuasa dan memberinya daftar dokumen yang harus dilengkapi",
+          "score": 4
+        },
+        {
+          "text": "Menjelaskan persyaratan pengurusan dengan surat kuasa, memberikan contoh format dan daftar dokumen pendukung, serta memeriksa dokumen yang sudah ada agar kunjungan berikutnya langsung dapat diproses",
+          "score": 5
+        }
+      ],
+      "explanation": "Pengurusan dokumen oleh orang lain memerlukan surat kuasa untuk melindungi keabsahan dan keamanan data pemilik dokumen. Namun warga tetap berhak dibantu dengan format, daftar kelengkapan, dan pemeriksaan awal agar tidak bolak-balik. Meloloskan tanpa kuasa demi rasa kasihan membuka risiko penyalahgunaan dokumen orang lain.",
+      "trick": "Untuk pengurusan yang mewakili orang lain: jelaskan syarat kuasa, beri format dan daftar lengkap, lalu periksa yang sudah ada agar sekali kembali langsung beres."
+    },
+    {
+      "id": "TKP-085",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Mulai bulan ini jam layanan kantor Anda berubah, tetapi pengumumannya belum tersampaikan luas. Beberapa warga datang terlalu pagi mengikuti jadwal lama dan harus menunggu lama di luar gedung. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menyampaikan perubahan jadwal secara langsung dan sopan, menyediakan tempat menunggu yang layak, mencatat masukan warga, dan mengusulkan kepada pimpinan agar sosialisasi jadwal diperluas",
+          "score": 5
+        },
+        {
+          "text": "Membiarkan warga menunggu karena perubahan jadwal sudah merupakan keputusan pimpinan",
+          "score": 2
+        },
+        {
+          "text": "Membuka layanan lebih awal mengikuti jadwal lama agar warga tidak menunggu terlalu lama",
+          "score": 3
+        },
+        {
+          "text": "Menempelkan pengumuman jadwal baru di pintu agar warga yang datang dapat membacanya sendiri",
+          "score": 4
+        },
+        {
+          "text": "Menyalahkan bagian informasi yang tidak menyosialisasikan perubahan jadwal kepada masyarakat",
+          "score": 1
+        }
+      ],
+      "explanation": "Perubahan jadwal yang belum tersosialisasi adalah tanggung jawab instansi, sehingga warga harus diberi penjelasan langsung dan kenyamanan selama menunggu. Masukan warga perlu diteruskan agar sosialisasi diperbaiki, bukan berhenti pada pengumuman di pintu. Membuka layanan menyimpang dari jadwal resmi juga bukan solusi karena melanggar ketentuan yang berlaku.",
+      "trick": "Saat jadwal layanan berubah, sampaikan langsung kepada warga, sediakan kenyamanan menunggu, dan dorong perbaikan sosialisasinya kepada pimpinan."
+    },
+    {
+      "id": "TKP-086",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 3,
+      "question": "Atasan Anda berpesan secara lisan agar berkas seorang warga tertentu didahulukan hari ini, padahal antrean reguler sedang panjang dan tidak ada dasar prioritas resmi untuk warga tersebut. Sikap Anda...",
+      "options": [
+        {
+          "text": "Melaksanakan pesan atasan tanpa mempertanyakannya karena beliau adalah pimpinan Anda",
+          "score": 2
+        },
+        {
+          "text": "Menyampaikan dengan hormat bahwa pendahuluan tanpa dasar prioritas dapat menimbulkan ketidakadilan dan keluhan warga, menanyakan apakah ada dasar resmi atau keadaan daruratnya, dan bila tidak ada, melayani sesuai urutan sambil menginformasikan perkembangan berkas itu kepada atasan",
+          "score": 5
+        },
+        {
+          "text": "Menolak secara terbuka di hadapan warga yang mengantre agar ketegasan Anda terlihat",
+          "score": 1
+        },
+        {
+          "text": "Mendahulukan berkas itu sedikit saja, hanya melewati beberapa antrean agar tidak terlalu mencolok",
+          "score": 3
+        },
+        {
+          "text": "Menyelesaikan berkas itu setelah jam layanan berakhir agar antrean reguler tidak terganggu",
+          "score": 4
+        }
+      ],
+      "explanation": "Perintah lisan yang bertentangan dengan asas keadilan layanan harus dipertanyakan secara hormat dengan meminta dasar resminya. Melaksanakan tanpa bertanya membuat Anda ikut bertanggung jawab atas ketidakadilan antrean. Menolak secara terbuka di hadapan warga mempermalukan pimpinan dan menimbulkan kegaduhan, sedangkan mendahulukan sedikit pun tetap pelanggaran.",
+      "trick": "Bila atasan berpesan mendahulukan tanpa dasar resmi: tanyakan dasarnya dengan hormat, tetap layani sesuai urutan, dan laporkan perkembangan berkasnya."
+    },
+    {
+      "id": "TKP-087",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Seorang warga melapor bahwa kertas nomor antreannya hilang, padahal ia merasa sudah menunggu cukup lama di ruang tunggu. Sikap Anda...",
+      "options": [
+        {
+          "text": "Memintanya mengambil nomor baru paling belakang karena tanpa kertas tidak ada bukti",
+          "score": 2
+        },
+        {
+          "text": "Menyuruhnya mencari dulu kertasnya sampai ketemu sebelum dapat dilayani",
+          "score": 1
+        },
+        {
+          "text": "Memverifikasi dari catatan atau sistem antrean dan keterangan warga, lalu menempatkannya kembali pada urutan yang semestinya secara transparan",
+          "score": 5
+        },
+        {
+          "text": "Menempatkannya pada nomor yang sedang berjalan agar ia tidak perlu menunggu lagi",
+          "score": 3
+        },
+        {
+          "text": "Mencetak ulang nomor dengan urutan perkiraan Anda dan memberikannya kepada warga",
+          "score": 4
+        }
+      ],
+      "explanation": "Kehilangan kertas nomor adalah hal yang dapat terjadi, dan sistem antrean menyediakan catatan untuk memverifikasi urutan yang sebenarnya. Menempatkan warga berdasarkan perkiraan atau pada nomor berjalan berisiko merugikan warga lain. Menghukumnya ke antrean paling belakang tanpa verifikasi tidak mencerminkan pelayanan yang berkeadilan.",
+      "trick": "Bila nomor antrean hilang, verifikasi dari data sistem — jangan mengarang urutan dan jangan menghukum warga ke antrean paling belakang."
+    },
+    {
+      "id": "TKP-088",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Seorang warga datang ke kantor pajak membawa bukti pembayaran dan mempertanyakan mengapa ia masih menerima pemberitahuan tunggakan atas kewajiban yang sama. Sikap Anda...",
+      "options": [
+        {
+          "text": "Memintanya membayar lagi terlebih dahulu, urusan kelebihan bayar dapat diajukan kemudian",
+          "score": 1
+        },
+        {
+          "text": "Menyatakan bahwa data sistem pasti benar dan warga mungkin salah mengingat pembayarannya",
+          "score": 2
+        },
+        {
+          "text": "Mengarahkannya ke bagian lain tanpa membantu memeriksa data awalnya",
+          "score": 3
+        },
+        {
+          "text": "Memeriksa riwayat pembayaran dan data tunggakan bersama warga berdasarkan bukti yang dibawa, menjelaskan hasil pemeriksaannya, dan bila data kantor yang keliru, memandu proses koreksi resmi sampai jelas langkah-langkahnya",
+          "score": 5
+        },
+        {
+          "text": "Memeriksa data pembayaran warga dan menjelaskan bahwa koreksi harus diajukan secara tertulis, tanpa memandu langkah pengajuannya",
+          "score": 4
+        }
+      ],
+      "explanation": "Perselisihan data pembayaran harus diselesaikan dengan pemeriksaan bersama berdasarkan bukti, bukan dengan menganggap sistem selalu benar. Bila kekeliruan berasal dari data kantor, warga berhak dipandu mengajukan koreksi resmi sampai memahami langkahnya. Meminta warga membayar dua kali jelas merugikan dan menurunkan kepercayaan terhadap instansi.",
+      "trick": "Untuk sengketa data atau tagihan: periksa bersama berdasarkan bukti, jelaskan hasilnya, dan pandu koreksi resminya bila kantor yang keliru."
+    },
+    {
+      "id": "TKP-089",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Menjelang siang, antrean di unit layanan Anda menumpuk karena dua rekan sedang mengikuti pelatihan, sementara satu loket cadangan sebenarnya tersedia tetapi belum dibuka. Sikap Anda...",
+      "options": [
+        {
+          "text": "Tetap melayani di loket Anda sendiri dan membiarkan antrean berjalan apa adanya",
+          "score": 3
+        },
+        {
+          "text": "Meminta warga yang belum terlayani untuk kembali besok agar antrean berkurang",
+          "score": 1
+        },
+        {
+          "text": "Menutup sementara pendaftaran antrean baru tanpa memberi tahu warga yang sudah menunggu",
+          "score": 2
+        },
+        {
+          "text": "Membuka loket cadangan dan melayaninya sendiri meskipun bukan bagian tugas Anda hari itu",
+          "score": 4
+        },
+        {
+          "text": "Berkoordinasi dengan pimpinan dan rekan yang ada untuk membuka loket cadangan dan mengatur pembagian antrean, sambil mengumumkan perkiraan waktu tunggu kepada warga",
+          "score": 5
+        }
+      ],
+      "explanation": "Penumpukan antrean karena kekurangan petugas harus dijawab dengan menambah kapasitas layanan melalui koordinasi, bukan membiarkan warga menunggu tanpa kepastian. Pengumuman perkiraan waktu tunggu membantu warga mengatur keperluannya. Membuka loket sendiri tanpa koordinasi dapat menimbulkan ketidakteraturan pembagian tugas dan tanggung jawab.",
+      "trick": "Saat antrean menumpuk, solusinya adalah koordinasi penambahan kapasitas layanan dan informasi waktu tunggu, bukan membiarkan atau menyuruh warga pulang."
+    },
+    {
+      "id": "TKP-090",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Setelah berkas warga Anda nyatakan lengkap, ternyata untuk proses lanjutan dibutuhkan salinan tambahan dokumen. Mesin fotokopi kantor sedang rusak dan tempat fotokopi terdekat cukup jauh dari kantor. Sikap Anda...",
+      "options": [
+        {
+          "text": "Mengantisipasi kebutuhan lanjutan sejak pemeriksaan awal dan mengoordinasikan solusi yang tersedia di kantor, misalnya memindai dokumen dengan perangkat kantor bila diperbolehkan ketentuan, agar warga tidak bolak-balik",
+          "score": 5
+        },
+        {
+          "text": "Menyuruh warga memfotokopi di luar dan kembali lagi mengantre dari awal",
+          "score": 2
+        },
+        {
+          "text": "Memproses berkas tanpa salinan dan berharap bagian lanjutan tidak mempermasalahkannya",
+          "score": 1
+        },
+        {
+          "text": "Memberi tahu kebutuhan salinan tambahan dan memintanya kembali dengan membawa salinan tersebut",
+          "score": 3
+        },
+        {
+          "text": "Menginformasikan kebutuhan salinan serta memeriksa seluruh kebutuhan lanjutan lainnya agar warga cukup sekali kembali",
+          "score": 4
+        }
+      ],
+      "explanation": "Kebutuhan yang baru muncul di tengah proses menunjukkan pemeriksaan awal kurang menyeluruh, sehingga petugas harus mengantisipasi dan mencari solusi yang dibolehkan ketentuan. Warga tidak boleh dibebani perjalanan tambahan hanya karena fasilitas kantor rusak. Mengabaikan persyaratan salinan berisiko membuat berkas warga bermasalah pada tahap lanjutan.",
+      "trick": "Bila muncul kebutuhan tambahan di tengah proses, periksa semua kebutuhan lanjutan sekalian dan cari solusi di kantor yang dibolehkan aturan."
+    },
+    {
+      "id": "TKP-091",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 3,
+      "question": "Seorang warga lanjut usia yang hidup sendiri mengaku tidak mampu membayar biaya retribusi resmi untuk dokumen yang sangat ia butuhkan, dan memohon agar dibebaskan begitu saja dari biaya tersebut. Sikap Anda...",
+      "options": [
+        {
+          "text": "Membebaskannya dari biaya atas dasar kemanusiaan tanpa dasar ketentuan",
+          "score": 2
+        },
+        {
+          "text": "Mendengarkan kondisinya dengan empati, menjelaskan bahwa pembebasan tanpa dasar tidak dapat dilakukan, lalu membantunya memeriksa apakah ada skema keringanan atau pembebasan resmi bagi warga tidak mampu dan memandu syarat pengajuannya",
+          "score": 5
+        },
+        {
+          "text": "Menolak permohonannya karena biaya adalah ketentuan yang tidak dapat ditawar",
+          "score": 3
+        },
+        {
+          "text": "Menyarankannya meminjam uang kepada warga lain yang sedang mengantre",
+          "score": 1
+        },
+        {
+          "text": "Menjelaskan adanya skema keringanan resmi bagi warga tidak mampu tanpa membantu memandu pengajuannya",
+          "score": 4
+        }
+      ],
+      "explanation": "Biaya retribusi hanya dapat dibebaskan melalui skema resmi, sehingga membebaskan secara sepihak sama dengan melanggar ketentuan. Namun penolakan yang kaku mengabaikan keberadaan jalur keringanan yang memang disediakan negara bagi warga tidak mampu. Membantu memeriksa dan memandu pengajuan skema tersebut adalah perpaduan antara kepatuhan aturan dan empati pelayanan.",
+      "trick": "Bila warga tidak mampu membayar, jangan bebaskan secara liar dan jangan bayar dengan uang pribadi — arahkan dan pandu skema keringanan resmi yang tersedia."
+    },
+    {
+      "id": "TKP-092",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Di loket pendaftaran rumah sakit, seorang pasien dengan gangguan pendengaran kesulitan memahami pertanyaan lisan Anda tentang keluhan dan data administrasinya. Sikap Anda...",
+      "options": [
+        {
+          "text": "Berbicara lebih keras dan mengulang pertanyaan yang sama",
+          "score": 2
+        },
+        {
+          "text": "Meminta pasien lain di belakangnya membantu menjawabkan pertanyaan administrasi",
+          "score": 1
+        },
+        {
+          "text": "Berkomunikasi melalui tulisan pada kertas atau layar dengan pertanyaan sederhana, memastikan jawabannya poin demi poin, dan menjaga kerahasiaan data yang ia tuliskan",
+          "score": 5
+        },
+        {
+          "text": "Menuliskan pertanyaan di kertas untuk dijawab pasien secara tertulis",
+          "score": 4
+        },
+        {
+          "text": "Memintanya kembali bersama pendamping yang dapat mendengar agar proses lebih mudah",
+          "score": 3
+        }
+      ],
+      "explanation": "Gangguan pendengaran diatasi dengan mengganti kanal komunikasi menjadi tulisan yang jelas, bukan dengan meninggikan suara. Data keluhan dan administrasi pasien bersifat rahasia sehingga tidak boleh dibantu jawab oleh pasien lain. Memastikan jawaban poin demi poin dan menjaga kerahasiaan datanya membuat pelayanan tetap akurat dan bermartabat.",
+      "trick": "Untuk pasien dengan gangguan pendengaran, gunakan komunikasi tertulis yang jelas dan tetap jaga kerahasiaan datanya."
+    },
+    {
+      "id": "TKP-093",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Seorang warga datang untuk ketiga kalinya menanyakan status surat yang ia ajukan dua minggu lalu, dan setiap kali ia hanya mendapat jawaban bahwa suratnya masih diproses tanpa kejelasan. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menjawab kembali bahwa suratnya masih diproses seperti sebelumnya",
+          "score": 2
+        },
+        {
+          "text": "Memintanya bersabar dan tidak terlalu sering datang menanyakan status",
+          "score": 1
+        },
+        {
+          "text": "Berjanji suratnya pasti selesai minggu ini agar warga tenang",
+          "score": 3
+        },
+        {
+          "text": "Memeriksa langsung posisi berkasnya pada alur proses, menjelaskan tahap yang sudah dan belum dilalui beserta kendalanya, dan memberikan kepastian waktu serta cara warga mengecek status berikutnya",
+          "score": 5
+        },
+        {
+          "text": "Memeriksa posisi berkas dan memberi tahu tahap prosesnya saat ini tanpa kepastian langkah berikutnya",
+          "score": 4
+        }
+      ],
+      "explanation": "Pertanyaan status yang berulang menandakan warga tidak pernah memperoleh informasi yang tuntas, sehingga jawabannya adalah pemeriksaan posisi berkas yang nyata. Penjelasan tahap, kendala, dan kepastian waktu menghentikan kebutuhan warga datang berulang kali. Janji selesai tanpa dasar berisiko menjadi kekecewaan baru yang merusak kepercayaan.",
+      "trick": "Untuk warga yang berulang menanyakan status, cek posisi berkas yang nyata dan beri tahap, kendala, serta kepastian — bukan lagi jawaban 'masih diproses'."
+    },
+    {
+      "id": "TKP-094",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 2,
+      "question": "Seorang warga mengeluh karena kemarin rekan Anda menyampaikan bahwa pengurusan dokumennya tidak memerlukan materai, tetapi hari ini Anda menyatakan materai wajib sehingga warga harus kembali lagi. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menyatakan bahwa rekan Anda yang salah dan menyilakan warga komplain langsung kepadanya",
+          "score": 1
+        },
+        {
+          "text": "Mengatakan bahwa ketentuan berubah dan warga harus mengikuti ketentuan yang terbaru",
+          "score": 2
+        },
+        {
+          "text": "Meminta warga membeli materai sekarang juga dan kembali mengantre dari awal",
+          "score": 3
+        },
+        {
+          "text": "Meminta maaf atas informasi yang keliru, menjelaskan ketentuan yang sebenarnya, dan memastikan berkasnya tetap dapat dilanjutkan hari ini setelah materai dilengkapi tanpa mengulang antrean dari awal",
+          "score": 4
+        },
+        {
+          "text": "Meminta maaf atas nama instansi, menjelaskan ketentuan yang benar, memastikan berkas warga dilanjutkan hari ini tanpa mengulang antrean, dan mencatat kejadian ini untuk diteruskan agar informasi antarpetugas diseragamkan",
+          "score": 5
+        }
+      ],
+      "explanation": "Kekeliruan informasi dari sesama petugas adalah tanggung jawab instansi, sehingga permintaan maaf dan pelurusan ketentuan harus disertai perlindungan agar warga tidak dirugikan dua kali. Menimpakan kesalahan kepada rekan secara terbuka merusak kepercayaan warga terhadap seluruh kantor. Pencatatan dan penerusan kejadian mencegah informasi yang tidak seragam terulang pada warga lain.",
+      "trick": "Bila rekan memberi info keliru: minta maaf atas nama instansi, luruskan ketentuannya, jangan korbankan warga, dan tindak lanjuti keseragaman informasi internal."
+    },
+    {
+      "id": "TKP-095",
+      "subtest": "TKP",
+      "topic": "Pelayanan Publik",
+      "difficulty": 1,
+      "question": "Lima menit sebelum loket tutup, seorang warga datang tergesa-gesa membawa berkas untuk layanan yang prosesnya singkat dan sebenarnya masih dapat diselesaikan dalam beberapa menit. Sikap Anda...",
+      "options": [
+        {
+          "text": "Tetap melayaninya dengan baik karena ia datang masih dalam jam layanan dan prosesnya dapat diselesaikan, tanpa menunjukkan ketidaksenangan",
+          "score": 5
+        },
+        {
+          "text": "Memintanya datang besok karena Anda harus menyiapkan penutupan loket",
+          "score": 2
+        },
+        {
+          "text": "Melayaninya tetapi dengan tergesa-gesa dan melewatkan pemeriksaan kelengkapan berkasnya",
+          "score": 3
+        },
+        {
+          "text": "Menerima berkasnya untuk diproses besok pagi tanpa melayaninya hari ini",
+          "score": 4
+        },
+        {
+          "text": "Menolak melayani dan menutup loket tepat di hadapan warga tersebut",
+          "score": 1
+        }
+      ],
+      "explanation": "Selama warga datang dalam jam layanan dan prosesnya dapat diselesaikan, haknya untuk dilayani tetap berlaku meskipun waktu tutup sudah dekat. Melayani dengan tergesa-gesa hingga melewatkan pemeriksaan berisiko menimbulkan kesalahan dokumen. Menahan berkas untuk besok tanpa alasan mendesak menunda hak warga yang sebenarnya bisa dipenuhi hari itu juga.",
+      "trick": "Datang menjelang tutup tetapi masih dalam jam layanan dan prosesnya singkat: layani dengan baik, jangan ditolak hanya karena hampir tutup."
+    },
+    {
+      "id": "TKP-096",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 1,
+      "question": "Menjelang hari raya, sebuah perusahaan rekanan mengirimkan parsel makanan yang ditujukan khusus kepada Anda pribadi karena selama ini Anda yang menangani kontrak mereka. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menerimanya karena parsel makanan adalah hal yang wajar dalam budaya silaturahmi",
+          "score": 1
+        },
+        {
+          "text": "Menolak dengan sopan sambil menjelaskan bahwa penerimaan hadiah yang terkait jabatan dilarang, serta melaporkan pemberian tersebut melalui mekanisme pelaporan gratifikasi sesuai ketentuan",
+          "score": 5
+        },
+        {
+          "text": "Menerimanya lalu membagikannya kepada seluruh rekan sekantor agar adil",
+          "score": 2
+        },
+        {
+          "text": "Menolak parsel untuk Anda, tetapi menyarankan rekanan memberikannya kepada kantor secara umum",
+          "score": 3
+        },
+        {
+          "text": "Menolak dengan sopan tanpa melaporkan atau mencatat adanya pemberian tersebut",
+          "score": 4
+        }
+      ],
+      "explanation": "Hadiah dari rekanan yang ditujukan kepada pribadi dan berkaitan dengan jabatan adalah gratifikasi yang wajib ditolak dan dilaporkan melalui mekanisme resmi. Membagikan parsel kepada rekan tidak menghapus status gratifikasinya, hanya memindahkan penerima manfaatnya. Penolakan tanpa pelaporan belum memenuhi kewajiban pejabat dalam pengendalian gratifikasi.",
+      "trick": "Hadiah terkait jabatan atau rekanan adalah gratifikasi: tolak dengan sopan dan laporkan lewat mekanisme gratifikasi, bukan dibagi-bagikan ke rekan."
+    },
+    {
+      "id": "TKP-097",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 2,
+      "question": "Seorang perantara jasa menawarkan imbalan rutin kepada Anda bila bersedia mengarahkan warga yang kesulitan mengurus dokumen kepadanya. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menerima tawaran itu selama Anda tidak memungut biaya langsung dari warga",
+          "score": 1
+        },
+        {
+          "text": "Menolak tawaran itu dengan tegas dan tidak menanggapinya lebih jauh",
+          "score": 4
+        },
+        {
+          "text": "Mengabaikan tawaran tersebut dan berpura-pura tidak pernah mendengarnya",
+          "score": 2
+        },
+        {
+          "text": "Menolak dengan tegas, mencatat identitas dan modus yang ia sampaikan, dan melaporkannya kepada pimpinan atau pengawas internal agar ditindaklanjuti",
+          "score": 5
+        },
+        {
+          "text": "Menolak untuk saat ini, tetapi tetap menjaga hubungan baik dengan perantara itu untuk keperluan informasi",
+          "score": 3
+        }
+      ],
+      "explanation": "Mengarahkan warga kepada calo dengan imbalan adalah bentuk persekongkolan yang merugikan masyarakat dan menggerus kepercayaan pada layanan resmi. Penolakan tegas saja belum cukup karena praktik calo akan tetap berjalan dan mencari petugas lain. Pencatatan modus dan pelaporan ke pengawas internal membuka jalan penindakan yang nyata.",
+      "trick": "Bila ditawari fee oleh calo: tolak, catat modusnya, dan laporkan ke pengawas — menolak saja tanpa melapor membiarkan praktiknya berlanjut."
+    },
+    {
+      "id": "TKP-098",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 2,
+      "question": "Anda ditugaskan menjadi anggota tim evaluasi pengadaan. Salah satu perusahaan peserta ternyata dimiliki oleh sepupu Anda, meskipun Anda tidak memiliki hubungan bisnis langsung dengannya. Sikap Anda...",
+      "options": [
+        {
+          "text": "Tetap mengevaluasi seperti biasa karena Anda yakin dapat bersikap objektif",
+          "score": 2
+        },
+        {
+          "text": "Mengevaluasi perusahaan lain saja dan membiarkan berkas perusahaan sepupu dinilai anggota tim lain tanpa memberi tahu siapa pun",
+          "score": 3
+        },
+        {
+          "text": "Membantu memastikan berkas perusahaan sepupu lengkap agar tidak gugur secara administratif",
+          "score": 1
+        },
+        {
+          "text": "Memberi tahu pimpinan tentang hubungan tersebut, tetapi tetap ikut menilai semua peserta",
+          "score": 4
+        },
+        {
+          "text": "Menyatakan adanya hubungan keluarga secara tertulis kepada pimpinan dan mengundurkan diri dari penilaian yang terkait perusahaan tersebut sesuai mekanisme konflik kepentingan",
+          "score": 5
+        }
+      ],
+      "explanation": "Hubungan keluarga dengan peserta pengadaan menimbulkan konflik kepentingan yang wajib dinyatakan secara tertulis, disertai pengunduran diri dari penilaian terkait. Keyakinan pribadi untuk objektif tidak menghapus potensi benturan kepentingan di mata hukum dan publik. Menyembunyikan hubungan itu sambil mengatur pembagian penilaian tetap merupakan pelanggaran integritas.",
+      "trick": "Bila ada hubungan dengan peserta pengadaan: deklarasikan secara tertulis dan mundur dari penilaian terkait — diam-diam tetap menilai sama salahnya."
+    },
+    {
+      "id": "TKP-099",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 3,
+      "question": "Saat menyusun anggaran kegiatan, atasan meminta Anda menaikkan harga satuan beberapa item di atas harga wajar agar tersedia cadangan dana, dan menjanjikan kelebihannya tetap dipakai untuk keperluan kantor. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menolak dengan hormat sambil menjelaskan risiko hukum dan auditnya, menyusun anggaran sesuai harga wajar berdasarkan survei harga, dan bila tekanan berlanjut, melaporkannya melalui saluran pengaduan internal",
+          "score": 5
+        },
+        {
+          "text": "Mengikuti permintaan atasan karena dana tetap digunakan untuk keperluan kantor",
+          "score": 2
+        },
+        {
+          "text": "Menaikkan harga hanya pada item kecil agar tidak mencolok dalam pemeriksaan",
+          "score": 1
+        },
+        {
+          "text": "Menolak menyusunnya dan meminta ditugaskan pekerjaan lain tanpa menjelaskan alasannya kepada siapa pun",
+          "score": 3
+        },
+        {
+          "text": "Melaporkan permintaan tersebut melalui saluran pengaduan resmi tanpa menyampaikan keberatan terlebih dahulu kepada atasan",
+          "score": 4
+        }
+      ],
+      "explanation": "Menaikkan harga satuan di atas kewajaran adalah mark-up yang berpotensi menjadi tindak pidana korupsi, sekalipun hasilnya diklaim untuk keperluan kantor. Keberatan yang disampaikan secara hormat dengan dasar harga wajar memberi kesempatan atasan mengoreksi diri sebelum persoalan membesar. Menghindar dengan meminta tugas lain membiarkan praktik tersebut dikerjakan orang lain.",
+      "trick": "Diminta mark-up oleh atasan: tolak secara hormat dengan dasar harga wajar, dan eskalasikan lewat saluran resmi bila tekanan berlanjut."
+    },
+    {
+      "id": "TKP-100",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 1,
+      "question": "Setelah Anda membantu proses dokumennya hingga selesai, seorang warga bersikeras memberi Anda tiket acara hiburan sebagai ucapan terima kasih dan tampak tersinggung bila ditolak. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menerimanya agar warga tidak tersinggung, toh layanan sudah selesai",
+          "score": 2
+        },
+        {
+          "text": "Menolaknya dengan kasar agar warga tidak lagi memberi hadiah kepada petugas",
+          "score": 3
+        },
+        {
+          "text": "Menolak dengan sopan sambil menjelaskan bahwa membantu warga adalah tugas Anda dan aturan melarang penerimaan hadiah terkait layanan, serta mengucapkan terima kasih atas niat baiknya",
+          "score": 5
+        },
+        {
+          "text": "Memintanya memberikan tiket tersebut kepada petugas keamanan saja",
+          "score": 1
+        },
+        {
+          "text": "Menolak tiket tersebut tanpa memberikan penjelasan apa pun",
+          "score": 4
+        }
+      ],
+      "explanation": "Pemberian setelah layanan selesai tetap termasuk gratifikasi karena berkaitan langsung dengan jabatan dan pelayanan yang diberikan. Penolakan yang sopan disertai penjelasan aturan menjaga perasaan warga tanpa melanggar ketentuan. Memberikan tiket kepada pihak lain di kantor tidak mengubah hakikat penerimaannya.",
+      "trick": "Ucapan terima kasih berupa barang tetap gratifikasi bila terkait layanan: tolak dengan halus, jelaskan aturannya, dan hargai niat baik pemberinya."
+    },
+    {
+      "id": "TKP-101",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 2,
+      "question": "Rekan satu tim mengajak Anda menandatangani daftar hadir dan laporan perjalanan dinas untuk kegiatan yang sebenarnya hanya dilakukan secara daring dari kantor, agar dana transportnya dapat dicairkan dan dipakai untuk keperluan tim. Sikap Anda...",
+      "options": [
+        {
+          "text": "Ikut menandatangani karena semua anggota tim juga melakukannya",
+          "score": 2
+        },
+        {
+          "text": "Menolak menandatangani dokumen yang tidak sesuai kenyataan, menjelaskan bahwa hal itu termasuk laporan fiktif yang berisiko sanksi berat, dan menyarankan pengajuan biaya sesuai kegiatan yang sebenarnya",
+          "score": 5
+        },
+        {
+          "text": "Menandatangani karena dokumen disiapkan oleh bagian keuangan, bukan oleh Anda",
+          "score": 1
+        },
+        {
+          "text": "Tidak ikut menandatangani dan membiarkan praktik itu berjalan tanpa mengatakan apa pun",
+          "score": 3
+        },
+        {
+          "text": "Menolak menandatangani dan mengingatkan rekan tentang risikonya, tanpa melaporkan lebih lanjut",
+          "score": 4
+        }
+      ],
+      "explanation": "Tanda tangan pada dokumen perjalanan dinas yang tidak sesuai kenyataan menjadikan Anda turut bertanggung jawab atas laporan fiktif, apa pun alasan penggunaan dananya. Jumlah pelaku yang banyak tidak membuat perbuatan tersebut menjadi benar. Menolak sambil mengingatkan rekan adalah bentuk kepedulian sekaligus penjagaan integritas diri dan tim.",
+      "trick": "Jangan pernah menandatangani dokumen yang tidak sesuai fakta seperti SPPD fiktif; menolak dan mengingatkan risikonya adalah sikap yang benar."
+    },
+    {
+      "id": "TKP-102",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 2,
+      "question": "Di akhir pekan, kendaraan dinas sedang tidak dipakai dan keluarga Anda membutuhkan kendaraan untuk acara keluarga. Beberapa rekan biasa meminjamnya dengan izin lisan dari petugas jaga. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menggunakannya karena kendaraan memang sedang menganggur dan Anda akan mengisi sendiri bahan bakarnya",
+          "score": 2
+        },
+        {
+          "text": "Menggunakannya asal tidak ada yang mengetahui",
+          "score": 1
+        },
+        {
+          "text": "Meminjam melalui petugas jaga seperti kebiasaan rekan-rekan lain",
+          "score": 3
+        },
+        {
+          "text": "Tidak menggunakannya untuk keperluan pribadi karena kendaraan dinas hanya diperuntukkan bagi tugas kedinasan, dan memilih menyewa kendaraan atau transportasi lain",
+          "score": 5
+        },
+        {
+          "text": "Meminta izin tertulis kepada pimpinan sebelum menggunakannya untuk keperluan keluarga tersebut",
+          "score": 4
+        }
+      ],
+      "explanation": "Kendaraan dinas adalah aset negara yang hanya boleh digunakan untuk kepentingan kedinasan, sehingga keadaan menganggur dan kebiasaan rekan bukan pembenaran. Izin lisan dari petugas jaga tidak memiliki dasar kewenangan apa pun. Menggunakan jalur permintaan izin tertulis memang lebih baik daripada memakai diam-diam, tetapi pilihan paling tepat adalah tidak memakai aset dinas untuk urusan pribadi.",
+      "trick": "Fasilitas dinas hanya untuk kedinasan; alasan sedang menganggur dan sudah biasa dilakukan bukan pembenar pemakaian pribadi."
+    },
+    {
+      "id": "TKP-103",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 3,
+      "question": "Seorang kerabat yang perusahaannya ikut serta dalam pengadaan di kantor Anda menghubungi Anda di luar jam kerja, meminta bocoran mengenai peserta lain dan perkiraan harga penawaran pesaing. Sikap Anda...",
+      "options": [
+        {
+          "text": "Memberikan sedikit gambaran umum karena ia keluarga dan informasinya tidak terlalu rinci",
+          "score": 2
+        },
+        {
+          "text": "Memberitahunya setelah proses pengadaan selesai agar tidak memengaruhi hasil",
+          "score": 3
+        },
+        {
+          "text": "Menolak memberi tahu, tetapi memberi isyarat bahwa peluang perusahaan kerabatnya kecil",
+          "score": 1
+        },
+        {
+          "text": "Menolak memberikan informasi dan memintanya mengikuti proses pengadaan secara normal, tanpa melaporkan pendekatan tersebut",
+          "score": 4
+        },
+        {
+          "text": "Menolak memberikan informasi apa pun terkait pengadaan, menjelaskan bahwa hal itu merupakan rahasia jabatan dan konflik kepentingan, serta melaporkan upaya pendekatan tersebut kepada pimpinan atau pejabat pengadaan",
+          "score": 5
+        }
+      ],
+      "explanation": "Informasi mengenai peserta dan penawaran dalam pengadaan adalah rahasia jabatan yang tidak boleh dibocorkan kepada siapa pun, termasuk keluarga. Isyarat sekecil apa pun tetap merupakan kebocoran yang menguntungkan satu pihak. Melaporkan upaya pendekatan melindungi proses pengadaan dan diri Anda dari dugaan keterlibatan.",
+      "trick": "Dimintai bocoran pengadaan oleh kerabat: tolak total, nyatakan konflik kepentingannya, dan laporkan upaya pendekatan tersebut."
+    },
+    {
+      "id": "TKP-104",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 1,
+      "question": "Seorang pemilik usaha yang perizinannya rutin Anda tangani selalu mengajak Anda makan siang dan membayar seluruh tagihannya setiap kali selesai pengurusan. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menolak dengan sopan dan membayar bagian Anda sendiri bila kebetulan makan bersama, karena perlakuan khusus dari pihak yang Anda layani dapat menjadi gratifikasi",
+          "score": 5
+        },
+        {
+          "text": "Menerimanya karena makan siang bersama adalah hal yang wajar dan tidak mahal",
+          "score": 2
+        },
+        {
+          "text": "Menerimanya selama tidak ada permintaan khusus darinya terkait perizinan",
+          "score": 3
+        },
+        {
+          "text": "Menerima ajakannya dan membalas dengan memberinya kemudahan informasi antrean",
+          "score": 1
+        },
+        {
+          "text": "Menghindari makan bersama dan menjelaskan dengan sopan bahwa Anda menjaga jarak profesional dengan pihak yang Anda layani",
+          "score": 4
+        }
+      ],
+      "explanation": "Traktiran yang berulang dari pihak yang layanannya Anda tangani berpotensi menjadi gratifikasi dan menimbulkan ketergantungan maupun kesan keberpihakan. Ketiadaan permintaan khusus saat ini tidak menutup kemungkinan pengaruhnya pada keputusan di kemudian hari. Membayar sendiri dan menjaga jarak profesional adalah perlindungan terbaik bagi integritas petugas.",
+      "trick": "Traktiran rutin dari pihak yang Anda layani tetap berpotensi gratifikasi — jaga jarak profesional dan selalu bayar bagian Anda sendiri."
+    },
+    {
+      "id": "TKP-105",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 2,
+      "question": "Seorang petugas senior di bagian lain memberi tahu Anda bahwa berkas warga yang Anda teruskan akan diproses lebih cepat bila ada uang rokok, dan meminta Anda menyampaikannya kepada warga. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menyampaikan pesan itu kepada warga agar mereka yang memutuskan sendiri",
+          "score": 2
+        },
+        {
+          "text": "Diam saja dan tetap meneruskan berkas seperti biasa tanpa menyampaikan pesan tersebut",
+          "score": 3
+        },
+        {
+          "text": "Menolak menjadi perantara pungutan liar, tetap meneruskan berkas melalui jalur normal, dan melaporkan permintaan tersebut kepada pimpinan atau pengawas internal",
+          "score": 5
+        },
+        {
+          "text": "Menegur petugas senior itu secara pribadi dan memintanya tidak mengulangi perbuatannya",
+          "score": 4
+        },
+        {
+          "text": "Menyampaikan kepada warga bahwa ada biaya tambahan tidak resmi, tetapi menyarankan mereka tidak membayarnya",
+          "score": 1
+        }
+      ],
+      "explanation": "Menjadi penyampai pesan pungutan liar berarti ikut serta memuluskan praktik pungli, meskipun Anda tidak menerima sepeser pun. Berkas warga harus tetap diproses melalui jalur normal tanpa syarat tambahan apa pun. Pelaporan kepada pengawas internal diperlukan karena teguran pribadi kepada senior jarang menghentikan praktik yang sudah berjalan.",
+      "trick": "Jangan pernah menjadi perantara pungli — teruskan berkas lewat jalur normal dan laporkan oknumnya kepada pengawas."
+    },
+    {
+      "id": "TKP-106",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 1,
+      "question": "Rekan-rekan satu tim berencana patungan membeli hadiah mahal untuk atasan menjelang penilaian kinerja, dengan harapan penilaian tim menjadi lebih baik. Anda diajak ikut serta dalam patungan tersebut. Sikap Anda...",
+      "options": [
+        {
+          "text": "Ikut patungan agar tidak dianggap tidak kompak oleh tim",
+          "score": 2
+        },
+        {
+          "text": "Menolak ikut dan menjelaskan baik-baik bahwa pemberian kepada atasan yang terkait penilaian dapat dipandang sebagai gratifikasi dan memengaruhi objektivitas",
+          "score": 5
+        },
+        {
+          "text": "Tidak ikut patungan, tetapi membiarkan rencana tim berjalan tanpa menyampaikan keberatan apa pun",
+          "score": 4
+        },
+        {
+          "text": "Ikut patungan dengan jumlah paling kecil agar tetap terlihat kompak",
+          "score": 3
+        },
+        {
+          "text": "Mengusulkan agar hadiah diberikan setelah penilaian kinerja selesai agar tidak menimbulkan kesan apa-apa",
+          "score": 1
+        }
+      ],
+      "explanation": "Hadiah kepada atasan yang diberikan menjelang penilaian kinerja termasuk gratifikasi karena berkaitan dengan kepentingan penilaian yang akan diterima tim. Mengubah waktu pemberian tidak menghapus kaitan kepentingan tersebut. Menolak ikut disertai penjelasan yang baik-baik menjaga integritas tanpa merusak hubungan kerja.",
+      "trick": "Hadiah untuk atasan menjelang penilaian kinerja adalah gratifikasi terselubung; menolak ikut sambil menjelaskan alasannya adalah sikap yang tepat."
+    },
+    {
+      "id": "TKP-107",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 3,
+      "question": "Anda melihat langsung rekan yang juga sahabat dekat Anda menerima amplop dari seorang warga setelah membantu pengurusan dokumen. Ia berdalih itu hanya ucapan terima kasih dan meminta Anda tidak menceritakannya kepada siapa pun. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menuruti permintaannya karena persahabatan dan nilai pemberian itu kecil",
+          "score": 1
+        },
+        {
+          "text": "Menasihatinya untuk tidak mengulangi, dan baru melaporkannya bila perbuatan itu terulang lagi",
+          "score": 3
+        },
+        {
+          "text": "Memintanya mengembalikan amplop itu kepada warga di hadapan Anda, lalu menganggap persoalan selesai",
+          "score": 4
+        },
+        {
+          "text": "Menegurnya bahwa menerima pemberian terkait layanan adalah pelanggaran, mendorongnya melaporkan penerimaan itu melalui mekanisme gratifikasi, dan bila ia menolak, meneruskan temuan ini melalui saluran pengaduan resmi",
+          "score": 5
+        },
+        {
+          "text": "Menjauhinya dan menyebarkan cerita tersebut kepada rekan-rekan lain agar mereka mengetahuinya",
+          "score": 2
+        }
+      ],
+      "explanation": "Penerimaan amplop terkait layanan adalah pelanggaran integritas yang tidak boleh ditutupi atas nama persahabatan, berapa pun nilainya. Langkah yang benar adalah mendorong pelaku melaporkannya melalui mekanisme gratifikasi agar tercatat secara resmi. Menyebarkan cerita tanpa jalur resmi hanya menjadi gosip dan tidak menyelesaikan persoalan.",
+      "trick": "Melihat rekan menerima pemberian: tegur, dorong ia melapor lewat mekanisme gratifikasi, dan eskalasikan secara resmi bila menolak — kedekatan pribadi tidak mengalahkan aturan."
+    },
+    {
+      "id": "TKP-108",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 2,
+      "question": "Dalam seleksi penerimaan pegawai non-ASN di kantor Anda, saudara kandung Anda ikut mendaftar dan Anda bertugas pada tahap verifikasi berkas. Beberapa rekan menyarankan Anda menjaga berkas saudara Anda tersebut. Sikap Anda...",
+      "options": [
+        {
+          "text": "Memverifikasi sendiri berkas saudara Anda tanpa memberi tahu panitia lain",
+          "score": 2
+        },
+        {
+          "text": "Meminta rekan menggantikan verifikasi berkas saudara Anda tanpa menjelaskan alasannya",
+          "score": 4
+        },
+        {
+          "text": "Memberi tahu saudara Anda mengenai jenis kekurangan berkas yang sering menggugurkan pelamar",
+          "score": 1
+        },
+        {
+          "text": "Tetap memverifikasi semua berkas termasuk milik saudara Anda sesuai urutan masuknya berkas",
+          "score": 3
+        },
+        {
+          "text": "Melaporkan hubungan keluarga tersebut kepada ketua panitia dan meminta berkas saudara Anda diverifikasi oleh petugas lain sesuai mekanisme konflik kepentingan",
+          "score": 5
+        }
+      ],
+      "explanation": "Memiliki saudara kandung sebagai peserta seleksi menimbulkan konflik kepentingan yang wajib dilaporkan kepada panitia. Pengalihan penanganan berkas kepada petugas lain melindungi keabsahan hasil seleksi dan nama baik Anda maupun saudara Anda. Membocorkan informasi kekurangan berkas adalah keuntungan tidak sah yang merugikan pelamar lain.",
+      "trick": "Bila keluarga Anda ikut seleksi dan Anda termasuk panitia: deklarasikan hubungan itu dan alihkan penanganannya kepada petugas lain."
+    },
+    {
+      "id": "TKP-109",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 2,
+      "question": "Anda mengetahui rekan yang mengelola pembelian alat tulis kantor membeli barang dengan harga pada nota lebih tinggi daripada harga toko sebenarnya, dan selisihnya ia simpan. Jumlahnya kecil tetapi dilakukan berulang kali. Sikap Anda...",
+      "options": [
+        {
+          "text": "Mengumpulkan informasi seperlunya tanpa menuduh, lalu melaporkannya melalui saluran pengaduan internal atau inspektorat karena mark-up yang berulang tetap merupakan korupsi",
+          "score": 5
+        },
+        {
+          "text": "Mengabaikannya karena jumlahnya kecil dan bukan urusan Anda",
+          "score": 1
+        },
+        {
+          "text": "Menasihatinya secara pribadi untuk berhenti dan menganggap selesai bila ia berjanji tidak mengulangi",
+          "score": 3
+        },
+        {
+          "text": "Mengikutinya dengan ikut menitip pembelian melalui rekan tersebut agar mendapat kemudahan yang sama",
+          "score": 2
+        },
+        {
+          "text": "Menghadap pimpinan dengan informasi awal yang Anda miliki dan menyerahkan tindak lanjutnya kepada pimpinan",
+          "score": 4
+        }
+      ],
+      "explanation": "Mark-up harga pembelian, sekecil apa pun nilainya, adalah korupsi apabila dilakukan dengan sengaja dan berulang untuk keuntungan pribadi. Pelaporan melalui saluran resmi dengan informasi awal yang cukup memungkinkan pemeriksaan dilakukan secara benar. Menasihati secara pribadi tanpa pelaporan membuat praktik tersebut mudah diulangi tanpa jejak.",
+      "trick": "Mark-up kecil tetapi berulang tetap korupsi: jangan diam dan jangan ikut — sampaikan informasi awal melalui jalur pengaduan resmi."
+    },
+    {
+      "id": "TKP-110",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 1,
+      "question": "Anda memiliki usaha sampingan berjualan daring. Saat jam layanan sedang sepi, godaan untuk membalas pesanan pelanggan dan mengurus pengiriman dari meja kerja cukup besar. Sikap Anda...",
+      "options": [
+        {
+          "text": "Mengurus usaha sampingan selama tidak ada warga yang sedang dilayani",
+          "score": 2
+        },
+        {
+          "text": "Mengurusnya dengan cepat di sela-sela tugas agar tidak ketahuan",
+          "score": 1
+        },
+        {
+          "text": "Menahan diri dan hanya mengurus usaha sampingan di luar jam kerja, karena waktu dan fasilitas kerja adalah amanah untuk pelayanan publik",
+          "score": 5
+        },
+        {
+          "text": "Mengurus usaha sampingan pada jam istirahat menggunakan perangkat pribadi",
+          "score": 4
+        },
+        {
+          "text": "Meminta rekan di sebelah menjaga loket sementara Anda mengurus pengiriman barang",
+          "score": 3
+        }
+      ],
+      "explanation": "Waktu kerja dan fasilitas kantor adalah amanah yang dibayar negara untuk pelayanan publik, sehingga tidak boleh dipakai mengurus kepentingan usaha pribadi. Kondisi loket yang sepi tidak mengubah status jam kerja sebagai waktu yang harus disiagakan untuk tugas. Mengurus usaha pada jam istirahat dengan perangkat pribadi masih dapat diterima, tetapi yang paling tepat adalah memisahkannya sepenuhnya di luar jam kerja.",
+      "trick": "Waktu kerja adalah amanah untuk pelayanan: urusan usaha pribadi hanya dilakukan di luar jam kerja, bukan di sela tugas meski sedang sepi."
+    },
+    {
+      "id": "TKP-111",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 2,
+      "question": "Dalam pengadaan langsung melalui e-katalog, seorang penyedia menawarkan komisi terima kasih kepada Anda bila memilih produk perusahaannya, padahal ada produk lain dengan harga dan kualitas yang setara. Sikap Anda...",
+      "options": [
+        {
+          "text": "Menerima komisi tersebut selama harga produknya tetap wajar",
+          "score": 1
+        },
+        {
+          "text": "Menolak komisi itu, memilih produk berdasarkan harga, kualitas, dan kebutuhan kantor, serta melaporkan tawaran tersebut sesuai mekanisme yang berlaku",
+          "score": 5
+        },
+        {
+          "text": "Menolak komisi, tetapi tetap memilih produk perusahaan tersebut karena sudah dikenal",
+          "score": 3
+        },
+        {
+          "text": "Tidak menjawab tawaran itu dan memilih produk perusahaan lain untuk menghindari masalah",
+          "score": 4
+        },
+        {
+          "text": "Membiarkan tawaran itu berlalu dan hanya memberi tahu rekan-rekan agar berhati-hati, tanpa tindak lanjut resmi",
+          "score": 2
+        }
+      ],
+      "explanation": "Komisi dari penyedia yang terkait dengan keputusan pembelian adalah bentuk suap atau gratifikasi yang wajib ditolak dan dilaporkan. Pemilihan produk harus murni berdasarkan kebutuhan, harga, dan kualitas terbaik bagi kantor. Menghindari perusahaan tersebut tanpa dasar penilaian justru dapat merugikan kantor bila produknya sebenarnya paling menguntungkan.",
+      "trick": "Komisi dari penyedia adalah suap terselubung: tolak, pilih berdasarkan kebutuhan serta harga dan kualitas terbaik, dan laporkan tawarannya."
+    },
+    {
+      "id": "TKP-112",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 3,
+      "question": "Seorang tokoh masyarakat berpengaruh menelepon Anda meminta agar berkas permohonan kerabatnya yang sebenarnya belum memenuhi syarat tetap diloloskan, dengan menyebut kedekatannya dengan pimpinan instansi Anda. Sikap Anda...",
+      "options": [
+        {
+          "text": "Meloloskan berkas tersebut karena menolak permintaan tokoh berpengaruh berisiko bagi posisi Anda",
+          "score": 1
+        },
+        {
+          "text": "Meloloskan berkas dengan catatan agar kekurangannya dilengkapi belakangan",
+          "score": 2
+        },
+        {
+          "text": "Menolak dengan kasar dan memintanya tidak mencampuri urusan kantor",
+          "score": 3
+        },
+        {
+          "text": "Menjelaskan ketentuan dan kekurangan berkasnya serta membantu kerabat tokoh tersebut melengkapi syarat melalui jalur normal",
+          "score": 4
+        },
+        {
+          "text": "Menolak meloloskan berkas yang belum memenuhi syarat dengan penjelasan sopan mengenai ketentuannya, mengarahkan pemenuhan syarat lewat jalur normal, dan melaporkan adanya tekanan tersebut kepada pimpinan melalui jalur resmi",
+          "score": 5
+        }
+      ],
+      "explanation": "Berkas yang belum memenuhi syarat tidak boleh diloloskan oleh tekanan siapa pun, termasuk tokoh berpengaruh yang mengatasnamakan kedekatan dengan pimpinan. Penolakan tetap disampaikan secara sopan disertai bantuan pemenuhan syarat melalui jalur normal. Melaporkan tekanan tersebut melindungi Anda dan instansi dari intervensi serupa di kemudian hari.",
+      "trick": "Menghadapi tekanan tokoh berpengaruh: pegang ketentuan, bantu lewat jalur normal, dan laporkan tekanannya secara resmi."
+    },
+    {
+      "id": "TKP-113",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 2,
+      "question": "Seorang rekan secara rutin menggunakan printer dan kertas kantor untuk mencetak bahan usaha pribadinya dalam jumlah banyak setelah jam kerja, dan menurutnya hal itu tidak merugikan karena jam layanan sudah tutup. Sikap Anda...",
+      "options": [
+        {
+          "text": "Ikut menggunakan fasilitas yang sama karena sudah menjadi kebiasaan di kantor",
+          "score": 2
+        },
+        {
+          "text": "Membiarkannya karena bukan wewenang Anda menegur rekan yang sederajat",
+          "score": 3
+        },
+        {
+          "text": "Memintanya berhenti karena Anda sendiri tidak memperoleh kesempatan memakai printer tersebut",
+          "score": 1
+        },
+        {
+          "text": "Mengingatkannya bahwa fasilitas dan persediaan kantor hanya untuk keperluan kedinasan berapa pun jumlahnya, dan bila praktik itu berlanjut, menyampaikannya kepada pimpinan melalui jalur yang semestinya",
+          "score": 5
+        },
+        {
+          "text": "Menegurnya sekali dan tidak menindaklanjuti apa pun setelahnya",
+          "score": 4
+        }
+      ],
+      "explanation": "Printer, kertas, dan tinta kantor adalah barang milik negara yang hanya boleh digunakan untuk keperluan kedinasan, tanpa memandang jam penggunaannya. Kebiasaan yang sudah berjalan tidak menjadikan penyalahgunaan fasilitas sebagai hal yang benar. Pengingatan yang baik disertai tindak lanjut resmi bila berlanjut menunjukkan kepedulian pada integritas lingkungan kerja.",
+      "trick": "Pemakaian fasilitas kantor untuk kepentingan pribadi tetap penyalahgunaan, meski dilakukan setelah jam kerja dan jumlahnya kecil."
+    },
+    {
+      "id": "TKP-114",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 3,
+      "question": "Setelah kegiatan kantor selesai, masih ada sisa dana yang cukup besar. Ketua panitia mengusulkan agar dana itu dibagi rata kepada seluruh panitia dan laporan pertanggungjawaban disesuaikan seolah-olah dana habis terpakai. Sikap Anda...",
+      "options": [
+        {
+          "text": "Mengikuti usulan karena semua panitia menyetujuinya dan kerja keras tim layak dihargai",
+          "score": 2
+        },
+        {
+          "text": "Menolak usulan tersebut, menyampaikan bahwa sisa dana harus dikembalikan sesuai ketentuan dan laporan harus mencerminkan penggunaan yang sebenarnya, serta melaporkan rencana itu bila panitia tetap memaksakannya",
+          "score": 5
+        },
+        {
+          "text": "Tidak mengambil bagian dana, tetapi bersedia menandatangani laporan yang disesuaikan",
+          "score": 1
+        },
+        {
+          "text": "Tidak mengambil bagian dan membiarkan panitia lain melanjutkan rencana mereka",
+          "score": 3
+        },
+        {
+          "text": "Menolak dan mengusulkan sisa dana dikembalikan sesuai ketentuan, tanpa melaporkan rencana awal panitia",
+          "score": 4
+        }
+      ],
+      "explanation": "Sisa dana kegiatan adalah uang negara yang wajib dikembalikan, dan laporan pertanggungjawaban harus mencerminkan penggunaan yang sebenarnya. Persetujuan seluruh panitia tidak melegalkan pembagian dana dan pemalsuan laporan tersebut. Menandatangani laporan yang disesuaikan, meskipun tidak ikut menerima uang, tetap merupakan keterlibatan dalam pelanggaran.",
+      "trick": "Sisa dana kegiatan wajib dikembalikan dan laporan harus apa adanya; memanipulasi laporan pertanggungjawaban adalah korupsi meski disetujui seluruh tim."
+    }
+  ]
+}

@@ -1,0 +1,1494 @@
+{
+  "version": 2,
+  "batch": "batch3-tiu-e",
+  "questions": [
+    {
+      "id": "TIU-105",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 1,
+      "question": "Kota P dan Kota Q berjarak 280 km. Sebuah mobil berangkat dari Kota P menuju Kota Q dengan kecepatan 60 km/jam, sedangkan pada saat yang sama sebuah bus berangkat dari Kota Q menuju Kota P dengan kecepatan 80 km/jam. Kedua kendaraan akan berpapasan setelah ...",
+      "options": [
+        {
+          "text": "2,5 jam",
+          "score": 0
+        },
+        {
+          "text": "3 jam",
+          "score": 0
+        },
+        {
+          "text": "3,5 jam",
+          "score": 0
+        },
+        {
+          "text": "2 jam",
+          "score": 5
+        },
+        {
+          "text": "4 jam",
+          "score": 0
+        }
+      ],
+      "explanation": "Kecepatan gabungan kedua kendaraan adalah 60 + 80 = 140 km/jam. Waktu berpapasan = jarak : kecepatan gabungan = 280 : 140 = 2 jam.",
+      "trick": "Untuk kendaraan yang bergerak berlawanan arah dan berpapasan, jumlahkan kedua kecepatan lalu bagi jarak dengan jumlah tersebut."
+    },
+    {
+      "id": "TIU-106",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 2,
+      "question": "Sebuah bus berangkat dari terminal dengan kecepatan 48 km/jam. Satu jam kemudian, sebuah mobil berangkat dari terminal yang sama untuk mengejar bus dengan kecepatan 72 km/jam. Mobil akan menyusul bus setelah ... sejak mobil berangkat.",
+      "options": [
+        {
+          "text": "1 jam",
+          "score": 0
+        },
+        {
+          "text": "1,5 jam",
+          "score": 0
+        },
+        {
+          "text": "2 jam",
+          "score": 5
+        },
+        {
+          "text": "2,5 jam",
+          "score": 0
+        },
+        {
+          "text": "3 jam",
+          "score": 0
+        }
+      ],
+      "explanation": "Dalam 1 jam bus telah menempuh 48 x 1 = 48 km, jadi jarak yang harus dikejar adalah 48 km. Selisih kecepatan mobil dan bus adalah 72 - 48 = 24 km/jam, sehingga waktu menyusul = 48 : 24 = 2 jam.",
+      "trick": "Pada soal menyusul, bagi jarak yang tertinggal dengan selisih kecepatan kedua kendaraan."
+    },
+    {
+      "id": "TIU-107",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 1,
+      "question": "Mesin A dapat mengisi penuh sebuah tangki air dalam waktu 8 jam, sedangkan mesin B dapat mengisinya dalam waktu 24 jam. Jika kedua mesin digunakan bersamaan, waktu yang dibutuhkan untuk mengisi tangki sampai penuh adalah ...",
+      "options": [
+        {
+          "text": "4 jam",
+          "score": 0
+        },
+        {
+          "text": "6 jam",
+          "score": 5
+        },
+        {
+          "text": "8 jam",
+          "score": 0
+        },
+        {
+          "text": "12 jam",
+          "score": 0
+        },
+        {
+          "text": "16 jam",
+          "score": 0
+        }
+      ],
+      "explanation": "Dalam 1 jam, mesin A mengisi 1/8 tangki dan mesin B mengisi 1/24 tangki. Bekerja bersama, keduanya mengisi 1/8 + 1/24 = 3/24 + 1/24 = 4/24 = 1/6 tangki per jam. Jadi tangki penuh dalam 1 : 1/6 = 6 jam.",
+      "trick": "Untuk pekerjaan bersama: jumlahkan laju per satuan waktu (1/waktu masing-masing), lalu balik hasilnya."
+    },
+    {
+      "id": "TIU-108",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 3,
+      "question": "Andi dapat menyelesaikan suatu pekerjaan dalam 10 hari dan Budi dalam 15 hari. Mereka bekerja bergantian, masing-masing satu hari, dan Andi yang memulai. Pekerjaan akan selesai tepat pada akhir hari ke-...",
+      "options": [
+        {
+          "text": "hari ke-10",
+          "score": 0
+        },
+        {
+          "text": "hari ke-11",
+          "score": 0
+        },
+        {
+          "text": "hari ke-12",
+          "score": 5
+        },
+        {
+          "text": "hari ke-13",
+          "score": 0
+        },
+        {
+          "text": "hari ke-14",
+          "score": 0
+        }
+      ],
+      "explanation": "Dalam 1 hari Andi menyelesaikan 1/10 bagian dan Budi 1/15 bagian, sehingga setiap 2 hari selesai 1/10 + 1/15 = 3/30 + 2/30 = 1/6 bagian. Setelah 10 hari (5 putaran) selesai 5/6 bagian; pada hari ke-11 Andi bekerja sehingga menjadi 5/6 + 1/10 = 14/15 bagian; pada hari ke-12 Budi bekerja sehingga menjadi 14/15 + 1/15 = 1, pekerjaan selesai pada akhir hari ke-12.",
+      "trick": "Untuk pekerjaan bergantian, hitung dulu hasil satu putaran penuh, lalu lanjutkan sisa pekerjaan hari demi hari."
+    },
+    {
+      "id": "TIU-109",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 2,
+      "question": "Suatu pekerjaan dapat diselesaikan oleh Rina sendiri dalam 8 hari. Rina mengerjakan pekerjaan itu selama 2 hari, kemudian ia berhenti. Sisa pekerjaan diselesaikan oleh Sari dalam waktu 9 hari. Jika Sari bekerja sendiri sejak awal, ia dapat menyelesaikan seluruh pekerjaan dalam ...",
+      "options": [
+        {
+          "text": "10 hari",
+          "score": 0
+        },
+        {
+          "text": "12 hari",
+          "score": 5
+        },
+        {
+          "text": "14 hari",
+          "score": 0
+        },
+        {
+          "text": "16 hari",
+          "score": 0
+        },
+        {
+          "text": "18 hari",
+          "score": 0
+        }
+      ],
+      "explanation": "Dalam 2 hari Rina menyelesaikan 2/8 = 1/4 bagian, sehingga sisa pekerjaan adalah 3/4 bagian. Sari menyelesaikan 3/4 bagian dalam 9 hari, berarti dalam 1 hari ia menyelesaikan 3/4 : 9 = 1/12 bagian, sehingga seluruh pekerjaan dapat ia selesaikan sendiri dalam 12 hari.",
+      "trick": "Tentukan dulu sisa pekerjaan sebagai pecahan, lalu bagi sisa itu dengan waktu yang dipakai pekerja pengganti."
+    },
+    {
+      "id": "TIU-110",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 2,
+      "question": "Seorang pedagang mencampur 2 kg kopi seharga Rp40.000,00 per kg dengan 3 kg kopi seharga Rp70.000,00 per kg. Harga campuran kopi tersebut per kg adalah ...",
+      "options": [
+        {
+          "text": "Rp52.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp58.000,00",
+          "score": 5
+        },
+        {
+          "text": "Rp55.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp60.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp62.000,00",
+          "score": 0
+        }
+      ],
+      "explanation": "Nilai kopi pertama adalah 2 x Rp40.000,00 = Rp80.000,00 dan kopi kedua 3 x Rp70.000,00 = Rp210.000,00. Nilai total campuran Rp290.000,00 dengan berat total 5 kg, sehingga harga per kg adalah Rp290.000,00 : 5 = Rp58.000,00.",
+      "trick": "Harga campuran adalah rata-rata tertimbang: total nilai semua bahan dibagi total beratnya, bukan rata-rata biasa dari harga-harganya."
+    },
+    {
+      "id": "TIU-111",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 3,
+      "question": "Sebanyak 2 liter larutan gula berkadar 30% dicampur dengan 3 liter larutan gula berkadar 50%. Kadar gula pada larutan campuran adalah ...",
+      "options": [
+        {
+          "text": "38%",
+          "score": 0
+        },
+        {
+          "text": "40%",
+          "score": 0
+        },
+        {
+          "text": "42%",
+          "score": 5
+        },
+        {
+          "text": "45%",
+          "score": 0
+        },
+        {
+          "text": "48%",
+          "score": 0
+        }
+      ],
+      "explanation": "Gula murni pada larutan pertama adalah 30% x 2 liter = 0,6 liter dan pada larutan kedua 50% x 3 liter = 1,5 liter. Total gula murni 2,1 liter dalam campuran 5 liter, sehingga kadarnya adalah 2,1 : 5 = 0,42 = 42%.",
+      "trick": "Untuk campuran larutan, hitung zat murninya dari tiap larutan, jumlahkan, lalu bagi dengan volume total."
+    },
+    {
+      "id": "TIU-112",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 3,
+      "question": "Beras jenis A berharga Rp9.000,00 per kg dan beras jenis B berharga Rp13.500,00 per kg. Perbandingan berat beras A dan beras B yang harus dicampurkan agar diperoleh beras campuran berharga Rp11.000,00 per kg adalah ...",
+      "options": [
+        {
+          "text": "4 : 5",
+          "score": 0
+        },
+        {
+          "text": "2 : 3",
+          "score": 0
+        },
+        {
+          "text": "3 : 2",
+          "score": 0
+        },
+        {
+          "text": "5 : 4",
+          "score": 5
+        },
+        {
+          "text": "1 : 1",
+          "score": 0
+        }
+      ],
+      "explanation": "Dengan aturan selisih silang, bagian beras A sebanding dengan 13.500 - 11.000 = 2.500, sedangkan bagian beras B sebanding dengan 11.000 - 9.000 = 2.000. Perbandingan A : B = 2.500 : 2.000 = 5 : 4, dan terbukti (5 x 9.000 + 4 x 13.500) : 9 = 99.000 : 9 = Rp11.000,00 per kg.",
+      "trick": "Pada campuran dua harga, perbandingan berat diperoleh dari selisih silang terhadap harga target, dan selisih itu justru tertukar posisinya."
+    },
+    {
+      "id": "TIU-113",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 1,
+      "question": "Umur seorang ayah sekarang 40 tahun dan umur anaknya 10 tahun. Berapa tahun lagi umur ayah akan menjadi tiga kali umur anaknya?",
+      "options": [
+        {
+          "text": "3 tahun lagi",
+          "score": 0
+        },
+        {
+          "text": "4 tahun lagi",
+          "score": 0
+        },
+        {
+          "text": "5 tahun lagi",
+          "score": 5
+        },
+        {
+          "text": "6 tahun lagi",
+          "score": 0
+        },
+        {
+          "text": "8 tahun lagi",
+          "score": 0
+        }
+      ],
+      "explanation": "Misalkan t tahun lagi umur ayah tiga kali umur anak, maka 40 + t = 3(10 + t). Persamaan itu menjadi 40 + t = 30 + 3t, sehingga 10 = 2t dan t = 5; terbukti saat itu ayah berumur 45 tahun dan anak 15 tahun, dan 45 = 3 x 15.",
+      "trick": "Pada soal umur di masa depan, tambahkan bilangan tahun yang sama ke umur kedua orang sebelum membuat perbandingannya."
+    },
+    {
+      "id": "TIU-114",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 2,
+      "question": "Lima tahun yang lalu, umur seorang ibu adalah empat kali umur anaknya. Jika umur ibu sekarang 41 tahun, umur anaknya sekarang adalah ...",
+      "options": [
+        {
+          "text": "11 tahun",
+          "score": 0
+        },
+        {
+          "text": "12 tahun",
+          "score": 0
+        },
+        {
+          "text": "14 tahun",
+          "score": 5
+        },
+        {
+          "text": "13 tahun",
+          "score": 0
+        },
+        {
+          "text": "15 tahun",
+          "score": 0
+        }
+      ],
+      "explanation": "Umur ibu lima tahun yang lalu adalah 41 - 5 = 36 tahun. Umur anak lima tahun yang lalu adalah 36 : 4 = 9 tahun, sehingga umur anak sekarang adalah 9 + 5 = 14 tahun.",
+      "trick": "Kerjakan soal umur masa lalu di titik waktu yang disebutkan dulu, baru kembalikan ke umur sekarang."
+    },
+    {
+      "id": "TIU-115",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 1,
+      "question": "Jarak dua kota pada sebuah peta adalah 7,5 cm. Jika skala peta tersebut 1 : 400.000, jarak kedua kota sebenarnya adalah ...",
+      "options": [
+        {
+          "text": "3 km",
+          "score": 0
+        },
+        {
+          "text": "30 km",
+          "score": 5
+        },
+        {
+          "text": "28 km",
+          "score": 0
+        },
+        {
+          "text": "32 km",
+          "score": 0
+        },
+        {
+          "text": "300 km",
+          "score": 0
+        }
+      ],
+      "explanation": "Jarak sebenarnya = 7,5 x 400.000 = 3.000.000 cm. Karena 1 km = 100.000 cm, maka 3.000.000 cm = 30 km.",
+      "trick": "Kalikan jarak pada peta dengan angka skala, lalu ubah satuannya dari cm ke km dengan membagi 100.000."
+    },
+    {
+      "id": "TIU-116",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 1,
+      "question": "Jarak sebenarnya antara dua desa adalah 45 km. Jika jarak tersebut digambar pada peta berskala 1 : 500.000, jarak kedua desa pada peta adalah ...",
+      "options": [
+        {
+          "text": "5 cm",
+          "score": 0
+        },
+        {
+          "text": "8 cm",
+          "score": 0
+        },
+        {
+          "text": "9 cm",
+          "score": 5
+        },
+        {
+          "text": "10 cm",
+          "score": 0
+        },
+        {
+          "text": "90 cm",
+          "score": 0
+        }
+      ],
+      "explanation": "Jarak sebenarnya 45 km = 4.500.000 cm. Jarak pada peta = 4.500.000 : 500.000 = 9 cm.",
+      "trick": "Untuk mencari jarak pada peta, ubah dulu jarak sebenarnya ke cm, lalu bagi dengan angka skala."
+    },
+    {
+      "id": "TIU-117",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 2,
+      "question": "Dua buah dadu dilempar bersamaan satu kali. Peluang muncul mata dadu yang berjumlah 8 adalah ...",
+      "options": [
+        {
+          "text": "5/36",
+          "score": 5
+        },
+        {
+          "text": "1/6",
+          "score": 0
+        },
+        {
+          "text": "7/36",
+          "score": 0
+        },
+        {
+          "text": "1/9",
+          "score": 0
+        },
+        {
+          "text": "5/12",
+          "score": 0
+        }
+      ],
+      "explanation": "Banyak semua kemungkinan pada dua dadu adalah 6 x 6 = 36. Pasangan mata dadu yang berjumlah 8 adalah (2,6), (3,5), (4,4), (5,3), dan (6,2), yaitu 5 kemungkinan, sehingga peluangnya adalah 5/36.",
+      "trick": "Untuk jumlah mata dua dadu, daftarkan pasangan secara teratur dari mata terkecil agar tidak ada yang terlewat atau terhitung ganda."
+    },
+    {
+      "id": "TIU-118",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 1,
+      "question": "Dalam sebuah kantong terdapat 4 kelereng merah, 5 kelereng biru, dan 3 kelereng hijau. Jika diambil satu kelereng secara acak, peluang terambil kelereng biru adalah ...",
+      "options": [
+        {
+          "text": "1/3",
+          "score": 0
+        },
+        {
+          "text": "5/12",
+          "score": 5
+        },
+        {
+          "text": "5/7",
+          "score": 0
+        },
+        {
+          "text": "7/12",
+          "score": 0
+        },
+        {
+          "text": "1/4",
+          "score": 0
+        }
+      ],
+      "explanation": "Jumlah seluruh kelereng adalah 4 + 5 + 3 = 12. Banyak kelereng biru adalah 5, sehingga peluang terambil kelereng biru adalah 5/12.",
+      "trick": "Peluang pengambilan satu benda adalah banyak benda yang ditanyakan dibagi jumlah seluruh benda."
+    },
+    {
+      "id": "TIU-119",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 2,
+      "question": "Tiga keping uang logam dilempar bersamaan satu kali. Peluang muncul tepat dua sisi angka adalah ...",
+      "options": [
+        {
+          "text": "3/8",
+          "score": 5
+        },
+        {
+          "text": "1/8",
+          "score": 0
+        },
+        {
+          "text": "1/4",
+          "score": 0
+        },
+        {
+          "text": "1/2",
+          "score": 0
+        },
+        {
+          "text": "5/8",
+          "score": 0
+        }
+      ],
+      "explanation": "Banyak semua kemungkinan pada tiga keping uang logam adalah 2 x 2 x 2 = 8. Kemungkinan muncul tepat dua sisi angka adalah angka-angka-gambar, angka-gambar-angka, dan gambar-angka-angka, yaitu 3 kemungkinan, sehingga peluangnya adalah 3/8.",
+      "trick": "Untuk pelemparan beberapa koin, jumlah semua kemungkinan adalah 2 pangkat banyak koin, lalu daftarkan susunan yang memenuhi syarat."
+    },
+    {
+      "id": "TIU-120",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 2,
+      "question": "Seorang pedagang membeli sebuah sepeda seharga Rp400.000,00. Ia menjual sepeda itu kepada B dengan keuntungan 25%. Kemudian B menjualnya kepada C dengan kerugian 20% dari harga beli B. Harga jual sepeda dari B kepada C adalah ...",
+      "options": [
+        {
+          "text": "Rp380.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp420.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp440.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp400.000,00",
+          "score": 5
+        },
+        {
+          "text": "Rp450.000,00",
+          "score": 0
+        }
+      ],
+      "explanation": "Harga beli B adalah harga beli awal ditambah keuntungan 25%, yaitu Rp400.000,00 x 125% = Rp500.000,00. B menjual dengan kerugian 20%, sehingga harga jualnya adalah Rp500.000,00 x 80% = Rp400.000,00.",
+      "trick": "Pada jual beli bertingkat, persentase untung atau rugi tahap berikutnya selalu dihitung dari harga beli tahap itu, bukan harga awal."
+    },
+    {
+      "id": "TIU-121",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 1,
+      "question": "Sebuah tas berharga Rp1.200.000,00. Toko memberikan diskon 30%, kemudian dari harga setelah diskon diberikan lagi diskon 10%. Harga yang harus dibayar pembeli adalah ...",
+      "options": [
+        {
+          "text": "Rp720.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp780.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp756.000,00",
+          "score": 5
+        },
+        {
+          "text": "Rp800.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp840.000,00",
+          "score": 0
+        }
+      ],
+      "explanation": "Setelah diskon 30%, harga tas menjadi Rp1.200.000,00 x 70% = Rp840.000,00. Setelah diskon tambahan 10%, harga yang dibayar adalah Rp840.000,00 x 90% = Rp756.000,00.",
+      "trick": "Diskon bertingkat dihitung berurutan dari harga terbaru, bukan dengan menjumlahkan persen diskonnya."
+    },
+    {
+      "id": "TIU-122",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 1,
+      "question": "Seutas tali sepanjang 85 m akan dipotong menjadi potongan-potongan yang masing-masing panjangnya 7 m. Banyak potongan yang diperoleh dan sisa tali adalah ...",
+      "options": [
+        {
+          "text": "11 potongan, sisa 8 m",
+          "score": 0
+        },
+        {
+          "text": "12 potongan, sisa 1 m",
+          "score": 5
+        },
+        {
+          "text": "12 potongan, sisa 3 m",
+          "score": 0
+        },
+        {
+          "text": "12 potongan, sisa 5 m",
+          "score": 0
+        },
+        {
+          "text": "13 potongan, sisa 1 m",
+          "score": 0
+        }
+      ],
+      "explanation": "Hasil bagi 85 : 7 adalah 12 dengan sisa 85 - (12 x 7) = 85 - 84 = 1. Jadi diperoleh 12 potongan dan tali masih tersisa 1 m.",
+      "trick": "Pada soal pemotongan, banyak potongan adalah hasil bagi yang dibulatkan ke bawah dan sisanya adalah panjang awal dikurangi hasil kali potongan dengan panjang tiap potongan."
+    },
+    {
+      "id": "TIU-123",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 2,
+      "question": "Sebanyak 317 butir permen akan dibagikan sama banyak kepada 8 anak. Setiap anak menerima ...",
+      "options": [
+        {
+          "text": "38 permen, dan masih tersisa 13 permen",
+          "score": 0
+        },
+        {
+          "text": "39 permen, dan masih tersisa 3 permen",
+          "score": 0
+        },
+        {
+          "text": "40 permen, dan masih tersisa 5 permen",
+          "score": 0
+        },
+        {
+          "text": "38 permen, dan masih tersisa 5 permen",
+          "score": 0
+        },
+        {
+          "text": "39 permen, dan masih tersisa 5 permen",
+          "score": 5
+        }
+      ],
+      "explanation": "Hasil bagi 317 : 8 adalah 39 karena 8 x 39 = 312. Sisa permen adalah 317 - 312 = 5 butir, dan sisa ini memang harus lebih kecil dari 8, sehingga setiap anak menerima 39 permen dan tersisa 5 permen.",
+      "trick": "Gunakan pembagian bersisa: kalikan pembagi dengan hasil bagi terbesar yang tidak melampaui bilangan yang dibagi, lalu kurangkan."
+    },
+    {
+      "id": "TIU-124",
+      "subtest": "TIU",
+      "topic": "Soal Cerita",
+      "difficulty": 2,
+      "question": "Sebuah mobil menempuh perjalanan pergi dengan kecepatan rata-rata 40 km/jam dan pulang melalui jalan yang sama dengan kecepatan rata-rata 60 km/jam. Kecepatan rata-rata mobil untuk seluruh perjalanan adalah ...",
+      "options": [
+        {
+          "text": "45 km/jam",
+          "score": 0
+        },
+        {
+          "text": "48 km/jam",
+          "score": 5
+        },
+        {
+          "text": "50 km/jam",
+          "score": 0
+        },
+        {
+          "text": "52 km/jam",
+          "score": 0
+        },
+        {
+          "text": "55 km/jam",
+          "score": 0
+        }
+      ],
+      "explanation": "Misalkan jarak satu arah adalah 120 km (kelipatan persekutuan 40 dan 60). Waktu pergi adalah 120 : 40 = 3 jam dan waktu pulang 120 : 60 = 2 jam, sehingga kecepatan rata-rata seluruh perjalanan adalah (120 + 120) : (3 + 2) = 240 : 5 = 48 km/jam.",
+      "trick": "Kecepatan rata-rata perjalanan pulang-pergi adalah total jarak dibagi total waktu, bukan rata-rata biasa dari kedua kecepatan."
+    },
+    {
+      "id": "TIU-125",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 1,
+      "question": "Diketahui premis-premis berikut:\n(1) Semua insinyur adalah pegawai bersertifikat.\n(2) Semua pegawai bersertifikat mengikuti pelatihan tahunan.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Semua pegawai yang mengikuti pelatihan tahunan adalah insinyur.",
+          "score": 0
+        },
+        {
+          "text": "Semua insinyur mengikuti pelatihan tahunan.",
+          "score": 5
+        },
+        {
+          "text": "Sebagian insinyur tidak mengikuti pelatihan tahunan.",
+          "score": 0
+        },
+        {
+          "text": "Semua pegawai bersertifikat adalah insinyur.",
+          "score": 0
+        },
+        {
+          "text": "Tidak ada insinyur yang mengikuti pelatihan tahunan.",
+          "score": 0
+        }
+      ],
+      "explanation": "Semua insinyur termasuk pegawai bersertifikat, dan seluruh pegawai bersertifikat mengikuti pelatihan tahunan, sehingga setiap insinyur pasti mengikuti pelatihan tahunan. Pilihan lain keliru karena membalik arah keanggotaan atau meniadakan hubungan yang justru dijamin oleh kedua premis.",
+      "trick": "Untuk rantai 'semua-semua', hubungkan ujung awal ke ujung akhir dan waspadai pilihan yang membalik arah hubungan."
+    },
+    {
+      "id": "TIU-126",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 1,
+      "question": "Diketahui premis-premis berikut:\n(1) Sebagian atlet adalah mahasiswa.\n(2) Semua atlet adalah perenang.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Semua mahasiswa adalah perenang.",
+          "score": 0
+        },
+        {
+          "text": "Semua perenang adalah mahasiswa.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian mahasiswa adalah perenang.",
+          "score": 5
+        },
+        {
+          "text": "Sebagian perenang bukan mahasiswa.",
+          "score": 0
+        },
+        {
+          "text": "Tidak ada mahasiswa yang merupakan perenang.",
+          "score": 0
+        }
+      ],
+      "explanation": "Premis (1) menjamin ada atlet yang juga mahasiswa. Menurut premis (2), atlet tersebut adalah perenang, sehingga terbukti ada mahasiswa yang merupakan perenang. Pilihan lain tidak dijamin karena premis tidak menyatakan hubungan untuk seluruh mahasiswa atau seluruh perenang.",
+      "trick": "Jika ada 'sebagian A adalah B' dan 'semua A adalah C', maka sebagian B pasti adalah C karena anggota A yang sama menjadi saksinya."
+    },
+    {
+      "id": "TIU-127",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 2,
+      "question": "Diketahui premis-premis berikut:\n(1) Tidak ada dokumen rahasia yang boleh dibawa pulang.\n(2) Semua berkas proyek adalah dokumen rahasia.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Semua dokumen rahasia adalah berkas proyek.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian berkas proyek bukan dokumen rahasia.",
+          "score": 0
+        },
+        {
+          "text": "Semua dokumen yang boleh dibawa pulang adalah berkas proyek.",
+          "score": 0
+        },
+        {
+          "text": "Tidak ada berkas proyek yang boleh dibawa pulang.",
+          "score": 5
+        },
+        {
+          "text": "Sebagian dokumen rahasia boleh dibawa pulang.",
+          "score": 0
+        }
+      ],
+      "explanation": "Semua berkas proyek termasuk dokumen rahasia menurut premis (2). Premis (1) menyatakan tidak ada dokumen rahasia yang boleh dibawa pulang, sehingga tidak ada pula berkas proyek yang boleh dibawa pulang.",
+      "trick": "Kombinasikan 'tidak ada' dengan 'semua': anggota kelompok kecil mewarisi larangan yang berlaku bagi kelompok besarnya."
+    },
+    {
+      "id": "TIU-128",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 2,
+      "question": "Diketahui premis-premis berikut:\n(1) Semua pemenang lomba mendapat medali.\n(2) Sebagian siswa kelas 12 adalah pemenang lomba.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Semua siswa kelas 12 mendapat medali.",
+          "score": 0
+        },
+        {
+          "text": "Semua yang mendapat medali adalah siswa kelas 12.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian pemenang lomba tidak mendapat medali.",
+          "score": 0
+        },
+        {
+          "text": "Tidak ada siswa kelas 12 yang mendapat medali.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian siswa kelas 12 mendapat medali.",
+          "score": 5
+        }
+      ],
+      "explanation": "Premis (2) menjamin ada siswa kelas 12 yang menjadi pemenang lomba. Menurut premis (1), pemenang lomba tersebut mendapat medali, sehingga sebagian siswa kelas 12 terbukti mendapat medali, tanpa bisa disimpulkan bahwa seluruh siswa kelas 12 mendapat medali.",
+      "trick": "Saksi dari premis 'sebagian' cukup untuk membuktikan kesimpulan 'sebagian', tetapi tidak pernah cukup untuk kesimpulan 'semua'."
+    },
+    {
+      "id": "TIU-129",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 1,
+      "question": "Diketahui premis-premis berikut:\n(1) Sebagian buku di rak adalah novel.\n(2) Semua novel adalah karya fiksi.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Semua buku di rak adalah novel.",
+          "score": 0
+        },
+        {
+          "text": "Semua karya fiksi adalah buku di rak.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian karya fiksi bukan buku di rak.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian buku di rak adalah karya fiksi.",
+          "score": 5
+        },
+        {
+          "text": "Tidak ada buku di rak yang merupakan karya fiksi.",
+          "score": 0
+        }
+      ],
+      "explanation": "Ada buku di rak yang merupakan novel menurut premis (1). Karena semua novel adalah karya fiksi menurut premis (2), buku tersebut juga merupakan karya fiksi, sehingga sebagian buku di rak adalah karya fiksi.",
+      "trick": "Ikuti saksi yang dijamin premis 'sebagian' dan lihat sifat apa saja yang pasti melekat padanya dari premis 'semua'."
+    },
+    {
+      "id": "TIU-130",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 2,
+      "question": "Diketahui premis-premis berikut:\n(1) Semua peserta yang lulus seleksi mendapat sertifikat.\n(2) Budi adalah peserta yang lulus seleksi.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Budi tidak mendapat sertifikat.",
+          "score": 0
+        },
+        {
+          "text": "Budi mendapat sertifikat.",
+          "score": 5
+        },
+        {
+          "text": "Semua yang mendapat sertifikat adalah peserta yang lulus seleksi.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian peserta yang lulus seleksi tidak mendapat sertifikat.",
+          "score": 0
+        },
+        {
+          "text": "Tidak ada peserta yang lulus seleksi yang mendapat sertifikat.",
+          "score": 0
+        }
+      ],
+      "explanation": "Budi termasuk peserta yang lulus seleksi menurut premis (2). Premis (1) menyatakan semua peserta yang lulus seleksi mendapat sertifikat, sehingga Budi pasti mendapat sertifikat.",
+      "trick": "Jika seseorang dinyatakan sebagai anggota suatu kelompok, semua sifat 'semua anggota kelompok' pada premis pasti berlaku baginya."
+    },
+    {
+      "id": "TIU-131",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 3,
+      "question": "Diketahui premis-premis berikut:\n(1) Semua penerima beasiswa adalah mahasiswa berprestasi.\n(2) Sebagian penerima beasiswa bukan mahasiswa tingkat akhir.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Tidak ada mahasiswa berprestasi yang merupakan mahasiswa tingkat akhir.",
+          "score": 0
+        },
+        {
+          "text": "Semua mahasiswa berprestasi adalah penerima beasiswa.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian mahasiswa tingkat akhir adalah penerima beasiswa.",
+          "score": 0
+        },
+        {
+          "text": "Tidak ada mahasiswa berprestasi yang merupakan penerima beasiswa.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian mahasiswa berprestasi bukan mahasiswa tingkat akhir.",
+          "score": 5
+        }
+      ],
+      "explanation": "Premis (2) menjamin ada penerima beasiswa yang bukan mahasiswa tingkat akhir. Menurut premis (1), penerima beasiswa tersebut adalah mahasiswa berprestasi, sehingga terbukti sebagian mahasiswa berprestasi bukan mahasiswa tingkat akhir; kesimpulan ini tidak bisa diperkuat menjadi 'semua' atau 'tidak ada'.",
+      "trick": "Saksi pada premis 'sebagian bukan' membawa dua sifat sekaligus: sifat kelompok besarnya dan sifat 'bukan' yang menyertainya."
+    },
+    {
+      "id": "TIU-132",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 3,
+      "question": "Diketahui premis-premis berikut:\n(1) Semua laporan harus diverifikasi.\n(2) Semua dokumen yang diverifikasi akan diarsipkan.\n(3) Semua naskah pidato adalah laporan.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Semua naskah pidato akan diarsipkan.",
+          "score": 5
+        },
+        {
+          "text": "Semua yang diarsipkan adalah naskah pidato.",
+          "score": 0
+        },
+        {
+          "text": "Semua laporan adalah naskah pidato.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian naskah pidato tidak diarsipkan.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian laporan bukan naskah pidato.",
+          "score": 0
+        }
+      ],
+      "explanation": "Semua naskah pidato adalah laporan menurut premis (3), semua laporan harus diverifikasi menurut premis (1), dan semua yang diverifikasi akan diarsipkan menurut premis (2). Dengan merangkai ketiga hubungan itu, semua naskah pidato pasti akan diarsipkan.",
+      "trick": "Pada rantai tiga premis 'semua', urutkan rantainya dari kelompok yang ditanyakan sampai sifat terakhirnya."
+    },
+    {
+      "id": "TIU-133",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 1,
+      "question": "Diketahui premis-premis berikut:\n(1) Semua dokter adalah tenaga medis.\n(2) Sebagian warga adalah dokter.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Semua tenaga medis adalah dokter.",
+          "score": 0
+        },
+        {
+          "text": "Semua warga adalah tenaga medis.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian tenaga medis bukan dokter.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian warga adalah tenaga medis.",
+          "score": 5
+        },
+        {
+          "text": "Tidak ada warga yang merupakan tenaga medis.",
+          "score": 0
+        }
+      ],
+      "explanation": "Premis (2) menjamin ada warga yang berprofesi sebagai dokter. Menurut premis (1), dokter tersebut adalah tenaga medis, sehingga sebagian warga terbukti merupakan tenaga medis.",
+      "trick": "Pola 'semua A adalah B' ditambah 'sebagian C adalah A' selalu menghasilkan kesimpulan 'sebagian C adalah B'."
+    },
+    {
+      "id": "TIU-134",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 2,
+      "question": "Diketahui premis-premis berikut:\n(1) Semua finalis adalah peraih nilai tertinggi di sekolahnya.\n(2) Tidak ada peraih nilai tertinggi yang pernah mengulang kelas.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Semua peraih nilai tertinggi adalah finalis.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian finalis pernah mengulang kelas.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian peraih nilai tertinggi pernah mengulang kelas.",
+          "score": 0
+        },
+        {
+          "text": "Semua finalis pernah mengulang kelas.",
+          "score": 0
+        },
+        {
+          "text": "Tidak ada finalis yang pernah mengulang kelas.",
+          "score": 5
+        }
+      ],
+      "explanation": "Semua finalis adalah peraih nilai tertinggi menurut premis (1). Premis (2) menyatakan tidak ada peraih nilai tertinggi yang pernah mengulang kelas, sehingga tidak ada finalis yang pernah mengulang kelas.",
+      "trick": "Kelompok kecil mewarisi seluruh sifat kelompok besarnya, termasuk sifat negatif dari premis 'tidak ada'."
+    },
+    {
+      "id": "TIU-135",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 3,
+      "question": "Diketahui premis-premis berikut:\n(1) Semua pengurus koperasi adalah warga desa.\n(2) Sebagian warga desa adalah petani.\nPernyataan yang PASTI SALAH adalah ...",
+      "options": [
+        {
+          "text": "Sebagian pengurus koperasi adalah petani.",
+          "score": 0
+        },
+        {
+          "text": "Semua pengurus koperasi adalah petani.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian petani adalah pengurus koperasi.",
+          "score": 0
+        },
+        {
+          "text": "Tidak ada pengurus koperasi yang merupakan petani.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian pengurus koperasi bukan warga desa.",
+          "score": 5
+        }
+      ],
+      "explanation": "Premis (1) menyatakan semua pengurus koperasi adalah warga desa, sehingga mustahil ada pengurus koperasi yang bukan warga desa; pernyataan itu pasti salah dalam keadaan apa pun. Pernyataan lain masih mungkin terjadi karena premis tidak mengatur hubungan pengurus koperasi dengan petani.",
+      "trick": "Pernyataan yang pasti salah adalah pernyataan yang berlawanan langsung dengan premis; pernyataan yang sekadar belum dijamin premis hanya mungkin salah, bukan pasti salah."
+    },
+    {
+      "id": "TIU-136",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 1,
+      "question": "Diketahui premis-premis berikut:\n(1) Sebagian karyawan adalah pengemudi.\n(2) Semua pengemudi memiliki SIM.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Semua karyawan memiliki SIM.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian karyawan memiliki SIM.",
+          "score": 5
+        },
+        {
+          "text": "Semua yang memiliki SIM adalah pengemudi.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian pengemudi tidak memiliki SIM.",
+          "score": 0
+        },
+        {
+          "text": "Tidak ada karyawan yang memiliki SIM.",
+          "score": 0
+        }
+      ],
+      "explanation": "Premis (1) menjamin ada karyawan yang merupakan pengemudi. Menurut premis (2), pengemudi tersebut memiliki SIM, sehingga sebagian karyawan terbukti memiliki SIM.",
+      "trick": "Cari anggota yang dijamin ada oleh kata 'sebagian', lalu terapkan sifat 'semua' dari premis berikutnya pada anggota itu."
+    },
+    {
+      "id": "TIU-137",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 2,
+      "question": "Diketahui premis-premis berikut:\n(1) Sebagian guru adalah peserta seminar.\n(2) Semua peserta seminar mendapat modul.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Semua guru mendapat modul.",
+          "score": 0
+        },
+        {
+          "text": "Semua yang mendapat modul adalah guru.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian peserta seminar tidak mendapat modul.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian guru mendapat modul.",
+          "score": 5
+        },
+        {
+          "text": "Tidak ada guru yang mendapat modul.",
+          "score": 0
+        }
+      ],
+      "explanation": "Premis (1) menjamin ada guru yang menjadi peserta seminar. Menurut premis (2), peserta seminar tersebut mendapat modul, sehingga sebagian guru terbukti mendapat modul.",
+      "trick": "Kesimpulan yang sah mengikuti kadar premis terlemahnya: ada premis 'sebagian', kesimpulannya pun 'sebagian'."
+    },
+    {
+      "id": "TIU-138",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 2,
+      "question": "Diketahui premis-premis berikut:\n(1) Semua pelanggan yang membayar tunai mendapat struk.\n(2) Semua pelanggan yang mendapat struk berhak mengikuti undian.\n(3) Rina adalah pelanggan yang membayar tunai.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Rina tidak berhak mengikuti undian.",
+          "score": 0
+        },
+        {
+          "text": "Semua yang berhak mengikuti undian adalah pelanggan yang membayar tunai.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian pelanggan yang membayar tunai tidak berhak mengikuti undian.",
+          "score": 0
+        },
+        {
+          "text": "Rina berhak mengikuti undian.",
+          "score": 5
+        },
+        {
+          "text": "Rina tidak mendapat struk.",
+          "score": 0
+        }
+      ],
+      "explanation": "Rina membayar tunai menurut premis (3), sehingga ia mendapat struk menurut premis (1). Karena semua yang mendapat struk berhak mengikuti undian menurut premis (2), Rina pasti berhak mengikuti undian.",
+      "trick": "Untuk kesimpulan tentang seseorang, rangkai sifatnya langkah demi langkah mengikuti urutan premis."
+    },
+    {
+      "id": "TIU-139",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 2,
+      "question": "Diketahui premis-premis berikut:\n(1) Sebagian kendaraan yang masuk tol adalah truk.\n(2) Semua truk membayar tarif golongan II.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Semua kendaraan yang masuk tol adalah truk.",
+          "score": 0
+        },
+        {
+          "text": "Semua yang membayar tarif golongan II adalah truk.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian truk tidak membayar tarif golongan II.",
+          "score": 0
+        },
+        {
+          "text": "Tidak ada kendaraan yang masuk tol yang membayar tarif golongan II.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian kendaraan yang masuk tol membayar tarif golongan II.",
+          "score": 5
+        }
+      ],
+      "explanation": "Premis (1) menjamin ada kendaraan yang masuk tol yang merupakan truk. Menurut premis (2), truk tersebut membayar tarif golongan II, sehingga sebagian kendaraan yang masuk tol membayar tarif golongan II.",
+      "trick": "Jangan menaikkan kata 'sebagian' menjadi 'semua' pada kesimpulan; ikuti saksi yang benar-benar dijamin premis."
+    },
+    {
+      "id": "TIU-140",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 2,
+      "question": "Diketahui premis-premis berikut:\n(1) Sebagian siswa kelas 8 mengikuti ekstrakurikuler pramuka.\n(2) Semua siswa yang mengikuti ekstrakurikuler pramuka mengenakan seragam pramuka pada hari Jumat.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Semua siswa kelas 8 mengenakan seragam pramuka pada hari Jumat.",
+          "score": 0
+        },
+        {
+          "text": "Semua yang mengenakan seragam pramuka pada hari Jumat mengikuti ekstrakurikuler pramuka.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian siswa yang mengikuti ekstrakurikuler pramuka tidak mengenakan seragam pramuka pada hari Jumat.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian siswa kelas 8 mengenakan seragam pramuka pada hari Jumat.",
+          "score": 5
+        },
+        {
+          "text": "Tidak ada siswa kelas 8 yang mengenakan seragam pramuka pada hari Jumat.",
+          "score": 0
+        }
+      ],
+      "explanation": "Premis (1) menjamin ada siswa kelas 8 yang mengikuti pramuka. Menurut premis (2), siswa tersebut mengenakan seragam pramuka pada hari Jumat, sehingga sebagian siswa kelas 8 mengenakan seragam pramuka pada hari Jumat.",
+      "trick": "Kesimpulan 'sebagian' cukup dibuktikan oleh satu anggota yang memenuhi kedua premis."
+    },
+    {
+      "id": "TIU-141",
+      "subtest": "TIU",
+      "topic": "Silogisme",
+      "difficulty": 3,
+      "question": "Diketahui premis-premis berikut:\n(1) Semua anggota yang menunggak iuran tidak boleh menggunakan fasilitas pusat kebugaran.\n(2) Sebagian pengunjung pusat kebugaran adalah anggota yang menunggak iuran.\nKesimpulan yang tepat adalah ...",
+      "options": [
+        {
+          "text": "Tidak ada pengunjung pusat kebugaran yang boleh menggunakan fasilitas pusat kebugaran.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian anggota yang menunggak iuran boleh menggunakan fasilitas pusat kebugaran.",
+          "score": 0
+        },
+        {
+          "text": "Semua pengunjung pusat kebugaran adalah anggota yang menunggak iuran.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian pengunjung pusat kebugaran boleh menggunakan fasilitas pusat kebugaran.",
+          "score": 0
+        },
+        {
+          "text": "Sebagian pengunjung pusat kebugaran tidak boleh menggunakan fasilitas pusat kebugaran.",
+          "score": 5
+        }
+      ],
+      "explanation": "Premis (2) menjamin ada pengunjung yang merupakan anggota yang menunggak iuran. Menurut premis (1), anggota tersebut tidak boleh menggunakan fasilitas, sehingga sebagian pengunjung pusat kebugaran tidak boleh menggunakan fasilitas; hal ini tidak berarti seluruh pengunjung dilarang.",
+      "trick": "Gabungan premis 'tidak boleh' dan 'sebagian' menghasilkan kesimpulan 'sebagian tidak boleh', bukan larangan untuk semua."
+    },
+    {
+      "id": "TIU-142",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 1,
+      "question": "Lima orang, A, B, C, D, dan E, duduk sejajar dalam satu baris menghadap arah yang sama. Diketahui:\n(1) C duduk tepat di tengah barisan.\n(2) B duduk tepat di sebelah kanan C.\n(3) A duduk di ujung paling kiri.\n(4) E duduk di ujung paling kanan.\nOrang yang duduk di posisi kedua dari kiri adalah ...",
+      "options": [
+        {
+          "text": "D",
+          "score": 5
+        },
+        {
+          "text": "A",
+          "score": 0
+        },
+        {
+          "text": "B",
+          "score": 0
+        },
+        {
+          "text": "C",
+          "score": 0
+        },
+        {
+          "text": "E",
+          "score": 0
+        }
+      ],
+      "explanation": "C menempati posisi ke-3 karena tepat di tengah, B menempati posisi ke-4 karena tepat di sebelah kanan C, A menempati posisi ke-1 di ujung kiri, dan E menempati posisi ke-5 di ujung kanan. Satu-satunya posisi yang tersisa adalah posisi ke-2, sehingga yang duduk di posisi kedua dari kiri adalah D.",
+      "trick": "Isi dulu posisi yang disebutkan secara pasti (tengah dan ujung), sisanya akan terisi dengan sendirinya."
+    },
+    {
+      "id": "TIU-143",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 3,
+      "question": "Enam orang, F, G, H, I, J, dan K, duduk melingkar mengelilingi sebuah meja bundar dan saling menghadap ke tengah. Diketahui:\n(1) F dan I duduk saling berhadapan.\n(2) G duduk tepat di sebelah kanan F.\n(3) H duduk tepat di sebelah kanan G.\n(4) J duduk berhadapan dengan G.\n(5) K duduk di antara J dan F.\nOrang yang duduk berhadapan dengan H adalah ...",
+      "options": [
+        {
+          "text": "F",
+          "score": 0
+        },
+        {
+          "text": "K",
+          "score": 5
+        },
+        {
+          "text": "G",
+          "score": 0
+        },
+        {
+          "text": "I",
+          "score": 0
+        },
+        {
+          "text": "J",
+          "score": 0
+        }
+      ],
+      "explanation": "Tetapkan F sebagai titik awal. G duduk di sebelah kanan F dan H di sebelah kanan G, sedangkan I berhadapan dengan F dan J berhadapan dengan G, sehingga susunan berurutan di sekeliling meja adalah F, G, H, I, J, K. Pada susunan ini H berhadapan dengan orang yang berjarak tiga tempat darinya, yaitu K.",
+      "trick": "Pada soal duduk melingkar, tetapkan satu orang sebagai patokan, susun sisanya relatif terhadap patokan itu, dan ingat bahwa yang berhadapan berjarak setengah lingkaran."
+    },
+    {
+      "id": "TIU-144",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 3,
+      "question": "Enam orang, P, Q, R, S, T, dan U, mengantre di sebuah loket dari urutan paling depan sampai paling belakang. Diketahui:\n(1) Q berada pada urutan paling depan.\n(2) P berada pada urutan keempat.\n(3) R berada tepat di depan S.\n(4) S berada sebelum P.\n(5) U berada tepat di depan T.\nOrang yang berada pada urutan kelima adalah ...",
+      "options": [
+        {
+          "text": "P",
+          "score": 0
+        },
+        {
+          "text": "R",
+          "score": 0
+        },
+        {
+          "text": "U",
+          "score": 5
+        },
+        {
+          "text": "S",
+          "score": 0
+        },
+        {
+          "text": "T",
+          "score": 0
+        }
+      ],
+      "explanation": "Q menempati urutan ke-1 dan P urutan ke-4. Pasangan R-S yang berurutan dengan S sebelum P hanya dapat menempati urutan ke-2 dan ke-3, sehingga R urutan ke-2 dan S urutan ke-3. Dua urutan tersisa adalah ke-5 dan ke-6 untuk pasangan U-T dengan U tepat di depan T, sehingga urutan kelima ditempati U.",
+      "trick": "Kerjakan pasangan yang harus berurutan sebagai satu blok, lalu cocokkan blok itu dengan posisi yang sudah pasti."
+    },
+    {
+      "id": "TIU-145",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 1,
+      "question": "Lima karyawan, A, B, C, D, dan E, mendapat jadwal piket satu orang per hari dari hari Senin sampai Jumat. Diketahui:\n(1) D piket pada hari Jumat.\n(2) B piket tepat dua hari sebelum D.\n(3) A piket tepat sehari sebelum B.\n(4) C piket tepat sehari sebelum A.\nKaryawan yang piket pada hari Kamis adalah ...",
+      "options": [
+        {
+          "text": "E",
+          "score": 5
+        },
+        {
+          "text": "A",
+          "score": 0
+        },
+        {
+          "text": "B",
+          "score": 0
+        },
+        {
+          "text": "C",
+          "score": 0
+        },
+        {
+          "text": "D",
+          "score": 0
+        }
+      ],
+      "explanation": "D piket pada hari Jumat, B piket dua hari sebelumnya yaitu hari Rabu, A piket sehari sebelum B yaitu hari Selasa, dan C piket sehari sebelum A yaitu hari Senin. Satu-satunya hari yang belum terisi adalah Kamis dan satu-satunya karyawan yang tersisa adalah E.",
+      "trick": "Telusuri jadwal mundur atau maju dari hari yang paling pasti disebutkan, satu langkah pada satu waktu."
+    },
+    {
+      "id": "TIU-146",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 2,
+      "question": "Enam siswa dibandingkan tingginya. Diketahui:\n(1) Bima lebih tinggi daripada Dedi.\n(2) Dedi lebih tinggi daripada Andi.\n(3) Andi lebih tinggi daripada Eka.\n(4) Eka lebih tinggi daripada Citra.\n(5) Citra lebih tinggi daripada Fajar.\nSiswa yang lebih tinggi daripada Eka, tetapi lebih pendek daripada Dedi adalah ...",
+      "options": [
+        {
+          "text": "Bima",
+          "score": 0
+        },
+        {
+          "text": "Citra",
+          "score": 0
+        },
+        {
+          "text": "Eka",
+          "score": 0
+        },
+        {
+          "text": "Fajar",
+          "score": 0
+        },
+        {
+          "text": "Andi",
+          "score": 5
+        }
+      ],
+      "explanation": "Kelima petunjuk membentuk satu rantai urutan dari yang tertinggi: Bima, Dedi, Andi, Eka, Citra, Fajar. Di antara Dedi dan Eka hanya ada satu siswa, yaitu Andi, sehingga Andi lebih tinggi daripada Eka tetapi lebih pendek daripada Dedi.",
+      "trick": "Susun semua perbandingan menjadi satu rantai urutan; pertanyaan 'di antara' tinggal dibaca dari rantai itu."
+    },
+    {
+      "id": "TIU-147",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 2,
+      "question": "Lima kotak, K, L, M, N, dan O, dibandingkan beratnya. Diketahui:\n(1) Kotak K lebih berat daripada kotak M.\n(2) Kotak M lebih berat daripada kotak O.\n(3) Kotak O lebih berat daripada kotak L.\n(4) Kotak L lebih berat daripada kotak N.\nKotak yang beratnya berada pada urutan ketiga dari yang terberat adalah ...",
+      "options": [
+        {
+          "text": "O",
+          "score": 5
+        },
+        {
+          "text": "K",
+          "score": 0
+        },
+        {
+          "text": "L",
+          "score": 0
+        },
+        {
+          "text": "M",
+          "score": 0
+        },
+        {
+          "text": "N",
+          "score": 0
+        }
+      ],
+      "explanation": "Keempat petunjuk membentuk rantai dari yang terberat: K, M, O, L, N. Urutan ketiga pada rantai tersebut adalah kotak O.",
+      "trick": "Rantai perbandingan yang tersambung penuh langsung memberi urutan lengkap; hitung posisinya dari ujung yang ditanyakan."
+    },
+    {
+      "id": "TIU-148",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 3,
+      "question": "Lima pelari, R, S, T, U, dan V, mengikuti lomba lari dan mencapai garis finis pada urutan yang berbeda-beda. Diketahui:\n(1) R finis pada urutan pertama.\n(2) V finis pada urutan terakhir.\n(3) S finis tepat sebelum T.\n(4) U finis setelah S, tetapi sebelum V.\nPelari yang finis pada urutan ketiga adalah ...",
+      "options": [
+        {
+          "text": "R",
+          "score": 0
+        },
+        {
+          "text": "S",
+          "score": 0
+        },
+        {
+          "text": "U",
+          "score": 0
+        },
+        {
+          "text": "T",
+          "score": 5
+        },
+        {
+          "text": "V",
+          "score": 0
+        }
+      ],
+      "explanation": "R menempati urutan ke-1 dan V urutan ke-5, sehingga S, T, dan U mengisi urutan ke-2 sampai ke-4. Karena S tepat sebelum T dan U berada setelah S, satu-satunya susunan yang mungkin adalah S urutan ke-2, T urutan ke-3, dan U urutan ke-4, sehingga yang finis ketiga adalah T.",
+      "trick": "Pasangan yang finis berurutan diperlakukan sebagai blok, lalu uji setiap posisi blok yang masih kosong terhadap petunjuk lainnya."
+    },
+    {
+      "id": "TIU-149",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 1,
+      "question": "Jadwal pelajaran dari hari Senin sampai Jumat memuat mata pelajaran Matematika, Bahasa Indonesia, IPA, IPS, dan Olahraga, masing-masing satu hari. Diketahui:\n(1) IPA diajarkan pada hari Rabu.\n(2) Matematika diajarkan tepat sehari sebelum IPA.\n(3) Bahasa Indonesia diajarkan pada hari Senin.\n(4) Olahraga diajarkan pada hari Jumat.\nMata pelajaran yang diajarkan pada hari Kamis adalah ...",
+      "options": [
+        {
+          "text": "IPS",
+          "score": 5
+        },
+        {
+          "text": "Matematika",
+          "score": 0
+        },
+        {
+          "text": "Bahasa Indonesia",
+          "score": 0
+        },
+        {
+          "text": "IPA",
+          "score": 0
+        },
+        {
+          "text": "Olahraga",
+          "score": 0
+        }
+      ],
+      "explanation": "Bahasa Indonesia menempati hari Senin, Matematika hari Selasa karena tepat sehari sebelum IPA, IPA hari Rabu, dan Olahraga hari Jumat. Satu-satunya hari yang tersisa adalah Kamis dan satu-satunya mata pelajaran yang tersisa adalah IPS.",
+      "trick": "Tandai hari yang sudah pasti pada tabel jadwal, mata pelajaran yang tersisa otomatis menempati hari yang kosong."
+    },
+    {
+      "id": "TIU-150",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 2,
+      "question": "Lima anak, Lala, Mimi, Nana, Oki, dan Popi, duduk melingkar menghadap ke tengah. Diketahui:\n(1) Mimi duduk tepat di sebelah kanan Lala.\n(2) Nana duduk tepat di sebelah kanan Mimi.\n(3) Oki duduk tepat di sebelah kanan Nana.\n(4) Popi duduk tepat di sebelah kanan Oki.\nAnak yang duduk di antara Nana dan Popi adalah ...",
+      "options": [
+        {
+          "text": "Oki",
+          "score": 5
+        },
+        {
+          "text": "Lala",
+          "score": 0
+        },
+        {
+          "text": "Mimi",
+          "score": 0
+        },
+        {
+          "text": "Nana",
+          "score": 0
+        },
+        {
+          "text": "Popi",
+          "score": 0
+        }
+      ],
+      "explanation": "Mengikuti petunjuk arah kanan secara berurutan dari Lala, susunan tempat duduknya adalah Lala, Mimi, Nana, Oki, Popi mengelilingi lingkaran. Pada susunan ini, anak yang kedua tetangganya adalah Nana dan Popi adalah Oki.",
+      "trick": "Susun lingkaran dengan mengikuti arah yang sama dari satu patokan sampai kembali ke titik awal."
+    },
+    {
+      "id": "TIU-151",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 2,
+      "question": "Lima orang, G, H, I, J, dan K, mengantre di sebuah loket. Diketahui:\n(1) G berada pada urutan paling depan.\n(2) I berada tepat di tengah antrean.\n(3) J berada tepat di belakang I.\n(4) H berada di depan K.\nUrutan antrean dari yang paling depan adalah ...",
+      "options": [
+        {
+          "text": "G, H, I, J, K",
+          "score": 5
+        },
+        {
+          "text": "G, I, H, J, K",
+          "score": 0
+        },
+        {
+          "text": "G, H, J, I, K",
+          "score": 0
+        },
+        {
+          "text": "G, K, I, J, H",
+          "score": 0
+        },
+        {
+          "text": "H, G, I, J, K",
+          "score": 0
+        }
+      ],
+      "explanation": "G menempati urutan ke-1, I urutan ke-3 karena tepat di tengah, dan J urutan ke-4 karena tepat di belakang I. Posisi yang tersisa adalah urutan ke-2 dan ke-5 untuk H dan K, dan karena H berada di depan K, maka H urutan ke-2 dan K urutan ke-5, sehingga urutannya adalah G, H, I, J, K.",
+      "trick": "Isi posisi pasti terlebih dahulu, lalu gunakan petunjuk 'di depan/di belakang' untuk mengurutkan nama yang tersisa."
+    },
+    {
+      "id": "TIU-152",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 1,
+      "question": "Lima pekerja dibandingkan kecepatan menyelesaikan tugasnya. Diketahui:\n(1) Rudi menyelesaikan tugas lebih cepat daripada Tono.\n(2) Tono menyelesaikan tugas lebih cepat daripada Umar.\n(3) Umar menyelesaikan tugas lebih cepat daripada Sari.\n(4) Sari menyelesaikan tugas lebih cepat daripada Vina.\nPekerja yang menyelesaikan tugas pada urutan ketiga tercepat adalah ...",
+      "options": [
+        {
+          "text": "Rudi",
+          "score": 0
+        },
+        {
+          "text": "Tono",
+          "score": 0
+        },
+        {
+          "text": "Umar",
+          "score": 5
+        },
+        {
+          "text": "Sari",
+          "score": 0
+        },
+        {
+          "text": "Vina",
+          "score": 0
+        }
+      ],
+      "explanation": "Keempat petunjuk membentuk rantai kecepatan dari yang tercepat: Rudi, Tono, Umar, Sari, Vina. Urutan ketiga pada rantai tersebut adalah Umar.",
+      "trick": "Susun rantai 'lebih cepat' selengkapnya, lalu baca posisi yang ditanyakan dari rantai itu."
+    }
+  ]
+}

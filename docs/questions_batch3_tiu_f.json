@@ -1,0 +1,1494 @@
+{
+  "version": 2,
+  "batch": "batch3-tiu-f",
+  "questions": [
+    {
+      "id": "TIU-153",
+      "subtest": "TIU",
+      "topic": "Analogi Kata",
+      "difficulty": 1,
+      "question": "KOMPOR : MEMASAK = LAMPU : ...",
+      "options": [
+        {
+          "text": "Menyala",
+          "score": 0
+        },
+        {
+          "text": "Menerangi",
+          "score": 5
+        },
+        {
+          "text": "Listrik",
+          "score": 0
+        },
+        {
+          "text": "Panas",
+          "score": 0
+        },
+        {
+          "text": "Bohlam",
+          "score": 0
+        }
+      ],
+      "explanation": "Hubungannya adalah benda/alat dan fungsinya. Kompor adalah alat yang berfungsi untuk memasak, maka lampu adalah alat yang berfungsi untuk menerangi.",
+      "trick": "Tentukan dulu hubungan pasangan pertama (alat–fungsi), lalu cari opsi yang berhubungan sama dengan kata ketiga."
+    },
+    {
+      "id": "TIU-154",
+      "subtest": "TIU",
+      "topic": "Analogi Kata",
+      "difficulty": 1,
+      "question": "TEBU : GULA = SINGKONG : ...",
+      "options": [
+        {
+          "text": "Ubi",
+          "score": 0
+        },
+        {
+          "text": "Manis",
+          "score": 0
+        },
+        {
+          "text": "Pohon",
+          "score": 0
+        },
+        {
+          "text": "Tapioka",
+          "score": 5
+        },
+        {
+          "text": "Gorengan",
+          "score": 0
+        }
+      ],
+      "explanation": "Hubungannya adalah bahan baku dan produk olahannya. Gula dihasilkan dari tebu, sedangkan tapioka (tepung) dihasilkan dari singkong.",
+      "trick": "Untuk analogi bahan–produk, abaikan opsi yang hanya menyebut sifat atau bagian bahan bakunya."
+    },
+    {
+      "id": "TIU-155",
+      "subtest": "TIU",
+      "topic": "Analogi Kata",
+      "difficulty": 2,
+      "question": "BELAJAR : PANDAI = LATIHAN : ...",
+      "options": [
+        {
+          "text": "Terampil",
+          "score": 5
+        },
+        {
+          "text": "Juara",
+          "score": 0
+        },
+        {
+          "text": "Medali",
+          "score": 0
+        },
+        {
+          "text": "Lapangan",
+          "score": 0
+        },
+        {
+          "text": "Pelatih",
+          "score": 0
+        }
+      ],
+      "explanation": "Hubungannya adalah kegiatan dan kemampuan yang dihasilkan. Belajar yang tekun menghasilkan kepandaian, sedangkan latihan yang tekun menghasilkan keterampilan (terampil).",
+      "trick": "Jika pasangan pertama berbentuk kegiatan → hasil kemampuan, pilih opsi berupa kemampuan, bukan benda atau orang."
+    },
+    {
+      "id": "TIU-156",
+      "subtest": "TIU",
+      "topic": "Analogi Kata",
+      "difficulty": 1,
+      "question": "DAUN : POHON = HALAMAN : ...",
+      "options": [
+        {
+          "text": "Kertas",
+          "score": 0
+        },
+        {
+          "text": "Sampul",
+          "score": 0
+        },
+        {
+          "text": "Tulisan",
+          "score": 0
+        },
+        {
+          "text": "Rak",
+          "score": 0
+        },
+        {
+          "text": "Buku",
+          "score": 5
+        }
+      ],
+      "explanation": "Hubungannya adalah bagian dan keseluruhannya. Daun adalah bagian dari pohon, sedangkan halaman adalah bagian dari buku.",
+      "trick": "Untuk hubungan bagian–keseluruhan, pastikan opsi adalah benda utuhnya, bukan bahan atau isi bendanya."
+    },
+    {
+      "id": "TIU-157",
+      "subtest": "TIU",
+      "topic": "Analogi Kata",
+      "difficulty": 2,
+      "question": "DOKTER : STETOSKOP = NELAYAN : ...",
+      "options": [
+        {
+          "text": "Kapal",
+          "score": 0
+        },
+        {
+          "text": "Ikan",
+          "score": 0
+        },
+        {
+          "text": "Jala",
+          "score": 5
+        },
+        {
+          "text": "Laut",
+          "score": 0
+        },
+        {
+          "text": "Pelampung",
+          "score": 0
+        }
+      ],
+      "explanation": "Hubungannya adalah pekerja dan alat kerja utamanya. Dokter menggunakan stetoskop untuk memeriksa pasien, sedangkan nelayan menggunakan jala untuk menangkap ikan.",
+      "trick": "Bedakan alat kerja dari tempat kerja dan hasil kerja; yang ditanya adalah alat utamanya."
+    },
+    {
+      "id": "TIU-158",
+      "subtest": "TIU",
+      "topic": "Analogi Kata",
+      "difficulty": 1,
+      "question": "PANJANG : PENDEK = BERAT : ...",
+      "options": [
+        {
+          "text": "Besar",
+          "score": 0
+        },
+        {
+          "text": "Timbangan",
+          "score": 0
+        },
+        {
+          "text": "Ringan",
+          "score": 5
+        },
+        {
+          "text": "Muatan",
+          "score": 0
+        },
+        {
+          "text": "Padat",
+          "score": 0
+        }
+      ],
+      "explanation": "Hubungannya adalah lawan kata (antonim). Panjang berlawanan dengan pendek, sedangkan berat berlawanan dengan ringan.",
+      "trick": "Jika dua kata pertama jelas berlawanan, langsung cari antonim kata ketiga dan abaikan opsi lain."
+    },
+    {
+      "id": "TIU-159",
+      "subtest": "TIU",
+      "topic": "Analogi Kata",
+      "difficulty": 2,
+      "question": "TELUR : MENETAS = BIJI : ...",
+      "options": [
+        {
+          "text": "Bertunas",
+          "score": 5
+        },
+        {
+          "text": "Pohon",
+          "score": 0
+        },
+        {
+          "text": "Tanah",
+          "score": 0
+        },
+        {
+          "text": "Berbuah",
+          "score": 0
+        },
+        {
+          "text": "Daun",
+          "score": 0
+        }
+      ],
+      "explanation": "Hubungannya adalah awal kehidupan dan proses/tahap pertumbuhannya. Telur mengalami proses menetas, sedangkan biji mengalami proses bertunas.",
+      "trick": "Pada analogi proses, pilih kata kerja tahap awalnya, bukan hasil akhir pertumbuhannya."
+    },
+    {
+      "id": "TIU-160",
+      "subtest": "TIU",
+      "topic": "Analogi Kata",
+      "difficulty": 1,
+      "question": "ANJING : MENGGONGGONG = KUCING : ...",
+      "options": [
+        {
+          "text": "Melompat",
+          "score": 0
+        },
+        {
+          "text": "Mengejar tikus",
+          "score": 0
+        },
+        {
+          "text": "Berbulu",
+          "score": 0
+        },
+        {
+          "text": "Mengeong",
+          "score": 5
+        },
+        {
+          "text": "Lincah",
+          "score": 0
+        }
+      ],
+      "explanation": "Hubungannya adalah hewan dan suara khasnya. Anjing bersuara menggonggong, sedangkan kucing bersuara mengeong.",
+      "trick": "Periksa apakah pasangan pertama menyebut suara; bila ya, jawab dengan suara khas hewan kedua."
+    },
+    {
+      "id": "TIU-161",
+      "subtest": "TIU",
+      "topic": "Analogi Kata",
+      "difficulty": 2,
+      "question": "KAPAS : KAIN = KARET : ...",
+      "options": [
+        {
+          "text": "Lateks",
+          "score": 0
+        },
+        {
+          "text": "Ban",
+          "score": 5
+        },
+        {
+          "text": "Elastis",
+          "score": 0
+        },
+        {
+          "text": "Lentur",
+          "score": 0
+        },
+        {
+          "text": "Getah",
+          "score": 0
+        }
+      ],
+      "explanation": "Hubungannya adalah bahan baku dan produk jadinya. Kain dibuat dari kapas, sedangkan ban dibuat dari karet.",
+      "trick": "Jangan terkecoh opsi sifat bahan (elastis, lentur); yang diminta adalah produk jadi dari bahan itu."
+    },
+    {
+      "id": "TIU-162",
+      "subtest": "TIU",
+      "topic": "Analogi Kata",
+      "difficulty": 3,
+      "question": "TERMOMETER : SUHU = BAROMETER : ...",
+      "options": [
+        {
+          "text": "Kelembapan",
+          "score": 0
+        },
+        {
+          "text": "Curah hujan",
+          "score": 0
+        },
+        {
+          "text": "Kecepatan angin",
+          "score": 0
+        },
+        {
+          "text": "Arah angin",
+          "score": 0
+        },
+        {
+          "text": "Tekanan udara",
+          "score": 5
+        }
+      ],
+      "explanation": "Hubungannya adalah alat ukur dan besaran yang diukurnya. Termometer mengukur suhu, sedangkan barometer mengukur tekanan udara.",
+      "trick": "Hafalkan pasangan alat ukur–besarannya: barometer=tekanan udara, anemometer=kecepatan angin, higrometer=kelembapan."
+    },
+    {
+      "id": "TIU-163",
+      "subtest": "TIU",
+      "topic": "Analogi Kata",
+      "difficulty": 1,
+      "question": "GULA : MANIS = GARAM : ...",
+      "options": [
+        {
+          "text": "Laut",
+          "score": 0
+        },
+        {
+          "text": "Putih",
+          "score": 0
+        },
+        {
+          "text": "Dapur",
+          "score": 0
+        },
+        {
+          "text": "Kristal",
+          "score": 0
+        },
+        {
+          "text": "Asin",
+          "score": 5
+        }
+      ],
+      "explanation": "Hubungannya adalah benda dan rasa khasnya. Gula berasa manis, sedangkan garam berasa asin.",
+      "trick": "Jika pasangan pertama adalah benda–rasa, jawab dengan rasa, bukan warna, tempat, atau bentuk benda itu."
+    },
+    {
+      "id": "TIU-164",
+      "subtest": "TIU",
+      "topic": "Sinonim/Antonim",
+      "difficulty": 1,
+      "question": "Sinonim kata CEKATAN adalah ...",
+      "options": [
+        {
+          "text": "Lamban",
+          "score": 0
+        },
+        {
+          "text": "Terampil",
+          "score": 5
+        },
+        {
+          "text": "Ceroboh",
+          "score": 0
+        },
+        {
+          "text": "Pemalu",
+          "score": 0
+        },
+        {
+          "text": "Kuat",
+          "score": 0
+        }
+      ],
+      "explanation": "Cekatan berarti cepat, tangkas, dan terampil dalam bekerja. Jadi sinonim cekatan adalah terampil.",
+      "trick": "Cekatan berkaitan dengan keahlian bekerja dengan cepat; lawannya lamban dan ceroboh."
+    },
+    {
+      "id": "TIU-165",
+      "subtest": "TIU",
+      "topic": "Sinonim/Antonim",
+      "difficulty": 1,
+      "question": "Sinonim kata KOLABORASI adalah ...",
+      "options": [
+        {
+          "text": "Persaingan",
+          "score": 0
+        },
+        {
+          "text": "Kerja sama",
+          "score": 5
+        },
+        {
+          "text": "Perdebatan",
+          "score": 0
+        },
+        {
+          "text": "Pengawasan",
+          "score": 0
+        },
+        {
+          "text": "Perpecahan",
+          "score": 0
+        }
+      ],
+      "explanation": "Kolaborasi berarti bekerja bersama pihak lain untuk mencapai tujuan bersama, sehingga sinonimnya adalah kerja sama. Persaingan dan perpecahan justru menunjukkan hubungan yang berlawanan arah dengan semangat kolaborasi.",
+      "trick": "Kolaborasi berasal dari kata 'co-labor' (bekerja bersama) — cari opsi yang bermakna bekerja bersama."
+    },
+    {
+      "id": "TIU-166",
+      "subtest": "TIU",
+      "topic": "Sinonim/Antonim",
+      "difficulty": 2,
+      "question": "Sinonim kata EFEKTIF adalah ...",
+      "options": [
+        {
+          "text": "Berdaya guna",
+          "score": 5
+        },
+        {
+          "text": "Boros",
+          "score": 0
+        },
+        {
+          "text": "Sederhana",
+          "score": 0
+        },
+        {
+          "text": "Langsung",
+          "score": 0
+        },
+        {
+          "text": "Populer",
+          "score": 0
+        }
+      ],
+      "explanation": "Efektif berarti berdaya guna atau berhasil guna, yaitu mendatangkan hasil sesuai tujuan. Jadi sinonim efektif adalah berdaya guna.",
+      "trick": "Ingat pasangan istilah kedinasan: efektif = berdaya guna, efisien = berdaya hemat."
+    },
+    {
+      "id": "TIU-167",
+      "subtest": "TIU",
+      "topic": "Sinonim/Antonim",
+      "difficulty": 2,
+      "question": "Antonim kata TRANSPARAN adalah ...",
+      "options": [
+        {
+          "text": "Terbuka",
+          "score": 0
+        },
+        {
+          "text": "Jelas",
+          "score": 0
+        },
+        {
+          "text": "Jernih",
+          "score": 0
+        },
+        {
+          "text": "Tertutup",
+          "score": 5
+        },
+        {
+          "text": "Akuntabel",
+          "score": 0
+        }
+      ],
+      "explanation": "Transparan berarti terbuka dan dapat dilihat/diketahui dengan jelas. Lawan katanya adalah tertutup, yaitu tidak terbuka dan disembunyikan.",
+      "trick": "Dalam konteks tata kelola, transparan = terbuka; maka antonimnya tertutup."
+    },
+    {
+      "id": "TIU-168",
+      "subtest": "TIU",
+      "topic": "Sinonim/Antonim",
+      "difficulty": 1,
+      "question": "Sinonim kata KENDALA adalah ...",
+      "options": [
+        {
+          "text": "Hambatan",
+          "score": 5
+        },
+        {
+          "text": "Peluang",
+          "score": 0
+        },
+        {
+          "text": "Solusi",
+          "score": 0
+        },
+        {
+          "text": "Dukungan",
+          "score": 0
+        },
+        {
+          "text": "Kemudahan",
+          "score": 0
+        }
+      ],
+      "explanation": "Kendala berarti hal yang membatasi atau menghalangi pencapaian tujuan, sama maknanya dengan hambatan.",
+      "trick": "Kendala selalu bermakna negatif (penghalang); singkirkan opsi yang bermakna positif."
+    },
+    {
+      "id": "TIU-169",
+      "subtest": "TIU",
+      "topic": "Sinonim/Antonim",
+      "difficulty": 2,
+      "question": "Antonim kata STABIL adalah ...",
+      "options": [
+        {
+          "text": "Tetap",
+          "score": 0
+        },
+        {
+          "text": "Kokoh",
+          "score": 0
+        },
+        {
+          "text": "Seimbang",
+          "score": 0
+        },
+        {
+          "text": "Permanen",
+          "score": 0
+        },
+        {
+          "text": "Labil",
+          "score": 5
+        }
+      ],
+      "explanation": "Stabil berarti mantap dan tidak mudah berubah. Lawan katanya adalah labil, yaitu mudah berubah-ubah dan tidak mantap.",
+      "trick": "Stabil–labil adalah pasangan antonim yang sering muncul; opsi lain justru sinonim stabil."
+    },
+    {
+      "id": "TIU-170",
+      "subtest": "TIU",
+      "topic": "Sinonim/Antonim",
+      "difficulty": 1,
+      "question": "Sinonim kata AKURAT adalah ...",
+      "options": [
+        {
+          "text": "Cepat",
+          "score": 0
+        },
+        {
+          "text": "Tepat",
+          "score": 5
+        },
+        {
+          "text": "Rapi",
+          "score": 0
+        },
+        {
+          "text": "Singkat",
+          "score": 0
+        },
+        {
+          "text": "Mahal",
+          "score": 0
+        }
+      ],
+      "explanation": "Akurat berarti tepat dan teliti, tidak meleset dari yang sebenarnya. Jadi sinonim akurat adalah tepat.",
+      "trick": "Akurat menekankan ketepatan hasil, bukan kecepatan atau kerapian."
+    },
+    {
+      "id": "TIU-171",
+      "subtest": "TIU",
+      "topic": "Sinonim/Antonim",
+      "difficulty": 2,
+      "question": "Antonim kata MANDIRI adalah ...",
+      "options": [
+        {
+          "text": "Berdikari",
+          "score": 0
+        },
+        {
+          "text": "Kreatif",
+          "score": 0
+        },
+        {
+          "text": "Disiplin",
+          "score": 0
+        },
+        {
+          "text": "Bergantung",
+          "score": 5
+        },
+        {
+          "text": "Produktif",
+          "score": 0
+        }
+      ],
+      "explanation": "Mandiri berarti mampu berdiri sendiri tanpa mengandalkan pihak lain. Lawan katanya adalah bergantung, yaitu mengandalkan pihak lain.",
+      "trick": "Waspadai berdikari: kata itu sinonim mandiri, bukan antonimnya."
+    },
+    {
+      "id": "TIU-172",
+      "subtest": "TIU",
+      "topic": "Sinonim/Antonim",
+      "difficulty": 2,
+      "question": "Sinonim kata PRIORITAS adalah ...",
+      "options": [
+        {
+          "text": "Kewajiban rutin",
+          "score": 0
+        },
+        {
+          "text": "Pilihan bebas",
+          "score": 0
+        },
+        {
+          "text": "Hal yang diutamakan",
+          "score": 5
+        },
+        {
+          "text": "Urutan terakhir",
+          "score": 0
+        },
+        {
+          "text": "Kegiatan tambahan",
+          "score": 0
+        }
+      ],
+      "explanation": "Prioritas berarti hal yang didahulukan dan diutamakan dibandingkan hal lain. Jadi sinonimnya adalah hal yang diutamakan.",
+      "trick": "Prioritas selalu berarti didahulukan; opsi 'urutan terakhir' justru kebalikannya."
+    },
+    {
+      "id": "TIU-173",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 2,
+      "question": "Lima sahabat — Andi, Budi, Cici, Dedi, dan Eka — duduk berjajar dalam satu baris. Cici duduk di ujung paling kiri. Dedi duduk tepat di tengah. Andi duduk tepat di sebelah kiri Dedi. Eka duduk tepat di sebelah kanan Dedi. Siapakah yang duduk di posisi kedua dari kiri?",
+      "options": [
+        {
+          "text": "Budi",
+          "score": 0
+        },
+        {
+          "text": "Cici",
+          "score": 0
+        },
+        {
+          "text": "Dedi",
+          "score": 0
+        },
+        {
+          "text": "Andi",
+          "score": 5
+        },
+        {
+          "text": "Eka",
+          "score": 0
+        }
+      ],
+      "explanation": "Susun dari petunjuk: Cici di posisi 1 (ujung kiri) dan Dedi di posisi 3 (tengah). Andi tepat di sebelah kiri Dedi berarti Andi di posisi 2. Eka tepat di sebelah kanan Dedi berarti Eka di posisi 4, dan Budi menempati posisi 5 yang tersisa. Susunannya Cici–Andi–Dedi–Eka–Budi hanya satu kemungkinan, sehingga posisi kedua dari kiri adalah Andi.",
+      "trick": "Kerjakan petunjuk posisi pasti (ujung, tengah) lebih dulu, baru petunjuk 'tepat di sebelah'."
+    },
+    {
+      "id": "TIU-174",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 2,
+      "question": "Lima siswi dibandingkan tingginya. Sinta lebih tinggi daripada Rina. Rina lebih tinggi daripada Putri. Tania lebih tinggi daripada Sinta. Putri lebih tinggi daripada Uci. Siapakah yang berada pada urutan ketiga tertinggi?",
+      "options": [
+        {
+          "text": "Tania",
+          "score": 0
+        },
+        {
+          "text": "Sinta",
+          "score": 0
+        },
+        {
+          "text": "Rina",
+          "score": 5
+        },
+        {
+          "text": "Putri",
+          "score": 0
+        },
+        {
+          "text": "Uci",
+          "score": 0
+        }
+      ],
+      "explanation": "Gabungkan semua petunjuk menjadi satu rantai: Tania > Sinta (petunjuk 4), Sinta > Rina (petunjuk 1), Rina > Putri (petunjuk 2), Putri > Uci (petunjuk 3). Urutan dari tertinggi: Tania, Sinta, Rina, Putri, Uci — rantai ini mencakup kelimanya tanpa cabang, jadi urutan ketiga tertinggi adalah Rina.",
+      "trick": "Sambungkan petunjuk perbandingan menjadi satu rantai panjang; posisi dalam rantai adalah jawabannya."
+    },
+    {
+      "id": "TIU-175",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 2,
+      "question": "Lima petugas — Andi, Bima, Candra, Dedi, dan Eko — bertugas piket masing-masing satu hari pada Senin sampai Jumat. Dedi bertugas pada hari Rabu. Bima bertugas tepat sehari sebelum Dedi. Andi bertugas tepat sehari sebelum Bima. Candra bertugas pada hari Jumat. Siapakah yang bertugas pada hari Kamis?",
+      "options": [
+        {
+          "text": "Andi",
+          "score": 0
+        },
+        {
+          "text": "Bima",
+          "score": 0
+        },
+        {
+          "text": "Candra",
+          "score": 0
+        },
+        {
+          "text": "Dedi",
+          "score": 0
+        },
+        {
+          "text": "Eko",
+          "score": 5
+        }
+      ],
+      "explanation": "Dedi = Rabu. Bima tepat sehari sebelum Dedi, jadi Bima = Selasa. Andi tepat sehari sebelum Bima, jadi Andi = Senin. Candra = Jumat. Hari yang tersisa adalah Kamis dan satu-satunya petugas yang belum terjadwal adalah Eko, jadi Eko bertugas hari Kamis. Susunan ini tunggal karena setiap petunjuk mengunci satu hari.",
+      "trick": "Mulai dari hari yang disebut pasti (Rabu, Jumat), lalu mundur/maju mengikuti petunjuk 'sehari sebelum'."
+    },
+    {
+      "id": "TIU-176",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 3,
+      "question": "Lima peserta lomba lari — Jaka, Kurnia, Lukman, Made, dan Nando — finis pada urutan berbeda. Kurnia finis tepat di belakang Jaka. Made finis sebelum Jaka. Lukman finis paling akhir. Nando finis setelah Kurnia, tetapi sebelum Lukman. Siapakah yang finis pada urutan ketiga?",
+      "options": [
+        {
+          "text": "Kurnia",
+          "score": 5
+        },
+        {
+          "text": "Jaka",
+          "score": 0
+        },
+        {
+          "text": "Lukman",
+          "score": 0
+        },
+        {
+          "text": "Made",
+          "score": 0
+        },
+        {
+          "text": "Nando",
+          "score": 0
+        }
+      ],
+      "explanation": "Lukman pasti urutan 5. Pasangan Jaka–Kurnia harus berurutan (Kurnia tepat di belakang Jaka). Jika Jaka urutan 1, Made tidak bisa finis sebelum Jaka. Jika Jaka urutan 3 dan Kurnia urutan 4, tidak ada tempat bagi Nando di antara Kurnia dan Lukman (urutan 5). Jadi satu-satunya susunan: Made (1), Jaka (2), Kurnia (3), Nando (4), Lukman (5). Urutan ketiga adalah Kurnia.",
+      "trick": "Untuk soal finis, uji tiap kemungkinan posisi pasangan berurutan dan coret yang melanggar satu petunjuk pun."
+    },
+    {
+      "id": "TIU-177",
+      "subtest": "TIU",
+      "topic": "Analitis",
+      "difficulty": 3,
+      "question": "Nilai ujian lima siswa — Rina, Sari, Tono, Umar, dan Vina — semuanya berbeda. Nilai Sari lebih tinggi daripada nilai Tono. Nilai Tono lebih tinggi daripada nilai Umar. Dalam urutan nilai, Vina berada tepat di antara Sari dan Tono. Nilai Rina lebih tinggi daripada nilai Sari. Siapakah yang menempati peringkat kedua tertinggi?",
+      "options": [
+        {
+          "text": "Rina",
+          "score": 0
+        },
+        {
+          "text": "Sari",
+          "score": 5
+        },
+        {
+          "text": "Tono",
+          "score": 0
+        },
+        {
+          "text": "Umar",
+          "score": 0
+        },
+        {
+          "text": "Vina",
+          "score": 0
+        }
+      ],
+      "explanation": "Petunjuk 3 membuat Sari, Vina, Tono menempati tiga peringkat berurutan dengan urutan Sari > Vina > Tono. Blok ini tidak mungkin mulai di peringkat 1 (Rina harus di atas Sari) dan tidak mungkin mulai di peringkat 3 (Umar harus di bawah Tono, padahal hanya tersisa peringkat 1–2 di atas blok). Jadi blok menempati peringkat 2, 3, 4; Rina peringkat 1 dan Umar peringkat 5. Urutannya Rina, Sari, Vina, Tono, Umar — tunggal — sehingga peringkat kedua adalah Sari.",
+      "trick": "Perlakukan frasa 'tepat di antara' sebagai blok tiga peringkat berurutan, lalu uji posisi bloknya."
+    },
+    {
+      "id": "TIU-178",
+      "subtest": "TIU",
+      "topic": "Perbandingan Kuantitatif",
+      "difficulty": 1,
+      "question": "Kuantitas A: 25% dari 400. Kuantitas B: 40% dari 240. Pernyataan yang benar adalah ...",
+      "options": [
+        {
+          "text": "Kuantitas B lebih besar daripada kuantitas A",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A lebih besar daripada kuantitas B",
+          "score": 5
+        },
+        {
+          "text": "Kuantitas A sama dengan kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Hubungan kedua kuantitas tidak dapat ditentukan dari informasi yang ada",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas B tepat dua kali kuantitas A",
+          "score": 0
+        }
+      ],
+      "explanation": "Hitung kedua kuantitas: A = 25% × 400 = 100. B = 40% × 240 = 96. Karena 100 > 96, kuantitas A lebih besar daripada kuantitas B.",
+      "trick": "Hitung nilai persennya satu per satu sampai berupa angka, baru bandingkan."
+    },
+    {
+      "id": "TIU-179",
+      "subtest": "TIU",
+      "topic": "Perbandingan Kuantitatif",
+      "difficulty": 2,
+      "question": "Kuantitas A: 3/4 dari 240. Kuantitas B: 5/6 dari 216. Pernyataan yang benar adalah ...",
+      "options": [
+        {
+          "text": "Kuantitas A lebih besar daripada kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas B lebih besar daripada kuantitas A",
+          "score": 0
+        },
+        {
+          "text": "Hubungan kedua kuantitas tidak dapat ditentukan dari informasi yang ada",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A tepat dua kali kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A sama dengan kuantitas B",
+          "score": 5
+        }
+      ],
+      "explanation": "Hitung: A = 3/4 × 240 = 180. B = 5/6 × 216 = 180. Kedua kuantitas sama-sama 180, jadi kuantitas A sama dengan kuantitas B.",
+      "trick": "Sederhanakan pecahan dengan membagi bilangan utuhnya terlebih dahulu agar hitungan cepat."
+    },
+    {
+      "id": "TIU-180",
+      "subtest": "TIU",
+      "topic": "Perbandingan Kuantitatif",
+      "difficulty": 1,
+      "question": "Kuantitas A: 12 pangkat 2. Kuantitas B: 9 × 15. Pernyataan yang benar adalah ...",
+      "options": [
+        {
+          "text": "Kuantitas B lebih besar daripada kuantitas A",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A sama dengan kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Hubungan kedua kuantitas tidak dapat ditentukan dari informasi yang ada",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A lebih besar daripada kuantitas B",
+          "score": 5
+        },
+        {
+          "text": "Kuantitas B tepat dua kali kuantitas A",
+          "score": 0
+        }
+      ],
+      "explanation": "Hitung: A = 12² = 144. B = 9 × 15 = 135. Karena 144 > 135, kuantitas A lebih besar daripada kuantitas B.",
+      "trick": "Jangan tertukar: 12² berarti 12 × 12, bukan 12 × 2."
+    },
+    {
+      "id": "TIU-181",
+      "subtest": "TIU",
+      "topic": "Perbandingan Kuantitatif",
+      "difficulty": 2,
+      "question": "Kuantitas A: harga yang dibayar untuk barang seharga Rp240.000,00 setelah diskon 25%. Kuantitas B: harga yang dibayar untuk barang seharga Rp300.000,00 setelah diskon 40%. Pernyataan yang benar adalah ...",
+      "options": [
+        {
+          "text": "Kuantitas A lebih besar daripada kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas B lebih besar daripada kuantitas A",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A sama dengan kuantitas B",
+          "score": 5
+        },
+        {
+          "text": "Hubungan kedua kuantitas tidak dapat ditentukan dari informasi yang ada",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A tepat setengah kuantitas B",
+          "score": 0
+        }
+      ],
+      "explanation": "Hitung harga bayar: A = 240.000 × (100% − 25%) = 240.000 × 75% = Rp180.000,00. B = 300.000 × (100% − 40%) = 300.000 × 60% = Rp180.000,00. Harga awal dan diskonnya berbeda, tetapi harga bayarnya sama, jadi A sama dengan B.",
+      "trick": "Bandingkan harga setelah diskon (persentase sisa), bukan besar diskonnya."
+    },
+    {
+      "id": "TIU-182",
+      "subtest": "TIU",
+      "topic": "Perbandingan Kuantitatif",
+      "difficulty": 3,
+      "question": "Kuantitas A: kecepatan sebuah mobil yang menempuh 150 km dalam 2,5 jam. Kuantitas B: kecepatan sebuah motor yang melaju 17 meter per detik. Pernyataan yang benar adalah ...",
+      "options": [
+        {
+          "text": "Kuantitas B lebih besar daripada kuantitas A",
+          "score": 5
+        },
+        {
+          "text": "Kuantitas A lebih besar daripada kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A sama dengan kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Hubungan kedua kuantitas tidak dapat ditentukan dari informasi yang ada",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A tepat dua kali kuantitas B",
+          "score": 0
+        }
+      ],
+      "explanation": "Samakan satuan ke km/jam. A = 150 ÷ 2,5 = 60 km/jam. B = 17 m/detik × 3,6 = 61,2 km/jam. Karena 61,2 > 60, kuantitas B lebih besar daripada kuantitas A.",
+      "trick": "Untuk mengubah m/detik ke km/jam kalikan 3,6; sebaliknya bagi 3,6."
+    },
+    {
+      "id": "TIU-183",
+      "subtest": "TIU",
+      "topic": "Perbandingan Kuantitatif",
+      "difficulty": 2,
+      "question": "Diketahui x adalah bilangan genap positif. Kuantitas A: x + 4. Kuantitas B: 2x. Pernyataan yang benar adalah ...",
+      "options": [
+        {
+          "text": "Hubungan kedua kuantitas tidak dapat ditentukan dari informasi yang ada",
+          "score": 5
+        },
+        {
+          "text": "Kuantitas A lebih besar daripada kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas B lebih besar daripada kuantitas A",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A sama dengan kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A tepat dua kali kuantitas B",
+          "score": 0
+        }
+      ],
+      "explanation": "Uji beberapa nilai x genap positif: x = 2 → A = 6 dan B = 4 (A lebih besar); x = 4 → A = 8 dan B = 8 (sama); x = 6 → A = 10 dan B = 12 (B lebih besar). Hubungannya berubah-ubah tergantung nilai x, jadi hubungan kedua kuantitas tidak dapat ditentukan dari informasi yang ada.",
+      "trick": "Jika ada variabel bebas, uji dua–tiga nilai; bila hasil bandingnya berubah, jawabannya tidak dapat ditentukan."
+    },
+    {
+      "id": "TIU-184",
+      "subtest": "TIU",
+      "topic": "Perbandingan Kuantitatif",
+      "difficulty": 2,
+      "question": "Kuantitas A: nilai rata-rata dari 6, 7, 8, 9, dan 10. Kuantitas B: nilai rata-rata dari 4, 6, 10, dan 12. Pernyataan yang benar adalah ...",
+      "options": [
+        {
+          "text": "Kuantitas A lebih besar daripada kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas B lebih besar daripada kuantitas A",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A sama dengan kuantitas B",
+          "score": 5
+        },
+        {
+          "text": "Hubungan kedua kuantitas tidak dapat ditentukan dari informasi yang ada",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas B tepat dua kali kuantitas A",
+          "score": 0
+        }
+      ],
+      "explanation": "Hitung: A = (6+7+8+9+10) ÷ 5 = 40 ÷ 5 = 8. B = (4+6+10+12) ÷ 4 = 32 ÷ 4 = 8. Kedua rata-rata sama, jadi kuantitas A sama dengan kuantitas B.",
+      "trick": "Jumlah data berbeda tidak masalah; rata-rata hanya bergantung pada total dibagi banyaknya data."
+    },
+    {
+      "id": "TIU-185",
+      "subtest": "TIU",
+      "topic": "Perbandingan Kuantitatif",
+      "difficulty": 1,
+      "question": "Kuantitas A: keliling persegi dengan panjang sisi 9 cm. Kuantitas B: keliling segitiga sama sisi dengan panjang sisi 13 cm. Pernyataan yang benar adalah ...",
+      "options": [
+        {
+          "text": "Kuantitas A lebih besar daripada kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas B lebih besar daripada kuantitas A",
+          "score": 5
+        },
+        {
+          "text": "Kuantitas A sama dengan kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Hubungan kedua kuantitas tidak dapat ditentukan dari informasi yang ada",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A tepat dua kali kuantitas B",
+          "score": 0
+        }
+      ],
+      "explanation": "Hitung: A = 4 × 9 = 36 cm. B = 3 × 13 = 39 cm. Karena 39 > 36, kuantitas B lebih besar daripada kuantitas A.",
+      "trick": "Keliling adalah jumlah semua sisi: persegi 4 sisi, segitiga sama sisi 3 sisi sama panjang."
+    },
+    {
+      "id": "TIU-186",
+      "subtest": "TIU",
+      "topic": "Perbandingan Kuantitatif",
+      "difficulty": 2,
+      "question": "Kuantitas A: 3/5. Kuantitas B: 7/12. Pernyataan yang benar adalah ...",
+      "options": [
+        {
+          "text": "Kuantitas B lebih besar daripada kuantitas A",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A sama dengan kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Hubungan kedua kuantitas tidak dapat ditentukan dari informasi yang ada",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas B tepat dua kali kuantitas A",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A lebih besar daripada kuantitas B",
+          "score": 5
+        }
+      ],
+      "explanation": "Samakan penyebut menjadi 60: A = 3/5 = 36/60. B = 7/12 = 35/60. Karena 36/60 > 35/60, kuantitas A lebih besar daripada kuantitas B.",
+      "trick": "Bandingkan pecahan dengan kali silang: 3×12 = 36 melawan 7×5 = 35."
+    },
+    {
+      "id": "TIU-187",
+      "subtest": "TIU",
+      "topic": "Perbandingan Kuantitatif",
+      "difficulty": 3,
+      "question": "Suatu pekerjaan dapat diselesaikan oleh 4 pekerja dalam 12 hari. Kuantitas A: waktu yang dibutuhkan 6 pekerja untuk menyelesaikan pekerjaan yang sama (kemampuan tiap pekerja sama). Kuantitas B: 9 hari. Pernyataan yang benar adalah ...",
+      "options": [
+        {
+          "text": "Kuantitas A lebih besar daripada kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A sama dengan kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Hubungan kedua kuantitas tidak dapat ditentukan dari informasi yang ada",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas B lebih besar daripada kuantitas A",
+          "score": 5
+        },
+        {
+          "text": "Kuantitas A tepat dua kali kuantitas B",
+          "score": 0
+        }
+      ],
+      "explanation": "Volume pekerjaan = 4 pekerja × 12 hari = 48 hari-pekerja. Dengan 6 pekerja: A = 48 ÷ 6 = 8 hari. Karena 8 < 9, kuantitas A (8 hari) lebih kecil daripada kuantitas B (9 hari), artinya kuantitas B lebih besar.",
+      "trick": "Soal pekerja memakai perbandingan berbalik nilai: kalikan pekerja × hari untuk mendapat volume kerja tetap."
+    },
+    {
+      "id": "TIU-188",
+      "subtest": "TIU",
+      "topic": "Perbandingan Kuantitatif",
+      "difficulty": 3,
+      "question": "Diketahui y adalah bilangan asli yang lebih besar dari 3 dan lebih kecil dari 7. Kuantitas A: y pangkat 2. Kuantitas B: 5y. Pernyataan yang benar adalah ...",
+      "options": [
+        {
+          "text": "Kuantitas A lebih besar daripada kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas B lebih besar daripada kuantitas A",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A sama dengan kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Hubungan kedua kuantitas tidak dapat ditentukan dari informasi yang ada",
+          "score": 5
+        },
+        {
+          "text": "Kuantitas A tepat dua kali kuantitas B",
+          "score": 0
+        }
+      ],
+      "explanation": "Nilai y yang mungkin adalah 4, 5, dan 6. y = 4 → A = 16 dan B = 20 (B lebih besar); y = 5 → A = 25 dan B = 25 (sama); y = 6 → A = 36 dan B = 30 (A lebih besar). Karena hubungannya berubah menurut nilai y, hubungan kedua kuantitas tidak dapat ditentukan.",
+      "trick": "Coba semua nilai variabel yang diizinkan; satu contoh yang berbeda hasil saja cukup untuk jawaban 'tidak dapat ditentukan'."
+    },
+    {
+      "id": "TIU-189",
+      "subtest": "TIU",
+      "topic": "Perbandingan Kuantitatif",
+      "difficulty": 2,
+      "question": "Kuantitas A: luas lingkaran dengan jari-jari 7 cm (gunakan π = 22/7). Kuantitas B: luas persegi dengan panjang sisi 12 cm. Pernyataan yang benar adalah ...",
+      "options": [
+        {
+          "text": "Kuantitas A lebih besar daripada kuantitas B",
+          "score": 5
+        },
+        {
+          "text": "Kuantitas B lebih besar daripada kuantitas A",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas A sama dengan kuantitas B",
+          "score": 0
+        },
+        {
+          "text": "Hubungan kedua kuantitas tidak dapat ditentukan dari informasi yang ada",
+          "score": 0
+        },
+        {
+          "text": "Kuantitas B tepat dua kali kuantitas A",
+          "score": 0
+        }
+      ],
+      "explanation": "Hitung: A = π × r² = 22/7 × 7 × 7 = 22 × 7 = 154 cm². B = 12 × 12 = 144 cm². Karena 154 > 144, kuantitas A lebih besar daripada kuantitas B.",
+      "trick": "Dengan r = 7 dan π = 22/7, penyebut 7 langsung tercoret sehingga hitungan menjadi singkat."
+    },
+    {
+      "id": "TIU-190",
+      "subtest": "TIU",
+      "topic": "Figural Teks",
+      "difficulty": 1,
+      "question": "Pola bangun datar pada gambar berurutan adalah: segitiga (3 sisi), persegi (4 sisi), segi lima (5 sisi), ... Bangun berikutnya pada pola tersebut adalah ...",
+      "options": [
+        {
+          "text": "Segi tujuh",
+          "score": 0
+        },
+        {
+          "text": "Segi delapan",
+          "score": 0
+        },
+        {
+          "text": "Lingkaran",
+          "score": 0
+        },
+        {
+          "text": "Jajar genjang",
+          "score": 0
+        },
+        {
+          "text": "Segi enam",
+          "score": 5
+        }
+      ],
+      "explanation": "Jumlah sisi bangun bertambah satu pada setiap urutan: 3, 4, 5, ... sehingga bangun berikutnya memiliki 6 sisi, yaitu segi enam.",
+      "trick": "Hitung jumlah sisinya; pola figural sering hanya berupa urutan bilangan yang tersembunyi."
+    },
+    {
+      "id": "TIU-191",
+      "subtest": "TIU",
+      "topic": "Figural Teks",
+      "difficulty": 1,
+      "question": "Banyaknya bintang pada gambar berurutan adalah: gambar pertama 3 bintang, gambar kedua 6 bintang, gambar ketiga 12 bintang, gambar keempat 24 bintang. Banyaknya bintang pada gambar kelima adalah ...",
+      "options": [
+        {
+          "text": "30 bintang",
+          "score": 0
+        },
+        {
+          "text": "36 bintang",
+          "score": 0
+        },
+        {
+          "text": "48 bintang",
+          "score": 5
+        },
+        {
+          "text": "42 bintang",
+          "score": 0
+        },
+        {
+          "text": "96 bintang",
+          "score": 0
+        }
+      ],
+      "explanation": "Banyak bintang selalu dikalikan 2: 3, 6, 12, 24, ... sehingga gambar kelima berisi 24 × 2 = 48 bintang.",
+      "trick": "Perhatikan apakah pola bertambah tetap atau berlipat; di sini polanya berlipat dua."
+    },
+    {
+      "id": "TIU-192",
+      "subtest": "TIU",
+      "topic": "Figural Teks",
+      "difficulty": 1,
+      "question": "Sebuah panah menunjuk ke arah Utara. Panah itu diputar 90 derajat searah jarum jam sehingga menunjuk ke Timur, lalu diputar lagi 90 derajat searah jarum jam sehingga menunjuk ke Selatan. Jika panah diputar sekali lagi 90 derajat searah jarum jam, panah akan menunjuk ke arah ...",
+      "options": [
+        {
+          "text": "Utara",
+          "score": 0
+        },
+        {
+          "text": "Barat",
+          "score": 5
+        },
+        {
+          "text": "Timur",
+          "score": 0
+        },
+        {
+          "text": "Tenggara",
+          "score": 0
+        },
+        {
+          "text": "Barat Laut",
+          "score": 0
+        }
+      ],
+      "explanation": "Putaran 90 derajat searah jarum jam memindahkan arah mata angin satu langkah mengikuti urutan Utara → Timur → Selatan → Barat. Setelah Selatan, putaran berikutnya mengarah ke Barat.",
+      "trick": "Hafalkan urutan mata angin searah jarum jam: Utara, Timur, Selatan, Barat."
+    },
+    {
+      "id": "TIU-193",
+      "subtest": "TIU",
+      "topic": "Figural Teks",
+      "difficulty": 1,
+      "question": "Titik-titik digambar di dalam kotak: gambar pertama berisi 1 titik, gambar kedua berisi 3 titik, gambar ketiga berisi 5 titik, dan gambar keempat berisi 7 titik. Gambar kelima pada pola yang sama berisi ...",
+      "options": [
+        {
+          "text": "8 titik",
+          "score": 0
+        },
+        {
+          "text": "10 titik",
+          "score": 0
+        },
+        {
+          "text": "9 titik",
+          "score": 5
+        },
+        {
+          "text": "11 titik",
+          "score": 0
+        },
+        {
+          "text": "15 titik",
+          "score": 0
+        }
+      ],
+      "explanation": "Jumlah titik membentuk barisan bilangan ganjil yang bertambah 2: 1, 3, 5, 7, ... sehingga gambar kelima berisi 7 + 2 = 9 titik.",
+      "trick": "Selisih antargambar tetap (+2), jadi cukup tambahkan 2 pada gambar terakhir."
+    },
+    {
+      "id": "TIU-194",
+      "subtest": "TIU",
+      "topic": "Figural Teks",
+      "difficulty": 1,
+      "question": "Urutan bentuk pada sebuah pola adalah: segitiga, lingkaran, segitiga, lingkaran, segitiga, lingkaran, dan seterusnya berselang-seling. Bentuk pada urutan ke-10 adalah ...",
+      "options": [
+        {
+          "text": "Segitiga",
+          "score": 0
+        },
+        {
+          "text": "Persegi",
+          "score": 0
+        },
+        {
+          "text": "Bintang",
+          "score": 0
+        },
+        {
+          "text": "Bulan sabit",
+          "score": 0
+        },
+        {
+          "text": "Lingkaran",
+          "score": 5
+        }
+      ],
+      "explanation": "Polanya berselang-seling dua bentuk: urutan ganjil (1, 3, 5, ...) selalu segitiga dan urutan genap (2, 4, 6, ...) selalu lingkaran. Urutan ke-10 adalah urutan genap, jadi bentuknya lingkaran.",
+      "trick": "Untuk pola selang-seling, cukup periksa ganjil–genap posisi yang ditanyakan."
+    },
+    {
+      "id": "TIU-195",
+      "subtest": "TIU",
+      "topic": "Figural Teks",
+      "difficulty": 2,
+      "question": "Pola bangun datar pada gambar berurutan adalah: segi enam (6 sisi), segi lima (5 sisi), persegi (4 sisi), ... Bangun berikutnya pada pola tersebut adalah ...",
+      "options": [
+        {
+          "text": "Segitiga",
+          "score": 5
+        },
+        {
+          "text": "Lingkaran",
+          "score": 0
+        },
+        {
+          "text": "Segi tujuh",
+          "score": 0
+        },
+        {
+          "text": "Persegi panjang",
+          "score": 0
+        },
+        {
+          "text": "Bintang",
+          "score": 0
+        }
+      ],
+      "explanation": "Jumlah sisi bangun berkurang satu pada setiap urutan: 6, 5, 4, ... sehingga bangun berikutnya memiliki 3 sisi, yaitu segitiga.",
+      "trick": "Pola sisi bisa naik atau turun; di sini turun satu per langkah hingga segitiga."
+    },
+    {
+      "id": "TIU-196",
+      "subtest": "TIU",
+      "topic": "Figural Teks",
+      "difficulty": 2,
+      "question": "Sebuah penanda pada lingkaran jam menunjuk angka 12. Setiap langkah, penanda berputar 90 derajat searah jarum jam. Setelah 3 langkah, penanda menunjuk angka ...",
+      "options": [
+        {
+          "text": "3",
+          "score": 0
+        },
+        {
+          "text": "9",
+          "score": 5
+        },
+        {
+          "text": "6",
+          "score": 0
+        },
+        {
+          "text": "12",
+          "score": 0
+        },
+        {
+          "text": "10",
+          "score": 0
+        }
+      ],
+      "explanation": "Satu langkah 90 derajat searah jarum jam memindahkan penanda sejauh 3 angka jam: dari 12 → 3 (langkah 1) → 6 (langkah 2) → 9 (langkah 3). Jadi setelah 3 langkah penanda menunjuk angka 9.",
+      "trick": "Pada lingkaran jam, 90 derajat selalu berarti berpindah 3 angka."
+    },
+    {
+      "id": "TIU-197",
+      "subtest": "TIU",
+      "topic": "Figural Teks",
+      "difficulty": 3,
+      "question": "Jumlah bintang pada gambar berurutan adalah: gambar pertama 1 bintang, gambar kedua 2 bintang, gambar ketiga 4 bintang, gambar keempat 7 bintang, dan gambar kelima 11 bintang. Jumlah bintang pada gambar keenam adalah ...",
+      "options": [
+        {
+          "text": "14 bintang",
+          "score": 0
+        },
+        {
+          "text": "15 bintang",
+          "score": 0
+        },
+        {
+          "text": "18 bintang",
+          "score": 0
+        },
+        {
+          "text": "16 bintang",
+          "score": 5
+        },
+        {
+          "text": "20 bintang",
+          "score": 0
+        }
+      ],
+      "explanation": "Perhatikan selisihnya: 1 ke 2 bertambah 1, 2 ke 4 bertambah 2, 4 ke 7 bertambah 3, 7 ke 11 bertambah 4. Penambahannya naik satu setiap langkah, jadi gambar keenam bertambah 5: 11 + 5 = 16 bintang.",
+      "trick": "Jika selisih tidak tetap, periksa selisih dari selisihnya — di sini penambahannya naik 1, 2, 3, 4, 5."
+    },
+    {
+      "id": "TIU-198",
+      "subtest": "TIU",
+      "topic": "Figural Teks",
+      "difficulty": 3,
+      "question": "Sebuah titik hitam bergerak di dalam kotak 3×3. Gambar pertama: titik berada di pojok kiri atas. Gambar kedua: titik bergeser satu langkah ke kanan, di tengah baris atas. Gambar ketiga: titik berada di pojok kanan atas. Gambar keempat: titik bergeser satu langkah ke bawah, di tengah kolom kanan. Pada gambar kelima, titik berada di ...",
+      "options": [
+        {
+          "text": "Tengah kotak",
+          "score": 0
+        },
+        {
+          "text": "Pojok kanan bawah",
+          "score": 5
+        },
+        {
+          "text": "Pojok kiri bawah",
+          "score": 0
+        },
+        {
+          "text": "Tengah baris bawah",
+          "score": 0
+        },
+        {
+          "text": "Pojok kanan atas",
+          "score": 0
+        }
+      ],
+      "explanation": "Titik bergerak mengelilingi tepi kotak searah jarum jam: pojok kiri atas → tengah baris atas → pojok kanan atas → tengah kolom kanan. Langkah berikutnya tetap di tepi kanan bergerak ke bawah, yaitu pojok kanan bawah.",
+      "trick": "Gambar ulang lintasan titiknya dalam kotak 3×3; arah geraknya konsisten menyusuri tepi."
+    },
+    {
+      "id": "TIU-199",
+      "subtest": "TIU",
+      "topic": "Figural Teks",
+      "difficulty": 3,
+      "question": "Pola gambar tersusun sebagai berikut: gambar pertama sebuah persegi dengan 1 lingkaran di dalamnya; gambar kedua sebuah segi lima dengan 2 lingkaran di dalamnya; gambar ketiga sebuah segi enam dengan 3 lingkaran di dalamnya. Gambar keempat pada pola yang sama adalah sebuah segi tujuh dengan lingkaran di dalamnya sebanyak ...",
+      "options": [
+        {
+          "text": "3 lingkaran",
+          "score": 0
+        },
+        {
+          "text": "5 lingkaran",
+          "score": 0
+        },
+        {
+          "text": "6 lingkaran",
+          "score": 0
+        },
+        {
+          "text": "4 lingkaran",
+          "score": 5
+        },
+        {
+          "text": "7 lingkaran",
+          "score": 0
+        }
+      ],
+      "explanation": "Ada dua pola berjalan bersamaan: jumlah sisi bangun luar bertambah 1 (4, 5, 6, 7) dan jumlah lingkaran di dalamnya juga bertambah 1 (1, 2, 3, ...). Pada gambar keempat, lingkaran di dalamnya berjumlah 4.",
+      "trick": "Pola figural ganda: pisahkan pola bangun luar dan pola isi di dalamnya, lalu lanjutkan masing-masing."
+    },
+    {
+      "id": "TIU-200",
+      "subtest": "TIU",
+      "topic": "Figural Teks",
+      "difficulty": 2,
+      "question": "Sebuah panah menunjuk ke arah Timur. Panah diputar 45 derajat berlawanan arah jarum jam sehingga menunjuk ke Timur Laut, lalu diputar lagi 45 derajat berlawanan arah jarum jam sehingga menunjuk ke Utara. Jika panah diputar sekali lagi 45 derajat berlawanan arah jarum jam, panah akan menunjuk ke arah ...",
+      "options": [
+        {
+          "text": "Barat Laut",
+          "score": 5
+        },
+        {
+          "text": "Barat",
+          "score": 0
+        },
+        {
+          "text": "Barat Daya",
+          "score": 0
+        },
+        {
+          "text": "Utara",
+          "score": 0
+        },
+        {
+          "text": "Timur Laut",
+          "score": 0
+        }
+      ],
+      "explanation": "Putaran 45 derajat berlawanan arah jarum jam memindahkan arah satu langkah melawan urutan jarum jam: Timur → Timur Laut → Utara → Barat Laut. Jadi putaran berikutnya mengarah ke Barat Laut.",
+      "trick": "Delapan mata angin berjarak 45 derajat; bergeraklah satu langkah sesuai arah putaran yang diminta."
+    }
+  ]
+}

@@ -26,13 +26,22 @@ data class Question(
 object QuestionBank {
     /**
      * File bank soal di assets/questions/. Tambahkan nama file batch baru ke daftar ini
-     * setiap rilis bank soal. Total saat ini: 165 soal (15 contoh + 150 batch 2).
+     * setiap rilis bank soal. Total saat ini: 600 soal (15 contoh + 150 batch 2 + 435 batch 3).
      */
     private val BANK_FILES = listOf(
         "questions/sample_questions.json",
         "questions/batch2_twk.json",
         "questions/batch2_tiu.json",
-        "questions/batch2_tkp.json"
+        "questions/batch2_tkp.json",
+        "questions/batch3_twk_a.json",
+        "questions/batch3_twk_b.json",
+        "questions/batch3_twk_c.json",
+        "questions/batch3_tiu_d.json",
+        "questions/batch3_tiu_e.json",
+        "questions/batch3_tiu_f.json",
+        "questions/batch3_tkp_g.json",
+        "questions/batch3_tkp_h.json",
+        "questions/batch3_tkp_i.json"
     )
 
     /** Muat & gabungkan SEMUA file bank soal. ID soal unik lintas file. */

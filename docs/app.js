@@ -425,8 +425,12 @@ document.querySelectorAll('[data-home]').forEach((b) => b.addEventListener('clic
 
 /* ---------- muat soal ----------
    Semua file bank soal digabung. Tambahkan file batch baru ke daftar ini setiap rilis.
-   Total saat ini: 165 soal (15 contoh + 150 batch 2). */
-const QUESTION_FILES = ['./questions.json', './questions_batch2_twk.json', './questions_batch2_tiu.json', './questions_batch2_tkp.json'];
+   Total saat ini: 600 soal (15 contoh + 150 batch 2 + 435 batch 3). */
+const QUESTION_FILES = ['./questions.json',
+  './questions_batch2_twk.json', './questions_batch2_tiu.json', './questions_batch2_tkp.json',
+  './questions_batch3_twk_a.json', './questions_batch3_twk_b.json', './questions_batch3_twk_c.json',
+  './questions_batch3_tiu_d.json', './questions_batch3_tiu_e.json', './questions_batch3_tiu_f.json',
+  './questions_batch3_tkp_g.json', './questions_batch3_tkp_h.json', './questions_batch3_tkp_i.json'];
 Promise.all(QUESTION_FILES.map((f) => fetch(f).then((r) => r.json())))
   .then((parts) => { allQuestions = parts.flatMap((d) => d.questions || []); renderCountPicker(); renderHome(); })
   .catch(() => {

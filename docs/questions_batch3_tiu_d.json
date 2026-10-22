@@ -1,0 +1,1525 @@
+{
+  "version": 2,
+  "batch": "batch3-tiu-d",
+  "questions": [
+    {
+      "id": "TIU-056",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 1,
+      "question": "Perhatikan deret berikut: 7, 12, 17, 22, 27, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "30",
+          "score": 0
+        },
+        {
+          "text": "31",
+          "score": 0
+        },
+        {
+          "text": "32",
+          "score": 5
+        },
+        {
+          "text": "34",
+          "score": 0
+        },
+        {
+          "text": "37",
+          "score": 0
+        }
+      ],
+      "explanation": "Selisih antar suku selalu tetap: 12 - 7 = 5, 17 - 12 = 5, 22 - 17 = 5, 27 - 22 = 5. Maka suku berikutnya = 27 + 5 = 32.",
+      "trick": "Jika selisih dua suku pertama sama dengan selisih berikutnya, pakai selisih tetap itu sampai akhir."
+    },
+    {
+      "id": "TIU-057",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 1,
+      "question": "Perhatikan deret berikut: 96, 88, 80, 72, 64, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "54",
+          "score": 0
+        },
+        {
+          "text": "58",
+          "score": 0
+        },
+        {
+          "text": "48",
+          "score": 0
+        },
+        {
+          "text": "62",
+          "score": 0
+        },
+        {
+          "text": "56",
+          "score": 5
+        }
+      ],
+      "explanation": "Selisih antar suku selalu tetap menurun: 88 - 96 = -8, 80 - 88 = -8, 72 - 80 = -8, 64 - 72 = -8. Maka suku berikutnya = 64 - 8 = 56.",
+      "trick": "Deret turun pun dicek selisihnya dulu; bila tetap, kurangi saja suku terakhir dengan selisih itu."
+    },
+    {
+      "id": "TIU-058",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 1,
+      "question": "Perhatikan deret bilangan berikut: 2, 3, 5, 7, 11, 13, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "15",
+          "score": 0
+        },
+        {
+          "text": "17",
+          "score": 5
+        },
+        {
+          "text": "16",
+          "score": 0
+        },
+        {
+          "text": "18",
+          "score": 0
+        },
+        {
+          "text": "19",
+          "score": 0
+        }
+      ],
+      "explanation": "Deret ini berisi bilangan prima berurutan: 2, 3, 5, 7, 11, 13. Bilangan prima setelah 13 adalah 17 (15 = 3 x 5 dan 16 = 2^4 bukan prima, 19 adalah prima berikutnya setelah 17).",
+      "trick": "Kenali deret istimewa (prima, kuadrat, kubik) dari suku-suku awalnya sebelum mencari selisih."
+    },
+    {
+      "id": "TIU-059",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 1,
+      "question": "Perhatikan deret berikut: 4, 6, 9, 13, 18, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "22",
+          "score": 0
+        },
+        {
+          "text": "23",
+          "score": 0
+        },
+        {
+          "text": "25",
+          "score": 0
+        },
+        {
+          "text": "24",
+          "score": 5
+        },
+        {
+          "text": "27",
+          "score": 0
+        }
+      ],
+      "explanation": "Selisih antar suku naik teratur: 6 - 4 = 2, 9 - 6 = 3, 13 - 9 = 4, 18 - 13 = 5. Selisih berikutnya adalah 6, sehingga suku berikutnya = 18 + 6 = 24.",
+      "trick": "Bila selisih tidak tetap, cek apakah selisihnya sendiri naik dengan pola teratur."
+    },
+    {
+      "id": "TIU-060",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 1,
+      "question": "Perhatikan deret berikut: 0, 3, 8, 15, 24, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "35",
+          "score": 5
+        },
+        {
+          "text": "33",
+          "score": 0
+        },
+        {
+          "text": "34",
+          "score": 0
+        },
+        {
+          "text": "36",
+          "score": 0
+        },
+        {
+          "text": "40",
+          "score": 0
+        }
+      ],
+      "explanation": "Setiap suku berbentuk n^2 - 1: 1^2 - 1 = 0, 2^2 - 1 = 3, 3^2 - 1 = 8, 4^2 - 1 = 15, 5^2 - 1 = 24. Suku berikutnya = 6^2 - 1 = 36 - 1 = 35.",
+      "trick": "Suku yang dekat dengan bilangan kuadrat (1, 4, 9, 16, 25) patut dicurigai berpola kuadrat plus/minus konstanta."
+    },
+    {
+      "id": "TIU-061",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 1,
+      "question": "Perhatikan deret berikut: 2, 3, 5, 8, 13, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "19",
+          "score": 0
+        },
+        {
+          "text": "20",
+          "score": 0
+        },
+        {
+          "text": "21",
+          "score": 5
+        },
+        {
+          "text": "22",
+          "score": 0
+        },
+        {
+          "text": "25",
+          "score": 0
+        }
+      ],
+      "explanation": "Setiap suku adalah jumlah dua suku sebelumnya: 5 = 2 + 3, 8 = 3 + 5, 13 = 5 + 8. Maka suku berikutnya = 8 + 13 = 21.",
+      "trick": "Bila selisih tampak tidak beraturan, coba jumlahkan dua suku berurutan dan bandingkan dengan suku sesudahnya."
+    },
+    {
+      "id": "TIU-062",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 2,
+      "question": "Perhatikan deret berikut: 2, 5, 10, 17, 26, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "35",
+          "score": 0
+        },
+        {
+          "text": "36",
+          "score": 0
+        },
+        {
+          "text": "38",
+          "score": 0
+        },
+        {
+          "text": "41",
+          "score": 0
+        },
+        {
+          "text": "37",
+          "score": 5
+        }
+      ],
+      "explanation": "Setiap suku berbentuk n^2 + 1: 1^2 + 1 = 2, 2^2 + 1 = 5, 3^2 + 1 = 10, 4^2 + 1 = 17, 5^2 + 1 = 26. Suku berikutnya = 6^2 + 1 = 36 + 1 = 37.",
+      "trick": "Selisih suku-suku ini 3, 5, 7, 9 (bilangan ganjil naik) juga mengarah ke pola kuadrat."
+    },
+    {
+      "id": "TIU-063",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 2,
+      "question": "Perhatikan deret berikut: 2, 5, 11, 23, 47, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "93",
+          "score": 0
+        },
+        {
+          "text": "95",
+          "score": 5
+        },
+        {
+          "text": "94",
+          "score": 0
+        },
+        {
+          "text": "96",
+          "score": 0
+        },
+        {
+          "text": "100",
+          "score": 0
+        }
+      ],
+      "explanation": "Setiap suku diperoleh dari suku sebelumnya dikali 2 lalu ditambah 1: 2 x 2 + 1 = 5, 5 x 2 + 1 = 11, 11 x 2 + 1 = 23, 23 x 2 + 1 = 47. Maka suku berikutnya = 47 x 2 + 1 = 95.",
+      "trick": "Bila suku melonjak lebih dari dua kali lipat, uji pola kali tetap ditambah/dikurangi konstanta."
+    },
+    {
+      "id": "TIU-064",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 2,
+      "question": "Perhatikan deret berikut: 2, 10, 3, 12, 4, 14, 5, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "15",
+          "score": 0
+        },
+        {
+          "text": "17",
+          "score": 0
+        },
+        {
+          "text": "18",
+          "score": 0
+        },
+        {
+          "text": "16",
+          "score": 5
+        },
+        {
+          "text": "20",
+          "score": 0
+        }
+      ],
+      "explanation": "Pisahkan dua larik. Larik posisi ganjil: 2, 3, 4, 5 (naik 1). Larik posisi genap: 10, 12, 14 (naik 2). Suku berikutnya menempati posisi genap, sehingga = 14 + 2 = 16.",
+      "trick": "Bila deret naik-turun tidak wajar, pisahkan suku posisi ganjil dan genap menjadi dua deret tersendiri."
+    },
+    {
+      "id": "TIU-065",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 2,
+      "question": "Perhatikan deret berikut: 1/2, 1, 3/2, 2, 5/2, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "3",
+          "score": 5
+        },
+        {
+          "text": "7/2",
+          "score": 0
+        },
+        {
+          "text": "13/4",
+          "score": 0
+        },
+        {
+          "text": "4",
+          "score": 0
+        },
+        {
+          "text": "6",
+          "score": 0
+        }
+      ],
+      "explanation": "Selisih antar suku selalu tetap: 1 - 1/2 = 1/2, 3/2 - 1 = 1/2, 2 - 3/2 = 1/2, 5/2 - 2 = 1/2. Maka suku berikutnya = 5/2 + 1/2 = 6/2 = 3.",
+      "trick": "Deret pecahan tetap dicek selisihnya; samakan penyebut agar selisihnya terlihat."
+    },
+    {
+      "id": "TIU-066",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 2,
+      "question": "Perhatikan deret berikut: 5, 7, 11, 17, 25, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "33",
+          "score": 0
+        },
+        {
+          "text": "34",
+          "score": 0
+        },
+        {
+          "text": "35",
+          "score": 5
+        },
+        {
+          "text": "37",
+          "score": 0
+        },
+        {
+          "text": "39",
+          "score": 0
+        }
+      ],
+      "explanation": "Selisih antar suku naik 2 setiap langkah: 7 - 5 = 2, 11 - 7 = 4, 17 - 11 = 6, 25 - 17 = 8. Selisih berikutnya adalah 10, sehingga suku berikutnya = 25 + 10 = 35.",
+      "trick": "Tulis selisih di antara suku-suku; pola selisih genap naik (2, 4, 6, 8) mudah terlihat bila ditulis."
+    },
+    {
+      "id": "TIU-067",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 2,
+      "question": "Perhatikan deret berikut: 3, 6, 4, 8, 5, 10, 6, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "7",
+          "score": 0
+        },
+        {
+          "text": "11",
+          "score": 0
+        },
+        {
+          "text": "13",
+          "score": 0
+        },
+        {
+          "text": "14",
+          "score": 0
+        },
+        {
+          "text": "12",
+          "score": 5
+        }
+      ],
+      "explanation": "Deret ini tersusun atas pasangan-pasangan: (3, 6), (4, 8), (5, 10), (6, ...). Pada setiap pasangan, suku kedua = suku pertama x 2, sedangkan suku pertama naik 1 (3, 4, 5, 6). Maka pasangan terakhir adalah (6, 12), sehingga suku berikutnya = 6 x 2 = 12.",
+      "trick": "Bila susunan tampak melompat teratur, kelompokkan suku per dua atau per tiga dan cari pola di dalam kelompoknya."
+    },
+    {
+      "id": "TIU-068",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 2,
+      "question": "Perhatikan deret berikut: 4, 6, 10, 16, 26, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "40",
+          "score": 0
+        },
+        {
+          "text": "42",
+          "score": 5
+        },
+        {
+          "text": "41",
+          "score": 0
+        },
+        {
+          "text": "44",
+          "score": 0
+        },
+        {
+          "text": "46",
+          "score": 0
+        }
+      ],
+      "explanation": "Setiap suku adalah jumlah dua suku sebelumnya: 10 = 4 + 6, 16 = 6 + 10, 26 = 10 + 16. Maka suku berikutnya = 16 + 26 = 42.",
+      "trick": "Pola jumlah dua suku sebelumnya (seperti Fibonacci) dapat dimulai dari bilangan berapa pun, bukan hanya 1 dan 1."
+    },
+    {
+      "id": "TIU-069",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 2,
+      "question": "Perhatikan deret berikut: 2, 5, 10, 13, 26, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "28",
+          "score": 0
+        },
+        {
+          "text": "30",
+          "score": 0
+        },
+        {
+          "text": "31",
+          "score": 0
+        },
+        {
+          "text": "29",
+          "score": 5
+        },
+        {
+          "text": "52",
+          "score": 0
+        }
+      ],
+      "explanation": "Polanya bergantian +3 lalu x2: 2 + 3 = 5, 5 x 2 = 10, 10 + 3 = 13, 13 x 2 = 26. Langkah berikutnya adalah +3, sehingga suku berikutnya = 26 + 3 = 29.",
+      "trick": "Bila selisih dan rasio sama-sama tidak tetap, uji pola operasi bergantian (misalnya +3, x2, +3, x2)."
+    },
+    {
+      "id": "TIU-070",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 2,
+      "question": "Perhatikan deret berikut: 3, 5, 9, 17, 33, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "65",
+          "score": 5
+        },
+        {
+          "text": "49",
+          "score": 0
+        },
+        {
+          "text": "63",
+          "score": 0
+        },
+        {
+          "text": "64",
+          "score": 0
+        },
+        {
+          "text": "66",
+          "score": 0
+        }
+      ],
+      "explanation": "Selisih antar suku berlipat dua: 5 - 3 = 2, 9 - 5 = 4, 17 - 9 = 8, 33 - 17 = 16. Selisih berikutnya adalah 32, sehingga suku berikutnya = 33 + 32 = 65.",
+      "trick": "Selisih yang membesar cepat (2, 4, 8, 16) biasanya berlipat dua; lanjutkan pelipatannya, jangan diulang."
+    },
+    {
+      "id": "TIU-071",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 3,
+      "question": "Perhatikan deret berikut: 3, 7, 19, 55, 163, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "485",
+          "score": 0
+        },
+        {
+          "text": "486",
+          "score": 0
+        },
+        {
+          "text": "487",
+          "score": 5
+        },
+        {
+          "text": "489",
+          "score": 0
+        },
+        {
+          "text": "490",
+          "score": 0
+        }
+      ],
+      "explanation": "Setiap suku diperoleh dari suku sebelumnya dikali 3 lalu dikurangi 2: 3 x 3 - 2 = 7, 7 x 3 - 2 = 19, 19 x 3 - 2 = 55, 55 x 3 - 2 = 163. Maka suku berikutnya = 163 x 3 - 2 = 489 - 2 = 487.",
+      "trick": "Untuk deret yang melonjak sekitar tiga kali lipat, uji pola x3 ditambah/dikurangi konstanta kecil."
+    },
+    {
+      "id": "TIU-072",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 3,
+      "question": "Perhatikan deret berikut: 1, 3, 4, 6, 9, 12, 16, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "18",
+          "score": 0
+        },
+        {
+          "text": "20",
+          "score": 0
+        },
+        {
+          "text": "22",
+          "score": 0
+        },
+        {
+          "text": "28",
+          "score": 0
+        },
+        {
+          "text": "24",
+          "score": 5
+        }
+      ],
+      "explanation": "Pisahkan dua larik. Larik posisi ganjil: 1, 4, 9, 16 (kuadrat: 1^2, 2^2, 3^2, 4^2). Larik posisi genap: 3, 6, 12 (selalu dikali 2). Suku berikutnya menempati posisi genap, sehingga = 12 x 2 = 24.",
+      "trick": "Pada deret berselang, tentukan dulu suku yang dicari masuk larik ganjil atau genap, lalu ikuti pola lariknya saja."
+    },
+    {
+      "id": "TIU-073",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 3,
+      "question": "Perhatikan deret berikut: 2, 9, 28, 65, 126, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "215",
+          "score": 0
+        },
+        {
+          "text": "217",
+          "score": 5
+        },
+        {
+          "text": "216",
+          "score": 0
+        },
+        {
+          "text": "218",
+          "score": 0
+        },
+        {
+          "text": "220",
+          "score": 0
+        }
+      ],
+      "explanation": "Setiap suku berbentuk n^3 + 1: 1^3 + 1 = 2, 2^3 + 1 = 9, 3^3 + 1 = 28, 4^3 + 1 = 65, 5^3 + 1 = 126. Suku berikutnya = 6^3 + 1 = 216 + 1 = 217.",
+      "trick": "Suku yang sedikit di atas bilangan kubik (1, 8, 27, 64, 125) mengarah ke pola kubik plus konstanta."
+    },
+    {
+      "id": "TIU-074",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 3,
+      "question": "Perhatikan deret berikut: 50, 47, 42, 35, 26, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "17",
+          "score": 0
+        },
+        {
+          "text": "16",
+          "score": 0
+        },
+        {
+          "text": "14",
+          "score": 0
+        },
+        {
+          "text": "15",
+          "score": 5
+        },
+        {
+          "text": "13",
+          "score": 0
+        }
+      ],
+      "explanation": "Selisih antar suku menurun semakin besar: 47 - 50 = -3, 42 - 47 = -5, 35 - 42 = -7, 26 - 35 = -9. Pola selisihnya bilangan ganjil naik (3, 5, 7, 9), sehingga selisih berikutnya adalah -11 dan suku berikutnya = 26 - 11 = 15.",
+      "trick": "Deret menurun juga dianalisis dari selisihnya; perhatikan tanda negatif saat melanjutkan pola."
+    },
+    {
+      "id": "TIU-075",
+      "subtest": "TIU",
+      "topic": "Deret Angka",
+      "difficulty": 3,
+      "question": "Perhatikan deret berikut: 10, 12, 17, 25, 36, ... Bilangan yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "50",
+          "score": 5
+        },
+        {
+          "text": "47",
+          "score": 0
+        },
+        {
+          "text": "48",
+          "score": 0
+        },
+        {
+          "text": "49",
+          "score": 0
+        },
+        {
+          "text": "51",
+          "score": 0
+        }
+      ],
+      "explanation": "Selisih antar suku: 12 - 10 = 2, 17 - 12 = 5, 25 - 17 = 8, 36 - 25 = 11. Selisih itu sendiri naik tetap 3 (2, 5, 8, 11), sehingga selisih berikutnya adalah 14 dan suku berikutnya = 36 + 14 = 50.",
+      "trick": "Bila selisih pertama tidak beraturan, hitung selisih dari selisihnya (selisih tingkat dua)."
+    },
+    {
+      "id": "TIU-076",
+      "subtest": "TIU",
+      "topic": "Deret Huruf",
+      "difficulty": 1,
+      "question": "Perhatikan deret huruf berikut: M, O, Q, S, U, ... Huruf yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "V",
+          "score": 0
+        },
+        {
+          "text": "X",
+          "score": 0
+        },
+        {
+          "text": "W",
+          "score": 5
+        },
+        {
+          "text": "Y",
+          "score": 0
+        },
+        {
+          "text": "Z",
+          "score": 0
+        }
+      ],
+      "explanation": "Posisi huruf dalam alfabet: M = 13, O = 15, Q = 17, S = 19, U = 21. Polanya naik tetap 2, sehingga huruf berikutnya berposisi 21 + 2 = 23, yaitu huruf W.",
+      "trick": "Ubah huruf menjadi nomor urut alfabet agar polanya terlihat sebagai deret angka."
+    },
+    {
+      "id": "TIU-077",
+      "subtest": "TIU",
+      "topic": "Deret Huruf",
+      "difficulty": 1,
+      "question": "Perhatikan deret huruf berikut: A, E, I, O, ... Huruf yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "B",
+          "score": 0
+        },
+        {
+          "text": "P",
+          "score": 0
+        },
+        {
+          "text": "Y",
+          "score": 0
+        },
+        {
+          "text": "Z",
+          "score": 0
+        },
+        {
+          "text": "U",
+          "score": 5
+        }
+      ],
+      "explanation": "Deret ini berisi huruf vokal berurutan: A, E, I, O. Huruf vokal berikutnya setelah O adalah U.",
+      "trick": "Tidak semua deret huruf berpola selisih; sebagian berpola kategori, misalnya huruf vokal atau konsonan tertentu."
+    },
+    {
+      "id": "TIU-078",
+      "subtest": "TIU",
+      "topic": "Deret Huruf",
+      "difficulty": 2,
+      "question": "Perhatikan deret huruf berikut: S, P, M, J, G, ... Huruf yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "C",
+          "score": 0
+        },
+        {
+          "text": "D",
+          "score": 5
+        },
+        {
+          "text": "E",
+          "score": 0
+        },
+        {
+          "text": "F",
+          "score": 0
+        },
+        {
+          "text": "H",
+          "score": 0
+        }
+      ],
+      "explanation": "Posisi huruf dalam alfabet: S = 19, P = 16, M = 13, J = 10, G = 7. Polanya turun tetap 3, sehingga huruf berikutnya berposisi 7 - 3 = 4, yaitu huruf D.",
+      "trick": "Deret huruf yang menurun tetap dihitung mundur dari posisi alfabetnya, jangan ditebak dari bentuk huruf."
+    },
+    {
+      "id": "TIU-079",
+      "subtest": "TIU",
+      "topic": "Deret Huruf",
+      "difficulty": 3,
+      "question": "Perhatikan deret huruf berikut: B, C, E, H, L, ... Huruf yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "O",
+          "score": 0
+        },
+        {
+          "text": "P",
+          "score": 0
+        },
+        {
+          "text": "R",
+          "score": 0
+        },
+        {
+          "text": "Q",
+          "score": 5
+        },
+        {
+          "text": "S",
+          "score": 0
+        }
+      ],
+      "explanation": "Posisi huruf dalam alfabet: B = 2, C = 3, E = 5, H = 8, L = 12. Lompatan posisinya naik teratur: +1, +2, +3, +4. Lompatan berikutnya adalah +5, sehingga huruf berikutnya berposisi 12 + 5 = 17, yaitu huruf Q.",
+      "trick": "Bila lompatan antar huruf membesar, perlakukan lompatan itu sebagai deret tersendiri."
+    },
+    {
+      "id": "TIU-080",
+      "subtest": "TIU",
+      "topic": "Deret Huruf",
+      "difficulty": 2,
+      "question": "Perhatikan deret huruf berikut: A, Z, B, Y, C, X, ... Huruf yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "D",
+          "score": 5
+        },
+        {
+          "text": "C",
+          "score": 0
+        },
+        {
+          "text": "E",
+          "score": 0
+        },
+        {
+          "text": "F",
+          "score": 0
+        },
+        {
+          "text": "W",
+          "score": 0
+        }
+      ],
+      "explanation": "Pisahkan dua larik. Larik posisi ganjil: A, B, C (maju 1). Larik posisi genap: Z, Y, X (mundur 1). Suku berikutnya menempati posisi ganjil, sehingga melanjutkan larik A, B, C, yaitu huruf D.",
+      "trick": "Deret huruf berselang dipecah per posisi ganjil/genap; kedua larik dapat bergerak berlawanan arah."
+    },
+    {
+      "id": "TIU-081",
+      "subtest": "TIU",
+      "topic": "Deret Huruf",
+      "difficulty": 2,
+      "question": "Perhatikan deret huruf berikut: B, D, H, J, N, ... Huruf yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "L",
+          "score": 0
+        },
+        {
+          "text": "M",
+          "score": 0
+        },
+        {
+          "text": "P",
+          "score": 5
+        },
+        {
+          "text": "R",
+          "score": 0
+        },
+        {
+          "text": "T",
+          "score": 0
+        }
+      ],
+      "explanation": "Posisi huruf dalam alfabet: B = 2, D = 4, H = 8, J = 10, N = 14. Lompatannya bergantian +2 dan +4: 2 + 2 = 4, 4 + 4 = 8, 8 + 2 = 10, 10 + 4 = 14. Lompatan berikutnya adalah +2, sehingga huruf berikutnya berposisi 14 + 2 = 16, yaitu huruf P.",
+      "trick": "Lompatan yang berulang selang-seling (misalnya +2, +4, +2, +4) dikenali dengan menuliskan posisi alfabet setiap huruf."
+    },
+    {
+      "id": "TIU-082",
+      "subtest": "TIU",
+      "topic": "Deret Huruf",
+      "difficulty": 3,
+      "question": "Perhatikan deret huruf berikut: Z, A, Y, B, X, C, ... Huruf yang tepat untuk melengkapi deret tersebut adalah ...",
+      "options": [
+        {
+          "text": "D",
+          "score": 0
+        },
+        {
+          "text": "E",
+          "score": 0
+        },
+        {
+          "text": "V",
+          "score": 0
+        },
+        {
+          "text": "X",
+          "score": 0
+        },
+        {
+          "text": "W",
+          "score": 5
+        }
+      ],
+      "explanation": "Kelompokkan huruf per pasangan: (Z, A), (Y, B), (X, C). Huruf pertama setiap pasangan mundur 1 (Z, Y, X), sedangkan huruf kedua maju 1 (A, B, C). Pasangan berikutnya diawali huruf sebelum X dalam urutan mundur, yaitu W.",
+      "trick": "Pada deret huruf berpasangan, amati huruf pertama dan huruf kedua setiap pasangan sebagai dua pola terpisah."
+    },
+    {
+      "id": "TIU-083",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 1,
+      "question": "Nilai dari 35% dari 400 adalah ...",
+      "options": [
+        {
+          "text": "105",
+          "score": 0
+        },
+        {
+          "text": "140",
+          "score": 5
+        },
+        {
+          "text": "120",
+          "score": 0
+        },
+        {
+          "text": "150",
+          "score": 0
+        },
+        {
+          "text": "175",
+          "score": 0
+        }
+      ],
+      "explanation": "35% dari 400 = 35/100 x 400 = 35 x 4 = 140.",
+      "trick": "Untuk persen dari bilangan ratusan, kalikan persennya dengan bilangan dibagi 100 terlebih dahulu."
+    },
+    {
+      "id": "TIU-084",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 1,
+      "question": "Sebuah sepatu berharga Rp360.000,00 mendapat diskon 25%. Harga yang harus dibayar pembeli adalah ...",
+      "options": [
+        {
+          "text": "Rp260.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp280.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp300.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp270.000,00",
+          "score": 5
+        },
+        {
+          "text": "Rp180.000,00",
+          "score": 0
+        }
+      ],
+      "explanation": "Besar diskon = 25% x Rp360.000,00 = Rp90.000,00. Harga yang dibayar = Rp360.000,00 - Rp90.000,00 = Rp270.000,00. Cara lain: harga bayar = 75% x Rp360.000,00 = Rp270.000,00.",
+      "trick": "Harga setelah diskon dapat dihitung langsung: (100% - persen diskon) x harga awal."
+    },
+    {
+      "id": "TIU-085",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 1,
+      "question": "Nilai rata-rata dari data 70, 72, 68, 75, dan 65 adalah ...",
+      "options": [
+        {
+          "text": "70",
+          "score": 5
+        },
+        {
+          "text": "68",
+          "score": 0
+        },
+        {
+          "text": "69",
+          "score": 0
+        },
+        {
+          "text": "71",
+          "score": 0
+        },
+        {
+          "text": "72",
+          "score": 0
+        }
+      ],
+      "explanation": "Jumlah data = 70 + 72 + 68 + 75 + 65 = 350. Banyak data = 5. Rata-rata = 350 : 5 = 70.",
+      "trick": "Rata-rata selalu jumlah seluruh data dibagi banyaknya data, bukan nilai yang paling sering muncul."
+    },
+    {
+      "id": "TIU-086",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 2,
+      "question": "Jarak dua kota pada peta adalah 6 cm. Jika skala peta 1 : 250.000, jarak sebenarnya kedua kota adalah ...",
+      "options": [
+        {
+          "text": "10 km",
+          "score": 0
+        },
+        {
+          "text": "12 km",
+          "score": 0
+        },
+        {
+          "text": "15 km",
+          "score": 5
+        },
+        {
+          "text": "24 km",
+          "score": 0
+        },
+        {
+          "text": "150 km",
+          "score": 0
+        }
+      ],
+      "explanation": "Jarak sebenarnya = 6 cm x 250.000 = 1.500.000 cm. Ubah ke kilometer: 1.500.000 cm = 1.500.000 : 100.000 = 15 km.",
+      "trick": "Kalikan jarak peta dengan penyebut skala, lalu ubah satuannya (1 km = 100.000 cm)."
+    },
+    {
+      "id": "TIU-087",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 1,
+      "question": "Perbandingan uang Sinta dan Rina adalah 2 : 3. Jika jumlah uang mereka Rp150.000,00, banyak uang Sinta adalah ...",
+      "options": [
+        {
+          "text": "Rp90.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp75.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp50.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp100.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp60.000,00",
+          "score": 5
+        }
+      ],
+      "explanation": "Jumlah perbandingan = 2 + 3 = 5. Uang Sinta = 2/5 x Rp150.000,00 = 2 x Rp30.000,00 = Rp60.000,00.",
+      "trick": "Pada soal jumlah perbandingan, penyebutnya adalah jumlah semua angka perbandingan."
+    },
+    {
+      "id": "TIU-088",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 2,
+      "question": "Nilai dari 50% dari 30% dari 800 adalah ...",
+      "options": [
+        {
+          "text": "80",
+          "score": 0
+        },
+        {
+          "text": "120",
+          "score": 5
+        },
+        {
+          "text": "150",
+          "score": 0
+        },
+        {
+          "text": "240",
+          "score": 0
+        },
+        {
+          "text": "400",
+          "score": 0
+        }
+      ],
+      "explanation": "Hitung bertahap: 30% dari 800 = 30/100 x 800 = 240. Kemudian 50% dari 240 = 50/100 x 240 = 120.",
+      "trick": "Frasa 'persen dari persen dari' dikerjakan dari kanan: hitung persen yang paling dekat dengan bilangannya dulu."
+    },
+    {
+      "id": "TIU-089",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 2,
+      "question": "Hasil dari 2/5 + 1/4 adalah ...",
+      "options": [
+        {
+          "text": "3/9",
+          "score": 0
+        },
+        {
+          "text": "13/9",
+          "score": 0
+        },
+        {
+          "text": "7/20",
+          "score": 0
+        },
+        {
+          "text": "13/20",
+          "score": 5
+        },
+        {
+          "text": "3/20",
+          "score": 0
+        }
+      ],
+      "explanation": "Samakan penyebut dengan KPK 5 dan 4, yaitu 20: 2/5 = 8/20 dan 1/4 = 5/20. Jumlahnya = 8/20 + 5/20 = 13/20.",
+      "trick": "Jangan menjumlahkan pembilang dan penyebut secara terpisah; samakan dulu penyebutnya."
+    },
+    {
+      "id": "TIU-090",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 1,
+      "question": "Hasil dari 4/9 x 3/8 adalah ...",
+      "options": [
+        {
+          "text": "1/6",
+          "score": 5
+        },
+        {
+          "text": "7/17",
+          "score": 0
+        },
+        {
+          "text": "32/27",
+          "score": 0
+        },
+        {
+          "text": "1/3",
+          "score": 0
+        },
+        {
+          "text": "12/19",
+          "score": 0
+        }
+      ],
+      "explanation": "Perkalian pecahan: kalikan pembilang dengan pembilang dan penyebut dengan penyebut: (4 x 3)/(9 x 8) = 12/72. Sederhanakan dengan membagi 12: 12/72 = 1/6.",
+      "trick": "Sederhanakan silang sebelum mengalikan (3 dengan 9, 4 dengan 8) agar angkanya kecil."
+    },
+    {
+      "id": "TIU-091",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 2,
+      "question": "Hasil dari 0,75 + 1,25 x 2 adalah ...",
+      "options": [
+        {
+          "text": "4,00",
+          "score": 0
+        },
+        {
+          "text": "2,75",
+          "score": 0
+        },
+        {
+          "text": "3,25",
+          "score": 5
+        },
+        {
+          "text": "3,75",
+          "score": 0
+        },
+        {
+          "text": "4,50",
+          "score": 0
+        }
+      ],
+      "explanation": "Perkalian didahulukan: 1,25 x 2 = 2,50. Kemudian 0,75 + 2,50 = 3,25. (Menghitung dari kiri tanpa mendahulukan perkalian menghasilkan 4,00, dan itu keliru.)",
+      "trick": "Dalam operasi campuran, kali dan bagi selalu dikerjakan sebelum tambah dan kurang."
+    },
+    {
+      "id": "TIU-092",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 1,
+      "question": "Hasil dari 48 : 6 x 3 + 5 adalah ...",
+      "options": [
+        {
+          "text": "24",
+          "score": 0
+        },
+        {
+          "text": "13",
+          "score": 0
+        },
+        {
+          "text": "39",
+          "score": 0
+        },
+        {
+          "text": "53",
+          "score": 0
+        },
+        {
+          "text": "29",
+          "score": 5
+        }
+      ],
+      "explanation": "Pembagian dan perkalian setara, dikerjakan dari kiri: 48 : 6 = 8, lalu 8 x 3 = 24. Terakhir tambahkan 5: 24 + 5 = 29.",
+      "trick": "Operasi yang setara tingkatnya (kali dengan bagi, tambah dengan kurang) dikerjakan berurutan dari kiri."
+    },
+    {
+      "id": "TIU-093",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 2,
+      "question": "Sebuah barang dibeli seharga Rp200.000,00, kemudian dijual seharga Rp240.000,00. Persentase keuntungan dari harga beli adalah ...",
+      "options": [
+        {
+          "text": "17%",
+          "score": 0
+        },
+        {
+          "text": "20%",
+          "score": 5
+        },
+        {
+          "text": "25%",
+          "score": 0
+        },
+        {
+          "text": "15%",
+          "score": 0
+        },
+        {
+          "text": "40%",
+          "score": 0
+        }
+      ],
+      "explanation": "Keuntungan = Rp240.000,00 - Rp200.000,00 = Rp40.000,00. Persentase keuntungan dihitung dari harga beli: Rp40.000,00 : Rp200.000,00 x 100% = 20%.",
+      "trick": "Persentase untung/rugi selalu dihitung terhadap harga beli, bukan harga jual."
+    },
+    {
+      "id": "TIU-094",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 2,
+      "question": "Seorang pedagang membeli barang seharga Rp240.000,00 dan menjualnya seharga Rp180.000,00. Persentase kerugian dari harga beli adalah ...",
+      "options": [
+        {
+          "text": "33%",
+          "score": 0
+        },
+        {
+          "text": "20%",
+          "score": 0
+        },
+        {
+          "text": "30%",
+          "score": 0
+        },
+        {
+          "text": "25%",
+          "score": 5
+        },
+        {
+          "text": "15%",
+          "score": 0
+        }
+      ],
+      "explanation": "Kerugian = Rp240.000,00 - Rp180.000,00 = Rp60.000,00. Persentase kerugian dihitung dari harga beli: Rp60.000,00 : Rp240.000,00 x 100% = 25%.",
+      "trick": "Kerugian Rp60.000 memang sekitar 33% dari harga jual, tetapi persen rugi resmi dihitung dari harga beli."
+    },
+    {
+      "id": "TIU-095",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 2,
+      "question": "Modal sebesar Rp2.000.000,00 disimpan di bank dengan bunga tunggal 6% per tahun. Besar bunga yang diperoleh setelah 8 bulan adalah ...",
+      "options": [
+        {
+          "text": "Rp80.000,00",
+          "score": 5
+        },
+        {
+          "text": "Rp120.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp60.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp96.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp40.000,00",
+          "score": 0
+        }
+      ],
+      "explanation": "Bunga 1 tahun = 6% x Rp2.000.000,00 = Rp120.000,00. Bunga 8 bulan = 8/12 x Rp120.000,00 = Rp80.000,00.",
+      "trick": "Bunga tunggal dihitung proporsional terhadap waktu: bunga = modal x persen per tahun x (bulan/12)."
+    },
+    {
+      "id": "TIU-096",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 1,
+      "question": "Ibu memiliki 36 permen dan 48 cokelat. Permen dan cokelat itu akan dimasukkan ke dalam kantong-kantong dengan isi yang sama banyak, tanpa sisa. Banyak kantong terbanyak yang dapat dibuat adalah ...",
+      "options": [
+        {
+          "text": "6",
+          "score": 0
+        },
+        {
+          "text": "8",
+          "score": 0
+        },
+        {
+          "text": "12",
+          "score": 5
+        },
+        {
+          "text": "16",
+          "score": 0
+        },
+        {
+          "text": "24",
+          "score": 0
+        }
+      ],
+      "explanation": "Banyak kantong terbanyak adalah FPB dari 36 dan 48. Faktor 36 = 2^2 x 3^2 dan 48 = 2^4 x 3, sehingga FPB = 2^2 x 3 = 12. Setiap kantong berisi 3 permen dan 4 cokelat.",
+      "trick": "Soal 'dibagi sama banyak tanpa sisa, jumlah terbanyak' selalu diselesaikan dengan FPB."
+    },
+    {
+      "id": "TIU-097",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 2,
+      "question": "Bus A berangkat dari terminal setiap 6 menit dan bus B setiap 8 menit. Jika keduanya berangkat bersama pukul 06.00, mereka akan berangkat bersama lagi pada pukul ...",
+      "options": [
+        {
+          "text": "06.14",
+          "score": 0
+        },
+        {
+          "text": "06.12",
+          "score": 0
+        },
+        {
+          "text": "06.48",
+          "score": 0
+        },
+        {
+          "text": "07.00",
+          "score": 0
+        },
+        {
+          "text": "06.24",
+          "score": 5
+        }
+      ],
+      "explanation": "Waktu berangkat bersama berikutnya adalah KPK dari 6 dan 8. Kelipatan 6: 6, 12, 18, 24; kelipatan 8: 8, 16, 24. KPK = 24 menit. Jadi mereka berangkat bersama lagi pukul 06.00 + 24 menit = 06.24.",
+      "trick": "Soal 'bertemu/berangkat bersama lagi' selalu diselesaikan dengan KPK dari intervalnya."
+    },
+    {
+      "id": "TIU-098",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 1,
+      "question": "Hasil dari 2,5 km + 750 m adalah ... m.",
+      "options": [
+        {
+          "text": "1.000",
+          "score": 0
+        },
+        {
+          "text": "3.250",
+          "score": 5
+        },
+        {
+          "text": "25.750",
+          "score": 0
+        },
+        {
+          "text": "3.025",
+          "score": 0
+        },
+        {
+          "text": "950",
+          "score": 0
+        }
+      ],
+      "explanation": "Samakan satuan ke meter: 2,5 km = 2,5 x 1.000 m = 2.500 m. Jumlahnya = 2.500 m + 750 m = 3.250 m.",
+      "trick": "Sebelum menjumlahkan, ubah semua besaran ke satuan yang diminta soal (1 km = 1.000 m)."
+    },
+    {
+      "id": "TIU-099",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 1,
+      "question": "Di sebuah sekolah terdapat 250 siswa. Jika 60% dari siswa tersebut adalah perempuan, banyak siswa laki-laki adalah ...",
+      "options": [
+        {
+          "text": "150",
+          "score": 0
+        },
+        {
+          "text": "90",
+          "score": 0
+        },
+        {
+          "text": "125",
+          "score": 0
+        },
+        {
+          "text": "100",
+          "score": 5
+        },
+        {
+          "text": "175",
+          "score": 0
+        }
+      ],
+      "explanation": "Persentase siswa laki-laki = 100% - 60% = 40%. Banyak siswa laki-laki = 40% x 250 = 40/100 x 250 = 100 siswa.",
+      "trick": "Bila yang ditanya komplemennya, hitung dulu persen sisanya (100% dikurangi persen yang diketahui)."
+    },
+    {
+      "id": "TIU-100",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 2,
+      "question": "Hasil dari 1/2 + 0,25 x 4 adalah ...",
+      "options": [
+        {
+          "text": "1,5",
+          "score": 5
+        },
+        {
+          "text": "3",
+          "score": 0
+        },
+        {
+          "text": "1,25",
+          "score": 0
+        },
+        {
+          "text": "2",
+          "score": 0
+        },
+        {
+          "text": "1,75",
+          "score": 0
+        }
+      ],
+      "explanation": "Perkalian didahulukan: 0,25 x 4 = 1. Kemudian 1/2 + 1 = 0,5 + 1 = 1,5.",
+      "trick": "Kerjakan perkalian terlebih dahulu meskipun bentuknya campuran pecahan dan desimal."
+    },
+    {
+      "id": "TIU-101",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 2,
+      "question": "Perbandingan kelereng Rian dan Dodi adalah 4 : 7. Jika selisih kelereng mereka 15 butir, banyak kelereng Dodi adalah ...",
+      "options": [
+        {
+          "text": "20",
+          "score": 0
+        },
+        {
+          "text": "25",
+          "score": 0
+        },
+        {
+          "text": "35",
+          "score": 5
+        },
+        {
+          "text": "45",
+          "score": 0
+        },
+        {
+          "text": "55",
+          "score": 0
+        }
+      ],
+      "explanation": "Selisih perbandingan = 7 - 4 = 3 bagian, setara 15 butir, sehingga 1 bagian = 15 : 3 = 5 butir. Kelereng Dodi = 7 bagian x 5 = 35 butir.",
+      "trick": "Pada soal selisih perbandingan, penyebutnya adalah selisih angka perbandingan, bukan jumlahnya."
+    },
+    {
+      "id": "TIU-102",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 3,
+      "question": "Kelas A terdiri atas 10 siswa dengan nilai rata-rata 70. Kelas B terdiri atas 15 siswa dengan nilai rata-rata 80. Nilai rata-rata gabungan kedua kelas adalah ...",
+      "options": [
+        {
+          "text": "75",
+          "score": 0
+        },
+        {
+          "text": "74",
+          "score": 0
+        },
+        {
+          "text": "78",
+          "score": 0
+        },
+        {
+          "text": "77",
+          "score": 0
+        },
+        {
+          "text": "76",
+          "score": 5
+        }
+      ],
+      "explanation": "Jumlah nilai kelas A = 10 x 70 = 700. Jumlah nilai kelas B = 15 x 80 = 1.200. Rata-rata gabungan = (700 + 1.200) : (10 + 15) = 1.900 : 25 = 76. (Merata-ratakan 70 dan 80 menjadi 75 adalah keliru karena jumlah siswanya berbeda.)",
+      "trick": "Rata-rata gabungan dihitung dari total jumlah nilai dibagi total siswa, bukan rata-rata dari rata-rata."
+    },
+    {
+      "id": "TIU-103",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 3,
+      "question": "Sebuah tas berharga Rp400.000,00 mendapat diskon 30%, kemudian mendapat diskon lagi 10% dari harga setelah diskon pertama. Harga akhir tas adalah ...",
+      "options": [
+        {
+          "text": "Rp240.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp252.000,00",
+          "score": 5
+        },
+        {
+          "text": "Rp260.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp272.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp280.000,00",
+          "score": 0
+        }
+      ],
+      "explanation": "Setelah diskon 30%: Rp400.000,00 x 70% = Rp280.000,00. Diskon kedua 10% dihitung dari Rp280.000,00: Rp280.000,00 x 90% = Rp252.000,00. (Diskon bertingkat tidak boleh digabung menjadi 40%, sebab cara itu menghasilkan Rp240.000,00 yang keliru.)",
+      "trick": "Diskon bertingkat dihitung berurutan satu per satu; jangan jumlahkan persen diskonnya."
+    },
+    {
+      "id": "TIU-104",
+      "subtest": "TIU",
+      "topic": "Berhitung",
+      "difficulty": 3,
+      "question": "Harga sebuah barang mula-mula Rp500.000,00. Harga tersebut naik 20%, kemudian harga barunya turun 20%. Harga akhir barang adalah ...",
+      "options": [
+        {
+          "text": "Rp500.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp460.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp520.000,00",
+          "score": 0
+        },
+        {
+          "text": "Rp480.000,00",
+          "score": 5
+        },
+        {
+          "text": "Rp450.000,00",
+          "score": 0
+        }
+      ],
+      "explanation": "Setelah naik 20%: Rp500.000,00 x 120% = Rp600.000,00. Kemudian turun 20% dari harga baru: Rp600.000,00 x 80% = Rp480.000,00. Harga akhir tidak kembali ke semula karena dasar perhitungan turun 20% lebih besar.",
+      "trick": "Kenaikan dan penurunan persen yang sama tidak saling meniadakan karena dasar hitungnya berbeda."
+    }
+  ]
+}

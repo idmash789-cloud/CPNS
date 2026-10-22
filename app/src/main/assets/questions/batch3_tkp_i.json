@@ -1,0 +1,1649 @@
+{
+  "version": 2,
+  "batch": "batch3-tkp-i",
+  "questions": [
+    {
+      "id": "TKP-168",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 1,
+      "question": "Unit Anda dan unit di sebelah sama-sama membutuhkan data pegawai dari bidang kepegawaian, sehingga bidang tersebut menerima dua permintaan serupa dalam minggu yang sama. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Mengusulkan daftar kebutuhan data bersama yang diajukan sekali dan hasilnya dapat dipakai kedua unit",
+          "score": 5
+        },
+        {
+          "text": "Tetap mengajukan permintaan sendiri karena masing-masing unit punya kebutuhan",
+          "score": 2
+        },
+        {
+          "text": "Meminta bidang kepegawaian mendahulukan permintaan unit Anda",
+          "score": 2
+        },
+        {
+          "text": "Menunggu sampai bidang kepegawaian mengeluh karena dibebani permintaan ganda",
+          "score": 1
+        },
+        {
+          "text": "Menyampaikan ke atasan agar unit sebelah saja yang mengajukan permintaan",
+          "score": 3
+        }
+      ],
+      "explanation": "Permintaan data yang berulang membebani unit penyedia data dan memperlambat semua pihak. Menggabungkan kebutuhan dalam satu pengajuan resmi adalah bentuk koordinasi yang efisien dan tetap sesuai prosedur. Pilihan lain bersifat parsial, menunda, atau hanya mementingkan unit sendiri.",
+      "trick": "Jawaban skor tertinggi biasanya menghilangkan pekerjaan ganda lewat satu kesepakatan bersama, bukan memindahkan beban ke pihak lain."
+    },
+    {
+      "id": "TKP-169",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 1,
+      "question": "Seorang pegawai dari unit lain baru dipindah ke gedung Anda dan belum memahami alur koordinasi antarunit. Ia tampak kebingungan saat harus mengurus keperluan lintas unit. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Menghindari bekerja sama dengannya sampai ia dianggap cukup berpengalaman",
+          "score": 1
+        },
+        {
+          "text": "Menyapa dan menjelaskan alur koordinasi yang berlaku sambil memperkenalkannya kepada rekan yang relevan",
+          "score": 5
+        },
+        {
+          "text": "Memberi penjelasan hanya jika ia bertanya langsung kepada Anda",
+          "score": 3
+        },
+        {
+          "text": "Membiarkannya belajar sendiri dari pengalaman sehari-hari",
+          "score": 2
+        },
+        {
+          "text": "Menyarankan ia membaca sendiri tumpukan dokumen tata kerja yang ada",
+          "score": 3
+        }
+      ],
+      "explanation": "Pegawai baru yang dibantu memahami alur kerja akan lebih cepat produktif dan tidak menghambat layanan. Penjelasan proaktif dan pengenalan ke jaringan kerja adalah investasi kecil dengan dampak besar. Sikap pasif atau menghindar justru memperpanjang masa adaptasinya.",
+      "trick": "Pada soal adaptasi rekan baru, pilih sikap yang aktif membantu dan menghubungkan, bukan yang menunggu atau menghindar."
+    },
+    {
+      "id": "TKP-170",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 2,
+      "question": "Dua unit di kantor Anda sama-sama merasa pendampingan kelompok masyarakat adalah tugasnya, sehingga warga menerima dua undangan kegiatan serupa dan menjadi bingung. Apa tindakan Anda?",
+      "options": [
+        {
+          "text": "Menunggu pimpinan yang memutuskan pembagian tugas tersebut",
+          "score": 3
+        },
+        {
+          "text": "Mengurangi kegiatan tanpa berkoordinasi dengan unit lain",
+          "score": 3
+        },
+        {
+          "text": "Mengajak unit terkait duduk bersama, membagi peran dan wilayah pendampingan secara tertulis, dan menyampaikan satu informasi yang sama ke warga",
+          "score": 5
+        },
+        {
+          "text": "Tetap menjalankan kegiatan unit Anda dan membiarkan warga memilih",
+          "score": 2
+        },
+        {
+          "text": "Mengirimkan undangan lebih dulu agar warga datang ke kegiatan unit Anda",
+          "score": 1
+        }
+      ],
+      "explanation": "Tumpang tindih tugas yang membingungkan warga harus diselesaikan dengan pembagian peran yang jelas dan tertulis. Koordinasi langsung antarunit lebih cepat daripada menunggu keputusan dari atas. Pilihan lain mempertahankan kebingungan warga atau mengedepankan ego unit.",
+      "trick": "Jika soal menampilkan warga yang dirugikan akibat tumpang tindih, jawaban terbaik selalu memuat pembagian peran yang jelas antarunit."
+    },
+    {
+      "id": "TKP-171",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 2,
+      "question": "Unit lain hampir selalu terlambat menyerahkan data bulanan, sehingga laporan gabungan yang menjadi tanggung jawab Anda ikut terlambat. Langkah yang Anda ambil adalah...",
+      "options": [
+        {
+          "text": "Menyusun laporan dengan data bulan sebelumnya agar terlihat tepat waktu",
+          "score": 1
+        },
+        {
+          "text": "Mengingatkan lewat grup dengan kalimat menyindir agar mereka merasa malu",
+          "score": 2
+        },
+        {
+          "text": "Menunggu data datang tanpa melakukan tindak lanjut apa pun",
+          "score": 2
+        },
+        {
+          "text": "Menghubungi unit tersebut untuk memahami kendalanya dan menyepakati jadwal penyerahan yang realistis, lalu memantau bersama",
+          "score": 5
+        },
+        {
+          "text": "Melaporkan keterlambatan unit lain kepada pimpinan agar segera ditegur",
+          "score": 3
+        }
+      ],
+      "explanation": "Keterlambatan berulang lebih efektif diatasi dengan memahami akar masalah dan membuat kesepakatan jadwal yang dipantau bersama. Menyusun laporan dari data lama mengorbankan akurasi, sedangkan sindiran merusak hubungan kerja. Pelaporan ke pimpinan menjadi pilihan setelah upaya koordinasi ditempuh.",
+      "trick": "Pilih solusi yang menyelesaikan penyebab keterlambatan lewat kesepakatan, bukan yang sekadar mencari siapa yang salah."
+    },
+    {
+      "id": "TKP-172",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 1,
+      "question": "Forum koordinasi bulanan antarunit dijadwalkan besok pagi, tetapi pekerjaan di meja Anda sedang menumpuk. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Tidak hadir tanpa memberi kabar karena pekerjaan lebih mendesak",
+          "score": 1
+        },
+        {
+          "text": "Hadir sebentar lalu meninggalkan forum di tengah acara",
+          "score": 2
+        },
+        {
+          "text": "Meminta forum dibubarkan saja karena dianggap kurang bermanfaat",
+          "score": 1
+        },
+        {
+          "text": "Mengirim perwakilan tanpa membekalinya informasi apa pun",
+          "score": 3
+        },
+        {
+          "text": "Tetap hadir atau mengutus perwakilan yang membawa bahan dan kewenangan cukup dari unit Anda",
+          "score": 5
+        }
+      ],
+      "explanation": "Forum koordinasi adalah sarana menyelaraskan pekerjaan antarunit, sehingga ketidakhadiran tanpa perwakilan yang siap akan merugikan unit sendiri dan forum. Mengutus perwakilan yang dibekali bahan menjaga kepentingan unit tetap terwakili. Menumpuknya pekerjaan diatur dengan manajemen waktu, bukan dengan mengorbankan koordinasi.",
+      "trick": "Pada soal benturan jadwal, jawaban terbaik menjaga dua-duanya: pekerjaan tertangani dan koordinasi tetap terwakili dengan bekal yang cukup."
+    },
+    {
+      "id": "TKP-173",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 2,
+      "question": "Anda membutuhkan penjelasan mengenai data lama yang hanya dikuasai seorang senior di unit lain. Senior tersebut dikenal tertutup dan beberapa rekan menyerah memintanya. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Mendatanginya dengan sopan, menjelaskan kebutuhan data untuk kepentingan dinas, dan menawarkan bantuan agar ia tidak merasa dibebani",
+          "score": 5
+        },
+        {
+          "text": "Meminta pimpinan menekan senior tersebut agar mau berbagi",
+          "score": 3
+        },
+        {
+          "text": "Menggali data dari sumber lain seadanya meskipun kurang lengkap",
+          "score": 2
+        },
+        {
+          "text": "Menunda pekerjaan sampai senior itu bersedia membantu",
+          "score": 2
+        },
+        {
+          "text": "Menceritakan sikap tertutupnya kepada rekan unit lain",
+          "score": 1
+        }
+      ],
+      "explanation": "Pendekatan personal yang sopan dan menjelaskan urgensi dinas biasanya membuka kerja sama, apalagi disertai tawaran membantu. Mengeluh atau membicarakan senior ke pihak lain merusak relasi dan tidak menghasilkan data. Menekan lewat pimpinan menjadi langkah berikutnya bila pendekatan baik-baik ditolak.",
+      "trick": "Untuk rekan yang sulit diajak kerja sama, pola skor tertinggi adalah pendekatan sopan plus penjelasan kebutuhan, bukan tekanan atau gosip."
+    },
+    {
+      "id": "TKP-174",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 3,
+      "question": "Instansi Anda dan dinas di kabupaten tetangga menjalankan program serupa di wilayah perbatasan. Warga menerima dua kali kunjungan dengan penjelasan berbeda dan mulai mempertanyakan kredibilitas kedua instansi. Tindakan Anda adalah...",
+      "options": [
+        {
+          "text": "Menunggu pemerintah provinsi turun tangan menyelesaikan persoalan ini",
+          "score": 2
+        },
+        {
+          "text": "Mengusulkan pertemuan resmi antarinstansi untuk memetakan wilayah garapan, menyamakan materi, dan menyusun jadwal bersama, lalu melaporkannya kepada pimpinan",
+          "score": 5
+        },
+        {
+          "text": "Tetap menjalankan program sesuai target unit Anda tanpa mengubah apa pun",
+          "score": 2
+        },
+        {
+          "text": "Mengurangi kegiatan di wilayah perbatasan secara sepihak agar tidak berbenturan",
+          "score": 3
+        },
+        {
+          "text": "Menjelaskan kepada warga bahwa penjelasan dinas tetangga yang kurang tepat",
+          "score": 1
+        }
+      ],
+      "explanation": "Persoalan lintas instansi yang sudah merugikan warga dan reputasi membutuhkan inisiatif pertemuan resmi, pemetaan wilayah, dan kesamaan materi. Menarik diri sepihak atau menyalahkan instansi lain tidak memulihkan kepercayaan warga. Inisiatif yang dilaporkan ke pimpinan menunjukkan proaktivitas yang tetap berada dalam koridor kewenangan.",
+      "trick": "Pada dilema lintas instansi, skor tertinggi adalah inisiatif koordinasi resmi yang didokumentasikan dan dilaporkan, bukan penarikan diri sepihak."
+    },
+    {
+      "id": "TKP-175",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 1,
+      "question": "Rekan dari unit lain meminta contoh laporan kegiatan yang pernah unit Anda susun sebagai referensi. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Menunda pengiriman beberapa hari karena bukan prioritas Anda",
+          "score": 2
+        },
+        {
+          "text": "Mengirimkan laporan versi lama yang sudah tidak digunakan",
+          "score": 2
+        },
+        {
+          "text": "Mengirimkan contoh laporan terbaru dan menjelaskan bagian-bagian yang dapat disesuaikan dengan kebutuhannya",
+          "score": 5
+        },
+        {
+          "text": "Mengirimkan contoh laporan tanpa penjelasan tambahan",
+          "score": 3
+        },
+        {
+          "text": "Memintanya menyusun sendiri dari awal agar belajar",
+          "score": 1
+        }
+      ],
+      "explanation": "Berbagi contoh dokumen yang baik mempercepat pekerjaan unit lain dan memperkuat budaya saling membantu antarunit. Penjelasan singkat membuat referensi itu benar-benar bermanfaat. Menunda atau memberi versi lama justru menghambat dan berpotensi menimbulkan kesalahan.",
+      "trick": "Soal berbagi referensi dimenangkan oleh respons cepat, versi terbaru, dan penjelasan seperlunya."
+    },
+    {
+      "id": "TKP-176",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 2,
+      "question": "Grup percakapan antarunit yang seharusnya untuk koordinasi pekerjaan kini dipenuhi obrolan pribadi, sehingga informasi penting sering tenggelam dan terlewat. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Mengabaikan seluruh pesan grup dan hanya bekerja seperti biasa",
+          "score": 2
+        },
+        {
+          "text": "Menegur anggota grup dengan kata-kata keras agar jera",
+          "score": 2
+        },
+        {
+          "text": "Membaca pesan hanya jika nama Anda disebut di dalamnya",
+          "score": 3
+        },
+        {
+          "text": "Mengusulkan kesepakatan penggunaan grup untuk urusan dinas, menyediakan wadah lain untuk obrolan santai, dan merangkum informasi penting secara berkala",
+          "score": 5
+        },
+        {
+          "text": "Keluar dari grup agar tidak terganggu oleh obrolan tersebut",
+          "score": 1
+        }
+      ],
+      "explanation": "Masalah grup koordinasi diselesaikan dengan kesepakatan tata cara berkomunikasi, bukan dengan keluar atau mengabaikannya. Rangkuman berkala memastikan informasi penting tidak tenggelam. Teguran keras mungkin menghentikan obrolan sesaat tetapi merusak keharmonisan jaringan kerja.",
+      "trick": "Pilih opsi yang membuat aturan main bersama dan menjaga fungsi grup, bukan yang meninggalkan grup atau menyerang anggotanya."
+    },
+    {
+      "id": "TKP-177",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 1,
+      "question": "Unit Anda akan menggelar kegiatan besar minggu depan dan membutuhkan tambahan tenaga dari unit lain. Cara yang Anda tempuh adalah...",
+      "options": [
+        {
+          "text": "Meminta bantuan secara mendadak pada hari pelaksanaan kegiatan",
+          "score": 2
+        },
+        {
+          "text": "Meminjam pegawai unit lain tanpa sepengetahuan atasannya",
+          "score": 1
+        },
+        {
+          "text": "Mengurangi cakupan kegiatan karena merasa tidak enak meminta bantuan",
+          "score": 3
+        },
+        {
+          "text": "Mengeluhkan kekurangan tenaga di grup kantor agar ada yang berinisiatif",
+          "score": 2
+        },
+        {
+          "text": "Mengajukan permintaan resmi sejak jauh hari dengan rincian jumlah, tugas, dan jadwal, serta menyampaikan kesiapan membantu mereka di kesempatan lain",
+          "score": 5
+        }
+      ],
+      "explanation": "Permintaan bantuan yang resmi, jauh hari, dan terperinci memberi kesempatan unit lain mengatur beban kerjanya. Sikap timbal balik menjaga hubungan kerja sama tetap sehat untuk jangka panjang. Meminta mendadak atau meminjam tanpa izin atasan pemilik pegawai melanggar etika koordinasi.",
+      "trick": "Permintaan bantuan skor tertinggi selalu resmi, jauh hari, terperinci, dan disertai semangat timbal balik."
+    },
+    {
+      "id": "TKP-178",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 2,
+      "question": "Tim gabungan Anda kedatangan anggota baru dari unit lain yang pendiam dan jarang menyampaikan pendapat dalam rapat tim. Padahal gagasannya dibutuhkan. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Mengajaknya berbicara secara personal, memberi kesempatan menyampaikan pendapat secara tertulis atau bergiliran, dan menghargai setiap kontribusinya",
+          "score": 5
+        },
+        {
+          "text": "Membiarkannya karena pendiam adalah sifat pribadi yang tidak perlu diubah",
+          "score": 2
+        },
+        {
+          "text": "Menunjuknya tiba-tiba di forum besar agar berani bicara",
+          "score": 2
+        },
+        {
+          "text": "Meminta pimpinan tim menggantinya dengan orang yang lebih aktif",
+          "score": 1
+        },
+        {
+          "text": "Mengambil alih seluruh bagiannya agar pekerjaan cepat selesai",
+          "score": 3
+        }
+      ],
+      "explanation": "Anggota tim yang pendiam tetap memiliki kontribusi yang perlu digali dengan cara yang membuatnya aman berbicara. Pendekatan personal dan variasi cara menyampaikan pendapat adalah bentuk kepemimpinan tim yang inklusif. Menunjuk tiba-tiba di forum besar atau menggantinya justru menutup potensinya.",
+      "trick": "Untuk anggota tim yang pasif atau pendiam, jawaban terbaik menggali kontribusinya dengan aman, bukan mengganti atau memaksanya."
+    },
+    {
+      "id": "TKP-179",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 1,
+      "question": "Unit lain meminta data yang sebagian isinya termasuk dokumen internal yang tidak boleh disebarkan bebas. Permintaan disampaikan dengan sopan untuk mendukung tugas mereka. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Meminta imbalan bantuan lain sebelum data diberikan",
+          "score": 1
+        },
+        {
+          "text": "Memberikan bagian data yang memang boleh dibagikan dan menjelaskan batasannya, serta mengarahkan permintaan sisanya melalui prosedur resmi",
+          "score": 5
+        },
+        {
+          "text": "Memberikan seluruh data karena permintaan disampaikan dengan sopan",
+          "score": 1
+        },
+        {
+          "text": "Menolak seluruh permintaan tanpa penjelasan apa pun",
+          "score": 2
+        },
+        {
+          "text": "Menunda memberikan jawaban sampai mereka berhenti bertanya",
+          "score": 2
+        }
+      ],
+      "explanation": "Kerja sama antarunit tetap harus mematuhi ketentuan kerahasiaan dokumen. Memberikan bagian yang boleh dibagikan sambil menjelaskan prosedur untuk sisanya adalah keseimbangan antara kolaborasi dan kepatuhan aturan. Menolak mentah-mentah juga tidak tepat karena menghambat tugas unit lain yang sah.",
+      "trick": "Pada soal data terbatas, skor tertinggi memadukan kemauan berbagi dengan kepatuhan pada batas kerahasiaan dan prosedur resmi."
+    },
+    {
+      "id": "TKP-180",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 2,
+      "question": "Kantor Anda akan mengadakan sosialisasi program baru dan membutuhkan dukungan tokoh masyarakat serta perangkat desa agar warga bersedia hadir. Belum ada unit yang memulai pendekatan. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Mengadakan sosialisasi di kantor saja tanpa melibatkan masyarakat",
+          "score": 2
+        },
+        {
+          "text": "Mengusulkan kegiatan dibatalkan jika dukungan masyarakat sulit didapat",
+          "score": 1
+        },
+        {
+          "text": "Mengajukan diri mengoordinasikan pendekatan bersama unit terkait, membagi peran, dan menyusun bahan sosialisasi yang sama",
+          "score": 5
+        },
+        {
+          "text": "Menunggu unit humas yang memulai karena itu bidang mereka",
+          "score": 3
+        },
+        {
+          "text": "Menghubungi tokoh masyarakat yang Anda kenal secara pribadi tanpa melibatkan unit lain",
+          "score": 3
+        }
+      ],
+      "explanation": "Kerja sama dengan masyarakat membutuhkan koordinasi internal yang rapi agar pesan yang sampai ke warga seragam. Mengambil inisiatif mengoordinasikan dan membagi peran menunjukkan kepemimpinan kolaboratif. Pendekatan pribadi tanpa melibatkan unit terkait berisiko menimbulkan pesan yang berbeda-beda.",
+      "trick": "Soal kerja sama dengan pihak eksternal dimenangkan oleh inisiatif koordinasi resmi dengan pembagian peran yang jelas."
+    },
+    {
+      "id": "TKP-181",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 3,
+      "question": "Dalam tim gabungan dua unit, pembagian beban program dinilai tidak adil: unit Anda memegang sebagian besar pekerjaan lapangan, sedangkan unit lain hanya menangani administrasi. Ketegangan mulai terasa. Tindakan Anda adalah...",
+      "options": [
+        {
+          "text": "Menyampaikan keberatan hanya di kalangan internal unit Anda",
+          "score": 2
+        },
+        {
+          "text": "Meminta pimpinan membubarkan tim gabungan tersebut",
+          "score": 2
+        },
+        {
+          "text": "Tetap bekerja seperti biasa sambil berharap keadaan membaik sendiri",
+          "score": 3
+        },
+        {
+          "text": "Mengusulkan evaluasi pembagian tugas berdasarkan data beban kerja dan kapasitas masing-masing unit, lalu menyepakati pembagian baru secara tertulis",
+          "score": 5
+        },
+        {
+          "text": "Mengurangi kecepatan kerja unit Anda agar seimbang dengan unit lain",
+          "score": 1
+        }
+      ],
+      "explanation": "Ketidakadilan beban kerja diselesaikan dengan data dan kesepakatan tertulis, bukan dengan menurunkan kinerja atau membiarkan ketegangan membesar. Evaluasi berbasis beban kerja nyata membuat pembagian baru dapat diterima kedua pihak. Sikap diam hanya menunda konflik yang lebih besar.",
+      "trick": "Pada konflik pembagian beban, pilih evaluasi berbasis data dan kesepakatan tertulis daripada menurunkan kinerja atau memendam masalah."
+    },
+    {
+      "id": "TKP-182",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 1,
+      "question": "Di tengah pekerjaan Anda yang padat, unit tetangga meminta bantuan memeriksa dokumen yang harus selesai sore ini karena petugasnya mendadak berhalangan. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Menolak karena pekerjaan Anda sendiri sedang padat",
+          "score": 2
+        },
+        {
+          "text": "Menyanggupi tanpa memberi tahu batas waktu lalu menyelesaikannya sebisa mungkin",
+          "score": 3
+        },
+        {
+          "text": "Meminta mereka menunggu sampai pekerjaan Anda benar-benar selesai seluruhnya",
+          "score": 2
+        },
+        {
+          "text": "Menyarankan mereka meminta bantuan ke unit lain saja",
+          "score": 3
+        },
+        {
+          "text": "Menyanggupi bantuan dengan mengatur ulang prioritas sejenak dan menyampaikan dengan jelas batas waktu yang bisa Anda berikan",
+          "score": 5
+        }
+      ],
+      "explanation": "Saling membantu antarunit adalah bagian dari jejaring kerja, dan bantuan tetap bisa diberikan dengan komunikasi batas waktu yang jujur. Menyanggupi tanpa kejelasan justru berisiko mengecewakan kedua pihak. Menolak mentah-mentah merusak hubungan baik yang suatu saat Anda butuhkan juga.",
+      "trick": "Bantuan yang skornya tertinggi selalu disertai komunikasi yang jelas tentang kemampuan dan batas waktu Anda."
+    },
+    {
+      "id": "TKP-183",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 2,
+      "question": "Informasi jadwal kegiatan dari unit pengampu berubah tiga kali dalam seminggu tanpa pemberitahuan yang jelas, sehingga tim Anda sempat menyiapkan keperluan yang salah. Langkah Anda adalah...",
+      "options": [
+        {
+          "text": "Meminta satu saluran informasi resmi dan satu penanggung jawab yang mengumumkan setiap perubahan jadwal secara tertulis kepada semua unit",
+          "score": 5
+        },
+        {
+          "text": "Mengikuti saja perubahan terakhir yang Anda dengar dari siapa pun",
+          "score": 2
+        },
+        {
+          "text": "Berhenti menyiapkan apa pun sampai hari pelaksanaan tiba",
+          "score": 1
+        },
+        {
+          "text": "Menyebarkan keluhan mengenai ketidakjelasan ini ke unit-unit lain",
+          "score": 2
+        },
+        {
+          "text": "Menyiapkan semua versi kemungkinan agar aman",
+          "score": 3
+        }
+      ],
+      "explanation": "Perubahan informasi yang berulang membutuhkan perbaikan sistem komunikasi: satu saluran resmi dan penanggung jawab yang jelas. Menyiapkan semua versi memboroskan sumber daya, dan menyebar keluhan tidak memperbaiki keadaan. Kesepakatan tertulis membuat semua unit menerima informasi yang sama.",
+      "trick": "Jika masalahnya adalah informasi yang simpang siur, jawaban terbaik memperbaiki alur informasinya, bukan menambah pekerjaan atau keluhan."
+    },
+    {
+      "id": "TKP-184",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 1,
+      "question": "Rekan Anda di instansi lain yang selama ini menjadi penghubung koordinasi akan pindah tugas bulan depan. Penggantinya belum ditunjuk. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Menghubunginya hanya jika ada keperluan mendesak di kemudian hari",
+          "score": 3
+        },
+        {
+          "text": "Mengucapkan terima kasih atas kerja samanya, meminta diperkenalkan kepada pengganti atau pejabat terkait, dan memastikan dokumen koordinasi terserahkan dengan baik",
+          "score": 5
+        },
+        {
+          "text": "Menunggu saja sampai penggantinya menghubungi Anda lebih dulu",
+          "score": 3
+        },
+        {
+          "text": "Menghentikan sementara semua koordinasi dengan instansi tersebut",
+          "score": 2
+        },
+        {
+          "text": "Meminta rekan tersebut membatalkan kepindahannya demi kelancaran koordinasi",
+          "score": 1
+        }
+      ],
+      "explanation": "Relasi profesional yang dirawat saat peralihan tugas menjaga kesinambungan koordinasi antarinstansi. Perkenalan dengan pengganti dan serah terima dokumen mencegah hubungan kerja putus di tengah jalan. Menunggu pasif berisiko membuat koordinasi terhenti tanpa kejelasan.",
+      "trick": "Pada soal peralihan penghubung, skor tertinggi menjaga kesinambungan: apresiasi, perkenalan pengganti, dan serah terima yang rapi."
+    },
+    {
+      "id": "TKP-185",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 2,
+      "question": "Sebuah perguruan tinggi menawarkan kerja sama pendampingan dan riset untuk program di wilayah kerja Anda. Penawaran disampaikan kepada Anda yang kebetulan menjadi narahubung awal. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Menyimpan informasi penawaran sampai ada yang menanyakan",
+          "score": 2
+        },
+        {
+          "text": "Meminta perguruan tinggi menghubungi Anda pribadi saja untuk semua urusan",
+          "score": 1
+        },
+        {
+          "text": "Meneruskan penawaran tersebut kepada pimpinan dan unit terkait secara resmi, serta membantu menyiapkan pertemuan awal untuk membahas ruang lingkup kerja sama",
+          "score": 5
+        },
+        {
+          "text": "Menerima tawaran tersebut atas nama pribadi agar prosesnya cepat",
+          "score": 1
+        },
+        {
+          "text": "Menolak karena kerja sama bukan tugas pokok Anda",
+          "score": 2
+        }
+      ],
+      "explanation": "Kerja sama dengan pihak eksternal harus berjalan melalui jalur resmi instansi, bukan kesepakatan pribadi. Meneruskan penawaran dan memfasilitasi pertemuan awal menunjukkan inisiatif tanpa melampaui kewenangan. Menyimpan informasi atau memusatkan urusan pada diri sendiri menghambat peluang baik bagi instansi.",
+      "trick": "Tawaran kerja sama eksternal selalu diteruskan lewat jalur resmi dan difasilitasi, tidak pernah diambil alih secara pribadi."
+    },
+    {
+      "id": "TKP-186",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 3,
+      "question": "Data jumlah penerima layanan yang dimiliki unit Anda berbeda dengan data unit lain. Saat pimpinan meminta penjelasan dalam rapat, perwakilan unit lain menyatakan data unit Anda yang keliru tanpa memeriksa lebih dulu. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Diam saja dan menerima kesimpulan rapat hari itu",
+          "score": 2
+        },
+        {
+          "text": "Menyampaikan keberatan keras agar tidak disalahkan di forum",
+          "score": 2
+        },
+        {
+          "text": "Memperbaiki data unit Anda diam-diam setelah rapat tanpa memberi tahu unit lain",
+          "score": 3
+        },
+        {
+          "text": "Tetap tenang, mengusulkan pencocokan data bersama berdasarkan sumber dan waktu pendataan, dan menyampaikan hasil verifikasi secara tertulis",
+          "score": 5
+        },
+        {
+          "text": "Membalas dengan menyatakan data unit merekalah yang salah",
+          "score": 1
+        }
+      ],
+      "explanation": "Perbedaan data antarunit diselesaikan dengan pencocokan bersama yang berbasis sumber dan metode pendataan, bukan saling menyalahkan di forum. Sikap tenang dan usulan verifikasi menjaga kredibilitas sekaligus menghasilkan angka yang disepakati. Memperbaiki diam-diam membuat perbedaan data terulang.",
+      "trick": "Pada konflik data antarunit, pilih verifikasi bersama yang terdokumentasi, bukan pembelaan emosional atau perbaikan sepihak."
+    },
+    {
+      "id": "TKP-187",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 1,
+      "question": "Untuk pertama kalinya kantor Anda mengadakan forum koordinasi dengan instansi vertikal dan pemerintah desa di wilayah kerja. Anda ditugaskan menjadi salah satu peserta. Persiapan Anda adalah...",
+      "options": [
+        {
+          "text": "Datang saja karena forum ini sifatnya perkenalan",
+          "score": 3
+        },
+        {
+          "text": "Meminta digantikan rekan lain karena belum berpengalaman",
+          "score": 2
+        },
+        {
+          "text": "Menyiapkan bahan seadanya beberapa menit sebelum acara",
+          "score": 2
+        },
+        {
+          "text": "Menghadiri forum tetapi tidak mencatat karena merasa pasti ingat",
+          "score": 3
+        },
+        {
+          "text": "Mempelajari bahan dan data wilayah dari unit Anda, menyiapkan daftar isu yang perlu dikoordinasikan, dan mencatat hasilnya untuk dibagikan ke unit terkait",
+          "score": 5
+        }
+      ],
+      "explanation": "Forum koordinasi pertama menentukan kesan dan fondasi kerja sama berikutnya, sehingga peserta perlu datang dengan bahan dan isu yang jelas. Catatan hasil forum yang dibagikan membuat manfaatnya dirasakan unit lain. Datang tanpa persiapan menyia-nyiakan kesempatan membangun jaringan kerja.",
+      "trick": "Kesempatan koordinasi baru bernilai tinggi bila Anda datang membawa bahan, isu, dan pulang membawa catatan untuk dibagikan."
+    },
+    {
+      "id": "TKP-188",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 2,
+      "question": "Dalam tim gabungan, seorang rekan dari unit lain hampir selalu pasif: jarang merespons pesan koordinasi dan baru muncul menjelang tenggat. Pekerjaan tim mulai terganggu. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Menghubunginya secara pribadi untuk menanyakan kendala, menegaskan kebutuhan tim, dan menyepakati cara komunikasi serta pembagian tugas yang jelas",
+          "score": 5
+        },
+        {
+          "text": "Melaporkannya langsung kepada pimpinannya tanpa berbicara dengannya lebih dulu",
+          "score": 3
+        },
+        {
+          "text": "Mengerjakan seluruh bagiannya agar tim tidak terlambat",
+          "score": 3
+        },
+        {
+          "text": "Menyebut namanya sebagai penghambat dalam rapat tim",
+          "score": 2
+        },
+        {
+          "text": "Membiarkannya karena bukan rekan satu unit dengan Anda",
+          "score": 1
+        }
+      ],
+      "explanation": "Rekan yang pasif perlu didekati lebih dulu untuk mengetahui kendalanya dan membuat kesepakatan kerja yang tegas. Melapor tanpa pendekatan awal melangkahi etika bertim, sedangkan mengerjakan semua bagiannya menumbuhkan ketergantungan. Kesepakatan yang jelas memudahkan evaluasi bila keadaan tidak berubah.",
+      "trick": "Tangani rekan pasif dengan pendekatan personal dan kesepakatan tegas terlebih dahulu, sebelum eskalasi ke pimpinan."
+    },
+    {
+      "id": "TKP-189",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 1,
+      "question": "Kantor Anda dan kantor instansi lain berada dalam satu gedung dan sering menerima tamu yang salah alamat karena tidak tahu letak unit tujuannya. Belum ada penunjuk arah yang jelas. Usulan Anda adalah...",
+      "options": [
+        {
+          "text": "Menunggu instansi sebelah yang berinisiatif membuat petunjuk",
+          "score": 3
+        },
+        {
+          "text": "Mengusulkan pembuatan papan petunjuk bersama dan daftar layanan tiap lantai yang disepakati kedua instansi untuk dipasang di lobi",
+          "score": 5
+        },
+        {
+          "text": "Membiarkan saja karena tamu bisa bertanya kepada siapa pun",
+          "score": 2
+        },
+        {
+          "text": "Membuat petunjuk hanya untuk unit Anda di depan pintu ruangan",
+          "score": 3
+        },
+        {
+          "text": "Meminta petugas keamanan menghafalkan semua letak ruangan",
+          "score": 2
+        }
+      ],
+      "explanation": "Masalah bersama di lingkungan yang sama paling tepat diselesaikan dengan solusi bersama yang bermanfaat bagi semua tamu. Papan petunjuk dan daftar layanan yang disepakati bersama mencegah kebingungan berulang. Solusi sepihak untuk unit sendiri tidak menyelesaikan akar masalah.",
+      "trick": "Untuk persoalan lingkungan bersama, jawaban terbaik adalah fasilitas bersama yang disepakati, bukan solusi parsial untuk unit sendiri."
+    },
+    {
+      "id": "TKP-190",
+      "subtest": "TKP",
+      "topic": "Jejaring Kerja",
+      "difficulty": 2,
+      "question": "Senior di unit Anda menyimpan sendiri daftar kontak relasi eksternal yang sering dibutuhkan tim, sehingga anggota tim selalu bergantung kepadanya. Ia beralasan daftar itu hasil jerih payahnya pribadi. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Menghindari bekerja dengan relasi eksternal agar tidak bergantung padanya",
+          "score": 1
+        },
+        {
+          "text": "Menunggu sampai senior tersebut pensiun agar daftar berpindah tangan",
+          "score": 2
+        },
+        {
+          "text": "Mengusulkan dengan hormat agar daftar kontak dinas didokumentasikan sebagai aset unit dengan alasan keberlangsungan layanan, dan menawarkan diri membantu menyusunnya",
+          "score": 5
+        },
+        {
+          "text": "Meminta pimpinan memaksa senior tersebut menyerahkan daftar kontaknya",
+          "score": 3
+        },
+        {
+          "text": "Membangun daftar kontak sendiri tanpa memberi tahu siapa pun",
+          "score": 2
+        }
+      ],
+      "explanation": "Kontak relasi yang digunakan untuk kedinasan adalah aset unit, dan pendokumentasiannya menjaga layanan tidak bergantung pada satu orang. Usulan yang hormat disertai tawaran membantu menghargai peran senior sambil menyelesaikan masalah. Membangun daftar tandingan secara diam-diam justru menciptakan masalah baru.",
+      "trick": "Aset kerja yang tersimpan pada satu orang diselesaikan dengan pendokumentasian resmi yang menghargai pemilik awalnya."
+    },
+    {
+      "id": "TKP-191",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 1,
+      "question": "Kantor Anda mulai menggunakan aplikasi layanan baru yang menggantikan cara manual. Anda belum terbiasa dan pengerjaan terasa lebih lambat dari biasanya. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Menunggu sampai benar-benar terpaksa menggunakan aplikasi tersebut",
+          "score": 2
+        },
+        {
+          "text": "Meminta rekan lain mengerjakan bagian Anda di aplikasi",
+          "score": 1
+        },
+        {
+          "text": "Menggunakan aplikasi seadanya tanpa membaca panduan sama sekali",
+          "score": 3
+        },
+        {
+          "text": "Meluangkan waktu mempelajari panduan dan fitur aplikasi, berlatih di luar jam sibuk, serta bertanya kepada rekan yang sudah mahir",
+          "score": 5
+        },
+        {
+          "text": "Tetap mengerjakan secara manual dan memasukkan hasilnya belakangan jika sempat",
+          "score": 2
+        }
+      ],
+      "explanation": "Teknologi baru memang menuntut masa belajar, dan sikap mau mempelajari secara mandiri membuat Anda segera mahir. Bertanya kepada rekan yang lebih dulu bisa adalah bagian dari proses belajar yang wajar. Menghindari atau menunda pemakaian hanya memperpanjang ketertinggalan.",
+      "trick": "Menghadapi aplikasi baru, skor tertinggi adalah belajar aktif dan bertanya, bukan menghindar atau menggantungkan diri pada rekan."
+    },
+    {
+      "id": "TKP-192",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 2,
+      "question": "Sistem antrean daring tiba-tiba tidak berfungsi pada jam layanan yang ramai. Warga yang sudah datang mulai resah karena nomor antrean mereka tidak terbaca. Tindakan Anda adalah...",
+      "options": [
+        {
+          "text": "Meminta warga pulang dan kembali lagi besok hari",
+          "score": 1
+        },
+        {
+          "text": "Menunggu sistem pulih tanpa memberikan penjelasan kepada warga",
+          "score": 2
+        },
+        {
+          "text": "Mendahulukan warga yang bersedia membayar jasa bantuan di tempat",
+          "score": 1
+        },
+        {
+          "text": "Melayani warga yang paling keras menyampaikan keluhan lebih dulu",
+          "score": 2
+        },
+        {
+          "text": "Mengumumkan kendala dengan jujur, menerapkan antrean manual berdasarkan urutan kedatangan dan bukti pendaftaran, serta melaporkan gangguan ke pengelola sistem",
+          "score": 5
+        }
+      ],
+      "explanation": "Gangguan sistem tidak boleh menghentikan pelayanan; prosedur manual yang adil berdasarkan kedatangan menjaga hak warga dan ketertiban. Komunikasi yang jujur mengenai kendala mencegah kepanikan dan keluhan. Melaporkan gangguan memastikan perbaikan teknis berjalan bersamaan dengan layanan darurat.",
+      "trick": "Saat sistem error pada jam layanan, pola terbaik adalah komunikasi jujur, layanan manual yang adil, dan pelaporan perbaikan."
+    },
+    {
+      "id": "TKP-193",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 1,
+      "question": "Anda mendapat pemberitahuan untuk mengganti kata sandi akun dinas secara berkala. Selama ini Anda memakai kata sandi yang sama untuk semua akun agar mudah diingat. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Membuat kata sandi baru yang kuat dan berbeda untuk akun dinas, menyimpannya dengan cara yang aman, dan tidak membagikannya kepada siapa pun",
+          "score": 5
+        },
+        {
+          "text": "Mengganti satu huruf saja dari kata sandi lama agar tetap mudah diingat",
+          "score": 2
+        },
+        {
+          "text": "Meminta rekan mencatat kata sandi Anda di kertas bersama di meja kerja",
+          "score": 1
+        },
+        {
+          "text": "Mengabaikan pemberitahuan karena selama ini akun Anda aman-aman saja",
+          "score": 2
+        },
+        {
+          "text": "Menggunakan kata sandi yang sama dengan akun pribadi agar praktis",
+          "score": 1
+        }
+      ],
+      "explanation": "Kata sandi akun dinas melindungi data layanan dan data warga, sehingga harus kuat, unik, dan tidak dibagikan. Perubahan kecil dari sandi lama dan penggunaan sandi yang sama lintas akun membuat akun mudah ditebak. Keamanan akun adalah tanggung jawab pribadi setiap pegawai.",
+      "trick": "Soal kata sandi selalu dimenangkan oleh sandi kuat, unik, dan rahasia; kemudahan mengingat bukan alasan yang dibenarkan."
+    },
+    {
+      "id": "TKP-194",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 2,
+      "question": "Seorang warga menghubungi Anda lewat nomor pribadi meminta data alamat dan nomor telepon warga lain yang kebetulan pernah Anda layani, dengan alasan keperluan silaturahmi. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Memberikan data setelah warga berjanji tidak menyalahgunakannya",
+          "score": 1
+        },
+        {
+          "text": "Menolak memberikan data pribadi tersebut dan menjelaskan bahwa data warga dilindungi, serta menyarankan menghubungi yang bersangkutan melalui cara lain",
+          "score": 5
+        },
+        {
+          "text": "Memberikan data karena niat warga tersebut terdengar baik",
+          "score": 1
+        },
+        {
+          "text": "Memberikan sebagian data saja, misalnya alamat tanpa nomor telepon",
+          "score": 2
+        },
+        {
+          "text": "Meminta warga tersebut datang ke kantor agar bisa Anda berikan secara lisan",
+          "score": 2
+        }
+      ],
+      "explanation": "Data pribadi warga yang diperoleh dari layanan tidak boleh dibagikan kepada pihak lain dengan alasan apa pun tanpa dasar yang sah. Janji lisan tidak menghapus kewajiban melindungi data tersebut. Penolakan yang disertai penjelasan dan saran alternatif tetap menjaga hubungan baik dengan warga.",
+      "trick": "Data pribadi warga tidak pernah dibagikan berdasarkan penilaian niat baik; penolakan sopan plus arahan adalah skor tertinggi."
+    },
+    {
+      "id": "TKP-195",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 2,
+      "question": "Di grup percakapan kantor beredar kabar bahwa akan ada pemindahan besar-besaran pegawai minggu depan. Kabar itu belum jelas sumbernya, tetapi beberapa rekan mulai cemas dan meneruskannya ke grup lain. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Menanyakan kebenarannya kepada penyebar pertama lalu menyebarkannya lagi",
+          "score": 2
+        },
+        {
+          "text": "Membiarkan saja tanpa ikut menanggapi atau mengingatkan",
+          "score": 3
+        },
+        {
+          "text": "Tidak meneruskan kabar tersebut, mengingatkan rekan untuk menunggu informasi resmi, dan menanyakan kejelasan kepada pihak kepegawaian bila perlu",
+          "score": 5
+        },
+        {
+          "text": "Meneruskan kabar agar rekan-rekan bisa bersiap lebih awal",
+          "score": 1
+        },
+        {
+          "text": "Menambahkan perkiraan Anda sendiri agar kabar terasa lebih lengkap",
+          "score": 1
+        }
+      ],
+      "explanation": "Informasi yang belum terverifikasi dapat menimbulkan kecemasan dan mengganggu kinerja bila disebarluaskan. Sikap menahan diri dan mengarahkan rekan pada sumber resmi adalah bentuk kecakapan digital yang diharapkan dari pegawai. Menambah perkiraan pribadi membuat kabar bohong terasa meyakinkan.",
+      "trick": "Menghadapi kabar belum jelas di grup kantor, jangan menjadi penerus; tahan, ingatkan, dan arahkan ke sumber resmi."
+    },
+    {
+      "id": "TKP-196",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 1,
+      "question": "Kantor Anda mulai memberlakukan tanda tangan digital untuk surat keluar. Sebagian surat masih Anda proses dengan cara lama karena merasa lebih cepat. Apa yang sebaiknya Anda lakukan?",
+      "options": [
+        {
+          "text": "Menandatangani digital hanya bila diperiksa atasan",
+          "score": 2
+        },
+        {
+          "text": "Meminta rekan mengoperasikan akun tanda tangan digital Anda",
+          "score": 1
+        },
+        {
+          "text": "Menunda surat keluar sampai cara lama diperbolehkan lagi",
+          "score": 1
+        },
+        {
+          "text": "Mengikuti ketentuan tanda tangan digital, mempelajari alurnya, dan menyampaikan kendala teknis yang ditemui melalui saluran resmi agar diperbaiki",
+          "score": 5
+        },
+        {
+          "text": "Tetap memakai cara lama untuk surat yang menurut Anda mendesak",
+          "score": 2
+        }
+      ],
+      "explanation": "Ketentuan tanda tangan digital menyangkut keabsahan dan jejak audit dokumen, sehingga wajib diikuti semua pegawai. Kendala teknis disampaikan lewat saluran resmi, bukan diatasi dengan melanggar ketentuan. Akun tanda tangan bersifat pribadi dan tidak boleh dioperasikan orang lain.",
+      "trick": "Ketentuan digital yang bersifat wajib dipatuhi sambil kendalanya dilaporkan resmi; jangan kembali ke cara lama secara sepihak."
+    },
+    {
+      "id": "TKP-197",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 2,
+      "question": "Unit Anda ditugaskan memindai arsip kertas lama menjadi arsip digital. Sebagian rekan menolak karena menganggap arsip kertas lebih aman dan pekerjaan ini hanya menambah beban. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Menolak ikut serta karena mayoritas rekan juga menolak",
+          "score": 1
+        },
+        {
+          "text": "Memindai asal cepat selesai tanpa memeriksa kelengkapan hasilnya",
+          "score": 2
+        },
+        {
+          "text": "Menyerahkan seluruh tugas pemindaian kepada pegawai termuda",
+          "score": 2
+        },
+        {
+          "text": "Menunggu sampai ada perintah tertulis yang lebih tegas",
+          "score": 3
+        },
+        {
+          "text": "Menjelaskan manfaat arsip digital bagi pencarian dan pengamanan dokumen, mengusulkan jadwal pemindaian bertahap, dan mulai dari arsip yang paling sering dicari",
+          "score": 5
+        }
+      ],
+      "explanation": "Digitalisasi arsip melindungi dokumen dari kerusakan dan mempercepat pencarian, tetapi keberatan rekan perlu dijawab dengan penjelasan dan tahapan yang masuk akal. Pemindaian bertahap dari arsip yang paling dibutuhkan membuat manfaatnya segera terasa. Menolak bersama-sama atau bekerja asal selesai sama-sama merugikan.",
+      "trick": "Menjawab penolakan terhadap perubahan digital: jelaskan manfaatnya, buat bertahap, dan mulai dari yang paling terasa hasilnya."
+    },
+    {
+      "id": "TKP-198",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 1,
+      "question": "Seorang rekan senior kesulitan menggunakan aplikasi presensi hingga beberapa kali tercatat tidak hadir padahal ia masuk kerja. Ia meminta bantuan Anda. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Mengajarkan cara memakai aplikasi langkah demi langkah sampai ia bisa sendiri, dan membantunya mengurus koreksi catatan kehadirannya sesuai prosedur",
+          "score": 5
+        },
+        {
+          "text": "Melakukan presensi untuknya setiap hari menggunakan akun miliknya",
+          "score": 1
+        },
+        {
+          "text": "Menyarankan ia meminta pengecualian permanen dari kewajiban presensi",
+          "score": 2
+        },
+        {
+          "text": "Mengajarinya sekali dengan cepat lalu meninggalkannya",
+          "score": 3
+        },
+        {
+          "text": "Menyampaikan kepada atasan bahwa senior tersebut tidak mampu mengikuti perkembangan",
+          "score": 2
+        }
+      ],
+      "explanation": "Membantu rekan yang kesulitan teknologi berarti membuatnya mandiri, bukan mengambil alih akunnya yang bersifat pribadi. Koreksi catatan kehadiran ditempuh melalui prosedur yang berlaku agar datanya valid. Sikap mengajar dengan sabar memperkuat kebersamaan di tempat kerja.",
+      "trick": "Bantu rekan gaptek dengan mengajar sampai bisa dan urus koreksi lewat prosedur; jangan pernah memakai akun miliknya."
+    },
+    {
+      "id": "TKP-199",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 3,
+      "question": "Saat memproses layanan, Anda menemukan data seorang warga tercatat ganda di sistem dengan nomor identitas yang sama tetapi alamat berbeda. Layanan hari itu bergantung pada data tersebut dan warga sedang menunggu. Tindakan Anda adalah...",
+      "options": [
+        {
+          "text": "Mengabaikan kegandaan dan memakai data yang pertama muncul",
+          "score": 3
+        },
+        {
+          "text": "Memverifikasi data yang benar kepada warga dengan dokumen pendukungnya, melanjutkan layanan berdasarkan data terverifikasi, dan melaporkan data ganda untuk dibersihkan pengelola data",
+          "score": 5
+        },
+        {
+          "text": "Memilih salah satu data secara acak agar layanan cepat selesai",
+          "score": 1
+        },
+        {
+          "text": "Meminta warga kembali lain hari sampai data di sistem diperbaiki",
+          "score": 2
+        },
+        {
+          "text": "Menghapus salah satu data langsung dari akun Anda bila memungkinkan",
+          "score": 2
+        }
+      ],
+      "explanation": "Data ganda tidak boleh diputuskan dengan tebakan maupun penghapusan tanpa kewenangan, karena menyangkut hak warga. Verifikasi dengan dokumen warga memungkinkan layanan tetap berjalan, dan laporan resmi memastikan pembersihan data dilakukan pihak berwenang. Menunda layanan sampai sistem bersih merugikan warga yang tidak bersalah.",
+      "trick": "Pada soal data bermasalah, polanya: verifikasi dengan dokumen, layani berdasarkan data terverifikasi, laporkan untuk dibersihkan pihak berwenang."
+    },
+    {
+      "id": "TKP-200",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 2,
+      "question": "Rapat koordinasi dilakukan secara campuran: sebagian peserta hadir di ruangan dan sebagian mengikuti secara daring. Peserta daring sering luput didengar pendapatnya dan rapat didominasi peserta luring. Sebagai peserta, Anda dapat...",
+      "options": [
+        {
+          "text": "Berkonsentrasi pada pendapat peserta yang hadir saja agar rapat cepat",
+          "score": 2
+        },
+        {
+          "text": "Menyampaikan pendapat peserta daring hanya jika Anda sependapat dengannya",
+          "score": 1
+        },
+        {
+          "text": "Mengusulkan aturan rapat yang memberi giliran berkala kepada peserta daring dan memastikan keputusan dirangkum serta dibagikan kepada semua peserta",
+          "score": 5
+        },
+        {
+          "text": "Membiarkan karena peserta daring bisa menyampaikan lewat pesan tertulis bila perlu",
+          "score": 3
+        },
+        {
+          "text": "Mengusulkan rapat daring dihapus dan semua wajib hadir fisik",
+          "score": 2
+        }
+      ],
+      "explanation": "Rapat campuran yang sehat memberi ruang yang setara bagi peserta daring, karena keputusan rapat mengikat semua pihak. Usulan aturan giliran dan rangkuman tertulis membuat partisipasi merata dan hasilnya terdokumentasi. Menghapus rapat daring mengabaikan kebutuhan fleksibilitas kerja.",
+      "trick": "Dalam rapat hybrid, jawaban terbaik menjamin peserta daring mendapat giliran dan menerima rangkuman keputusan yang sama."
+    },
+    {
+      "id": "TKP-201",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 1,
+      "question": "Anda mengunggah foto kegiatan kantor ke media sosial pribadi. Setelah diperhatikan, di latar foto terlihat papan berisi data dan dokumen warga di meja layanan. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Menghapus unggahan hanya jika ada yang menegur",
+          "score": 2
+        },
+        {
+          "text": "Mengganti keterangan foto tanpa mengubah fotonya",
+          "score": 1
+        },
+        {
+          "text": "Meminta rekan yang mengetahui untuk tidak membicarakannya",
+          "score": 1
+        },
+        {
+          "text": "Segera menghapus unggahan tersebut, memeriksa kembali foto sebelum mengunggah ulang tanpa bagian yang memuat data, dan menjadikan ini pelajaran untuk lebih berhati-hati",
+          "score": 5
+        },
+        {
+          "text": "Membiarkan unggahan karena data di foto terlihat kurang jelas",
+          "score": 2
+        }
+      ],
+      "explanation": "Data warga yang tampak di unggahan pribadi tetap merupakan kebocoran informasi, sekecil apa pun tampilannya. Menghapus segera dan memeriksa ulang sebelum mengunggah menunjukkan tanggung jawab atas jejak digital pribadi. Menunggu teguran berarti membiarkan data terus tersebar.",
+      "trick": "Jejak digital pribadi yang memuat data layanan harus segera dihapus dan diperiksa ulang; jangan menunggu ada yang menegur."
+    },
+    {
+      "id": "TKP-202",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 2,
+      "question": "Akun media sosial resmi kantor yang dikelola bergantian oleh beberapa pegawai menerima komentar pedas dari warga mengenai keterlambatan layanan. Komentar itu mulai dibaca banyak orang. Sikap Anda sebagai salah satu pengelola adalah...",
+      "options": [
+        {
+          "text": "Menghapus komentar tersebut agar tidak mempermalukan kantor",
+          "score": 2
+        },
+        {
+          "text": "Membalas dengan nada membela diri agar warga memahami kesulitan kantor",
+          "score": 2
+        },
+        {
+          "text": "Membiarkan komentar tanpa jawaban agar mereda sendiri",
+          "score": 3
+        },
+        {
+          "text": "Menjawab memakai akun pribadi agar terlihat bukan jawaban resmi",
+          "score": 1
+        },
+        {
+          "text": "Menanggapi dengan sopan dan faktual: menyampaikan permohonan maaf, penjelasan singkat, dan langkah perbaikan, serta mengoordinasikan jawaban dengan penanggung jawab akun",
+          "score": 5
+        }
+      ],
+      "explanation": "Komentar publik di akun resmi perlu dijawab secara sopan, faktual, dan terkoordinasi agar menjadi bukti perbaikan layanan. Menghapus komentar kritik menimbulkan kesan antikritik, dan jawaban dari akun pribadi mengaburkan tanggung jawab. Permintaan maaf disertai langkah perbaikan memulihkan kepercayaan warga.",
+      "trick": "Kritik di kanal resmi dijawab resmi, sopan, dan terkoordinasi; bukan dihapus, dibela emosional, atau dijawab lewat akun pribadi."
+    },
+    {
+      "id": "TKP-203",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 3,
+      "question": "Sistem pembayaran retribusi mengalami gangguan menjelang batas akhir pembayaran, sementara antrean warga sudah panjang dan sebagian warga datang dari jauh. Apa tindakan Anda?",
+      "options": [
+        {
+          "text": "Menginformasikan gangguan dan batas waktu dengan jujur, mencatat pembayaran melalui mekanisme darurat resmi yang dapat dipertanggungjawabkan, dan melaporkan gangguan agar ada kebijakan lanjutan yang jelas",
+          "score": 5
+        },
+        {
+          "text": "Menutup loket pembayaran sampai sistem kembali normal",
+          "score": 1
+        },
+        {
+          "text": "Menerima uang warga secara tunai tanpa catatan apa pun agar mereka tidak kecewa",
+          "score": 1
+        },
+        {
+          "text": "Menjanjikan tidak ada denda keterlambatan atas nama pribadi Anda",
+          "score": 2
+        },
+        {
+          "text": "Menyarankan warga menitipkan pembayaran melalui calo yang biasa berada di sekitar kantor",
+          "score": 1
+        }
+      ],
+      "explanation": "Pada situasi genting, layanan tetap berjalan melalui mekanisme darurat resmi yang terdokumentasi, disertai komunikasi jujur soal batas waktu dan tindak lanjut kebijakan. Menerima uang tanpa catatan membuka peluang penyimpangan dan mengorbankan keamanan pegawai maupun warga. Janji pribadi mengenai denda melampaui kewenangan Anda.",
+      "trick": "Kegentingan sistem diatasi dengan mekanisme darurat resmi yang tercatat dan komunikasi jujur, bukan penerimaan uang tanpa catatan."
+    },
+    {
+      "id": "TKP-204",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 1,
+      "question": "Seorang warga ingin memperbarui data keluarganya melalui aplikasi layanan, tetapi dokumen pendukung yang dibawa tidak lengkap. Warga memohon agar datanya tetap diubah hari ini. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Memproses perubahan data dan meminta dokumen dilengkapi kapan-kapan",
+          "score": 1
+        },
+        {
+          "text": "Menjelaskan dokumen yang kurang dengan ramah, membantu memeriksa bagian yang sudah bisa diproses, dan memberi catatan tertulis kekurangan agar kunjungan berikutnya lancar",
+          "score": 5
+        },
+        {
+          "text": "Mengubah data sesuai permintaan karena warga sudah datang jauh-jauh",
+          "score": 1
+        },
+        {
+          "text": "Meminta warga kembali lagi tanpa penjelasan dokumen apa yang kurang",
+          "score": 2
+        },
+        {
+          "text": "Menyarankan warga meminta bantuan pegawai lain yang mungkin mau melonggarkan syarat",
+          "score": 2
+        }
+      ],
+      "explanation": "Perubahan data kependudukan wajib berdasarkan dokumen yang sah, sehingga kelonggaran tanpa kelengkapan dokumen tidak dibenarkan. Penjelasan yang ramah disertai catatan tertulis kekurangan membantu warga dan mencegah kunjungan berulang yang sia-sia. Pemeriksaan bagian yang bisa dibantu menunjukkan pelayanan yang tetap solutif.",
+      "trick": "Kekurangan dokumen dijawab dengan penjelasan ramah dan catatan tertulis, bukan kelonggaran mengubah data tanpa dasar."
+    },
+    {
+      "id": "TKP-205",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 2,
+      "question": "Anda menerima surat elektronik yang mengaku dari administrator sistem dan meminta Anda masuk melalui tautan yang disertakan untuk memperbarui kata sandi. Tampilannya meyakinkan tetapi alamat pengirimnya terasa asing. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Membalas pesan dengan menanyakan kebenarannya",
+          "score": 2
+        },
+        {
+          "text": "Mengabaikan dan menghapus pesan tanpa melaporkan kepada siapa pun",
+          "score": 3
+        },
+        {
+          "text": "Tidak mengeklik tautan tersebut, memeriksa alamat pengirim, dan melaporkan pesan itu kepada pengelola teknologi informasi untuk diverifikasi",
+          "score": 5
+        },
+        {
+          "text": "Mengeklik tautan dan masuk karena pemberitahuan terlihat resmi",
+          "score": 1
+        },
+        {
+          "text": "Meneruskan pesan ke grup agar rekan-rekan juga memperbarui kata sandi",
+          "score": 1
+        }
+      ],
+      "explanation": "Pesan yang meminta kredensial melalui tautan adalah pola umum pencurian akun, dan tampilannya yang meyakinkan justru patut dicurigai. Melaporkan pesan semacam itu melindungi seluruh kantor karena pengelola dapat memperingatkan pegawai lain. Mengabaikannya tanpa laporan membiarkan rekan lain menjadi korban.",
+      "trick": "Pesan meminta login lewat tautan jangan diklik dan jangan diteruskan; verifikasi dan laporkan ke pengelola TI."
+    },
+    {
+      "id": "TKP-206",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 1,
+      "question": "Aplikasi layanan baru masih dalam masa uji coba dan pengelola meminta masukan dari para pegawai yang menggunakannya. Beberapa fitur menurut Anda membingungkan. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Menolak menggunakan aplikasi selama masa uji coba",
+          "score": 1
+        },
+        {
+          "text": "Menyampaikan masukan dengan membandingkan pegawai yang membuat aplikasi secara tidak sopan di forum umum",
+          "score": 2
+        },
+        {
+          "text": "Menganggap masukan tidak akan didengar sehingga tidak perlu disampaikan",
+          "score": 3
+        },
+        {
+          "text": "Mencatat kendala yang ditemui secara konkret dan menyampaikannya lewat saluran masukan yang disediakan agar aplikasi diperbaiki",
+          "score": 5
+        },
+        {
+          "text": "Menyimpan keluhan untuk disampaikan kepada sesama rekan saja",
+          "score": 2
+        }
+      ],
+      "explanation": "Masa uji coba memang disediakan untuk menjaring masukan, dan catatan kendala yang konkret adalah bahan perbaikan yang paling berguna. Keluhan yang hanya beredar di kalangan rekan tidak mengubah apa pun. Menyampaikan lewat saluran resmi membuat masukan terdokumentasi dan ditindaklanjuti.",
+      "trick": "Kendala aplikasi uji coba dicatat konkret dan dikirim lewat saluran masukan resmi, bukan hanya dikeluhkan antar rekan."
+    },
+    {
+      "id": "TKP-207",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 2,
+      "question": "Anda diberi kesempatan bekerja dari rumah beberapa hari dalam sepekan. Dokumen pekerjaan tersimpan di aplikasi kantor, tetapi laptop pribadi Anda juga dipakai anggota keluarga. Pengaturan yang tepat adalah...",
+      "options": [
+        {
+          "text": "Mengunduh semua dokumen ke laptop agar mudah dibuka kapan saja",
+          "score": 1
+        },
+        {
+          "text": "Membiarkan keluarga memakai perangkat saat Anda sedang membuka dokumen, karena mereka tidak akan memperhatikan",
+          "score": 2
+        },
+        {
+          "text": "Mengirim dokumen ke pesan pribadi agar bisa dibuka dari gawai mana pun",
+          "score": 1
+        },
+        {
+          "text": "Menonaktifkan kunci layar agar akses lebih cepat",
+          "score": 2
+        },
+        {
+          "text": "Menggunakan akun dan profil terpisah yang terkunci di perangkat, mengakses dokumen hanya melalui aplikasi resmi, dan tidak mengunduh data warga ke penyimpanan pribadi",
+          "score": 5
+        }
+      ],
+      "explanation": "Bekerja dari rumah tidak menurunkan standar keamanan data; pemisahan akun, kunci perangkat, dan larangan mengunduh data warga ke penyimpanan pribadi adalah perlindungan dasar. Mengirim dokumen lewat pesan pribadi dan mematikan kunci layar membuka jalan kebocoran data. Kenyamanan tidak boleh mengalahkan keamanan.",
+      "trick": "Kerja jarak jauh tetap aman bila akun terpisah, perangkat terkunci, dan data warga tidak berpindah ke penyimpanan pribadi."
+    },
+    {
+      "id": "TKP-208",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 3,
+      "question": "Sebuah tangkapan layar berisi data warga dari grup internal kantor tersebar ke luar dan sampai ke media sosial. Anda mengetahui kejadian itu dari rekan, dan bukan Anda penyebarnya. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Melaporkan kejadian tersebut kepada atasan dan pengelola data dengan fakta yang Anda ketahui agar penelusuran dan langkah perlindungan warga segera dilakukan",
+          "score": 5
+        },
+        {
+          "text": "Diam saja karena bukan Anda yang menyebarkan",
+          "score": 2
+        },
+        {
+          "text": "Ikut membagikan tangkapan layar itu kepada rekan dengan pesan agar berhati-hati",
+          "score": 1
+        },
+        {
+          "text": "Menebak-nebak pelakunya dan menyampaikan dugaan itu ke grup lain",
+          "score": 1
+        },
+        {
+          "text": "Meminta penyebar menghapusnya secara pribadi tanpa melibatkan atasan",
+          "score": 3
+        }
+      ],
+      "explanation": "Kebocoran data warga adalah insiden serius yang wajib segera dilaporkan agar dampaknya dibatasi dan hak warga dilindungi, meskipun Anda bukan pelakunya. Menyebarkan ulang dengan alasan apa pun memperluas kebocoran. Menangani secara pribadi tanpa laporan menghambat penelusuran resmi.",
+      "trick": "Mengetahui kebocoran data, kewajiban Anda adalah melaporkan fakta yang diketahui, bukan diam, menebak pelaku, atau menyebarkan ulang."
+    },
+    {
+      "id": "TKP-209",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 1,
+      "question": "Perangkat dinas Anda menampilkan pemberitahuan pembaruan keamanan aplikasi dan sistem yang disarankan dipasang segera. Anda sedang tidak memiliki pekerjaan mendesak. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Meminta bagian teknis memasang semua pembaruan tanpa Anda perlu tahu",
+          "score": 3
+        },
+        {
+          "text": "Memasang pembaruan tersebut pada waktu yang tidak mengganggu layanan dan memastikan perangkat siap digunakan kembali",
+          "score": 5
+        },
+        {
+          "text": "Menunda pembaruan terus-menerus karena perangkat masih berfungsi",
+          "score": 2
+        },
+        {
+          "text": "Mematikan pemberitahuan agar tidak muncul lagi",
+          "score": 1
+        },
+        {
+          "text": "Menunggu sampai perangkat bermasalah dulu baru memperbarui",
+          "score": 2
+        }
+      ],
+      "explanation": "Pembaruan keamanan menutup celah yang dapat dimanfaatkan untuk mengakses data layanan, sehingga penundaannya menambah risiko. Memasangnya di saat yang tepat adalah tanggung jawab pengguna perangkat. Mematikan pemberitahuan menghilangkan pengingat penting tanpa menyelesaikan risiko.",
+      "trick": "Pembaruan keamanan dipasang tepat waktu pada saat yang tidak mengganggu layanan; jangan ditunda atau dimatikan pemberitahuannya."
+    },
+    {
+      "id": "TKP-210",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 2,
+      "question": "Anda mengetahui seorang rekan membagikan akun aplikasi berbayar milik kantor kepada temannya di luar instansi agar dapat ikut menggunakan fitur-fiturnya. Apa tindakan Anda?",
+      "options": [
+        {
+          "text": "Menceritakan perbuatan rekan itu kepada banyak orang tanpa menegurnya",
+          "score": 2
+        },
+        {
+          "text": "Mengancam rekan agar memberikan sesuatu bila tidak ingin dilaporkan",
+          "score": 1
+        },
+        {
+          "text": "Mengingatkan rekan secara pribadi bahwa akun dinas hanya untuk keperluan kedinasan, dan melaporkan bila praktik itu tetap berlanjut",
+          "score": 5
+        },
+        {
+          "text": "Ikut meminta akun tersebut agar Anda juga bisa berbagi ke keluarga",
+          "score": 1
+        },
+        {
+          "text": "Membiarkan karena aplikasi itu toh sudah dibayar kantor",
+          "score": 2
+        }
+      ],
+      "explanation": "Akun dan lisensi aplikasi kantor adalah fasilitas dinas yang penggunaannya dibatasi untuk pegawai dan keperluan resmi. Pengingat pribadi adalah langkah pertama yang proporsional, dan pelaporan menjadi tindak lanjut bila pelanggaran berlanjut. Ikut memakai atau memanfaatkan untuk pemerasan sama buruknya dengan pelanggaran itu sendiri.",
+      "trick": "Penyalahgunaan akun dinas ditegur secara pribadi lebih dulu dan dilaporkan bila berlanjut; jangan ikut memanfaatkan."
+    },
+    {
+      "id": "TKP-211",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 1,
+      "question": "Pagi ini aplikasi presensi gagal mencatat kehadiran Anda karena gangguan jaringan, padahal Anda tiba tepat waktu. Langkah yang Anda ambil adalah...",
+      "options": [
+        {
+          "text": "Meminta rekan yang berhasil presensi untuk mencatat nama Anda pada daftar hadirnya",
+          "score": 1
+        },
+        {
+          "text": "Mengubah pengaturan waktu pada perangkat agar presensi tercatat sesuai keinginan",
+          "score": 1
+        },
+        {
+          "text": "Mengeluhkan gangguan itu di media sosial pribadi",
+          "score": 2
+        },
+        {
+          "text": "Mendokumentasikan bukti kedatangan dan melaporkan gangguan melalui mekanisme koreksi resmi pada hari yang sama",
+          "score": 5
+        },
+        {
+          "text": "Membiarkan saja dan berharap catatan diperbaiki otomatis",
+          "score": 3
+        }
+      ],
+      "explanation": "Gangguan teknis presensi diselesaikan melalui mekanisme koreksi resmi dengan bukti pendukung, yang disampaikan segera agar mudah diverifikasi. Manipulasi perangkat atau titipan catatan adalah kecurangan yang mencederai data kehadiran. Keluhan di media sosial tidak memperbaiki catatan Anda.",
+      "trick": "Kegagalan presensi karena gangguan diurus lewat koreksi resmi berbukti pada hari yang sama, bukan dimanipulasi."
+    },
+    {
+      "id": "TKP-212",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 2,
+      "question": "Seorang warga lanjut usia kesulitan menggunakan aplikasi antrean di telepon genggamnya, sementara layanan sebenarnya juga bisa diakses lewat petugas di meja informasi. Warga mulai tampak cemas. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Meminta warga meminta bantuan keluarganya di rumah saja",
+          "score": 2
+        },
+        {
+          "text": "Menjelaskan dengan cepat sekali lalu meninggalkannya mencoba sendiri",
+          "score": 2
+        },
+        {
+          "text": "Menyarankan warga tidak usah menggunakan layanan daring selamanya",
+          "score": 3
+        },
+        {
+          "text": "Mendaftarkannya memakai akun pribadi Anda agar cepat",
+          "score": 1
+        },
+        {
+          "text": "Mendampingi warga dengan sabar, membantu proses pendaftaran melalui meja informasi, dan menjelaskan cara sederhana untuk kunjungan berikutnya",
+          "score": 5
+        }
+      ],
+      "explanation": "Pelayanan digital harus tetap inklusif; warga yang kesulitan teknologi berhak didampingi sampai layanannya selesai. Pendampingan lewat jalur resmi meja informasi menjaga keamanan data warga, berbeda dengan memakai akun pribadi pegawai. Penjelasan sederhana membekali warga untuk kunjungan berikutnya.",
+      "trick": "Warga yang kesulitan teknologi didampingi sampai selesai melalui jalur resmi, bukan ditinggalkan atau dibantu memakai akun pegawai."
+    },
+    {
+      "id": "TKP-213",
+      "subtest": "TKP",
+      "topic": "Teknologi Informasi",
+      "difficulty": 3,
+      "question": "Menjelang audit, Anda menemukan jumlah bantuan yang tercatat pada dua aplikasi berbeda tidak sama untuk periode yang sama. Kedua aplikasi dipakai unit yang berbeda dan pimpinan meminta angka pasti besok pagi. Tindakan Anda adalah...",
+      "options": [
+        {
+          "text": "Menelusuri perbedaan angka bersama pengelola kedua aplikasi berdasarkan dokumen sumber, menjelaskan penyebab selisihnya, dan menyampaikan angka hasil rekonsiliasi beserta catatannya kepada pimpinan",
+          "score": 5
+        },
+        {
+          "text": "Memilih angka dari aplikasi yang menurut Anda paling baru tampilannya",
+          "score": 2
+        },
+        {
+          "text": "Melaporkan angka yang lebih besar agar kinerja terlihat baik",
+          "score": 1
+        },
+        {
+          "text": "Menyerahkan kedua angka apa adanya tanpa penjelasan",
+          "score": 3
+        },
+        {
+          "text": "Menyalahkan unit pengelola aplikasi lain dalam laporan Anda",
+          "score": 2
+        }
+      ],
+      "explanation": "Selisih data antaraplikasi hanya dapat diselesaikan dengan rekonsiliasi berdasarkan dokumen sumber, bukan memilih angka yang menguntungkan. Penjelasan penyebab selisih membuat pimpinan dapat mempertanggungjawabkan angka tersebut saat audit. Kerja sama dengan pengelola kedua aplikasi menunjukkan penyelesaian yang kolaboratif dan transparan.",
+      "trick": "Selisih angka antar sistem diselesaikan lewat rekonsiliasi berdokumen dan penjelasan penyebab, tidak pernah dengan memilih angka yang menguntungkan."
+    },
+    {
+      "id": "TKP-214",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 2,
+      "question": "Rekan satu tim mengajak Anda mengisi laporan kunjungan lapangan di sistem dengan data perkiraan karena tim kekurangan waktu, agar target kunjungan terlihat tercapai bulan ini. Ajakan itu disampaikan dengan santai. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Mengisi data perkiraan tetapi mengurangi jumlahnya agar tidak terlalu mencolok",
+          "score": 2
+        },
+        {
+          "text": "Menolak mengisi data yang tidak sesuai kenyataan dan mengajak tim mengatur ulang jadwal agar kunjungan benar-benar dilaksanakan dan dilaporkan apa adanya",
+          "score": 5
+        },
+        {
+          "text": "Ikut mengisi karena semua anggota tim melakukannya",
+          "score": 1
+        },
+        {
+          "text": "Mengisi data fiktif hanya untuk bagian Anda agar tidak tertinggal dari rekan",
+          "score": 1
+        },
+        {
+          "text": "Diam saja dan membiarkan rekan yang mengisi bagian Anda",
+          "score": 2
+        }
+      ],
+      "explanation": "Data kunjungan fiktif di sistem adalah manipulasi laporan yang mencederai integritas dan dapat berkonsekuensi hukum bagi pengisinya. Tekanan waktu diatasi dengan penjadwalan ulang dan pelaporan apa adanya, bukan pemalsuan angka. Keterlibatan pasif dengan membiarkan orang lain mengisi tetap merupakan pembiaran kecurangan.",
+      "trick": "Data fiktif di sistem, sekecil apa pun dan seramai apa pun pelakunya, selalu ditolak dan diganti pelaporan yang jujur."
+    },
+    {
+      "id": "TKP-215",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 2,
+      "question": "Seorang rekan yang sedang bekerja dari rumah meminta Anda melakukan presensi daring untuknya karena ia akan terlambat membuka aplikasi. Ia berjanji akan benar-benar bekerja setelahnya. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Meminta imbalan jasa untuk bantuan tersebut",
+          "score": 1
+        },
+        {
+          "text": "Menolak, tetapi menawarkan untuk tidak menceritakan permintaannya kepada siapa pun",
+          "score": 3
+        },
+        {
+          "text": "Menolak melakukan presensi untuk orang lain dan menyarankan rekan tersebut menyampaikan keterlambatannya secara jujur melalui mekanisme yang berlaku",
+          "score": 5
+        },
+        {
+          "text": "Membantunya sekali ini karena alasannya masuk akal",
+          "score": 1
+        },
+        {
+          "text": "Melakukan presensi untuknya asal tidak diketahui pegawai lain",
+          "score": 1
+        }
+      ],
+      "explanation": "Presensi adalah pernyataan kehadiran pribadi, sehingga melakukannya untuk orang lain termasuk manipulasi absensi meskipun disertai janji bekerja. Alasan yang masuk akal tidak mengubah sifat kecurangannya. Kejujuran melalui mekanisme keterlambatan resmi adalah jalan yang benar bagi rekan tersebut.",
+      "trick": "Presensi titipan adalah manipulasi absensi; tolak dan arahkan rekan pada mekanisme keterlambatan yang jujur."
+    },
+    {
+      "id": "TKP-216",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 3,
+      "question": "Seorang kenalan lama menghubungi Anda dan menawarkan jalan cepat mengurus perizinan warga melalui orang dalam, dengan imbalan yang dibagi di antara perantara. Warga yang diurus disebut sedang sangat membutuhkan izin itu. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Menerima tawaran karena warga memang membutuhkan izin dengan cepat",
+          "score": 1
+        },
+        {
+          "text": "Meminta imbalan yang lebih kecil agar terasa tidak terlalu salah",
+          "score": 1
+        },
+        {
+          "text": "Menyalurkan warga hanya satu kali ini dan berjanji tidak mengulanginya",
+          "score": 1
+        },
+        {
+          "text": "Menolak tawaran tersebut dan mengarahkan warga yang bersangkutan pada jalur layanan resmi, serta menyampaikan informasi adanya praktik perantara kepada pimpinan atau kanal pengaduan",
+          "score": 5
+        },
+        {
+          "text": "Menolak terlibat tetapi membiarkan tawaran itu tanpa tindakan apa pun",
+          "score": 3
+        }
+      ],
+      "explanation": "Praktik jalur cepat melalui orang dalam adalah bentuk percaloan yang merusak keadilan layanan dan membuka ruang korupsi. Penolakan disertai pengarahan warga ke jalur resmi dan pelaporan praktik perantara melindungi warga berikutnya. Kebutuhan mendesak warga tidak membenarkan pelanggaran prosedur.",
+      "trick": "Tawaran jalur cepat lewat orang dalam ditolak, warga diarahkan ke jalur resmi, dan praktiknya dilaporkan."
+    },
+    {
+      "id": "TKP-217",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 2,
+      "question": "Setelah selesai melayani, seorang warga bersikeras mentransfer sejumlah uang ke dompet digital pribadi Anda sebagai ucapan terima kasih. Warga merasa tidak enak bila Anda menolak. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Menerima karena menolak akan menyinggung perasaan warga",
+          "score": 1
+        },
+        {
+          "text": "Menerima lalu menyumbangkannya agar tidak menjadi masalah",
+          "score": 2
+        },
+        {
+          "text": "Meminta ditransfer ke nomor rekan saja agar tidak tercatat atas nama Anda",
+          "score": 1
+        },
+        {
+          "text": "Menerima karena jumlahnya kecil dan diberikan dengan ikhlas",
+          "score": 2
+        },
+        {
+          "text": "Menolak dengan sopan dan menjelaskan bahwa pelayanan adalah tugas Anda tanpa imbalan tambahan, serta mengarahkan rasa terima kasihnya cukup dengan penilaian layanan resmi",
+          "score": 5
+        }
+      ],
+      "explanation": "Pemberian uang dari warga terkait layanan, termasuk melalui dompet digital, termasuk gratifikasi yang wajib ditolak atau dilaporkan sesuai ketentuan. Menyalurkannya ke orang lain atau menyumbangkannya tidak menghapus sifat gratifikasinya. Penolakan sopan yang disertai penjelasan melindungi Anda dan mendidik warga tentang layanan yang bersih.",
+      "trick": "Uang terima kasih lewat transfer pribadi tetap gratifikasi: tolak dengan sopan dan arahkan ke penilaian layanan resmi."
+    },
+    {
+      "id": "TKP-218",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 3,
+      "question": "Anda tergabung dalam tim pengadaan yang membahas kebutuhan secara daring. Saat daftar peserta penyedia dibuka, Anda menyadari salah satu perusahaan yang ikut adalah usaha milik keluarga dekat Anda. Belum ada rekan yang mengetahuinya. Tindakan Anda adalah...",
+      "options": [
+        {
+          "text": "Menyampaikan adanya hubungan keluarga tersebut secara terbuka kepada pimpinan tim dan mengundurkan diri dari proses penilaian penyedia terkait agar tidak terjadi konflik kepentingan",
+          "score": 5
+        },
+        {
+          "text": "Tetap mengikuti proses dan berusaha bersikap objektif tanpa memberi tahu siapa pun",
+          "score": 2
+        },
+        {
+          "text": "Memberi nilai wajar kepada perusahaan keluarga dan sedikit menurunkan nilai pesaingnya",
+          "score": 1
+        },
+        {
+          "text": "Meminta rekan yang dekat dengan Anda untuk menilai perusahaan keluarga itu",
+          "score": 3
+        },
+        {
+          "text": "Menunggu sampai ada yang menanyakan hubungan tersebut baru mengakuinya",
+          "score": 2
+        }
+      ],
+      "explanation": "Konflik kepentingan wajib dinyatakan secara terbuka sebelum proses berjalan, dan penarikan diri dari penilaian adalah langkah yang melindungi integritas pengadaan. Sikap merasa mampu objektif tanpa deklarasi tidak cukup, karena potensi benturan kepentingan itu sendiri yang harus dihindari. Menyembunyikan hubungan memperbesar risiko pelanggaran.",
+      "trick": "Konflik kepentingan dalam pengadaan dinyatakan terbuka dan diikuti penarikan diri dari penilaian, bukan disembunyikan dengan dalih objektif."
+    },
+    {
+      "id": "TKP-219",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 2,
+      "question": "Atasan meminta Anda mengubah tanggal masukan beberapa data di sistem menjadi tanggal bulan lalu agar laporan unit terlihat selesai tepat waktu. Data itu sendiri benar, hanya terlambat dimasukkan. Apa yang Anda lakukan?",
+      "options": [
+        {
+          "text": "Menunda mengerjakan dan berharap atasan melupakan permintaannya",
+          "score": 3
+        },
+        {
+          "text": "Menjelaskan dengan hormat bahwa tanggal masukan harus sesuai kenyataan, menawarkan penyampaian laporan apa adanya disertai penjelasan penyebab keterlambatan dan rencana perbaikan",
+          "score": 5
+        },
+        {
+          "text": "Mengubah tanggal sesuai perintah karena perintah atasan adalah tanggung jawab atasan",
+          "score": 1
+        },
+        {
+          "text": "Mengubah tanggal untuk sebagian data saja sebagai jalan tengah",
+          "score": 1
+        },
+        {
+          "text": "Meminta perintah itu diberikan secara tertulis agar Anda berani melakukannya",
+          "score": 2
+        }
+      ],
+      "explanation": "Mengubah tanggal masukan adalah pemalsuan jejak waktu dalam sistem meskipun isi datanya benar, dan perintah atasan tidak menghapus tanggung jawab pribadi pelaksana. Penolakan yang hormat disertai solusi berupa laporan jujur dan rencana perbaikan adalah sikap profesional yang berintegritas. Perintah tertulis tidak melegitimasi perbuatan yang salah.",
+      "trick": "Tanggal rekam di sistem tidak boleh dimundurkan atas perintah siapa pun; tawarkan laporan jujur disertai penjelasan dan perbaikan."
+    },
+    {
+      "id": "TKP-220",
+      "subtest": "TKP",
+      "topic": "Anti Korupsi",
+      "difficulty": 3,
+      "question": "Anda mengetahui rekan satu tim menerima voucher belanja dari rekanan kantor setelah sebuah pekerjaan selesai, dan rekan itu bermaksud membagikannya kepada anggota tim melalui grup agar semua ikut merasakan. Sikap Anda adalah...",
+      "options": [
+        {
+          "text": "Menerima voucher tetapi tidak menggunakannya",
+          "score": 2
+        },
+        {
+          "text": "Meminta rekan membagikannya di luar grup agar tidak meninggalkan jejak",
+          "score": 1
+        },
+        {
+          "text": "Menolak bagian Anda, menjelaskan bahwa pemberian dari rekanan terkait pekerjaan termasuk gratifikasi yang harus ditolak atau dilaporkan, dan mendorong rekan tersebut melaporkannya melalui mekanisme yang berlaku",
+          "score": 5
+        },
+        {
+          "text": "Menerima bagian Anda karena sudah dibagi rata kepada semua anggota tim",
+          "score": 1
+        },
+        {
+          "text": "Menolak bagian Anda tanpa menjelaskan apa pun kepada rekan tersebut",
+          "score": 3
+        }
+      ],
+      "explanation": "Gratifikasi tidak menjadi halal karena dibagi-bagikan; penerimaannya terkait jabatan dan pekerjaan yang baru selesai dengan rekanan. Penolakan disertai penjelasan dan dorongan untuk melaporkan melindungi rekan dan tim dari pelanggaran yang lebih besar. Menerima tanpa memakai voucher tetap merupakan penerimaan gratifikasi.",
+      "trick": "Gratifikasi yang dibagi rata tetap gratifikasi: tolak, jelaskan, dan dorong pelaporan melalui mekanisme resmi."
+    }
+  ]
+}
