@@ -3,7 +3,10 @@ package id.siapskd.app
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -13,6 +16,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.GridItemSpan
@@ -34,8 +39,13 @@ import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.google.android.gms.ads.MobileAds
 import id.siapskd.app.ads.AdConfig
@@ -66,6 +76,33 @@ class MainActivity : ComponentActivity() {
 
 private enum class Screen { HOME, SESSION, SCORING, RESULT, EXPLANATION }
 
+/** Bar atas bermerek — mengeklik logo/nama selalu kembali ke Home (keputusan Dwi, 22 Okt 2026). */
+@Composable
+private fun BrandBar(onHome: () -> Unit) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable { onHome() }
+            .padding(horizontal = 16.dp, vertical = 10.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Box(
+            modifier = Modifier
+                .size(38.dp)
+                .clip(RoundedCornerShape(9.dp))
+                .background(MaterialTheme.colorScheme.primary),
+            contentAlignment = Alignment.Center
+        ) {
+            Text("S", color = Color.White, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+        }
+        Spacer(Modifier.width(10.dp))
+        Column {
+            Text("SiapSKD", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+            Text("Latihan Soal CPNS Harian", style = MaterialTheme.typography.bodySmall)
+        }
+    }
+}
+
 @Composable
 fun SiapSkdApp() {
     val context = LocalContext.current
@@ -92,6 +129,7 @@ fun SiapSkdApp() {
 
     MaterialTheme {
         Scaffold(
+            topBar = { BrandBar(onHome = { screen = Screen.HOME }) }, // logo = tombol Home
             bottomBar = { BannerAdSlot() } // banner di semua sesi/layar, slot tetap di bawah
         ) { padding ->
             Column(

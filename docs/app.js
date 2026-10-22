@@ -343,7 +343,9 @@ $('btn-about').addEventListener('click', () => {
 });
 $('btn-stats').addEventListener('click', () => { renderStats(); show('stats'); });
 $('btn-finish').addEventListener('click', onFinishButton);
-$('btn-quit').addEventListener('click', () => { stopTimer(); renderHome(); show('home'); });
+function goHome() { stopTimer(); renderHome(); show('home'); }
+$('btn-quit').addEventListener('click', goHome);
+$('brand-home').addEventListener('click', goHome); // logo = tombol Home dari layar mana pun
 $('btn-explanation').addEventListener('click', () => { renderExplanation(); show('explanation'); });
 $('btn-again').addEventListener('click', () => startSession(sessionSubtest === 'TRYOUT' ? 'TRYOUT' : sessionSubtest));
 $('btn-reset').addEventListener('click', () => {
@@ -352,7 +354,7 @@ $('btn-reset').addEventListener('click', () => {
     renderHome(); show('home');
   }
 });
-document.querySelectorAll('[data-home]').forEach((b) => b.addEventListener('click', () => { renderHome(); show('home'); }));
+document.querySelectorAll('[data-home]').forEach((b) => b.addEventListener('click', goHome));
 
 /* ---------- muat soal ---------- */
 fetch('./questions.json')
